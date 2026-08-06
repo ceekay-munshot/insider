@@ -54,9 +54,14 @@ export const CONFIG = {
 
   // Step 2 (price fetcher) knobs. Quote only events within `window_days` of
   // their earnings, capped at `max_quotes` per run (soonest first).
+  // Prices come from muns /market_data (daily OHLC): we pull `market_lookback_days`
+  // of bars to derive latest/previous/5-sessions-back closes. muns rate-limits, so
+  // `muns_retries` sets the exponential-backoff retry count.
   step2: {
     window_days: Number(process.env.STEP2_WINDOW_DAYS || 7),
     max_quotes: Number(process.env.STEP2_MAX_QUOTES || 200),
+    market_lookback_days: Number(process.env.STEP2_MARKET_LOOKBACK_DAYS || 14),
+    muns_retries: Number(process.env.MUNS_RETRIES || 4),
   },
 };
 
