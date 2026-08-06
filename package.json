@@ -1,0 +1,15 @@
+{
+  "name": "earnings-radar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Watches stocks with upcoming earnings (US + India) and flags pre-earnings price moves.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "pipeline": "node pipeline/run.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  // Cloudflare Worker config. Serves ./public via the ASSETS binding; the Worker
+  // (worker/index.js) adds GET /api/health and will hold secret-backed routes later.
+  "name": "earnings-radar",
+  "main": "worker/index.js",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  }
+}
