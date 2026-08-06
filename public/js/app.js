@@ -70,7 +70,8 @@
         UI.el("td", { class: "px-4 py-2 font-medium", text: s.ticker || "—" }),
         UI.el("td", { class: "px-4 py-2", text: s.company || "—" }),
         UI.el("td", { class: "px-4 py-2", text: s.earnings_date || "—" }),
-        UI.el("td", { class: "px-4 py-2", text: s.timing || "—" }),
+        // "UNKNOWN" (India, time not yet published) shows as "—", not a fake value.
+        UI.el("td", { class: "px-4 py-2", text: s.timing && s.timing !== "UNKNOWN" ? s.timing : "—" }),
         UI.el("td", { class: "px-4 py-2 text-right tabular-nums", text: UI.fmtPct(s.change_1d_pct) }),
         UI.el("td", { class: "px-4 py-2 text-right tabular-nums", text: UI.fmtPct(s.change_5d_pct) }),
         UI.el("td", { class: "px-4 py-2 text-right tabular-nums", text: UI.fmtNum(s.price) }),
