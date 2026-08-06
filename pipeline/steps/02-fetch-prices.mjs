@@ -1,32 +1,36 @@
-// Step 02 — price fetcher (REAL).
+// Step 02 — price fetcher (REAL), multi-source with fallback.
 //
 // v1 scope: the 1-DAY pre-earnings move only (price vs last session's close).
-// Price source is muns FastAPI /stock-data — a single live quote returning
-// "Current Price" + "Previous Close" — covering both US + India. muns is
-// yfinance-backed, so symbols are yfinance-format and `country` is CAPITALIZED
-// ("USA" / "India"):
-//   US    -> plain symbol         (AAPL)
-//   India -> bare trading symbol  (the calendar's short_name, e.g. ADSL)
-//            NOT the bse_code and NOT a .BO/.NS suffix — those 404 on muns.
+// We price ONLY the same-day / next-day reporters (CONFIG.step2.window_days,
+// default 1). Keeping the set tight is what makes intraday runs fast AND avoids
+// hammering muns's yfinance→Yahoo upstream into throttling — which, under load,
+// surfaces as HTTP 404 "Stock quote data not found" for real, liquid names
+// (EAT, PFGC, IBRX…), not just dead tickers.
 //
-// The 5-day baseline is intentionally deferred for v1. We still write a dated
-// snapshot every run, so the 5-day drift can be switched on later purely from
-// snapshot history — no new deps. The /market_data (daily OHLC) code is kept
-// DORMANT at the bottom of this file for that future use.
+// Per name, quote is resolved as a source chain (fail-soft, stop at first hit):
+//   1. muns FastAPI /stock-data  — "Current Price" + "Previous Close". yfinance-
+//      backed, so country is CAPITALIZED ("USA"/"India"); US = plain symbol
+//      (AAPL); India = bare short_name (ADSL), NOT the bse_code, NOT a .BO/.NS
+//      suffix. A 404 "not found" is often a throttle-induced empty, so we give
+//      muns ONE cheap re-try before falling back.
+//   2. fallback, by market:
+//        US    -> Finnhub /quote      (c/pc/o; needs FINNHUB_API_KEY)
+//        India -> TradingView scanner (NSE:<sym> then BSE:<sym>; prev = close-change; no key)
+// The reading records which `source` actually answered.
 //
-// muns itself isn't rate-limited, but its yfinance->Yahoo upstream can throttle
-// (an HTTP 200 body "Too Many Requests. Rate limited.") — detected and retried
-// with exponential backoff. We quote the FULL active set. Fail-soft: one bad
-// ticker never crashes the run.
+// muns's explicit throttle (an HTTP 200 body "Too Many Requests. Rate limited.")
+// is still detected and retried with exponential backoff. The 5-day baseline is
+// deferred; each run still writes a dated snapshot so it can be switched on later
+// with no new deps. The /market_data (daily OHLC) code is kept DORMANT below.
 //
 // PROBE mode:  `PROBE=1 node pipeline/steps/02-fetch-prices.mjs`
-//   Gentle: prints the raw /stock-data response for AAPL [USA] and RELIANCE
-//   [India] plus one live calendar name, so the "Current Price"/"Previous
-//   Close" fields can be confirmed for both markets. Writes NOTHING.
+//   Gentle: prints muns /stock-data for AAPL [USA] + RELIANCE [India] + one live
+//   calendar name, AND exercises both fallbacks (Finnhub AAPL, TradingView
+//   RELIANCE) so all three sources can be confirmed. Writes NOTHING.
 //
 // snapshot reading:
 //   { ticker, market, price, prev_close, open, currency, as_of:ISO,
-//     source:"muns:stock-data", muns_key_used, muns_symbol }
+//     source:"muns:stock-data"|"finnhub:quote"|"tradingview:scan", provider_symbol }
 
 import { pathToFileURL } from "node:url";
 import { readJson, writeJson } from "../lib/io.mjs";
@@ -35,8 +39,11 @@ import { CONFIG } from "../../config.mjs";
 const PROBE = process.env.PROBE === "1";
 const RAW_TRUNC = 1500;
 const FASTAPI = CONFIG.muns.fastapi_base;
+const FINNHUB = CONFIG.finnhub.base;
+const TV_SCANNER = CONFIG.tradingview.scanner_base;
 const WINDOW_DAYS = CONFIG.step2.window_days;
 const RETRIES = CONFIG.step2.muns_retries;
+const NF_DELAY_MS = 1200; // one cheap re-try delay for a muns 404 "not found"
 const US_TZ = CONFIG.markets_config.US.tz;
 const IN_TZ = CONFIG.markets_config.IN.tz;
 // Used only by the DORMANT /market_data path (future 5-day baseline).
@@ -47,6 +54,7 @@ const UA =
 
 const pad = (n) => String(n).padStart(2, "0");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const round4 = (n) => Math.round(n * 10000) / 10000;
 
 // Local calendar date in a tz (optionally shifted) -> "YYYY-MM-DD".
 function localDateStr(tz, addDays = 0) {
@@ -66,12 +74,13 @@ function num(v) {
   return Number.isFinite(n) ? n : null;
 }
 
-// ---- http (muns), with rate-limit-aware retry ---------------------------
+// ---- http helpers -------------------------------------------------------
 // muns signals upstream (Yahoo) throttling as an HTTP 200 body "Too Many
 // Requests", so we can't rely on the status code alone. Token rides the
 // Authorization header, so it never appears in a logged URL.
 
 const RATE_LIMIT_RE = /too many requests|rate.?limit/i;
+const NOT_FOUND_RE = /not found|no data|no such/i;
 
 async function munsRequest(method, url, body, token, { timeoutMs = 25000 } = {}) {
   const ctrl = new AbortController();
@@ -105,10 +114,23 @@ async function munsRetry(method, url, body, token) {
       await sleep(d);
     }
   }
-  return res; // exhausted — caller sees no usable quote and skips
+  return res; // exhausted — caller sees no usable quote and falls back
 }
 
-// ---- /stock-data quote parsing (LIVE) -----------------------------------
+// Generic text fetch (fallback sources). Never throws to the caller loop.
+async function fetchText(url, { method = "GET", headers = {}, body, timeoutMs = 20000 } = {}) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+  try {
+    const res = await fetch(url, { method, headers, body, signal: ctrl.signal });
+    const text = await res.text();
+    return { status: res.status, text };
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+// ---- source 1: muns /stock-data -----------------------------------------
 // The body is a "key=value" string joined by ",". Split on ",", then the FIRST
 // "=", so keys like "Yearly Change (%)" and values like "1299.0 - 1313.2" or
 // "-13.82" survive intact.
@@ -145,7 +167,7 @@ export function parseQuote(text) {
   };
 }
 
-// One /stock-data quote (with backoff). country: "USA" | "India".
+// One /stock-data quote (with rate-limit backoff). country: "USA" | "India".
 async function stockDataQuote(symbol, country, token) {
   const { ok, status, text } = await munsRetry(
     "POST",
@@ -156,48 +178,119 @@ async function stockDataQuote(symbol, country, token) {
   return { ok, status, text, ...parseQuote(text) };
 }
 
+// muns quote + ONE cheap re-try when it 404s "not found" — those are often a
+// throttle-induced empty for a name that really exists, and a moment later it
+// answers. A genuinely dead ticker just misses twice and we fall back.
+async function munsQuote(symbol, country, token) {
+  let q = await stockDataQuote(symbol, country, token);
+  const missing = q.price == null || q.prev_close == null;
+  if (missing && (q.status === 404 || NOT_FOUND_RE.test(String(q.raw)))) {
+    await sleep(NF_DELAY_MS);
+    q = await stockDataQuote(symbol, country, token);
+  }
+  return q;
+}
+
+// ---- source 2a: Finnhub /quote (US fallback) ----------------------------
+// Returns { c: current, pc: previous close, o: open, ... }. Unknown symbols
+// come back as c=0,pc=0 — treated as no data.
+async function finnhubQuote(symbol, apiKey) {
+  if (!apiKey) return { price: null, prev_close: null, open: null, status: 0, note: "no FINNHUB_API_KEY" };
+  try {
+    const { status, text } = await fetchText(
+      `${FINNHUB}/quote?symbol=${encodeURIComponent(symbol)}&token=${apiKey}`,
+      { headers: { accept: "application/json" } }
+    );
+    let j = {};
+    try { j = JSON.parse(text); } catch { /* leave j empty */ }
+    const price = num(j.c);
+    const prev_close = num(j.pc);
+    const open = num(j.o);
+    const dead = price === 0 && prev_close === 0; // Finnhub's "unknown symbol" shape
+    return { price: dead ? null : price, prev_close: dead ? null : prev_close, open: dead ? null : open, status };
+  } catch (e) {
+    return { price: null, prev_close: null, open: null, status: 0, note: e.message };
+  }
+}
+
+// ---- source 2b: TradingView scanner (India fallback) --------------------
+// POST india/scan with [NSE:<sym>, BSE:<sym>]; row.d = [close, change_abs].
+// previous close = close - change_abs. Prefer the NSE row (more liquid).
+async function tradingViewIndiaQuote(shortName) {
+  const nse = `NSE:${shortName}`;
+  const bse = `BSE:${shortName}`;
+  const body = { symbols: { tickers: [nse, bse], query: { types: [] } }, columns: ["close", "change_abs"] };
+  try {
+    const { status, text } = await fetchText(`${TV_SCANNER}/india/scan`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", accept: "application/json", "User-Agent": UA },
+      body: JSON.stringify(body),
+    });
+    let j = {};
+    try { j = JSON.parse(text); } catch { /* leave j empty */ }
+    const rows = Array.isArray(j.data) ? j.data : [];
+    const row = rows.find((r) => r.s === nse) || rows.find((r) => r.s === bse) || rows[0];
+    if (!row || !Array.isArray(row.d)) return { price: null, prev_close: null, open: null, status };
+    const close = num(row.d[0]);
+    const changeAbs = num(row.d[1]);
+    const prev_close = close != null && changeAbs != null ? round4(close - changeAbs) : null;
+    return { price: close, prev_close, open: null, status, matched_symbol: row.s };
+  } catch (e) {
+    return { price: null, prev_close: null, open: null, status: 0, note: e.message };
+  }
+}
+
 // ---- full run -----------------------------------------------------------
 
-function reading(e, q, currency, muns_key_used, muns_symbol, asOf) {
+function reading(e, q, currency, source, provider_symbol, asOf) {
   return {
     ticker: e.ticker,
     market: e.market,
     price: q.price,
     prev_close: q.prev_close,
-    open: q.open,
+    open: q.open ?? null,
     currency,
     as_of: asOf,
-    source: "muns:stock-data",
-    muns_key_used,
-    muns_symbol, // the exact yfinance symbol quoted (step 4 reuses it)
+    source, // which provider actually answered
+    provider_symbol, // the exact symbol quoted (step 4 can reuse it)
   };
 }
 
-// Quote one event. muns is yfinance-backed:
-//   US    -> plain symbol    (AAPL)
-//   India -> bare short_name (ADSL) — NOT the bse_code, NOT a .BO/.NS suffix
-// Returns a reading, or null if no usable Current/Previous Close.
-async function quoteForEvent(e, token, asOf) {
-  if (e.market === "US") {
-    const symbol = e.ticker;
-    const q = await stockDataQuote(symbol, "USA", token);
-    if (q.price == null || q.prev_close == null) {
-      console.warn(`[skip] US ${symbol}: no Current/Previous Close. raw: ${String(q.raw).slice(0, 160)}`);
-      return null;
-    }
-    return reading(e, q, "USD", "ticker", symbol, asOf);
-  }
-  const symbol = e.ticker; // the calendar's bare short_name is the yfinance symbol muns accepts
+// Quote one event through the source chain. Returns a reading, or null if no
+// source has a usable Current/Previous Close.
+async function quoteForEvent(e, token, keys, asOf) {
+  const isUS = e.market === "US";
+  const country = isUS ? "USA" : "India";
+  const currency = isUS ? "USD" : "INR";
+  const symbol = e.ticker; // bare short_name for India; plain symbol for US
   if (!symbol) {
-    console.warn(`[skip] IN ${e.company || "?"}: no trading symbol`);
+    console.warn(`[skip] ${e.market} ${e.company || "?"}: no trading symbol`);
     return null;
   }
-  const q = await stockDataQuote(symbol, "India", token);
-  if (q.price == null || q.prev_close == null) {
-    console.warn(`[skip] IN ${symbol}: no Current/Previous Close. raw: ${String(q.raw).slice(0, 160)}`);
-    return null;
+
+  // 1) muns primary (rate-limit backoff + one 404/not-found re-try).
+  const q = await munsQuote(symbol, country, token);
+  if (q.price != null && q.prev_close != null) {
+    return reading(e, q, currency, "muns:stock-data", symbol, asOf);
   }
-  return reading(e, q, "INR", "ticker", symbol, asOf);
+
+  // 2) fallback, by market.
+  if (isUS) {
+    const f = await finnhubQuote(symbol, keys.finnhub);
+    console.log(`[fallback] finnhub ${symbol} -> ${f.price != null ? "hit" : "miss"}`);
+    if (f.price != null && f.prev_close != null) {
+      return reading(e, f, currency, "finnhub:quote", symbol, asOf);
+    }
+  } else {
+    const t = await tradingViewIndiaQuote(symbol);
+    console.log(`[fallback] tradingview ${symbol} -> ${t.price != null ? `hit (${t.matched_symbol})` : "miss"}`);
+    if (t.price != null && t.prev_close != null) {
+      return reading(e, t, currency, "tradingview:scan", t.matched_symbol || symbol, asOf);
+    }
+  }
+
+  console.warn(`[skip] ${e.market} ${symbol}: no quote from muns or fallback. muns: ${String(q.raw).slice(0, 120)}`);
+  return null;
 }
 
 async function writeSnapshot(readings, takenAt) {
@@ -211,9 +304,10 @@ async function writeSnapshot(readings, takenAt) {
 
 export async function run() {
   const token = process.env.MUNS_TOKEN;
+  const keys = { finnhub: process.env.FINNHUB_API_KEY };
   const nowISO = new Date().toISOString();
 
-  if (PROBE) return probe(token);
+  if (PROBE) return probe(token, keys);
 
   if (!token) {
     console.warn("no MUNS_TOKEN — skipping");
@@ -244,7 +338,7 @@ export async function run() {
   for (const e of active) {
     processed++;
     try {
-      const r = await quoteForEvent(e, token, nowISO);
+      const r = await quoteForEvent(e, token, keys, nowISO);
       if (r) readings.push(r);
       else failed++;
     } catch (err) {
@@ -257,15 +351,19 @@ export async function run() {
     await sleep(150); // be gentle on the yfinance upstream
   }
 
+  const bySource = {};
+  for (const r of readings) bySource[r.source] = (bySource[r.source] || 0) + 1;
+  const tally = Object.entries(bySource).map(([k, v]) => `${k}:${v}`).join(" ") || "none";
+
   await writeSnapshot(readings, nowISO);
-  console.log(`prices: quoted ${readings.length} of ${totalActive} active (${failed} failed)`);
+  console.log(`prices: quoted ${readings.length} of ${totalActive} active (${failed} failed) [${tally}]`);
   return { taken_at: nowISO, readings };
 }
 
-// ---- PROBE (confirm /stock-data Current/Previous Close) -------------------
+// ---- PROBE (confirm all three sources) -----------------------------------
 
 async function probeStockData(symbol, country, label, token) {
-  console.log(`\n===== RAW muns /stock-data ${label} [${country}] =====`);
+  console.log(`\n===== muns /stock-data ${label} [${country}] =====`);
   try {
     const q = await stockDataQuote(symbol, country, token);
     console.log(`(HTTP ${q.status})`);
@@ -275,6 +373,24 @@ async function probeStockData(symbol, country, label, token) {
   } catch (e) {
     console.log("ERROR:", e.message);
   }
+}
+
+async function probeFinnhub(symbol, apiKey) {
+  console.log(`\n===== FALLBACK Finnhub /quote ${symbol} [USA] =====`);
+  if (!apiKey) {
+    console.warn("no FINNHUB_API_KEY — skipping (set it in the Actions secrets to test)");
+    return;
+  }
+  const f = await finnhubQuote(symbol, apiKey);
+  console.log(`(HTTP ${f.status}) price=${f.price}, prev_close=${f.prev_close}, open=${f.open}`);
+  console.log(`clean quote: ${f.price != null && f.prev_close != null ? "YES" : "NO"}`);
+}
+
+async function probeTradingView(shortName) {
+  console.log(`\n===== FALLBACK TradingView scan ${shortName} [India] =====`);
+  const t = await tradingViewIndiaQuote(shortName);
+  console.log(`(HTTP ${t.status}) matched=${t.matched_symbol || "-"} price=${t.price}, prev_close=${t.prev_close}`);
+  console.log(`clean quote: ${t.price != null && t.prev_close != null ? "YES" : "NO"}`);
 }
 
 // One India {ticker, bse_code, company} sample — from the committed calendar if
@@ -310,21 +426,24 @@ async function probeInSample() {
   }
 }
 
-async function probe(token) {
+async function probe(token, keys) {
   if (!token) {
     console.warn("⚠ no MUNS_TOKEN in this environment — muns calls will fail. Run via GitHub Actions (probe=1) with the secret.");
   }
-  // US control — plain yfinance symbol, capitalized country.
+  // --- Source 1: muns /stock-data ---
   await probeStockData("AAPL", "USA", "AAPL", token);
-  // India control — the bare trading symbol (NOT the bse_code, NOT a suffix).
   await probeStockData("RELIANCE", "India", "RELIANCE (control)", token);
-  // India — a real calendar name as its bare short_name.
   const s = await probeInSample();
   if (s && s.ticker) {
     await probeStockData(s.ticker, "India", `${s.company || s.ticker} "${s.ticker}"`, token);
   } else {
     console.warn("[probe] no calendar India symbol available; skipped calendar name test");
   }
+
+  // --- Source 2: fallbacks (US=Finnhub, India=TradingView) ---
+  await probeFinnhub("AAPL", keys && keys.finnhub);
+  await probeTradingView("RELIANCE");
+  if (s && s.ticker) await probeTradingView(s.ticker);
 
   console.log("\n[PROBE] wrote nothing.");
   return { probe: true };

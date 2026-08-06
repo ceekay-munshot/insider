@@ -16,6 +16,10 @@ on:
         description: "Step to run when probe=1 (e.g. 02-fetch-prices)"
         default: "02-fetch-prices"
         required: false
+      days:
+        description: "Pricing window: how many days ahead to price (1 = today + tomorrow's reporters). Keeps full runs fast."
+        default: "1"
+        required: false
 
 permissions:
   contents: write
@@ -45,6 +49,9 @@ jobs:
           node-version: "22"
 
       - name: Run
+        env:
+          # Scope the pricing window (step 2). Default 1 = same-day/next-day.
+          STEP2_WINDOW_DAYS: ${{ inputs.days }}
         run: |
           if [ "${{ inputs.probe }}" = "1" ]; then
             echo "PROBE mode: step ${{ inputs.step }}"

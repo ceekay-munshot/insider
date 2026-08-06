@@ -48,17 +48,28 @@ export const CONFIG = {
     fastapi_base: process.env.MUNS_FASTAPI_BASE || "https://fastapi.muns.io",
   },
 
+  // Price fallback sources, tried per-name ONLY when muns misses (see step 2).
+  // muns is yfinance→Yahoo, so a Yahoo hiccup 404s real names; a second, unrelated
+  // source recovers them:
+  //   US    -> Finnhub /quote  (returns c/pc/o; needs FINNHUB_API_KEY)
+  //   India -> TradingView scanner (NSE:<sym> then BSE:<sym>; no key)
+  finnhub: { base: process.env.FINNHUB_BASE || "https://finnhub.io/api/v1" },
+  tradingview: { scanner_base: process.env.TRADINGVIEW_SCANNER_BASE || "https://scanner.tradingview.com" },
+
   // Optional manual always-watch tickers. The earnings calendar drives the rest;
   // anything listed here is tracked even if it isn't on the calendar.
   seed_universe: { US: [], IN: [] },
 
-  // Step 2 (price fetcher) knobs. Quote every event within `window_days` of its
-  // earnings (soonest first) — no per-run cap. Prices come from muns /market_data
-  // (daily OHLC): we pull `market_lookback_days` of bars to derive latest/previous/
-  // 5-sessions-back closes. muns itself isn't rate-limited, but its yfinance→Yahoo
-  // upstream can throttle, so `muns_retries` sets the exponential-backoff count.
+  // Step 2 (price fetcher) knobs. Price only events whose earnings fall within
+  // `window_days` of today (market-local) — default 1 = today + tomorrow, the
+  // "same-day / next-day" reporters. Keeping this tight is what makes intraday
+  // runs fast and — crucially — avoids hammering muns's yfinance→Yahoo upstream
+  // into throttling (which surfaces as 404 "not found" for real names). Override
+  // per-run via STEP2_WINDOW_DAYS (the workflow exposes it as the `days` input).
+  // `muns_retries` sets the exponential-backoff count for explicit rate-limits;
+  // `market_lookback_days` feeds only the DORMANT /market_data path (future 5-day).
   step2: {
-    window_days: Number(process.env.STEP2_WINDOW_DAYS || 7),
+    window_days: Number(process.env.STEP2_WINDOW_DAYS || 1),
     market_lookback_days: Number(process.env.STEP2_MARKET_LOOKBACK_DAYS || 14),
     muns_retries: Number(process.env.MUNS_RETRIES || 4),
   },
