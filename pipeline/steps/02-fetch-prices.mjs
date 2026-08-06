@@ -7,16 +7,17 @@
 // surfaces as HTTP 404 "Stock quote data not found" for real, liquid names
 // (EAT, PFGC, IBRX…), not just dead tickers.
 //
-// Per name, quote is resolved as a source chain (fail-soft, stop at first hit):
-//   1. muns FastAPI /stock-data  — "Current Price" + "Previous Close". yfinance-
-//      backed, so country is CAPITALIZED ("USA"/"India"); US = plain symbol
-//      (AAPL); India = bare short_name (ADSL), NOT the bse_code, NOT a .BO/.NS
-//      suffix. A 404 "not found" is often a throttle-induced empty, so we give
-//      muns ONE cheap re-try before falling back.
-//   2. fallback, by market:
-//        US    -> Finnhub /quote      (c/pc/o; needs FINNHUB_API_KEY)
-//        India -> TradingView scanner (NSE:<sym> then BSE:<sym>; prev = close-change; no key)
-// The reading records which `source` actually answered.
+// TradingView's scanner is a BULK endpoint (native exchange data, no key), so it
+// LEADS both markets — one POST prices hundreds of names in seconds. Per-market
+// fallbacks fill only the names it misses (fail-soft, first hit wins; the reading
+// records which `source` answered):
+//   US    -> TradingView (NASDAQ:/NYSE:/AMEX:<sym>) -> Finnhub /quote -> muns
+//   India -> TradingView (NSE:/BSE:<sym>)           -> muns
+// prev_close = close - change_abs (TradingView). Fallbacks: Finnhub is the
+// official US /quote (c/pc/o; FINNHUB_API_KEY) but its 60/min free tier makes it
+// a targeted backup, not a primary; muns (/stock-data, yfinance→Yahoo, country
+// CAPITALIZED, US=plain symbol / India=bare short_name) 404s ~2/3 of India names
+// under load, so it's last for India. muns keeps its one 404-not-found re-try.
 //
 // muns's explicit throttle (an HTTP 200 body "Too Many Requests. Rate limited.")
 // is still detected and retried with exponential backoff. The 5-day baseline is
@@ -213,31 +214,61 @@ async function finnhubQuote(symbol, apiKey) {
   }
 }
 
-// ---- source 2b: TradingView scanner (India fallback) --------------------
-// POST india/scan with [NSE:<sym>, BSE:<sym>]; row.d = [close, change_abs].
-// previous close = close - change_abs. Prefer the NSE row (more liquid).
-async function tradingViewIndiaQuote(shortName) {
-  const nse = `NSE:${shortName}`;
-  const bse = `BSE:${shortName}`;
-  const body = { symbols: { tickers: [nse, bse], query: { types: [] } }, columns: ["close", "change_abs"] };
-  try {
-    const { status, text } = await fetchText(`${TV_SCANNER}/india/scan`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json", accept: "application/json", "User-Agent": UA },
-      body: JSON.stringify(body),
-    });
-    let j = {};
-    try { j = JSON.parse(text); } catch { /* leave j empty */ }
-    const rows = Array.isArray(j.data) ? j.data : [];
-    const row = rows.find((r) => r.s === nse) || rows.find((r) => r.s === bse) || rows[0];
-    if (!row || !Array.isArray(row.d)) return { price: null, prev_close: null, open: null, status };
-    const close = num(row.d[0]);
-    const changeAbs = num(row.d[1]);
-    const prev_close = close != null && changeAbs != null ? round4(close - changeAbs) : null;
-    return { price: close, prev_close, open: null, status, matched_symbol: row.s };
-  } catch (e) {
-    return { price: null, prev_close: null, open: null, status: 0, note: e.message };
+// ---- source 2b: TradingView scanner (BULK; primary for both markets) -----
+// The scanner prices a LIST of EXCHANGE:SYMBOL tickers in one POST; row.d =
+// [close, change_abs] per matched symbol, so prev_close = close - change_abs.
+// Each name is sent under every plausible exchange prefix; we take the first
+// that resolves (India prefers NSE; US tries NASDAQ/NYSE/AMEX).
+const TV_MARKETS = {
+  US: { path: "america", prefixes: ["NASDAQ", "NYSE", "AMEX"], currency: "USD" },
+  IN: { path: "india", prefixes: ["NSE", "BSE"], currency: "INR" },
+};
+const TV_BULK_BATCH = 250; // names per scanner call
+
+// Returns Map<short_name, { price, prev_close, open, matched_symbol }>.
+async function tradingViewBulk(market, names) {
+  const cfg = TV_MARKETS[market];
+  const out = new Map();
+  const uniq = [...new Set((names || []).filter(Boolean))];
+  for (let i = 0; i < uniq.length; i += TV_BULK_BATCH) {
+    const chunk = uniq.slice(i, i + TV_BULK_BATCH);
+    const tickers = [];
+    for (const n of chunk) for (const p of cfg.prefixes) tickers.push(`${p}:${n}`);
+    const body = { symbols: { tickers, query: { types: [] } }, columns: ["close", "change_abs"] };
+    try {
+      const { status, text } = await fetchText(`${TV_SCANNER}/${cfg.path}/scan`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", accept: "application/json", "User-Agent": UA },
+        body: JSON.stringify(body),
+        timeoutMs: 30000,
+      });
+      let j = {};
+      try { j = JSON.parse(text); } catch { /* leave j empty */ }
+      const rows = Array.isArray(j.data) ? j.data : [];
+      console.log(`[tv-bulk] ${market} batch ${Math.floor(i / TV_BULK_BATCH) + 1}: ${chunk.length} names -> ${rows.length} rows (HTTP ${status})`);
+      const bySym = new Map();
+      for (const r of rows) if (r && r.s && Array.isArray(r.d)) bySym.set(r.s, r.d);
+      for (const n of chunk) {
+        let matched = null;
+        let d = null;
+        for (const p of cfg.prefixes) {
+          const dd = bySym.get(`${p}:${n}`);
+          if (dd) { matched = `${p}:${n}`; d = dd; break; }
+        }
+        if (!d) continue;
+        const close = num(d[0]);
+        const chg = num(d[1]);
+        const prev_close = close != null && chg != null ? round4(close - chg) : null;
+        if (close != null && prev_close != null) {
+          out.set(n, { price: close, prev_close, open: null, matched_symbol: matched });
+        }
+      }
+    } catch (e) {
+      console.warn(`[tv-bulk] ${market} batch failed: ${e.message}`);
+    }
+    await sleep(300); // gentle between batches
   }
+  return out;
 }
 
 // ---- full run -----------------------------------------------------------
@@ -256,41 +287,60 @@ function reading(e, q, currency, source, provider_symbol, asOf) {
   };
 }
 
-// Quote one event through the source chain. Returns a reading, or null if no
-// source has a usable Current/Previous Close.
-async function quoteForEvent(e, token, keys, asOf) {
-  const isUS = e.market === "US";
-  const country = isUS ? "USA" : "India";
-  const currency = isUS ? "USD" : "INR";
-  const symbol = e.ticker; // bare short_name for India; plain symbol for US
-  if (!symbol) {
-    console.warn(`[skip] ${e.market} ${e.company || "?"}: no trading symbol`);
+// Fallback for a name TradingView didn't return. US -> Finnhub (official) then
+// muns; India -> muns (Yahoo is weakest for India, so it's the last resort).
+async function fallbackQuote(market, e, token, keys, asOf) {
+  const sym = e.ticker;
+  if (market === "US") {
+    const f = await finnhubQuote(sym, keys.finnhub);
+    console.log(`[fallback] finnhub ${sym} -> ${f.price != null ? "hit" : "miss"}`);
+    if (f.price != null && f.prev_close != null) return reading(e, f, "USD", "finnhub:quote", sym, asOf);
+    const q = await munsQuote(sym, "USA", token);
+    if (q.price != null && q.prev_close != null) return reading(e, q, "USD", "muns:stock-data", sym, asOf);
+    console.warn(`[skip] US ${sym}: TradingView + Finnhub + muns all missed`);
     return null;
   }
-
-  // 1) muns primary (rate-limit backoff + one 404/not-found re-try).
-  const q = await munsQuote(symbol, country, token);
-  if (q.price != null && q.prev_close != null) {
-    return reading(e, q, currency, "muns:stock-data", symbol, asOf);
-  }
-
-  // 2) fallback, by market.
-  if (isUS) {
-    const f = await finnhubQuote(symbol, keys.finnhub);
-    console.log(`[fallback] finnhub ${symbol} -> ${f.price != null ? "hit" : "miss"}`);
-    if (f.price != null && f.prev_close != null) {
-      return reading(e, f, currency, "finnhub:quote", symbol, asOf);
-    }
-  } else {
-    const t = await tradingViewIndiaQuote(symbol);
-    console.log(`[fallback] tradingview ${symbol} -> ${t.price != null ? `hit (${t.matched_symbol})` : "miss"}`);
-    if (t.price != null && t.prev_close != null) {
-      return reading(e, t, currency, "tradingview:scan", t.matched_symbol || symbol, asOf);
-    }
-  }
-
-  console.warn(`[skip] ${e.market} ${symbol}: no quote from muns or fallback. muns: ${String(q.raw).slice(0, 120)}`);
+  const q = await munsQuote(sym, "India", token);
+  if (q.price != null && q.prev_close != null) return reading(e, q, "INR", "muns:stock-data", sym, asOf);
+  console.warn(`[skip] IN ${sym}: TradingView miss + muns ${String(q.raw).slice(0, 80)}`);
   return null;
+}
+
+// Price one market: one bulk TradingView sweep, then per-name fallback for the
+// (few) names it didn't return.
+async function priceMarket(market, events, token, keys, asOf) {
+  const readings = [];
+  let failed = 0;
+  if (!events.length) return { readings, failed };
+
+  const tv = await tradingViewBulk(market, events.map((e) => e.ticker));
+  console.log(`[prices ${market}] TradingView returned ${tv.size} of ${events.length} names; fallback covers the rest`);
+
+  let processed = 0;
+  for (const e of events) {
+    processed++;
+    try {
+      const hit = tv.get(e.ticker);
+      if (hit) {
+        readings.push(reading(e, hit, TV_MARKETS[market].currency, "tradingview:scan", hit.matched_symbol, asOf));
+      } else if (!e.ticker) {
+        console.warn(`[skip] ${market} ${e.company || "?"}: no trading symbol`);
+        failed++;
+      } else {
+        const r = await fallbackQuote(market, e, token, keys, asOf);
+        if (r) readings.push(r);
+        else failed++;
+        await sleep(150); // fallback only — gentle on the per-name upstreams
+      }
+    } catch (err) {
+      failed++;
+      console.warn(`[skip] ${market} ${e.ticker}: ${err.message}`);
+    }
+    if (processed % 50 === 0) {
+      console.log(`[prices ${market}] ${processed}/${events.length} resolved (${readings.length} quoted, ${failed} failed)`);
+    }
+  }
+  return { readings, failed };
 }
 
 async function writeSnapshot(readings, takenAt) {
@@ -309,8 +359,11 @@ export async function run() {
 
   if (PROBE) return probe(token, keys);
 
+  // MUNS_TOKEN doubles as the "secrets are present / real Actions run" signal.
+  // Absent locally -> skip so committed data stays pristine (TradingView is
+  // keyless and drives real runs in CI, where the token is set).
   if (!token) {
-    console.warn("no MUNS_TOKEN — skipping");
+    console.warn("no MUNS_TOKEN — skipping (treat as a non-Actions run; secrets live in CI)");
     await writeSnapshot([], nowISO);
     console.log("prices: quoted 0 of 0 active (0 failed)");
     return { taken_at: nowISO, readings: [] };
@@ -334,21 +387,15 @@ export async function run() {
   const totalActive = active.length;
   const readings = [];
   let failed = 0;
-  let processed = 0;
-  for (const e of active) {
-    processed++;
-    try {
-      const r = await quoteForEvent(e, token, keys, nowISO);
-      if (r) readings.push(r);
-      else failed++;
-    } catch (err) {
-      failed++;
-      console.warn(`[skip] ${e.market} ${e.ticker}: ${err.message}`);
-    }
-    if (processed % 25 === 0) {
-      console.log(`[prices] ${processed}/${active.length} processed (${readings.length} quoted, ${failed} failed)`);
-    }
-    await sleep(150); // be gentle on the yfinance upstream
+
+  // TradingView leads both markets (one bulk sweep each); fallbacks fill misses.
+  for (const [market, evs] of [
+    ["IN", active.filter((e) => e.market === "IN")],
+    ["US", active.filter((e) => e.market === "US")],
+  ]) {
+    const res = await priceMarket(market, evs, token, keys, nowISO);
+    readings.push(...res.readings);
+    failed += res.failed;
   }
 
   const bySource = {};
@@ -386,11 +433,12 @@ async function probeFinnhub(symbol, apiKey) {
   console.log(`clean quote: ${f.price != null && f.prev_close != null ? "YES" : "NO"}`);
 }
 
-async function probeTradingView(shortName) {
-  console.log(`\n===== FALLBACK TradingView scan ${shortName} [India] =====`);
-  const t = await tradingViewIndiaQuote(shortName);
-  console.log(`(HTTP ${t.status}) matched=${t.matched_symbol || "-"} price=${t.price}, prev_close=${t.prev_close}`);
-  console.log(`clean quote: ${t.price != null && t.prev_close != null ? "YES" : "NO"}`);
+async function probeTradingView(market, shortName) {
+  console.log(`\n===== TradingView scan ${shortName} [${market}] (primary) =====`);
+  const m = await tradingViewBulk(market, [shortName]);
+  const t = m.get(shortName);
+  if (t) console.log(`matched=${t.matched_symbol} price=${t.price}, prev_close=${t.prev_close}`);
+  console.log(`clean quote: ${t ? "YES" : "NO"}`);
 }
 
 // One India {ticker, bse_code, company} sample — from the committed calendar if
@@ -428,22 +476,19 @@ async function probeInSample() {
 
 async function probe(token, keys) {
   if (!token) {
-    console.warn("⚠ no MUNS_TOKEN in this environment — muns calls will fail. Run via GitHub Actions (probe=1) with the secret.");
+    console.warn("note: no MUNS_TOKEN here — muns is only the fallback now, so the TradingView primaries below still work.");
   }
-  // --- Source 1: muns /stock-data ---
-  await probeStockData("AAPL", "USA", "AAPL", token);
-  await probeStockData("RELIANCE", "India", "RELIANCE (control)", token);
+  // --- Primary: TradingView scanner (bulk), both markets ---
+  await probeTradingView("US", "AAPL");
+  await probeTradingView("IN", "RELIANCE");
   const s = await probeInSample();
-  if (s && s.ticker) {
-    await probeStockData(s.ticker, "India", `${s.company || s.ticker} "${s.ticker}"`, token);
-  } else {
-    console.warn("[probe] no calendar India symbol available; skipped calendar name test");
-  }
+  if (s && s.ticker) await probeTradingView("IN", s.ticker);
+  else console.warn("[probe] no calendar India symbol available; skipped calendar name test");
 
-  // --- Source 2: fallbacks (US=Finnhub, India=TradingView) ---
+  // --- Fallbacks: US = Finnhub then muns; India = muns ---
   await probeFinnhub("AAPL", keys && keys.finnhub);
-  await probeTradingView("RELIANCE");
-  if (s && s.ticker) await probeTradingView(s.ticker);
+  await probeStockData("AAPL", "USA", "AAPL (muns fallback)", token);
+  await probeStockData("RELIANCE", "India", "RELIANCE (muns fallback)", token);
 
   console.log("\n[PROBE] wrote nothing.");
   return { probe: true };
