@@ -1,8 +1,21 @@
 name: Refresh data
 
 # Manual-dispatch only for now. A schedule is added in a later step (step 8).
+# Two modes:
+#   probe=0 (default) -> run the full pipeline and commit refreshed data back.
+#   probe=1           -> run ONE step in PROBE mode (prints raw API shapes);
+#                        does NOT commit.
 on:
   workflow_dispatch:
+    inputs:
+      probe:
+        description: "1 = run a single step in PROBE mode (no commit); 0 = full pipeline (commits data)"
+        default: "0"
+        required: false
+      step:
+        description: "Step to run when probe=1 (e.g. 02-fetch-prices)"
+        default: "02-fetch-prices"
+        required: false
 
 permissions:
   contents: write
@@ -10,6 +23,18 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    # Secrets are optional at scaffold stage; steps fail-soft when a key is absent.
+    env:
+      MUNS_TOKEN: ${{ secrets.MUNS_TOKEN }}
+      MUNS_BASE_URL: ${{ secrets.MUNS_BASE_URL }}
+      MUNS_FASTAPI_BASE: ${{ secrets.MUNS_FASTAPI_BASE }}
+      MUNS_NESTJS_BASE: ${{ secrets.MUNS_NESTJS_BASE }}
+      FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+      FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+      SCRAPEDO_API_KEY: ${{ secrets.SCRAPEDO_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+      ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -19,18 +44,17 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Run pipeline
-        run: node pipeline/run.mjs
-        env:
-          # All optional at scaffold stage; stubs run green without them.
-          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-          MUNS_TOKEN: ${{ secrets.MUNS_TOKEN }}
-          MUNS_BASE_URL: ${{ secrets.MUNS_BASE_URL }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
-          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+      - name: Run
+        run: |
+          if [ "${{ inputs.probe }}" = "1" ]; then
+            echo "PROBE mode: step ${{ inputs.step }}"
+            PROBE=1 node "pipeline/steps/${{ inputs.step }}.mjs"
+          else
+            node pipeline/run.mjs
+          fi
 
       - name: Commit refreshed data
+        if: ${{ inputs.probe != '1' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
