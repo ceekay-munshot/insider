@@ -40,12 +40,24 @@ export const CONFIG = {
     },
   },
 
-  // muns.io API base (India data + LLM-adjacent calls). Overridable via env.
-  muns: { base_url: process.env.MUNS_BASE_URL || "https://devde.muns.io" },
+  // muns.io API bases. Two services: the NestJS app (corp announcements / LLM
+  // adjacent) and the FastAPI app (stock quotes + OHLC). All overridable via env.
+  muns: {
+    base_url: process.env.MUNS_BASE_URL || "https://devde.muns.io", // legacy alias == nestjs_base
+    nestjs_base: process.env.MUNS_NESTJS_BASE || "https://devde.muns.io",
+    fastapi_base: process.env.MUNS_FASTAPI_BASE || "https://fastapi.muns.io",
+  },
 
   // Optional manual always-watch tickers. The earnings calendar drives the rest;
   // anything listed here is tracked even if it isn't on the calendar.
   seed_universe: { US: [], IN: [] },
+
+  // Step 2 (price fetcher) knobs. Quote only events within `window_days` of
+  // their earnings, capped at `max_quotes` per run (soonest first).
+  step2: {
+    window_days: Number(process.env.STEP2_WINDOW_DAYS || 7),
+    max_quotes: Number(process.env.STEP2_MAX_QUOTES || 200),
+  },
 };
 
 export default CONFIG;
