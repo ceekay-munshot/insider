@@ -52,14 +52,13 @@ export const CONFIG = {
   // anything listed here is tracked even if it isn't on the calendar.
   seed_universe: { US: [], IN: [] },
 
-  // Step 2 (price fetcher) knobs. Quote only events within `window_days` of
-  // their earnings, capped at `max_quotes` per run (soonest first).
-  // Prices come from muns /market_data (daily OHLC): we pull `market_lookback_days`
-  // of bars to derive latest/previous/5-sessions-back closes. muns rate-limits, so
-  // `muns_retries` sets the exponential-backoff retry count.
+  // Step 2 (price fetcher) knobs. Quote every event within `window_days` of its
+  // earnings (soonest first) — no per-run cap. Prices come from muns /market_data
+  // (daily OHLC): we pull `market_lookback_days` of bars to derive latest/previous/
+  // 5-sessions-back closes. muns itself isn't rate-limited, but its yfinance→Yahoo
+  // upstream can throttle, so `muns_retries` sets the exponential-backoff count.
   step2: {
     window_days: Number(process.env.STEP2_WINDOW_DAYS || 7),
-    max_quotes: Number(process.env.STEP2_MAX_QUOTES || 200),
     market_lookback_days: Number(process.env.STEP2_MARKET_LOOKBACK_DAYS || 14),
     muns_retries: Number(process.env.MUNS_RETRIES || 4),
   },

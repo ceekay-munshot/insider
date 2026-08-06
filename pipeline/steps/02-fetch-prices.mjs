@@ -7,22 +7,28 @@
 //   baseline_5d_close = close ~driftSessions (5) sessions back
 // (step 4 turns these into change_1d_pct / change_5d_pct + flags.)
 //
-// muns rate-limits with an HTTP 200 body "Too Many Requests. Rate limited." — we
-// detect that (and 429/5xx) and back off exponentially. Fail-soft throughout:
+// muns is yfinance-backed, so symbols must be yfinance-format and `country` is
+// CAPITALIZED ("India" / "USA"):
+//   US    -> plain symbol      (AAPL)
+//   India -> "<bse_code>.BO"   (BSE; the BSE short name is NOT a valid symbol)
+//
+// muns itself isn't rate-limited, but its yfinance->Yahoo upstream can throttle
+// (an HTTP 200 body "Too Many Requests. Rate limited.") — we detect that (and
+// 429/5xx) and back off exponentially. We quote the FULL active set. Fail-soft:
 // one bad ticker never crashes the run.
 //
-// NOTE: the older /stock-data quote path is kept DORMANT at the bottom of this
-// file — muns currently 404s it for every ticker (incl. AAPL/RELIANCE) pending
-// the correct request params. Revive it as a lighter live quote once confirmed.
+// The older /stock-data quote path is kept DORMANT at the bottom of this file as
+// a lighter live-quote fallback (its request params are now known-good).
 //
 // PROBE mode:  `PROBE=1 node pipeline/steps/02-fetch-prices.mjs`
-//   Gentle: prints the raw /market_data response for AAPL (USA) + one India name
-//   (tried both as `ticker` and as `bse_code`) so the OHLC field names and the
-//   India identifier can be locked. Writes NOTHING.
+//   Gentle: prints the raw /market_data for AAPL (USA) plus India ticker-format
+//   controls (RELIANCE.NS, 500325.BO, and one calendar "<bse_code>.BO") so the
+//   OHLC field names and the working India symbol format can be locked. Writes NOTHING.
 //
 // snapshot reading:
 //   { ticker, market, price, prev_close, open, baseline_5d_close, close_5d_date,
-//     currency, as_of:ISO, source:"muns:market_data", interval:"1d", muns_key_used }
+//     currency, as_of:ISO, source:"muns:market_data", interval:"1d",
+//     muns_key_used, muns_symbol }
 
 import { pathToFileURL } from "node:url";
 import { readJson, writeJson } from "../lib/io.mjs";
@@ -32,7 +38,6 @@ const PROBE = process.env.PROBE === "1";
 const RAW_TRUNC = 1500;
 const FASTAPI = CONFIG.muns.fastapi_base;
 const WINDOW_DAYS = CONFIG.step2.window_days;
-const MAX_QUOTES = CONFIG.step2.max_quotes;
 const LOOKBACK_DAYS = CONFIG.step2.market_lookback_days;
 const RETRIES = CONFIG.step2.muns_retries;
 const DRIFT = CONFIG.windows.driftSessions; // 5 sessions back
@@ -182,7 +187,7 @@ async function quoteViaMarketData(ticker, country, token) {
   };
 }
 
-function reading(e, q, currency, muns_key_used, asOf) {
+function reading(e, q, currency, muns_key_used, muns_symbol, asOf) {
   return {
     ticker: e.ticker,
     market: e.market,
@@ -196,31 +201,35 @@ function reading(e, q, currency, muns_key_used, asOf) {
     source: "muns:market_data",
     interval: "1d",
     muns_key_used,
+    muns_symbol, // the exact yfinance symbol quoted (step 4 reuses it)
   };
 }
 
-// Quote one event. US uses its ticker; India tries ticker then falls back to
-// bse_code. Returns a reading, or null if no usable daily series.
+// Quote one event. muns is yfinance-backed, so symbols must be yfinance-format:
+//   US    -> plain symbol (AAPL)
+//   India -> "<bse_code>.BO" (BSE); the BSE short name is NOT a valid symbol.
+// Returns a reading, or null if no usable daily series.
 async function quoteForEvent(e, token, asOf) {
   if (e.market === "US") {
-    const q = await quoteViaMarketData(e.ticker, "USA", token);
+    const symbol = e.ticker;
+    const q = await quoteViaMarketData(symbol, "USA", token);
     if (!q.ok) {
-      console.warn(`[skip] US ${e.ticker}: no usable bars. raw: ${String(q.raw).slice(0, 160)}`);
+      console.warn(`[skip] US ${symbol}: no usable bars. raw: ${String(q.raw).slice(0, 160)}`);
       return null;
     }
-    return reading(e, q, "USD", "ticker", asOf);
+    return reading(e, q, "USD", "ticker", symbol, asOf);
   }
-  let last = await quoteViaMarketData(e.ticker, "India", token);
-  if (last.ok) return reading(e, last, "INR", "ticker", asOf);
-  if (e.bse_code) {
-    const byCode = await quoteViaMarketData(String(e.bse_code), "India", token);
-    if (byCode.ok) return reading(e, byCode, "INR", "bse_code", asOf);
-    last = byCode;
+  if (!e.bse_code) {
+    console.warn(`[skip] IN ${e.ticker}: no bse_code to build a .BO symbol`);
+    return null;
   }
-  console.warn(
-    `[skip] IN ${e.ticker}${e.bse_code ? `/${e.bse_code}` : ""}: no usable bars. raw: ${String(last.raw).slice(0, 160)}`
-  );
-  return null;
+  const symbol = `${e.bse_code}.BO`;
+  const q = await quoteViaMarketData(symbol, "India", token);
+  if (!q.ok) {
+    console.warn(`[skip] IN ${e.ticker} (${symbol}): no usable bars. raw: ${String(q.raw).slice(0, 160)}`);
+    return null;
+  }
+  return reading(e, q, "INR", "bse_code.BO", symbol, asOf);
 }
 
 async function writeSnapshot(readings, takenAt) {
@@ -241,7 +250,7 @@ export async function run() {
   if (!token) {
     console.warn("no MUNS_TOKEN — skipping");
     await writeSnapshot([], nowISO);
-    console.log("prices: quoted 0 of 0 active (0 dropped by cap, 0 failed)");
+    console.log("prices: quoted 0 of 0 active (0 failed)");
     return { taken_at: nowISO, readings: [] };
   }
 
@@ -260,14 +269,8 @@ export async function run() {
   });
   active.sort((a, b) => (a.earnings_date < b.earnings_date ? -1 : a.earnings_date > b.earnings_date ? 1 : 0));
 
+  // No per-run cap — quote the full active set (muns confirmed no server-side limit).
   const totalActive = active.length;
-  let dropped = 0;
-  if (active.length > MAX_QUOTES) {
-    dropped = active.length - MAX_QUOTES;
-    console.warn(`[cap] dropping ${dropped} of ${totalActive} active events (STEP2_MAX_QUOTES=${MAX_QUOTES})`);
-    active = active.slice(0, MAX_QUOTES);
-  }
-
   const readings = [];
   let failed = 0;
   let processed = 0;
@@ -288,18 +291,16 @@ export async function run() {
   }
 
   await writeSnapshot(readings, nowISO);
-  console.log(
-    `prices: quoted ${readings.length} of ${totalActive} active (${dropped} dropped by cap, ${failed} failed)`
-  );
+  console.log(`prices: quoted ${readings.length} of ${totalActive} active (${failed} failed)`);
   return { taken_at: nowISO, readings };
 }
 
 // ---- PROBE (gentle: lock OHLC field names + India identifier) -------------
 
-async function probeMarketData(ticker, country, label, token, trunc) {
+async function probeMarketData(ticker, country, label, token, trunc, lookbackDays) {
   const tz = country === "India" ? IN_TZ : US_TZ;
   const end = localDateStr(tz, 0);
-  const start = localDateStr(tz, -LOOKBACK_DAYS);
+  const start = localDateStr(tz, -lookbackDays);
   const url = `${FASTAPI}/market_data?ticker=${encodeURIComponent(ticker)}&start=${start}&end=${end}&interval=1d&country=${country}`;
   console.log(`\n===== RAW muns /market_data ${label} [${country}] =====`);
   try {
@@ -308,7 +309,7 @@ async function probeMarketData(ticker, country, label, token, trunc) {
     console.log(String(text).slice(0, trunc));
     const { bars, note } = parseMarketData(text);
     if (note) console.log(`parsed: ${note}`);
-    console.log(`parsed bars: ${bars.length}`);
+    console.log(`clean OHLC series: ${bars.length >= 2 ? `YES (${bars.length} bars)` : "NO"}`);
     if (bars.length) {
       console.log("last bar:", JSON.stringify(bars[bars.length - 1]));
       const back = bars[bars.length - 1 - DRIFT] || bars[0];
@@ -355,20 +356,21 @@ async function probeInSample() {
 
 async function probe(token) {
   if (!token) {
-    console.warn("⚠ no MUNS_TOKEN in this environment — muns calls will fail/rate-limit. Run via GitHub Actions (probe=1) with the secret.");
+    console.warn("⚠ no MUNS_TOKEN in this environment — muns calls will fail. Run via GitHub Actions (probe=1) with the secret.");
   }
-  // US control — the clean field-name lock.
-  await probeMarketData("AAPL", "USA", "AAPL", token, 2200);
+  const LB = 10; // ~10 days of daily bars — enough to see the OHLC shape
 
-  // India — one calendar name, tried both identifier forms.
+  // US control — plain yfinance symbol, capitalized country. Locks field names.
+  await probeMarketData("AAPL", "USA", "AAPL", token, 2200, LB);
+
+  // India — lock the yfinance ticker format (.BO = BSE, .NS = NSE).
+  await probeMarketData("RELIANCE.NS", "India", "RELIANCE.NS (NSE control)", token, RAW_TRUNC, LB);
+  await probeMarketData("500325.BO", "India", "Reliance 500325.BO (BSE-code control)", token, RAW_TRUNC, LB);
   const s = await probeInSample();
-  if (s) {
-    await probeMarketData(s.ticker, "India", `${s.company || s.ticker} via ticker="${s.ticker}"`, token, RAW_TRUNC);
-    if (s.bse_code) {
-      await probeMarketData(String(s.bse_code), "India", `${s.company || s.ticker} via bse_code="${s.bse_code}"`, token, RAW_TRUNC);
-    }
+  if (s && s.bse_code) {
+    await probeMarketData(`${s.bse_code}.BO`, "India", `${s.company || s.ticker} calendar "${s.bse_code}.BO"`, token, RAW_TRUNC, LB);
   } else {
-    console.warn("[probe] no India sample available; skipped India /market_data test");
+    console.warn("[probe] no calendar India bse_code available; skipped calendar .BO test");
   }
 
   console.log("\n[PROBE] wrote nothing.");
@@ -376,10 +378,11 @@ async function probe(token) {
 }
 
 // ======================================================================
-// DORMANT — /stock-data quote path. muns currently 404s this for every
-// ticker (incl. AAPL/RELIANCE); kept for a lighter live quote once muns
-// confirms the correct request params. Not called by run() or probe().
-// Helpers are exported so they can be unit-tested / reused when revived.
+// DORMANT — /stock-data live-quote path, kept as a lighter fallback (not wired
+// into run()/probe() yet). Request params are now known-good: CAPITALIZED
+// country ("India"/"USA") and yfinance-format tickers (US = plain symbol,
+// India = "<bse_code>.BO"), same as /market_data. The earlier 404s were from
+// lowercase country + the BSE short name. Helpers are exported for tests/reuse.
 // ======================================================================
 
 // Parse a "key=value" string (split on ",", then the FIRST "=").
