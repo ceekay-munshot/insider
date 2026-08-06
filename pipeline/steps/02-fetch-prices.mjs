@@ -1,34 +1,32 @@
 // Step 02 — price fetcher (REAL).
 //
-// Price source is muns FastAPI /market_data (daily OHLC), the SINGLE source for
-// both US + India. From the daily series we derive, per ticker:
-//   price             = latest bar close
-//   prev_close        = previous bar close
-//   baseline_5d_close = close ~driftSessions (5) sessions back
-// (step 4 turns these into change_1d_pct / change_5d_pct + flags.)
+// v1 scope: the 1-DAY pre-earnings move only (price vs last session's close).
+// Price source is muns FastAPI /stock-data — a single live quote returning
+// "Current Price" + "Previous Close" — covering both US + India. muns is
+// yfinance-backed, so symbols are yfinance-format and `country` is CAPITALIZED
+// ("USA" / "India"):
+//   US    -> plain symbol         (AAPL)
+//   India -> bare trading symbol  (the calendar's short_name, e.g. ADSL)
+//            NOT the bse_code and NOT a .BO/.NS suffix — those 404 on muns.
 //
-// muns is yfinance-backed, so symbols must be yfinance-format and `country` is
-// CAPITALIZED ("India" / "USA"):
-//   US    -> plain symbol      (AAPL)
-//   India -> "<bse_code>.BO"   (BSE; the BSE short name is NOT a valid symbol)
+// The 5-day baseline is intentionally deferred for v1. We still write a dated
+// snapshot every run, so the 5-day drift can be switched on later purely from
+// snapshot history — no new deps. The /market_data (daily OHLC) code is kept
+// DORMANT at the bottom of this file for that future use.
 //
 // muns itself isn't rate-limited, but its yfinance->Yahoo upstream can throttle
-// (an HTTP 200 body "Too Many Requests. Rate limited.") — we detect that (and
-// 429/5xx) and back off exponentially. We quote the FULL active set. Fail-soft:
-// one bad ticker never crashes the run.
-//
-// The older /stock-data quote path is kept DORMANT at the bottom of this file as
-// a lighter live-quote fallback (its request params are now known-good).
+// (an HTTP 200 body "Too Many Requests. Rate limited.") — detected and retried
+// with exponential backoff. We quote the FULL active set. Fail-soft: one bad
+// ticker never crashes the run.
 //
 // PROBE mode:  `PROBE=1 node pipeline/steps/02-fetch-prices.mjs`
-//   Gentle: prints the raw /market_data for AAPL (USA) plus India ticker-format
-//   controls (RELIANCE.NS, 500325.BO, and one calendar "<bse_code>.BO") so the
-//   OHLC field names and the working India symbol format can be locked. Writes NOTHING.
+//   Gentle: prints the raw /stock-data response for AAPL [USA] and RELIANCE
+//   [India] plus one live calendar name, so the "Current Price"/"Previous
+//   Close" fields can be confirmed for both markets. Writes NOTHING.
 //
 // snapshot reading:
-//   { ticker, market, price, prev_close, open, baseline_5d_close, close_5d_date,
-//     currency, as_of:ISO, source:"muns:market_data", interval:"1d",
-//     muns_key_used, muns_symbol }
+//   { ticker, market, price, prev_close, open, currency, as_of:ISO,
+//     source:"muns:stock-data", muns_key_used, muns_symbol }
 
 import { pathToFileURL } from "node:url";
 import { readJson, writeJson } from "../lib/io.mjs";
@@ -38,11 +36,12 @@ const PROBE = process.env.PROBE === "1";
 const RAW_TRUNC = 1500;
 const FASTAPI = CONFIG.muns.fastapi_base;
 const WINDOW_DAYS = CONFIG.step2.window_days;
-const LOOKBACK_DAYS = CONFIG.step2.market_lookback_days;
 const RETRIES = CONFIG.step2.muns_retries;
-const DRIFT = CONFIG.windows.driftSessions; // 5 sessions back
 const US_TZ = CONFIG.markets_config.US.tz;
 const IN_TZ = CONFIG.markets_config.IN.tz;
+// Used only by the DORMANT /market_data path (future 5-day baseline).
+const LOOKBACK_DAYS = CONFIG.step2.market_lookback_days;
+const DRIFT = CONFIG.windows.driftSessions;
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
 
@@ -67,37 +66,37 @@ function num(v) {
   return Number.isFinite(n) ? n : null;
 }
 
-// muns's /market_data country value is capitalized ("USA" | "India").
-const munsCountry = (market) => (market === "IN" ? "India" : "USA");
-
 // ---- http (muns), with rate-limit-aware retry ---------------------------
-// muns signals throttling as an HTTP 200 whose body says "Too Many Requests",
-// so we can't rely on the status code alone. Token rides the Authorization
-// header, so it never appears in a logged URL.
+// muns signals upstream (Yahoo) throttling as an HTTP 200 body "Too Many
+// Requests", so we can't rely on the status code alone. Token rides the
+// Authorization header, so it never appears in a logged URL.
 
 const RATE_LIMIT_RE = /too many requests|rate.?limit/i;
 
-async function munsGet(url, token, { timeoutMs = 25000 } = {}) {
+async function munsRequest(method, url, body, token, { timeoutMs = 25000 } = {}) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), timeoutMs);
   try {
     const res = await fetch(url, {
-      headers: { accept: "application/json", "Content-Type": "application/json", Authorization: `Bearer ${token || ""}` },
+      method,
+      headers: { "Content-Type": "application/json", accept: "application/json", Authorization: `Bearer ${token || ""}` },
+      body: body ? JSON.stringify(body) : undefined,
       signal: ctrl.signal,
     });
     const text = await res.text();
-    console.log(`[http] GET ${url} -> ${res.status}`);
+    const tag = body && body.ticker_symbol ? ` {${body.ticker_symbol} / ${body.country}}` : "";
+    console.log(`[http] ${method} ${url}${tag} -> ${res.status}`);
     return { ok: res.ok, status: res.status, text };
   } finally {
     clearTimeout(timer);
   }
 }
 
-async function munsGetRetry(url, token) {
+async function munsRetry(method, url, body, token) {
   const delays = [2000, 4000, 8000, 16000];
   let res;
   for (let i = 0; i <= RETRIES; i++) {
-    res = await munsGet(url, token);
+    res = await munsRequest(method, url, body, token);
     const limited = res.status === 429 || res.status >= 500 || RATE_LIMIT_RE.test(res.text);
     if (!limited) return res;
     if (i < RETRIES) {
@@ -106,86 +105,58 @@ async function munsGetRetry(url, token) {
       await sleep(d);
     }
   }
-  return res; // exhausted — caller sees no usable bars and skips
+  return res; // exhausted — caller sees no usable quote and skips
 }
 
-// ---- /market_data parsing (DEFENSIVE — field names locked via PROBE) -----
-// Handles the common shapes: a top-level array of bars, a wrapped
-// { data|results|candles|... : [...] }, or an object-of-arrays { close:[], date:[] }.
-export function parseMarketData(text) {
-  let j;
+// ---- /stock-data quote parsing (LIVE) -----------------------------------
+// The body is a "key=value" string joined by ",". Split on ",", then the FIRST
+// "=", so keys like "Yearly Change (%)" and values like "1299.0 - 1313.2" or
+// "-13.82" survive intact.
+export function parseKvString(s) {
+  const out = {};
+  for (const piece of String(s).split(",")) {
+    const i = piece.indexOf("=");
+    if (i === -1) continue;
+    const k = piece.slice(0, i).trim();
+    if (k) out[k] = piece.slice(i + 1).trim();
+  }
+  return out;
+}
+// The body may be the raw string, a JSON-quoted string, or { data|result: "..." }.
+function unwrapStockData(text) {
   try {
-    j = JSON.parse(text);
+    const j = JSON.parse(text);
+    if (typeof j === "string") return j;
+    if (j && typeof j.data === "string") return j.data;
+    if (j && typeof j.result === "string") return j.result;
   } catch {
-    return { bars: [], raw: text, note: "non-JSON body" };
+    /* not JSON — it's the raw kv string */
   }
-  let arr = null;
-  if (Array.isArray(j)) {
-    arr = j;
-  } else if (j && typeof j === "object") {
-    for (const key of ["data", "results", "candles", "ohlc", "prices", "history", "bars", "quotes"]) {
-      if (Array.isArray(j[key])) {
-        arr = j[key];
-        break;
-      }
-    }
-    if (!arr) {
-      const closeArr = j.close || j.Close || j.c;
-      if (Array.isArray(closeArr)) {
-        const dates = j.date || j.Date || j.timestamp || j.t || [];
-        const opens = j.open || j.Open || j.o || [];
-        arr = closeArr.map((c, i) => ({ close: c, date: dates[i], open: opens[i] }));
-      }
-    }
-  }
-  if (!Array.isArray(arr)) return { bars: [], raw: text, note: "no bar array found" };
-
-  const pick = (o, keys) => {
-    for (const k of keys) if (o != null && o[k] != null) return o[k];
-    return null;
+  return text;
+}
+export function parseQuote(text) {
+  const raw = unwrapStockData(text);
+  const kv = parseKvString(raw);
+  return {
+    raw,
+    price: num(kv["Current Price"]),
+    prev_close: num(kv["Previous Close"]),
+    open: num(kv["Opening Price"]),
   };
-  const bars = arr
-    .map((o) => ({
-      date: pick(o, ["date", "Date", "datetime", "timestamp", "t", "time"]),
-      open: num(pick(o, ["open", "Open", "o"])),
-      high: num(pick(o, ["high", "High", "h"])),
-      low: num(pick(o, ["low", "Low", "l"])),
-      close: num(pick(o, ["close", "Close", "c", "adjClose", "Adj Close", "adj_close"])),
-      volume: num(pick(o, ["volume", "Volume", "v"])),
-    }))
-    .filter((b) => b.close != null);
-  // Ascending by date so the last bar is the most recent.
-  bars.sort((a, b) => (String(a.date) < String(b.date) ? -1 : String(a.date) > String(b.date) ? 1 : 0));
-  return { bars, raw: text };
+}
+
+// One /stock-data quote (with backoff). country: "USA" | "India".
+async function stockDataQuote(symbol, country, token) {
+  const { ok, status, text } = await munsRetry(
+    "POST",
+    `${FASTAPI}/stock-data`,
+    { ticker_symbol: symbol, type: "stockquote", country },
+    token
+  );
+  return { ok, status, text, ...parseQuote(text) };
 }
 
 // ---- full run -----------------------------------------------------------
-
-// Fetch the daily series for one ticker and derive latest/prev/5-back closes.
-async function quoteViaMarketData(ticker, country, token) {
-  const tz = country === "India" ? IN_TZ : US_TZ;
-  const end = localDateStr(tz, 0);
-  const start = localDateStr(tz, -LOOKBACK_DAYS);
-  const url = `${FASTAPI}/market_data?ticker=${encodeURIComponent(ticker)}&start=${start}&end=${end}&interval=1d&country=${country}`;
-  const { status, text } = await munsGetRetry(url, token);
-  const { bars } = parseMarketData(text);
-  if (bars.length < 2) return { ok: false, status, raw: text, bars };
-  const last = bars[bars.length - 1];
-  const prev = bars[bars.length - 2];
-  const back = bars[bars.length - 1 - DRIFT] || bars[0];
-  return {
-    ok: true,
-    status,
-    price: last.close,
-    prev_close: prev.close,
-    open: last.open,
-    baseline_5d_close: back.close,
-    close5_date: back.date,
-    as_of_bar: last.date,
-    bars,
-    raw: text,
-  };
-}
 
 function reading(e, q, currency, muns_key_used, muns_symbol, asOf) {
   return {
@@ -194,42 +165,39 @@ function reading(e, q, currency, muns_key_used, muns_symbol, asOf) {
     price: q.price,
     prev_close: q.prev_close,
     open: q.open,
-    baseline_5d_close: q.baseline_5d_close,
-    close_5d_date: q.close5_date,
     currency,
     as_of: asOf,
-    source: "muns:market_data",
-    interval: "1d",
+    source: "muns:stock-data",
     muns_key_used,
     muns_symbol, // the exact yfinance symbol quoted (step 4 reuses it)
   };
 }
 
-// Quote one event. muns is yfinance-backed, so symbols must be yfinance-format:
-//   US    -> plain symbol (AAPL)
-//   India -> "<bse_code>.BO" (BSE); the BSE short name is NOT a valid symbol.
-// Returns a reading, or null if no usable daily series.
+// Quote one event. muns is yfinance-backed:
+//   US    -> plain symbol    (AAPL)
+//   India -> bare short_name (ADSL) — NOT the bse_code, NOT a .BO/.NS suffix
+// Returns a reading, or null if no usable Current/Previous Close.
 async function quoteForEvent(e, token, asOf) {
   if (e.market === "US") {
     const symbol = e.ticker;
-    const q = await quoteViaMarketData(symbol, "USA", token);
-    if (!q.ok) {
-      console.warn(`[skip] US ${symbol}: no usable bars. raw: ${String(q.raw).slice(0, 160)}`);
+    const q = await stockDataQuote(symbol, "USA", token);
+    if (q.price == null || q.prev_close == null) {
+      console.warn(`[skip] US ${symbol}: no Current/Previous Close. raw: ${String(q.raw).slice(0, 160)}`);
       return null;
     }
     return reading(e, q, "USD", "ticker", symbol, asOf);
   }
-  if (!e.bse_code) {
-    console.warn(`[skip] IN ${e.ticker}: no bse_code to build a .BO symbol`);
+  const symbol = e.ticker; // the calendar's bare short_name is the yfinance symbol muns accepts
+  if (!symbol) {
+    console.warn(`[skip] IN ${e.company || "?"}: no trading symbol`);
     return null;
   }
-  const symbol = `${e.bse_code}.BO`;
-  const q = await quoteViaMarketData(symbol, "India", token);
-  if (!q.ok) {
-    console.warn(`[skip] IN ${e.ticker} (${symbol}): no usable bars. raw: ${String(q.raw).slice(0, 160)}`);
+  const q = await stockDataQuote(symbol, "India", token);
+  if (q.price == null || q.prev_close == null) {
+    console.warn(`[skip] IN ${symbol}: no Current/Previous Close. raw: ${String(q.raw).slice(0, 160)}`);
     return null;
   }
-  return reading(e, q, "INR", "bse_code.BO", symbol, asOf);
+  return reading(e, q, "INR", "ticker", symbol, asOf);
 }
 
 async function writeSnapshot(readings, takenAt) {
@@ -255,7 +223,7 @@ export async function run() {
   }
 
   // Active set: events within [today .. today+WINDOW_DAYS] (market-local),
-  // intersected with a non-empty seed_universe, soonest first, capped.
+  // intersected with a non-empty seed_universe, soonest first. No per-run cap.
   const calendar = await readJson("earnings-calendar.json", { events: [] });
   const floor = { US: localDateStr(US_TZ, 0), IN: localDateStr(IN_TZ, 0) };
   const ceil = { US: localDateStr(US_TZ, WINDOW_DAYS), IN: localDateStr(IN_TZ, WINDOW_DAYS) };
@@ -269,7 +237,6 @@ export async function run() {
   });
   active.sort((a, b) => (a.earnings_date < b.earnings_date ? -1 : a.earnings_date > b.earnings_date ? 1 : 0));
 
-  // No per-run cap — quote the full active set (muns confirmed no server-side limit).
   const totalActive = active.length;
   const readings = [];
   let failed = 0;
@@ -287,7 +254,7 @@ export async function run() {
     if (processed % 25 === 0) {
       console.log(`[prices] ${processed}/${active.length} processed (${readings.length} quoted, ${failed} failed)`);
     }
-    await sleep(150); // be gentle
+    await sleep(150); // be gentle on the yfinance upstream
   }
 
   await writeSnapshot(readings, nowISO);
@@ -295,27 +262,16 @@ export async function run() {
   return { taken_at: nowISO, readings };
 }
 
-// ---- PROBE (gentle: lock OHLC field names + India identifier) -------------
+// ---- PROBE (confirm /stock-data Current/Previous Close) -------------------
 
-async function probeMarketData(ticker, country, label, token, trunc, lookbackDays) {
-  const tz = country === "India" ? IN_TZ : US_TZ;
-  const end = localDateStr(tz, 0);
-  const start = localDateStr(tz, -lookbackDays);
-  const url = `${FASTAPI}/market_data?ticker=${encodeURIComponent(ticker)}&start=${start}&end=${end}&interval=1d&country=${country}`;
-  console.log(`\n===== RAW muns /market_data ${label} [${country}] =====`);
+async function probeStockData(symbol, country, label, token) {
+  console.log(`\n===== RAW muns /stock-data ${label} [${country}] =====`);
   try {
-    const { status, text } = await munsGetRetry(url, token);
-    console.log(`(HTTP ${status})`);
-    console.log(String(text).slice(0, trunc));
-    const { bars, note } = parseMarketData(text);
-    if (note) console.log(`parsed: ${note}`);
-    console.log(`clean OHLC series: ${bars.length >= 2 ? `YES (${bars.length} bars)` : "NO"}`);
-    if (bars.length) {
-      console.log("last bar:", JSON.stringify(bars[bars.length - 1]));
-      const back = bars[bars.length - 1 - DRIFT] || bars[0];
-      const prev = bars.length >= 2 ? bars[bars.length - 2].close : null;
-      console.log(`derived -> price=${bars[bars.length - 1].close}, prev_close=${prev}, ~${DRIFT}d_close=${back.close} @ ${back.date}`);
-    }
+    const q = await stockDataQuote(symbol, country, token);
+    console.log(`(HTTP ${q.status})`);
+    console.log(String(q.raw).slice(0, RAW_TRUNC));
+    console.log(`parsed -> Current Price=${q.price}, Previous Close=${q.prev_close}, Opening Price=${q.open}`);
+    console.log(`clean quote: ${q.price != null && q.prev_close != null ? "YES" : "NO"}`);
   } catch (e) {
     console.log("ERROR:", e.message);
   }
@@ -330,7 +286,7 @@ async function probeInSample() {
     const e = inEvents[0];
     return { ticker: e.ticker, bse_code: e.bse_code, company: e.company };
   }
-  console.warn("[probe] committed calendar has no India events; fetching one fresh BSE name for the identifier test...");
+  console.warn("[probe] committed calendar has no India events; fetching one fresh BSE name...");
   try {
     const from = localDateStr(IN_TZ, 0).replace(/-/g, "");
     const to = localDateStr(IN_TZ, WINDOW_DAYS).replace(/-/g, "");
@@ -358,19 +314,16 @@ async function probe(token) {
   if (!token) {
     console.warn("⚠ no MUNS_TOKEN in this environment — muns calls will fail. Run via GitHub Actions (probe=1) with the secret.");
   }
-  const LB = 10; // ~10 days of daily bars — enough to see the OHLC shape
-
-  // US control — plain yfinance symbol, capitalized country. Locks field names.
-  await probeMarketData("AAPL", "USA", "AAPL", token, 2200, LB);
-
-  // India — lock the yfinance ticker format (.BO = BSE, .NS = NSE).
-  await probeMarketData("RELIANCE.NS", "India", "RELIANCE.NS (NSE control)", token, RAW_TRUNC, LB);
-  await probeMarketData("500325.BO", "India", "Reliance 500325.BO (BSE-code control)", token, RAW_TRUNC, LB);
+  // US control — plain yfinance symbol, capitalized country.
+  await probeStockData("AAPL", "USA", "AAPL", token);
+  // India control — the bare trading symbol (NOT the bse_code, NOT a suffix).
+  await probeStockData("RELIANCE", "India", "RELIANCE (control)", token);
+  // India — a real calendar name as its bare short_name.
   const s = await probeInSample();
-  if (s && s.bse_code) {
-    await probeMarketData(`${s.bse_code}.BO`, "India", `${s.company || s.ticker} calendar "${s.bse_code}.BO"`, token, RAW_TRUNC, LB);
+  if (s && s.ticker) {
+    await probeStockData(s.ticker, "India", `${s.company || s.ticker} "${s.ticker}"`, token);
   } else {
-    console.warn("[probe] no calendar India bse_code available; skipped calendar .BO test");
+    console.warn("[probe] no calendar India symbol available; skipped calendar name test");
   }
 
   console.log("\n[PROBE] wrote nothing.");
@@ -378,57 +331,83 @@ async function probe(token) {
 }
 
 // ======================================================================
-// DORMANT — /stock-data live-quote path, kept as a lighter fallback (not wired
-// into run()/probe() yet). Request params are now known-good: CAPITALIZED
-// country ("India"/"USA") and yfinance-format tickers (US = plain symbol,
-// India = "<bse_code>.BO"), same as /market_data. The earlier 404s were from
-// lowercase country + the BSE short name. Helpers are exported for tests/reuse.
+// DORMANT — /market_data (daily OHLC) path, kept for the future 5-day
+// baseline (v1 ships the 1-day move only). muns returns a truncated text
+// preview + saves a full CSV server-side; parseMarketData handles the JSON
+// shapes for when a full/JSON series becomes available. Not called by
+// run()/probe(). Helpers are exported for unit tests / reuse.
 // ======================================================================
 
-// Parse a "key=value" string (split on ",", then the FIRST "=").
-export function parseKvString(s) {
-  const out = {};
-  for (const piece of String(s).split(",")) {
-    const i = piece.indexOf("=");
-    if (i === -1) continue;
-    const k = piece.slice(0, i).trim();
-    if (k) out[k] = piece.slice(i + 1).trim();
-  }
-  return out;
-}
-function unwrapStockData(text) {
+// Defensive OHLC parser: top-level array, wrapped { data|results|... }, or an
+// object-of-arrays, with common field namings.
+export function parseMarketData(text) {
+  let j;
   try {
-    const j = JSON.parse(text);
-    if (typeof j === "string") return j;
-    if (j && typeof j.data === "string") return j.data;
-    if (j && typeof j.result === "string") return j.result;
+    j = JSON.parse(text);
   } catch {
-    /* not JSON — raw kv string */
+    return { bars: [], raw: text, note: "non-JSON body" };
   }
-  return text;
+  let arr = null;
+  if (Array.isArray(j)) {
+    arr = j;
+  } else if (j && typeof j === "object") {
+    for (const key of ["data", "results", "candles", "ohlc", "prices", "history", "bars", "quotes"]) {
+      if (Array.isArray(j[key])) {
+        arr = j[key];
+        break;
+      }
+    }
+    if (!arr) {
+      const closeArr = j.close || j.Close || j.c;
+      if (Array.isArray(closeArr)) {
+        const dates = j.date || j.Date || j.timestamp || j.t || [];
+        const opens = j.open || j.Open || j.o || [];
+        arr = closeArr.map((c, i) => ({ close: c, date: dates[i], open: opens[i] }));
+      }
+    }
+  }
+  if (!Array.isArray(arr)) return { bars: [], raw: text, note: "no bar array found" };
+  const pick = (o, keys) => {
+    for (const k of keys) if (o != null && o[k] != null) return o[k];
+    return null;
+  };
+  const bars = arr
+    .map((o) => ({
+      date: pick(o, ["date", "Date", "datetime", "timestamp", "t", "time"]),
+      open: num(pick(o, ["open", "Open", "o"])),
+      high: num(pick(o, ["high", "High", "h"])),
+      low: num(pick(o, ["low", "Low", "l"])),
+      close: num(pick(o, ["close", "Close", "c", "adjClose", "Adj Close", "adj_close"])),
+      volume: num(pick(o, ["volume", "Volume", "v"])),
+    }))
+    .filter((b) => b.close != null);
+  bars.sort((a, b) => (String(a.date) < String(b.date) ? -1 : String(a.date) > String(b.date) ? 1 : 0));
+  return { bars, raw: text };
 }
-export function parseQuote(text) {
-  const raw = unwrapStockData(text);
-  const kv = parseKvString(raw);
-  return { raw, price: num(kv["Current Price"]), prev_close: num(kv["Previous Close"]), open: num(kv["Opening Price"]) };
-}
+
 // eslint-disable-next-line no-unused-vars
-async function stockDataQuote(tickerSymbol, country, token) {
-  const url = `${FASTAPI}/stock-data`;
-  const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), 20000);
-  try {
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json", accept: "application/json", Authorization: `Bearer ${token || ""}` },
-      body: JSON.stringify({ ticker_symbol: tickerSymbol, type: "stockquote", country }),
-      signal: ctrl.signal,
-    });
-    const text = await res.text();
-    return { ok: res.ok, status: res.status, text, ...parseQuote(text) };
-  } finally {
-    clearTimeout(timer);
-  }
+async function quoteViaMarketData(ticker, country, token) {
+  const tz = country === "India" ? IN_TZ : US_TZ;
+  const end = localDateStr(tz, 0);
+  const start = localDateStr(tz, -LOOKBACK_DAYS);
+  const url = `${FASTAPI}/market_data?ticker=${encodeURIComponent(ticker)}&start=${start}&end=${end}&interval=1d&country=${country}`;
+  const { status, text } = await munsRetry("GET", url, null, token);
+  const { bars } = parseMarketData(text);
+  if (bars.length < 2) return { ok: false, status, raw: text, bars };
+  const last = bars[bars.length - 1];
+  const prev = bars[bars.length - 2];
+  const back = bars[bars.length - 1 - DRIFT] || bars[0];
+  return {
+    ok: true,
+    status,
+    price: last.close,
+    prev_close: prev.close,
+    open: last.open,
+    baseline_5d_close: back.close,
+    close5_date: back.date,
+    bars,
+    raw: text,
+  };
 }
 
 // Allow running directly: `node pipeline/steps/02-fetch-prices.mjs`.
