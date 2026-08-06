@@ -1,0 +1,14 @@
+{
+  "generated_at": null,
+  "markets": ["US", "IN"],
+  "counts": {
+    "tracked": 0,
+    "flagged": 0,
+    "alerts_today": 0
+  },
+  "thresholds": {
+    "up_pct": 3,
+    "windows": ["1d", "5d"]
+  },
+  "last_run_ok": true
+}

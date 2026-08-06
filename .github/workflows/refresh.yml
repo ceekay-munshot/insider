@@ -1,0 +1,55 @@
+name: Refresh data
+
+# Manual-dispatch only for now. A schedule is added in a later step (step 8).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run pipeline
+        run: node pipeline/run.mjs
+        env:
+          # All optional at scaffold stage; stubs run green without them.
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          MUNS_TOKEN: ${{ secrets.MUNS_TOKEN }}
+          MUNS_BASE_URL: ${{ secrets.MUNS_BASE_URL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          # Guard: nothing changed -> exit 0 (no empty commit).
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(data): refresh snapshot [skip ci]"
+          # Push with a 4-attempt rebase-retry loop (races with concurrent commits).
+          for i in 1 2 3 4; do
+            if git push; then
+              echo "Pushed on attempt $i"
+              exit 0
+            fi
+            echo "Push failed (attempt $i); rebasing on latest and retrying..."
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            sleep "$((2 ** i))"
+          done
+          echo "Failed to push after 4 attempts" >&2
+          exit 1

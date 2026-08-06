@@ -1,0 +1,17 @@
+# dependencies
+node_modules
+package-lock.json
+
+# pipeline scratch output (data lives in public/data, committed on purpose)
+pipeline/output/
+
+# secrets — never commit
+.env
+.env.*
+.dev.vars
+
+# wrangler / cloudflare local state
+.wrangler/
+
+# os / editor cruft
+.DS_Store
