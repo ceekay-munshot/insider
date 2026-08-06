@@ -1,14 +1,20 @@
 {
-  "generated_at": null,
-  "markets": ["US", "IN"],
+  "generated_at": "2026-08-06T15:02:32.970Z",
+  "markets": [
+    "US",
+    "IN"
+  ],
   "counts": {
-    "tracked": 0,
-    "flagged": 0,
+    "tracked": 3226,
+    "flagged": 29,
     "alerts_today": 0
   },
   "thresholds": {
     "up_pct": 3,
-    "windows": ["1d", "5d"]
+    "windows": [
+      "1d",
+      "5d"
+    ]
   },
   "last_run_ok": true
 }
