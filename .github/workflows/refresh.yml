@@ -71,7 +71,11 @@ jobs:
             echo "No data changes to commit."
             exit 0
           fi
-          git commit -m "chore(data): refresh snapshot [skip ci]"
+          # No "[skip ci]" tag: Cloudflare Workers Builds treats it as skip-build,
+          # which leaves the deployed dashboard serving stale (empty) data. This
+          # push must trigger a rebuild. The refresh workflow is dispatch-only, so
+          # the data push can't re-trigger it (no loop to guard against).
+          git commit -m "chore(data): refresh snapshot"
           # Push with a 4-attempt rebase-retry loop (races with concurrent commits).
           for i in 1 2 3 4; do
             if git push; then
