@@ -9,7 +9,7 @@
   var UI = window.RadarUI;
   var DATA = "./data";
   var MARKETS = ["US", "IN"];
-  var TABLE_COLS = 8; // Ticker, Company, Earnings, Timing, 1d%, 5d%, Price, Status
+  var TABLE_COLS = 7; // Ticker, Company, Earnings, Timing, 1d%, Price, Status
 
   var activeMarket = "US";
   var signalsByMarket = { US: [], IN: [] };
@@ -73,7 +73,6 @@
         // "UNKNOWN" (India, time not yet published) shows as "—", not a fake value.
         UI.el("td", { class: "px-4 py-2", text: s.timing && s.timing !== "UNKNOWN" ? s.timing : "—" }),
         UI.el("td", { class: "px-4 py-2 text-right tabular-nums", text: UI.fmtPct(s.change_1d_pct) }),
-        UI.el("td", { class: "px-4 py-2 text-right tabular-nums", text: UI.fmtPct(s.change_5d_pct) }),
         UI.el("td", { class: "px-4 py-2 text-right tabular-nums", text: UI.fmtNum(s.price) }),
         UI.el("td", { class: "px-4 py-2", text: s.status || "—" }),
       ]

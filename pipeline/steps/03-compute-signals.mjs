@@ -12,16 +12,14 @@
 // are sticky (fire once, never un-flag); the pre-earnings move is frozen at the
 // cutoff so a later step can compare pre- vs post-earnings drift.
 //
-// The 5-day baseline is deferred (v1 ships the 1-day move): baseline_5d_close /
-// change_5d_pct are always null here. Fail-soft: a calendar name with no fresh
-// reading is carried forward as `stale` rather than dropped, and one bad record
-// never aborts the run.
+// We track the 1-day move only (price vs last session's close). Fail-soft: a
+// calendar name with no fresh reading is carried forward as `stale` rather than
+// dropped, and one bad record never aborts the run.
 //
 // signal shape:
 //   { ticker, market, company, earnings_date, earnings_datetime_utc, timing,
 //     minutes_to_earnings, price, currency, baseline_prev_close, change_1d_pct,
 //     peak_change_1d_pct, peak_at, move_at_cutoff_pct,
-//     baseline_5d_close:null, change_5d_pct:null,
 //     flagged, flag_reason, first_flagged_at, last_updated, status, stale }
 
 import { pathToFileURL } from "node:url";
@@ -188,8 +186,6 @@ function buildSignal(event, reading, prior, now) {
     peak_change_1d_pct: peak != null ? round2(peak) : null,
     peak_at,
     move_at_cutoff_pct,
-    baseline_5d_close: null,
-    change_5d_pct: null,
     flagged,
     flag_reason,
     first_flagged_at,

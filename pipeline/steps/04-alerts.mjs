@@ -6,7 +6,7 @@
 //
 // alert shape (for later):
 //   { id:"TICKER-YYYY-MM-DD", ticker, market, company, earnings_date, timing,
-//     fired_at:ISO, change_1d_pct, change_5d_pct, price, baseline_prev_close,
+//     fired_at:ISO, change_1d_pct, price, baseline_prev_close,
 //     channels:["email","dashboard"], emailed:bool }
 
 import { pathToFileURL } from "node:url";

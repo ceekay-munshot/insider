@@ -1,11 +1,14 @@
 name: Refresh data
 
-# Manual-dispatch only for now. A schedule is added in a later step (step 8).
-# Two modes:
-#   probe=0 (default) -> run the full pipeline and commit refreshed data back.
-#   probe=1           -> run ONE step in PROBE mode (prints raw API shapes);
-#                        does NOT commit.
+# Runs automatically on a schedule AND on manual dispatch.
+#   probe=0 (default) -> full pipeline, commits refreshed data back (what the
+#                        schedule uses).
+#   probe=1           -> run ONE step in PROBE mode (prints raw API shapes); no commit.
 on:
+  schedule:
+    # Every 30 min, 03:00-20:00 UTC, Mon-Fri — covers India (09:15-15:30 IST +
+    # evening result filings) and US (09:30-16:00 ET) trading hours. Cron is UTC.
+    - cron: "*/30 3-20 * * 1-5"
   workflow_dispatch:
     inputs:
       probe:
@@ -17,9 +20,14 @@ on:
         default: "02-fetch-prices"
         required: false
       days:
-        description: "Pricing window: how many days ahead to price (1 = today + tomorrow's reporters). Keeps full runs fast."
-        default: "1"
+        description: "Pricing window: how many days ahead to price (3 = today .. +3 days)."
+        default: "3"
         required: false
+
+# Never let two refreshes overlap — they'd race on the data commit.
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -55,8 +63,9 @@ jobs:
 
       - name: Run
         env:
-          # Scope the pricing window (step 2). Default 1 = same-day/next-day.
-          STEP2_WINDOW_DAYS: ${{ inputs.days }}
+          # Scope the pricing window (step 2). On a scheduled run `inputs.days`
+          # is empty, so default to 3 (today .. +3 days).
+          STEP2_WINDOW_DAYS: ${{ inputs.days || '3' }}
         run: |
           if [ "${{ inputs.probe }}" = "1" ]; then
             echo "PROBE mode: step ${{ inputs.step }}"

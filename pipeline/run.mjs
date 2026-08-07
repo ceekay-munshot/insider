@@ -74,7 +74,7 @@ async function main() {
       flagged,
       alerts_today: alertsToday,
     },
-    thresholds: { up_pct: CONFIG.threshold_up_pct, windows: ["1d", "5d"] },
+    thresholds: { up_pct: CONFIG.threshold_up_pct, windows: ["1d"] },
     last_run_ok: ok,
   };
   await writeJson("metadata.json", metadata);
