@@ -79,29 +79,25 @@
     return "in " + Math.max(1, m) + "m";
   }
 
-  // Best available time for a name, as { text, kind, iso, url, title }:
-  //   filed     -> the ACTUAL result-filing time (confirmed) — always wins
-  //   scheduled -> concall time published in advance (shown with a live countdown)
-  //   bucket    -> US session (BMO/AMC)
-  //   none      -> nothing known yet
-  function timingInfo(s) {
-    if (s.earnings_time_confirmed) {
-      var t = fmtClock(s.earnings_datetime_utc, s.market);
-      if (t) return { text: t, kind: "filed", title: "Actual result filing time" };
+  // Short date in the market's timezone, e.g. "Aug 11".
+  function fmtShortTZ(iso, market) {
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return "";
+    try {
+      return d.toLocaleDateString("en-US", { timeZone: MARKET_TZ[market] || "UTC", day: "numeric", month: "short" });
+    } catch (e) {
+      return "";
     }
-    if (s.concall_datetime_utc) {
-      var c = fmtClock(s.concall_datetime_utc, s.market);
-      if (c)
-        return {
-          text: c,
-          kind: "scheduled",
-          iso: s.concall_datetime_utc,
-          url: s.concall_url || null,
-          title: "Scheduled concall time" + (s.concall_title ? " · " + s.concall_title : ""),
-        };
-    }
-    if (s.timing && s.timing !== "UNKNOWN") return { text: s.timing, kind: "bucket", title: "Reporting session" };
-    return { text: "—", kind: "none" };
+  }
+
+  // Relative day to an earnings DATE (date-only): "today" / "tomorrow" / "in 2d".
+  // null if the date is past or unparseable.
+  function relDay(dateStr) {
+    var off = daysFrom(dateStr);
+    if (off === null || off < 0) return null;
+    if (off === 0) return "today";
+    if (off === 1) return "tomorrow";
+    return "in " + off + "d";
   }
 
   var STATUS = {
@@ -148,14 +144,8 @@
       case "market": return s.market || "";
       case "ticker": return (s.ticker || "").toLowerCase();
       case "company": return (s.company || "").toLowerCase();
-      case "date": return Date.parse((s.earnings_date || "9999-12-31") + "T00:00:00Z") || Infinity;
-      case "timing":
-        // sort by the SAME instant we display: confirmed filing time, else concall time
-        return s.earnings_time_confirmed && s.earnings_datetime_utc
-          ? Date.parse(s.earnings_datetime_utc)
-          : s.concall_datetime_utc
-          ? Date.parse(s.concall_datetime_utc)
-          : Infinity;
+      case "earnings": return Date.parse((s.earnings_date || "9999-12-31") + "T00:00:00Z") || Infinity;
+      case "concall": return s.concall_datetime_utc ? Date.parse(s.concall_datetime_utc) : Infinity;
       case "move": return num(s.change_1d_pct);
       case "eps": return num(s.eps_yoy_pct);
       case "price": return num(s.price);
@@ -182,7 +172,7 @@
         if (a.flagged !== b.flagged) return a.flagged ? -1 : 1;
         var m = cmp(a, b, "move", "desc");
         if (m !== 0) return m;
-        return cmp(a, b, "date", "asc");
+        return cmp(a, b, "earnings", "asc");
       });
     }
     return rows.sort(function (a, b) {
@@ -223,8 +213,8 @@
     if (filters.market === "BOTH") cols.push({ key: "market", label: "Mkt" });
     cols.push({ key: "ticker", label: "Ticker" });
     cols.push({ key: "company", label: "Company", cls: "hide-sm" });
-    cols.push({ key: "date", label: "Earnings" });
-    cols.push({ key: "timing", label: "Timing" });
+    cols.push({ key: "earnings", label: "Earnings" });
+    cols.push({ key: "concall", label: "Concall", cls: "hide-sm" });
     cols.push({ key: "move", label: "1D", num: true });
     cols.push({ key: "eps", label: "EPS YoY", num: true, cls: "hide-sm" });
     cols.push({ key: "price", label: "Price", num: true });
@@ -286,25 +276,39 @@
   var EXT_SVG =
     '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>';
 
-  function timingCell(s) {
-    var i = timingInfo(s);
-    if (i.kind === "none") return UI.el("td", {}, [UI.el("span", { class: "dash", text: "—" })]);
-    var kids = [UI.el("span", { class: "mono", title: i.title || "", text: i.text })];
-    if (i.kind === "scheduled") {
-      kids.push(UI.el("span", { class: "cd", "data-iso": i.iso, text: " · " + countdown(i.iso) }));
-      if (i.url)
-        kids.push(
-          UI.el("a", {
-            class: "ext",
-            href: i.url,
-            target: "_blank",
-            rel: "noopener",
-            title: "Open concall invite",
-            html: EXT_SVG,
-          })
-        );
+  // Earnings = the RESULT: its date always, plus the real filing time once the
+  // result is confirmed out (US shows its session bucket). For upcoming names we
+  // append a relative-day hint ("tomorrow"), since the exact result time is not
+  // published in advance — only the date is.
+  function earningsCell(s) {
+    var kids = [UI.el("span", { class: "edate", text: fmtDate(s.earnings_date) })];
+    var suffix = null;
+    var strong = false;
+    if (s.earnings_time_confirmed) {
+      var t = fmtClock(s.earnings_datetime_utc, s.market);
+      if (t) { suffix = t; strong = true; } // actual filing time
     }
+    if (suffix === null && s.market === "US" && s.timing && s.timing !== "UNKNOWN") {
+      suffix = s.timing; strong = true; // US session bucket (BMO/AMC)
+    }
+    if (suffix === null) suffix = relDay(s.earnings_date); // upcoming: "tomorrow"/"in 2d"
+    if (suffix) kids.push(UI.el("span", { class: strong ? "etime" : "cd", text: " · " + suffix }));
     return UI.el("td", { class: "when" }, kids);
+  }
+
+  // Concall = the (usually later) management call: its OWN date + time + live
+  // countdown + a link to the invite. Its own date is shown so it never conflicts
+  // with the earnings date. "—" when we have no concall for this name.
+  function concallCell(s) {
+    if (!s.concall_datetime_utc) return UI.el("td", { class: "hide-sm" }, [UI.el("span", { class: "dash", text: "—" })]);
+    var t = fmtClock(s.concall_datetime_utc, s.market);
+    var d = fmtShortTZ(s.concall_datetime_utc, s.market);
+    var kids = [UI.el("span", { class: "mono", title: s.concall_title || "Scheduled concall", text: d + " · " + t })];
+    var cd = countdown(s.concall_datetime_utc);
+    if (cd) kids.push(UI.el("span", { class: "cd", "data-iso": s.concall_datetime_utc, text: " · " + cd }));
+    if (s.concall_url)
+      kids.push(UI.el("a", { class: "ext", href: s.concall_url, target: "_blank", rel: "noopener", title: "Open concall invite", html: EXT_SVG }));
+    return UI.el("td", { class: "when hide-sm" }, kids);
   }
 
   function epsCell(s) {
@@ -320,8 +324,8 @@
       tds.push(UI.el("td", {}, [UI.el("span", { class: "mkt " + s.market, text: s.market === "IN" ? "IN" : "US" })]));
     tds.push(tickerCell(s));
     tds.push(UI.el("td", { class: "company hide-sm", title: s.company || "" , text: s.company || "—" }));
-    tds.push(UI.el("td", { class: "when", html: '<span style="white-space:nowrap">' + fmtDate(s.earnings_date) + "</span>" }));
-    tds.push(timingCell(s));
+    tds.push(earningsCell(s));
+    tds.push(concallCell(s));
     tds.push(moveCell(s.change_1d_pct));
     tds.push(epsCell(s));
     tds.push(UI.el("td", { class: "num mono", text: s.price == null ? "—" : UI.fmtNum(s.price) }));
