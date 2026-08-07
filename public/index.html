@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,146 +8,150 @@
       name="description"
       content="Watches stocks with upcoming earnings and flags pre-earnings price moves."
     />
-    <!-- Personal dashboard — keep it out of search indexes. -->
     <meta name="robots" content="noindex" />
-    <!-- Favicon: 📈 emoji as an inline SVG (no network request). -->
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>"
     />
-
-    <!-- Tailwind (Play CDN) — dark mode follows the OS preference by default. -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- ECharts + Lucide via unpkg. ECharts is loaded now so step 7 (dashboard
-         UI) can drop in charts with no build step; not used yet. -->
-    <script src="https://unpkg.com/echarts@5/dist/echarts.min.js" defer></script>
-    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <link rel="stylesheet" href="./css/theme.css" />
   </head>
 
-  <body
-    class="min-h-screen bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100"
-  >
-    <div class="mx-auto max-w-5xl px-4 py-8 sm:py-10">
-      <!-- Header -->
-      <header class="mb-8">
-        <div class="flex items-center gap-2">
-          <i data-lucide="trending-up" class="h-6 w-6 text-emerald-500"></i>
-          <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">
-            Earnings Radar
-          </h1>
+  <body>
+    <div class="shell">
+      <!-- Zone 1 — sticky header -->
+      <header class="appbar">
+        <div class="brand">
+          <svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          <h1>Earnings Radar</h1>
         </div>
-        <p class="mt-2 max-w-2xl text-sm text-slate-600 dark:text-slate-400">
-          Smart money often moves a stock <em>before</em> the earnings news
-          breaks. This watches upcoming earnings (US&nbsp;+&nbsp;India) and flags
-          names that ran up beforehand. A signal, not proof.
-        </p>
-        <p
-          id="last-updated"
-          class="mt-1 text-xs text-slate-400 dark:text-slate-500"
-        >
-          Not run yet
-        </p>
+        <div class="right">
+          <span class="freshness" id="freshness">Loading…</span>
+        </div>
       </header>
 
-      <!-- KPI strip -->
-      <section
-        class="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-3"
-        aria-label="Summary"
-      >
-        <div
-          class="rounded-xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900"
-        >
-          <div class="flex items-center gap-2 text-slate-500 dark:text-slate-400">
-            <i data-lucide="eye" class="h-4 w-4"></i>
-            <span class="text-sm font-medium">Tracked</span>
-          </div>
-          <div id="kpi-tracked" class="mt-2 text-3xl font-bold tabular-nums">0</div>
-        </div>
+      <!-- Zone 2 — scrollable content -->
+      <main class="zone">
+        <div class="stack">
+          <!-- Filters / context -->
+          <section class="card" aria-label="Filters">
+            <div class="filters" id="filters">
+              <div class="fgroup">
+                <span class="cap">Market</span>
+                <div class="seg" id="seg-market" role="group" aria-label="Market">
+                  <button data-market="IN" aria-pressed="true">India</button>
+                  <button data-market="US" aria-pressed="false">US</button>
+                  <button data-market="BOTH" aria-pressed="false">Both</button>
+                </div>
+              </div>
 
-        <div
-          class="rounded-xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900"
-        >
-          <div class="flex items-center gap-2 text-slate-500 dark:text-slate-400">
-            <i data-lucide="flag" class="h-4 w-4"></i>
-            <span class="text-sm font-medium">Flagged</span>
-          </div>
-          <div id="kpi-flagged" class="mt-2 text-3xl font-bold tabular-nums text-amber-500">
-            0
-          </div>
-        </div>
+              <div class="fgroup">
+                <span class="cap">Window</span>
+                <div class="seg" id="seg-range" role="group" aria-label="Date range">
+                  <button data-days="3" aria-pressed="true">Next 3d</button>
+                  <button data-days="7" aria-pressed="false">7d</button>
+                  <button data-days="99" aria-pressed="false">All</button>
+                </div>
+              </div>
 
-        <div
-          class="rounded-xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900"
-        >
-          <div class="flex items-center gap-2 text-slate-500 dark:text-slate-400">
-            <i data-lucide="bell" class="h-4 w-4"></i>
-            <span class="text-sm font-medium">Alerts today</span>
-          </div>
-          <div id="kpi-alerts" class="mt-2 text-3xl font-bold tabular-nums text-rose-500">
-            0
-          </div>
-        </div>
-      </section>
+              <div class="fgroup">
+                <span class="cap">Status</span>
+                <select class="sel" id="sel-status" aria-label="Status">
+                  <option value="ALL">All statuses</option>
+                  <option value="pre_earnings">Upcoming</option>
+                  <option value="cutoff_passed">Awaiting</option>
+                  <option value="reported">Reported</option>
+                </select>
+              </div>
 
-      <!-- Tabs + table -->
-      <section
-        class="rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900"
-      >
-        <div
-          class="flex gap-1 border-b border-slate-200 px-2 dark:border-slate-800"
-          role="tablist"
-          aria-label="Market"
-        >
-          <button
-            id="tab-US"
-            role="tab"
-            aria-selected="true"
-            class="px-4 py-2 text-sm font-semibold border-b-2 border-emerald-500 text-emerald-600 dark:text-emerald-400"
-          >
-            US
-          </button>
-          <button
-            id="tab-IN"
-            role="tab"
-            aria-selected="false"
-            class="px-4 py-2 text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200"
-          >
-            India
-          </button>
-        </div>
+              <div class="fgroup">
+                <span class="cap">Flag</span>
+                <label class="switch">
+                  <input type="checkbox" id="chk-flagged" />
+                  <span class="track"></span>
+                  <span>Flagged only</span>
+                </label>
+              </div>
 
-        <div class="overflow-x-auto">
-          <table class="min-w-full text-sm">
-            <thead
-              class="text-left text-xs uppercase tracking-wide text-slate-500 dark:text-slate-400"
-            >
-              <tr class="border-b border-slate-100 dark:border-slate-800">
-                <th class="px-4 py-3 font-medium">Ticker</th>
-                <th class="px-4 py-3 font-medium">Company</th>
-                <th class="px-4 py-3 font-medium">Earnings</th>
-                <th class="px-4 py-3 font-medium">Timing</th>
-                <th class="px-4 py-3 text-right font-medium">1d</th>
-                <th class="px-4 py-3 text-right font-medium">Price</th>
-                <th class="px-4 py-3 font-medium">Status</th>
-              </tr>
-            </thead>
-            <tbody id="signals-body">
-              <!-- rendered by app.js; empty-state row until the pipeline populates data -->
-            </tbody>
-          </table>
-        </div>
-      </section>
+              <div class="fgroup" style="flex: 1; min-width: 200px; align-items: stretch">
+                <span class="cap">Search</span>
+                <input class="search" id="search" type="search" placeholder="Ticker or company…" />
+              </div>
+            </div>
+          </section>
 
-      <footer class="mt-8 text-center text-xs text-slate-400 dark:text-slate-600">
-        Earnings Radar · the repo is the database · run
-        <code class="rounded bg-slate-200 px-1 py-0.5 dark:bg-slate-800"
-          >node pipeline/run.mjs</code
-        >
+          <!-- KPI summary -->
+          <section class="kpi-grid" aria-label="Summary">
+            <div class="kpi" id="kpi-tracked">
+              <div class="lbl">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                Tracked
+              </div>
+              <div class="val" data-slot="val">0</div>
+              <div class="note" data-slot="note">in view</div>
+            </div>
+
+            <div class="kpi clickable" id="kpi-flagged" role="button" tabindex="0" title="Click to show only flagged names">
+              <div class="lbl">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1Z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+                Flagged
+              </div>
+              <div class="val amber" data-slot="val">0</div>
+              <div class="note" data-slot="note">ran up ≥3% before earnings</div>
+            </div>
+
+            <div class="kpi" id="kpi-reported">
+              <div class="lbl">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                Reported
+              </div>
+              <div class="val pos" data-slot="val">0</div>
+              <div class="note" data-slot="note">confirmed out</div>
+            </div>
+          </section>
+
+          <!-- Primary analysis — signals table -->
+          <section class="card">
+            <div class="card-hd">
+              <div>
+                <h3 id="tbl-title">Signals</h3>
+                <p class="sub" id="tbl-sub">Names with upcoming earnings, ranked by pre-earnings move.</p>
+              </div>
+            </div>
+            <div class="card-bd">
+              <div class="tbl-wrap">
+                <table class="tbl" id="tbl">
+                  <thead id="thead"></thead>
+                  <tbody id="tbody"></tbody>
+                </table>
+              </div>
+              <div class="tbl-ft" id="tbl-ft" hidden>
+                <span class="count" id="tbl-count"></span>
+                <button class="btn" id="btn-more">Show more</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Source / trust -->
+          <section class="card">
+            <div class="card-hd">
+              <div>
+                <h3>Sources &amp; freshness</h3>
+                <p class="sub">Where the numbers come from, and how fresh they are.</p>
+              </div>
+            </div>
+            <div class="card-bd">
+              <div class="trail" id="trail"></div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <!-- Zone 3 — footer -->
+      <footer class="footer">
+        Earnings Radar · the repo is the database · <code>node pipeline/run.mjs</code>
       </footer>
     </div>
 
-    <!-- App scripts: ui.js defines helpers, app.js consumes them. Order matters. -->
     <script src="./js/ui.js"></script>
     <script src="./js/app.js"></script>
   </body>
