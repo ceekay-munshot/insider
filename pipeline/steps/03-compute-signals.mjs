@@ -95,11 +95,17 @@ function effectiveEarnings(ev) {
   return { ms: null, approx: false };
 }
 
-// reported | cutoff_passed | pre_earnings, from the effective instant.
+// pre_earnings | cutoff_passed | reported, from the effective instant.
+//   pre_earnings  -> before the 30-min cutoff (still tracking; flags may fire)
+//   cutoff_passed -> within 30 min of earnings, OR past it but NOT yet confirmed
+//   reported      -> past the earnings instant AND results are confirmed out
+// "reported" requires hard confirmation (resultsConfirmed) so we never claim a
+// name reported just because a placeholder end-of-day time slipped past — an
+// unconfirmed name past its (assumed) time stays "cutoff_passed" until we see it.
 // Unknown time -> pre_earnings (keep tracking; never crash).
-function statusFor(earnMs, nowMs) {
+function statusFor(earnMs, nowMs, resultsConfirmed) {
   if (earnMs == null) return "pre_earnings";
-  if (nowMs >= earnMs) return "reported";
+  if (nowMs >= earnMs) return resultsConfirmed ? "reported" : "cutoff_passed";
   if (nowMs >= earnMs - CUT_MS) return "cutoff_passed";
   return "pre_earnings";
 }
@@ -114,7 +120,15 @@ function buildSignal(event, reading, prior, now) {
   const fresh = !!reading;
 
   const { ms: earnMs } = effectiveEarnings(event);
-  const status = statusFor(earnMs, nowMs);
+  // "reported" only with hard proof results are out:
+  //   India -> we captured the actual outcome filing (timing_source "bse:outcome")
+  //   US    -> Finnhub's confirmed release timing (best signal we have for US)
+  // Anything else (intimation estimate, end-of-day placeholder) past its time
+  // stays "cutoff_passed" until the filing is actually seen.
+  const resultsConfirmed =
+    event.timing_source === "bse:outcome" ||
+    (event.market === "US" && !!event.timing && event.timing !== "UNKNOWN");
+  const status = statusFor(earnMs, nowMs, resultsConfirmed);
   const minutes_to_earnings = minutesToEarnings(event, now); // null if no precise time
 
   // price + the client's move (vs LAST SESSION CLOSE = reading.prev_close).
