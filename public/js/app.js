@@ -419,13 +419,16 @@
   }
 
   // ---- alerts (preview) ---------------------------------------------------
-  // An alert = a name that FLAGGED (ran up ≥3% before earnings) and hasn't
-  // reported yet — i.e. still actionable. This previews exactly what an email
-  // would contain; actual sending is wired later (pipeline step 04).
+  // An alert = a name reporting TODAY that FLAGGED (ran up ≥3% before earnings)
+  // and hasn't reported yet — i.e. actionable right now. Future dates aren't
+  // alerts yet; they surface on their own day. Previews the email payload;
+  // actual sending is wired later (pipeline step 04).
 
   function alertQueue() {
     return ALL.IN.concat(ALL.US)
-      .filter(function (s) { return s.flagged && s.status !== "reported"; })
+      .filter(function (s) {
+        return s.flagged && s.status !== "reported" && daysFrom(s.earnings_date) === 0;
+      })
       .sort(function (a, b) { return (num(b.change_1d_pct) || -1e9) - (num(a.change_1d_pct) || -1e9); });
   }
 
@@ -441,10 +444,15 @@
   }
 
   function alertItem(s) {
+    // Headline = the pre-earnings RUN-UP that triggered the flag (peak while
+    // pre_earnings), which is what "flagged before earnings" means — always
+    // positive. The live 1D can differ (may have pulled back); shown below.
+    var runup = num(s.peak_change_1d_pct);
+    if (runup === null) runup = num(s.change_1d_pct) || 0;
     var head = UI.el("div", { class: "ai-head" }, [
       UI.el("span", { class: "mkt " + s.market, text: s.market }),
       UI.el("span", { class: "ai-tk", text: s.ticker || "—" }),
-      UI.el("span", { class: "move pos big", text: "+" + (num(s.change_1d_pct) || 0).toFixed(2) + "%" }),
+      UI.el("span", { class: "move pos big", title: "Pre-earnings run-up", text: "▲ +" + runup.toFixed(2) + "%" }),
     ]);
     var lines = [];
     if (s.company) lines.push(s.company);
@@ -453,6 +461,9 @@
     lines.push("Earnings: " + when);
     if (s.concall_datetime_utc)
       lines.push("Concall: " + fmtShortTZ(s.concall_datetime_utc, s.market) + " · " + fmtClock(s.concall_datetime_utc, s.market));
+    // live move, so a pulled-back name reads honestly (e.g. ran up +4.95%, now -3.82%)
+    var live = num(s.change_1d_pct);
+    if (live !== null) lines.push("Now: " + (live > 0 ? "+" : "") + live.toFixed(2) + "%");
     if (s.price != null) lines.push("Price: " + money(s));
     var body = UI.el("div", { class: "ai-body" }, lines.map(function (t) { return UI.el("div", { text: t }); }));
     return UI.el("div", { class: "alert-item" }, [head, body]);
@@ -464,14 +475,14 @@
     UI.clear(body);
     if (q.length === 0) {
       body.appendChild(UI.el("div", { class: "state" }, [
-        UI.el("div", { class: "msg", text: "No live alerts right now" }),
-        UI.el("div", { class: "hint", text: "A name lands here the moment it runs up ≥3% before its earnings." }),
+        UI.el("div", { class: "msg", text: "No alerts for today" }),
+        UI.el("div", { class: "hint", text: "A name lands here when it reports today AND ran up ≥3% beforehand. Upcoming dates show on their own day." }),
       ]));
     } else {
       q.forEach(function (s) { body.appendChild(alertItem(s)); });
     }
     document.getElementById("alerts-count-line").textContent =
-      q.length + " stock" + (q.length === 1 ? "" : "s") + " flagged before earnings";
+      q.length + " stock" + (q.length === 1 ? "" : "s") + " reporting today · flagged before earnings";
     document.getElementById("alerts-modal").hidden = false;
   }
   function closeAlerts() { document.getElementById("alerts-modal").hidden = true; }
