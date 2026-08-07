@@ -18,9 +18,10 @@
 //
 // signal shape:
 //   { ticker, market, company, earnings_date, earnings_datetime_utc, timing,
-//     minutes_to_earnings, price, currency, baseline_prev_close, change_1d_pct,
-//     peak_change_1d_pct, peak_at, move_at_cutoff_pct,
-//     flagged, flag_reason, first_flagged_at, last_updated, status, stale }
+//     earnings_time_confirmed, timing_source, minutes_to_earnings, price,
+//     currency, baseline_prev_close, change_1d_pct, peak_change_1d_pct, peak_at,
+//     move_at_cutoff_pct, flagged, flag_reason, first_flagged_at, last_updated,
+//     status, stale }
 
 import { pathToFileURL } from "node:url";
 import { readJson, writeJson } from "../lib/io.mjs";
@@ -192,6 +193,11 @@ function buildSignal(event, reading, prior, now) {
     earnings_date: event.earnings_date ?? null,
     earnings_datetime_utc: event.earnings_datetime_utc ?? null,
     timing: event.timing ?? null,
+    // True only when earnings_datetime_utc is a REAL published timestamp (India
+    // outcome filings / scheduled intimations), not a bucket placeholder. The
+    // dashboard uses this to show an actual clock time vs. just BMO/AMC.
+    earnings_time_confirmed: event.earnings_time_confirmed === true,
+    timing_source: event.timing_source ?? null,
     minutes_to_earnings,
     price,
     currency,

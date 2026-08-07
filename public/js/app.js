@@ -14,6 +14,43 @@
   var activeMarket = "US";
   var signalsByMarket = { US: [], IN: [] };
 
+  // Each market's local trading timezone — used to show earnings times as the
+  // clock time a trader there would read, not UTC.
+  var MARKET_TZ = { US: "America/New_York", IN: "Asia/Kolkata" };
+
+  // ---- timing display -----------------------------------------------------
+
+  // ISO instant -> local clock time in the market's tz, e.g. "11:16 AM".
+  // Returns null on a missing/unparseable value (caller falls back).
+  function fmtClock(iso, market) {
+    if (!iso) return null;
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return null;
+    try {
+      return d.toLocaleTimeString("en-US", {
+        timeZone: MARKET_TZ[market] || "UTC",
+        hour: "numeric",
+        minute: "2-digit",
+      });
+    } catch (e) {
+      return null;
+    }
+  }
+
+  // What to show in the Timing column.
+  //   - A REAL published time (India outcome filings / scheduled intimations,
+  //     earnings_time_confirmed) -> the actual clock time, e.g. "11:16 AM".
+  //   - Otherwise the honest bucket we do have (US BMO/AMC/INTRADAY).
+  //   - Nothing known yet (UNKNOWN) -> "—", never a made-up time.
+  function timingText(s) {
+    if (s.earnings_time_confirmed) {
+      var t = fmtClock(s.earnings_datetime_utc, s.market);
+      if (t) return t;
+    }
+    if (s.timing && s.timing !== "UNKNOWN") return s.timing;
+    return "—";
+  }
+
   // ---- data loading -------------------------------------------------------
 
   function loadJson(name, fallback) {
@@ -70,8 +107,9 @@
         UI.el("td", { class: "px-4 py-2 font-medium", text: s.ticker || "—" }),
         UI.el("td", { class: "px-4 py-2", text: s.company || "—" }),
         UI.el("td", { class: "px-4 py-2", text: s.earnings_date || "—" }),
-        // "UNKNOWN" (India, time not yet published) shows as "—", not a fake value.
-        UI.el("td", { class: "px-4 py-2", text: s.timing && s.timing !== "UNKNOWN" ? s.timing : "—" }),
+        // Real published time when we have one (e.g. "11:16 AM"), else the
+        // bucket (BMO/AMC), else "—". Never a made-up clock time.
+        UI.el("td", { class: "px-4 py-2 whitespace-nowrap tabular-nums", text: timingText(s) }),
         UI.el("td", { class: "px-4 py-2 text-right tabular-nums", text: UI.fmtPct(s.change_1d_pct) }),
         UI.el("td", { class: "px-4 py-2 text-right tabular-nums", text: UI.fmtNum(s.price) }),
         UI.el("td", { class: "px-4 py-2", text: s.status || "—" }),
