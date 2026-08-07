@@ -20,9 +20,8 @@
 // under load, so it's last for India. muns keeps its one 404-not-found re-try.
 //
 // muns's explicit throttle (an HTTP 200 body "Too Many Requests. Rate limited.")
-// is still detected and retried with exponential backoff. The 5-day baseline is
-// deferred; each run still writes a dated snapshot so it can be switched on later
-// with no new deps. The /market_data (daily OHLC) code is kept DORMANT below.
+// is still detected and retried with exponential backoff. Each run writes a dated
+// price snapshot to public/data/snapshots for history.
 //
 // PROBE mode:  `PROBE=1 node pipeline/steps/02-fetch-prices.mjs`
 //   Gentle: prints muns /stock-data for AAPL [USA] + RELIANCE [India] + one live
@@ -47,9 +46,6 @@ const RETRIES = CONFIG.step2.muns_retries;
 const NF_DELAY_MS = 1200; // one cheap re-try delay for a muns 404 "not found"
 const US_TZ = CONFIG.markets_config.US.tz;
 const IN_TZ = CONFIG.markets_config.IN.tz;
-// Used only by the DORMANT /market_data path (future 5-day baseline).
-const LOOKBACK_DAYS = CONFIG.step2.market_lookback_days;
-const DRIFT = CONFIG.windows.driftSessions;
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
 
@@ -492,86 +488,6 @@ async function probe(token, keys) {
 
   console.log("\n[PROBE] wrote nothing.");
   return { probe: true };
-}
-
-// ======================================================================
-// DORMANT — /market_data (daily OHLC) path, kept for the future 5-day
-// baseline (v1 ships the 1-day move only). muns returns a truncated text
-// preview + saves a full CSV server-side; parseMarketData handles the JSON
-// shapes for when a full/JSON series becomes available. Not called by
-// run()/probe(). Helpers are exported for unit tests / reuse.
-// ======================================================================
-
-// Defensive OHLC parser: top-level array, wrapped { data|results|... }, or an
-// object-of-arrays, with common field namings.
-export function parseMarketData(text) {
-  let j;
-  try {
-    j = JSON.parse(text);
-  } catch {
-    return { bars: [], raw: text, note: "non-JSON body" };
-  }
-  let arr = null;
-  if (Array.isArray(j)) {
-    arr = j;
-  } else if (j && typeof j === "object") {
-    for (const key of ["data", "results", "candles", "ohlc", "prices", "history", "bars", "quotes"]) {
-      if (Array.isArray(j[key])) {
-        arr = j[key];
-        break;
-      }
-    }
-    if (!arr) {
-      const closeArr = j.close || j.Close || j.c;
-      if (Array.isArray(closeArr)) {
-        const dates = j.date || j.Date || j.timestamp || j.t || [];
-        const opens = j.open || j.Open || j.o || [];
-        arr = closeArr.map((c, i) => ({ close: c, date: dates[i], open: opens[i] }));
-      }
-    }
-  }
-  if (!Array.isArray(arr)) return { bars: [], raw: text, note: "no bar array found" };
-  const pick = (o, keys) => {
-    for (const k of keys) if (o != null && o[k] != null) return o[k];
-    return null;
-  };
-  const bars = arr
-    .map((o) => ({
-      date: pick(o, ["date", "Date", "datetime", "timestamp", "t", "time"]),
-      open: num(pick(o, ["open", "Open", "o"])),
-      high: num(pick(o, ["high", "High", "h"])),
-      low: num(pick(o, ["low", "Low", "l"])),
-      close: num(pick(o, ["close", "Close", "c", "adjClose", "Adj Close", "adj_close"])),
-      volume: num(pick(o, ["volume", "Volume", "v"])),
-    }))
-    .filter((b) => b.close != null);
-  bars.sort((a, b) => (String(a.date) < String(b.date) ? -1 : String(a.date) > String(b.date) ? 1 : 0));
-  return { bars, raw: text };
-}
-
-// eslint-disable-next-line no-unused-vars
-async function quoteViaMarketData(ticker, country, token) {
-  const tz = country === "India" ? IN_TZ : US_TZ;
-  const end = localDateStr(tz, 0);
-  const start = localDateStr(tz, -LOOKBACK_DAYS);
-  const url = `${FASTAPI}/market_data?ticker=${encodeURIComponent(ticker)}&start=${start}&end=${end}&interval=1d&country=${country}`;
-  const { status, text } = await munsRetry("GET", url, null, token);
-  const { bars } = parseMarketData(text);
-  if (bars.length < 2) return { ok: false, status, raw: text, bars };
-  const last = bars[bars.length - 1];
-  const prev = bars[bars.length - 2];
-  const back = bars[bars.length - 1 - DRIFT] || bars[0];
-  return {
-    ok: true,
-    status,
-    price: last.close,
-    prev_close: prev.close,
-    open: last.open,
-    baseline_5d_close: back.close,
-    close5_date: back.date,
-    bars,
-    raw: text,
-  };
 }
 
 // Allow running directly: `node pipeline/steps/02-fetch-prices.mjs`.

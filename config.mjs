@@ -14,11 +14,8 @@ export const CONFIG = {
   // Direction of interest. "up" only for now — the thesis is pre-earnings ramps.
   direction: "up",
 
-  // Movement windows we compute.
-  //   oneDay        — price vs the last session's close
-  //   fiveDay       — ~5-session drift
-  //   driftSessions — how many sessions the 5-day baseline looks back
-  windows: { oneDay: true, fiveDay: true, driftSessions: 5 },
+  // We track the 1-day move only: price vs the last session's close.
+  // (A 5-day drift was considered and dropped — v1 is the same-day signal.)
 
   // Once a stock is inside this many minutes of its earnings event, freeze the
   // reading (the pre-earnings move is what we care about — see step 4/5).
@@ -66,11 +63,9 @@ export const CONFIG = {
   // runs fast and — crucially — avoids hammering muns's yfinance→Yahoo upstream
   // into throttling (which surfaces as 404 "not found" for real names). Override
   // per-run via STEP2_WINDOW_DAYS (the workflow exposes it as the `days` input).
-  // `muns_retries` sets the exponential-backoff count for explicit rate-limits;
-  // `market_lookback_days` feeds only the DORMANT /market_data path (future 5-day).
+  // `muns_retries` sets the exponential-backoff count for explicit rate-limits.
   step2: {
     window_days: Number(process.env.STEP2_WINDOW_DAYS || 1),
-    market_lookback_days: Number(process.env.STEP2_MARKET_LOOKBACK_DAYS || 14),
     muns_retries: Number(process.env.MUNS_RETRIES || 4),
   },
 };
