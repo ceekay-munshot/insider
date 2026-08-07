@@ -48,6 +48,11 @@ jobs:
         with:
           node-version: "22"
 
+      # PDF reader for step 01b (India board-meeting scheduled times). Optional:
+      # step 01b fail-soft no-ops if this is unavailable, so never block the run.
+      - name: Install PyMuPDF (PDF reader)
+        run: python3 -m pip install --quiet --break-system-packages pymupdf || python3 -m pip install --quiet pymupdf || true
+
       - name: Run
         env:
           # Scope the pricing window (step 2). Default 1 = same-day/next-day.
