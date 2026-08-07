@@ -257,6 +257,17 @@ table.tbl tbody tr.flagged:hover { background: rgba(217, 119, 6, 0.1); }
 .move .car { font-size: 9px; margin-right: 1px; }
 .dash { color: var(--hint); }
 
+/* EPS YoY — same red/green as the move, but lighter weight (fundamental, not price) */
+.eps { font-weight: 500; }
+.eps.pos { color: var(--pos); }
+.eps.neg { color: var(--neg); }
+
+/* scheduled-time countdown + external invite link */
+.when .mono { color: var(--text-2); }
+.cd { color: var(--hint); font-size: 12px; }
+.ext { color: var(--primary); margin-left: 6px; display: inline-flex; vertical-align: middle; opacity: 0.65; }
+.ext:hover { opacity: 1; }
+
 /* status + market chips */
 .chip { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 999px; border: 1px solid transparent; white-space: nowrap; }
 .chip .dot { width: 6px; height: 6px; border-radius: 50%; }

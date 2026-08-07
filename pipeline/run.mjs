@@ -19,6 +19,7 @@ const STEPS_DIR = resolve(__dirname, "steps");
 const STEPS = [
   "01-earnings-calendar.mjs",
   "01b-enrich-timing.mjs",
+  "01c-enrich-concall.mjs",
   "02-fetch-prices.mjs",
   "03-compute-signals.mjs",
   "04-alerts.mjs",

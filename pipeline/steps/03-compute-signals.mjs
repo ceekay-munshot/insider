@@ -18,8 +18,9 @@
 //
 // signal shape:
 //   { ticker, market, company, earnings_date, earnings_datetime_utc, timing,
-//     earnings_time_confirmed, timing_source, minutes_to_earnings, price,
-//     currency, baseline_prev_close, change_1d_pct, peak_change_1d_pct, peak_at,
+//     earnings_time_confirmed, timing_source, concall_datetime_utc, concall_title,
+//     concall_url, eps_yoy_pct, minutes_to_earnings, price, currency,
+//     baseline_prev_close, change_1d_pct, peak_change_1d_pct, peak_at,
 //     move_at_cutoff_pct, flagged, flag_reason, first_flagged_at, last_updated,
 //     status, stale }
 
@@ -198,6 +199,12 @@ function buildSignal(event, reading, prior, now) {
     // dashboard uses this to show an actual clock time vs. just BMO/AMC.
     earnings_time_confirmed: event.earnings_time_confirmed === true,
     timing_source: event.timing_source ?? null,
+    // concall.in enrichment (step 01c): the SCHEDULED concall time (shown as an
+    // upcoming time + countdown until the real filing time is known), plus EPS YoY.
+    concall_datetime_utc: event.concall_datetime_utc ?? null,
+    concall_title: event.concall_title ?? null,
+    concall_url: event.concall_url ?? null,
+    eps_yoy_pct: event.eps_yoy_pct ?? null,
     minutes_to_earnings,
     price,
     currency,
