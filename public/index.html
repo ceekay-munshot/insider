@@ -25,6 +25,11 @@
           <h1>Earnings Radar</h1>
         </div>
         <div class="right">
+          <button id="btn-alerts" class="alertbtn" title="Preview alerts">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+            <span>Alerts</span>
+            <span class="badge" id="alert-count" hidden>0</span>
+          </button>
           <span class="freshness" id="freshness">Loading…</span>
         </div>
       </header>
@@ -150,6 +155,25 @@
       <footer class="footer">
         Earnings Radar · the repo is the database · <code>node pipeline/run.mjs</code>
       </footer>
+    </div>
+
+    <!-- Alerts preview modal -->
+    <div id="alerts-modal" class="modal-overlay" hidden>
+      <div class="modal" role="dialog" aria-modal="true" aria-label="Alerts preview">
+        <div class="modal-hd">
+          <div>
+            <h3>Alerts <span class="tag">preview</span></h3>
+            <p class="sub" id="alerts-count-line"></p>
+          </div>
+          <button id="alerts-close" class="iconbtn" title="Close" aria-label="Close">✕</button>
+        </div>
+        <div class="modal-note">
+          📧 Email delivery is <b>paused</b>. This is exactly what would land in
+          your inbox (<b>ceekay@muns.io</b>) the moment a stock runs up ≥3% before
+          its earnings.
+        </div>
+        <div class="modal-bd" id="alerts-body"></div>
+      </div>
     </div>
 
     <script src="./js/ui.js"></script>
