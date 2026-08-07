@@ -68,14 +68,40 @@
     }
   }
 
-  // Real published time when we have one; else the honest bucket; else null.
-  function timingText(s) {
+  // Relative countdown to a future instant: "in 5h", "in 2d", "now".
+  function countdown(iso) {
+    var ms = Date.parse(iso) - Date.now();
+    if (isNaN(ms)) return "";
+    if (ms <= 0) return "now";
+    var m = Math.floor(ms / 60000), h = Math.floor(m / 60), d = Math.floor(h / 24);
+    if (d >= 1) return "in " + d + "d";
+    if (h >= 1) return "in " + h + "h";
+    return "in " + Math.max(1, m) + "m";
+  }
+
+  // Best available time for a name, as { text, kind, iso, url, title }:
+  //   filed     -> the ACTUAL result-filing time (confirmed) — always wins
+  //   scheduled -> concall time published in advance (shown with a live countdown)
+  //   bucket    -> US session (BMO/AMC)
+  //   none      -> nothing known yet
+  function timingInfo(s) {
     if (s.earnings_time_confirmed) {
       var t = fmtClock(s.earnings_datetime_utc, s.market);
-      if (t) return t;
+      if (t) return { text: t, kind: "filed", title: "Actual result filing time" };
     }
-    if (s.timing && s.timing !== "UNKNOWN") return s.timing;
-    return null;
+    if (s.concall_datetime_utc) {
+      var c = fmtClock(s.concall_datetime_utc, s.market);
+      if (c)
+        return {
+          text: c,
+          kind: "scheduled",
+          iso: s.concall_datetime_utc,
+          url: s.concall_url || null,
+          title: "Scheduled concall time" + (s.concall_title ? " · " + s.concall_title : ""),
+        };
+    }
+    if (s.timing && s.timing !== "UNKNOWN") return { text: s.timing, kind: "bucket", title: "Reporting session" };
+    return { text: "—", kind: "none" };
   }
 
   var STATUS = {
@@ -123,8 +149,15 @@
       case "ticker": return (s.ticker || "").toLowerCase();
       case "company": return (s.company || "").toLowerCase();
       case "date": return Date.parse((s.earnings_date || "9999-12-31") + "T00:00:00Z") || Infinity;
-      case "timing": return s.earnings_datetime_utc ? Date.parse(s.earnings_datetime_utc) : Infinity;
+      case "timing":
+        // sort by the SAME instant we display: confirmed filing time, else concall time
+        return s.earnings_time_confirmed && s.earnings_datetime_utc
+          ? Date.parse(s.earnings_datetime_utc)
+          : s.concall_datetime_utc
+          ? Date.parse(s.concall_datetime_utc)
+          : Infinity;
       case "move": return num(s.change_1d_pct);
+      case "eps": return num(s.eps_yoy_pct);
       case "price": return num(s.price);
       case "status": return STATUS_ORDER[s.status] == null ? -1 : STATUS_ORDER[s.status];
       default: return 0;
@@ -193,6 +226,7 @@
     cols.push({ key: "date", label: "Earnings" });
     cols.push({ key: "timing", label: "Timing" });
     cols.push({ key: "move", label: "1D", num: true });
+    cols.push({ key: "eps", label: "EPS YoY", num: true, cls: "hide-sm" });
     cols.push({ key: "price", label: "Price", num: true });
     cols.push({ key: "status", label: "Status" });
     return cols;
@@ -249,10 +283,35 @@
     ]);
   }
 
+  var EXT_SVG =
+    '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>';
+
   function timingCell(s) {
-    var t = timingText(s);
-    if (!t) return UI.el("td", {}, [UI.el("span", { class: "dash", text: "—" })]);
-    return UI.el("td", { class: "when" }, [UI.el("span", { class: "mono", text: t })]);
+    var i = timingInfo(s);
+    if (i.kind === "none") return UI.el("td", {}, [UI.el("span", { class: "dash", text: "—" })]);
+    var kids = [UI.el("span", { class: "mono", title: i.title || "", text: i.text })];
+    if (i.kind === "scheduled") {
+      kids.push(UI.el("span", { class: "cd", "data-iso": i.iso, text: " · " + countdown(i.iso) }));
+      if (i.url)
+        kids.push(
+          UI.el("a", {
+            class: "ext",
+            href: i.url,
+            target: "_blank",
+            rel: "noopener",
+            title: "Open concall invite",
+            html: EXT_SVG,
+          })
+        );
+    }
+    return UI.el("td", { class: "when" }, kids);
+  }
+
+  function epsCell(s) {
+    var n = num(s.eps_yoy_pct);
+    if (n === null) return UI.el("td", { class: "num hide-sm" }, [UI.el("span", { class: "dash", text: "—" })]);
+    var cls = "eps " + (n >= 0 ? "pos" : "neg");
+    return UI.el("td", { class: "num hide-sm" }, [UI.el("span", { class: cls, text: (n > 0 ? "+" : "") + Math.round(n) + "%" })]);
   }
 
   function signalRow(s) {
@@ -264,6 +323,7 @@
     tds.push(UI.el("td", { class: "when", html: '<span style="white-space:nowrap">' + fmtDate(s.earnings_date) + "</span>" }));
     tds.push(timingCell(s));
     tds.push(moveCell(s.change_1d_pct));
+    tds.push(epsCell(s));
     tds.push(UI.el("td", { class: "num mono", text: s.price == null ? "—" : UI.fmtNum(s.price) }));
     tds.push(statusCell(s));
     return UI.el("tr", { class: s.flagged ? "flagged" : "" }, tds);
@@ -272,9 +332,10 @@
   function skeleton() {
     var tbody = document.getElementById("tbody");
     UI.clear(tbody);
+    var ncol = columns().length;
     for (var i = 0; i < 8; i++) {
       var tds = [];
-      for (var c = 0; c < 7; c++) tds.push(UI.el("td", { class: "sk-row" }, [UI.el("div", { class: "shimmer sk-bar", style: "width:" + (40 + ((i * 7 + c) % 5) * 12) + "%" })]));
+      for (var c = 0; c < ncol; c++) tds.push(UI.el("td", { class: "sk-row" }, [UI.el("div", { class: "shimmer sk-bar", style: "width:" + (40 + ((i * 7 + c) % 5) * 12) + "%" })]));
       tbody.appendChild(UI.el("tr", {}, tds));
     }
   }
@@ -431,6 +492,12 @@
   function boot() {
     skeleton();
     wire();
+    // Keep scheduled-time countdowns live without re-fetching.
+    setInterval(function () {
+      Array.prototype.forEach.call(document.querySelectorAll(".cd[data-iso]"), function (el) {
+        el.textContent = " · " + countdown(el.getAttribute("data-iso"));
+      });
+    }, 60000);
     Promise.all([
       loadJson("metadata.json", null),
       loadJson("signals.json", { signals: [] }),

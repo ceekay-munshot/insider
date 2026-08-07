@@ -53,6 +53,19 @@ export const CONFIG = {
   finnhub: { base: process.env.FINNHUB_BASE || "https://finnhub.io/api/v1" },
   tradingview: { scanner_base: process.env.TRADINGVIEW_SCANNER_BASE || "https://scanner.tradingview.com" },
 
+  // concall.in — best-effort enrichment (step 01c) for India names:
+  //   - scheduled CONCALL date+time (published in advance; the result-filing time
+  //     itself still comes from BSE outcomes in 01b once reported)
+  //   - EPS year-over-year %
+  // Their /fetch/* feeds are public/unauthenticated. This is a courtesy read of a
+  // public endpoint, kept low-frequency and FULLY fail-soft: if it's down, blocked,
+  // or the shape changes, the pipeline runs exactly as before. The underlying data
+  // is BSE-sourced, so this can be re-based on BSE announcements later if needed.
+  concall: {
+    base: process.env.CONCALL_BASE || "https://api.concall.in/leap",
+    enabled: process.env.CONCALL_ENRICH !== "0", // set CONCALL_ENRICH=0 to skip
+  },
+
   // Optional manual always-watch tickers. The earnings calendar drives the rest;
   // anything listed here is tracked even if it isn't on the calendar.
   seed_universe: { US: [], IN: [] },
