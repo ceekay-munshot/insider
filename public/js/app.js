@@ -21,8 +21,10 @@
   var META = null;
   var TODAY = todayStr();
 
-  var filters = { market: "IN", days: 3, status: "ALL", flagged: false, q: "" };
-  var sort = { key: "default", dir: "desc" }; // default = flagged-first, move desc
+  // Defaults on open: India · next 3 days · Upcoming · sorted by soonest earnings.
+  var DEFAULT_SORT = { key: "earnings", dir: "asc" };
+  var filters = { market: "IN", days: 3, status: "pre_earnings", flagged: false, q: "" };
+  var sort = { key: DEFAULT_SORT.key, dir: DEFAULT_SORT.dir };
   var shown = PAGE; // pagination cursor
 
   // ---- small helpers ------------------------------------------------------
@@ -147,7 +149,6 @@
       case "earnings": return Date.parse((s.earnings_date || "9999-12-31") + "T00:00:00Z") || Infinity;
       case "concall": return s.concall_datetime_utc ? Date.parse(s.concall_datetime_utc) : Infinity;
       case "move": return num(s.change_1d_pct);
-      case "eps": return num(s.eps_yoy_pct);
       case "price": return num(s.price);
       case "status": return STATUS_ORDER[s.status] == null ? -1 : STATUS_ORDER[s.status];
       default: return 0;
@@ -216,7 +217,6 @@
     cols.push({ key: "earnings", label: "Earnings" });
     cols.push({ key: "concall", label: "Concall", cls: "hide-sm" });
     cols.push({ key: "move", label: "1D", num: true });
-    cols.push({ key: "eps", label: "EPS YoY", num: true, cls: "hide-sm" });
     cols.push({ key: "price", label: "Price", num: true });
     cols.push({ key: "status", label: "Status" });
     return cols;
@@ -311,13 +311,6 @@
     return UI.el("td", { class: "when hide-sm" }, kids);
   }
 
-  function epsCell(s) {
-    var n = num(s.eps_yoy_pct);
-    if (n === null) return UI.el("td", { class: "num hide-sm" }, [UI.el("span", { class: "dash", text: "—" })]);
-    var cls = "eps " + (n >= 0 ? "pos" : "neg");
-    return UI.el("td", { class: "num hide-sm" }, [UI.el("span", { class: cls, text: (n > 0 ? "+" : "") + Math.round(n) + "%" })]);
-  }
-
   function signalRow(s) {
     var tds = [];
     if (filters.market === "BOTH")
@@ -327,7 +320,6 @@
     tds.push(earningsCell(s));
     tds.push(concallCell(s));
     tds.push(moveCell(s.change_1d_pct));
-    tds.push(epsCell(s));
     tds.push(UI.el("td", { class: "num mono", text: s.price == null ? "—" : UI.fmtNum(s.price) }));
     tds.push(statusCell(s));
     return UI.el("tr", { class: s.flagged ? "flagged" : "" }, tds);
@@ -426,6 +418,64 @@
     el.innerHTML = "Updated <b>" + new Date(META.generated_at).toLocaleString() + "</b>";
   }
 
+  // ---- alerts (preview) ---------------------------------------------------
+  // An alert = a name that FLAGGED (ran up ≥3% before earnings) and hasn't
+  // reported yet — i.e. still actionable. This previews exactly what an email
+  // would contain; actual sending is wired later (pipeline step 04).
+
+  function alertQueue() {
+    return ALL.IN.concat(ALL.US)
+      .filter(function (s) { return s.flagged && s.status !== "reported"; })
+      .sort(function (a, b) { return (num(b.change_1d_pct) || -1e9) - (num(a.change_1d_pct) || -1e9); });
+  }
+
+  function money(s) {
+    if (s.price == null) return "";
+    return (s.market === "IN" ? "₹" : "$") + UI.fmtNum(s.price);
+  }
+
+  function renderAlertBadge() {
+    var n = alertQueue().length;
+    var badge = document.getElementById("alert-count");
+    if (badge) { badge.textContent = String(n); badge.hidden = n === 0; }
+  }
+
+  function alertItem(s) {
+    var head = UI.el("div", { class: "ai-head" }, [
+      UI.el("span", { class: "mkt " + s.market, text: s.market }),
+      UI.el("span", { class: "ai-tk", text: s.ticker || "—" }),
+      UI.el("span", { class: "move pos big", text: "+" + (num(s.change_1d_pct) || 0).toFixed(2) + "%" }),
+    ]);
+    var lines = [];
+    if (s.company) lines.push(s.company);
+    var when = fmtDate(s.earnings_date);
+    var rd = relDay(s.earnings_date); if (rd) when += " (" + rd + ")";
+    lines.push("Earnings: " + when);
+    if (s.concall_datetime_utc)
+      lines.push("Concall: " + fmtShortTZ(s.concall_datetime_utc, s.market) + " · " + fmtClock(s.concall_datetime_utc, s.market));
+    if (s.price != null) lines.push("Price: " + money(s));
+    var body = UI.el("div", { class: "ai-body" }, lines.map(function (t) { return UI.el("div", { text: t }); }));
+    return UI.el("div", { class: "alert-item" }, [head, body]);
+  }
+
+  function openAlerts() {
+    var q = alertQueue();
+    var body = document.getElementById("alerts-body");
+    UI.clear(body);
+    if (q.length === 0) {
+      body.appendChild(UI.el("div", { class: "state" }, [
+        UI.el("div", { class: "msg", text: "No live alerts right now" }),
+        UI.el("div", { class: "hint", text: "A name lands here the moment it runs up ≥3% before its earnings." }),
+      ]));
+    } else {
+      q.forEach(function (s) { body.appendChild(alertItem(s)); });
+    }
+    document.getElementById("alerts-count-line").textContent =
+      q.length + " stock" + (q.length === 1 ? "" : "s") + " flagged before earnings";
+    document.getElementById("alerts-modal").hidden = false;
+  }
+  function closeAlerts() { document.getElementById("alerts-modal").hidden = true; }
+
   // ---- controls -----------------------------------------------------------
 
   function onSort(key) {
@@ -448,7 +498,7 @@
       var b = e.target.closest("button"); if (!b) return;
       filters.market = b.getAttribute("data-market");
       setSeg("seg-market", "data-market", filters.market);
-      sort = { key: "default", dir: "desc" };
+      sort = { key: DEFAULT_SORT.key, dir: DEFAULT_SORT.dir };
       shown = PAGE; renderTable();
     });
     // window
@@ -485,10 +535,21 @@
       setSeg("seg-market", "data-market", "BOTH");
       setSeg("seg-range", "data-days", 99);
       document.getElementById("sel-status").value = "ALL";
-      sort = { key: "default", dir: "desc" }; shown = PAGE; renderTable();
+      sort = { key: DEFAULT_SORT.key, dir: DEFAULT_SORT.dir }; shown = PAGE; renderTable();
     }
     kf.addEventListener("click", isolateFlagged);
     kf.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); isolateFlagged(); } });
+
+    // reflect the default status in the dropdown
+    document.getElementById("sel-status").value = filters.status;
+
+    // alerts preview
+    document.getElementById("btn-alerts").addEventListener("click", openAlerts);
+    document.getElementById("alerts-close").addEventListener("click", closeAlerts);
+    document.getElementById("alerts-modal").addEventListener("click", function (e) {
+      if (e.target.id === "alerts-modal") closeAlerts(); // backdrop click
+    });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeAlerts(); });
   }
 
   // ---- boot ---------------------------------------------------------------
@@ -515,6 +576,7 @@
       ALL = grouped;
       renderFreshness();
       renderTrail();
+      renderAlertBadge();
       renderTable();
     });
   }
