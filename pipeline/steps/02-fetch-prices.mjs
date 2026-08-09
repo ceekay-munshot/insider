@@ -230,7 +230,7 @@ async function tradingViewBulk(market, names) {
     const chunk = uniq.slice(i, i + TV_BULK_BATCH);
     const tickers = [];
     for (const n of chunk) for (const p of cfg.prefixes) tickers.push(`${p}:${n}`);
-    const body = { symbols: { tickers, query: { types: [] } }, columns: ["close", "change_abs"] };
+    const body = { symbols: { tickers, query: { types: [] } }, columns: ["close", "change_abs", "market_cap_basic"] };
     try {
       const { status, text } = await fetchText(`${TV_SCANNER}/${cfg.path}/scan`, {
         method: "POST",
@@ -254,9 +254,10 @@ async function tradingViewBulk(market, names) {
         if (!d) continue;
         const close = num(d[0]);
         const chg = num(d[1]);
+        const market_cap = num(d[2]);
         const prev_close = close != null && chg != null ? round4(close - chg) : null;
         if (close != null && prev_close != null) {
-          out.set(n, { price: close, prev_close, open: null, matched_symbol: matched });
+          out.set(n, { price: close, prev_close, open: null, market_cap, matched_symbol: matched });
         }
       }
     } catch (e) {
@@ -276,6 +277,7 @@ function reading(e, q, currency, source, provider_symbol, asOf) {
     price: q.price,
     prev_close: q.prev_close,
     open: q.open ?? null,
+    market_cap: q.market_cap ?? null,
     currency,
     as_of: asOf,
     source, // which provider actually answered

@@ -328,6 +328,16 @@ table.tbl tbody tr.flagged:hover { background: rgba(217, 119, 6, 0.1); }
 
 /* ---- alerts button + modal --------------------------------------------- */
 
+.iconbtn2 {
+  appearance: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px; border-radius: 8px; color: var(--muted);
+  background: #fff; border: 1px solid var(--slate-border); transition: all 0.2s var(--ease);
+}
+.iconbtn2:hover { color: var(--primary-text); border-color: var(--primary-border); background: var(--primary-light); }
+.iconbtn2:disabled { opacity: 0.6; cursor: default; }
+@keyframes spin360 { to { transform: rotate(360deg); } }
+.iconbtn2.spin svg { animation: spin360 0.8s linear infinite; }
+
 .alertbtn {
   appearance: none; cursor: pointer; font: inherit; font-size: 13px; font-weight: 600;
   display: inline-flex; align-items: center; gap: 6px;

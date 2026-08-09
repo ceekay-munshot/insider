@@ -57,6 +57,23 @@
     return Number(p[2]) + " " + (MONTHS[Number(p[1]) - 1] || p[1]) + " " + p[0];
   }
 
+  // Market cap (in the stock's own currency) -> compact label.
+  // India in crore (₹… Cr / ₹…L Cr); US in $B/$T.
+  function fmtMcap(v, market) {
+    var n = num(v);
+    if (n == null || n <= 0) return "—";
+    if (market === "IN") {
+      var cr = n / 1e7; // 1 crore = 10^7
+      if (cr >= 1e5) return "₹" + (cr / 1e5).toFixed(2) + "L Cr";
+      if (cr >= 1) return "₹" + Math.round(cr).toLocaleString() + " Cr";
+      return "₹" + cr.toFixed(2) + " Cr";
+    }
+    if (n >= 1e12) return "$" + (n / 1e12).toFixed(2) + "T";
+    if (n >= 1e9) return "$" + (n / 1e9).toFixed(2) + "B";
+    if (n >= 1e6) return "$" + (n / 1e6).toFixed(1) + "M";
+    return "$" + Math.round(n).toLocaleString();
+  }
+
   // ISO instant -> local clock time in the market tz, e.g. "11:16 AM".
   function fmtClock(iso, market) {
     if (!iso) return null;
@@ -153,6 +170,7 @@
       case "concall": return s.concall_datetime_utc ? Date.parse(s.concall_datetime_utc) : Infinity;
       case "move": return num(s.change_1d_pct);
       case "price": return num(s.price);
+      case "mcap": return num(s.market_cap);
       case "status": return STATUS_ORDER[s.status] == null ? -1 : STATUS_ORDER[s.status];
       default: return 0;
     }
@@ -221,6 +239,7 @@
     cols.push({ key: "concall", label: "Concall", cls: "hide-sm" });
     cols.push({ key: "move", label: "1D", num: true });
     cols.push({ key: "price", label: "Price", num: true });
+    cols.push({ key: "mcap", label: "Mkt Cap", num: true, cls: "hide-sm" });
     cols.push({ key: "status", label: "Status" });
     return cols;
   }
@@ -324,6 +343,7 @@
     tds.push(concallCell(s));
     tds.push(moveCell(s.change_1d_pct));
     tds.push(UI.el("td", { class: "num mono", text: s.price == null ? "—" : UI.fmtNum(s.price) }));
+    tds.push(UI.el("td", { class: "num mono hide-sm", text: fmtMcap(s.market_cap, s.market) }));
     tds.push(statusCell(s));
     return UI.el("tr", { class: s.flagged ? "flagged" : "" }, tds);
   }
@@ -671,6 +691,15 @@
       st.threshold = Number(e.target.value); renderStudy();
     });
 
+    // refresh — re-pull the JSON without a full page reload
+    var rf = document.getElementById("btn-refresh");
+    if (rf) rf.addEventListener("click", function () {
+      rf.classList.add("spin"); rf.disabled = true;
+      loadAndRender().then(function () {
+        setTimeout(function () { rf.classList.remove("spin"); rf.disabled = false; }, 400);
+      });
+    });
+
     // alerts preview
     document.getElementById("btn-alerts").addEventListener("click", openAlerts);
     document.getElementById("alerts-close").addEventListener("click", closeAlerts);
@@ -691,7 +720,11 @@
         el.textContent = " · " + countdown(el.getAttribute("data-iso"));
       });
     }, 60000);
-    Promise.all([
+    loadAndRender();
+  }
+
+  function loadAndRender() {
+    return Promise.all([
       loadJson("metadata.json", null),
       loadJson("signals.json", { signals: [] }),
       loadJson("study.json", null),
@@ -708,6 +741,7 @@
       renderTrail();
       renderAlertBadge();
       renderTable();
+      if (!document.getElementById("view-study").hidden) renderStudy();
     });
   }
 
