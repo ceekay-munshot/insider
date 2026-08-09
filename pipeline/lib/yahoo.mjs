@@ -80,30 +80,38 @@ async function ensureCrumb() {
   return false;
 }
 
-// Quarterly earnings surprises for a symbol, newest last.
-// -> [{ date:"YYYY-MM-DD", actual:Number|null, estimate:Number|null, surprise_pct:Number|null }]
-// surprise_pct is a true percent (e.g. +6.74), not the raw Yahoo fraction.
-export async function earningsSurprises(symbol) {
-  if (!(await ensureCrumb())) return [];
+// One quoteSummary call -> { marketCap, currency, surprises:[...] }.
+//   surprises: quarterly [{date, actual, estimate, surprise_pct}] (newest last);
+//   surprise_pct is a true percent (e.g. +6.74), not Yahoo's raw fraction.
+// Returns { marketCap:null, currency:null, surprises:[] } on any failure.
+export async function quoteSummary(symbol) {
+  const empty = { marketCap: null, currency: null, surprises: [] };
+  if (!(await ensureCrumb())) return empty;
   const headers = { "User-Agent": UA, Accept: "application/json" };
   if (_cookie) headers.Cookie = _cookie;
   const url =
     `https://query1.finance.yahoo.com/v10/finance/quoteSummary/${encodeURIComponent(symbol)}` +
-    `?modules=earningsHistory&crumb=${encodeURIComponent(_crumb)}`;
+    `?modules=earningsHistory,price&crumb=${encodeURIComponent(_crumb)}`;
   const { ok, text } = await fetchText(url, { headers });
-  if (!ok) return [];
+  if (!ok) return empty;
   let d;
   try {
     d = JSON.parse(text);
   } catch {
-    return [];
+    return empty;
   }
   const r = d && d.quoteSummary && d.quoteSummary.result && d.quoteSummary.result[0];
-  const hist = (r && r.earningsHistory && r.earningsHistory.history) || [];
-  return hist.map((h) => ({
-    date: (h.quarter && h.quarter.fmt) || null,
-    actual: h.epsActual && h.epsActual.raw != null ? h.epsActual.raw : null,
-    estimate: h.epsEstimate && h.epsEstimate.raw != null ? h.epsEstimate.raw : null,
-    surprise_pct: h.surprisePercent && h.surprisePercent.raw != null ? h.surprisePercent.raw * 100 : null,
-  }));
+  if (!r) return empty;
+  const hist = (r.earningsHistory && r.earningsHistory.history) || [];
+  const price = r.price || {};
+  return {
+    marketCap: price.marketCap && price.marketCap.raw != null ? price.marketCap.raw : null,
+    currency: price.currency || null,
+    surprises: hist.map((h) => ({
+      date: (h.quarter && h.quarter.fmt) || null,
+      actual: h.epsActual && h.epsActual.raw != null ? h.epsActual.raw : null,
+      estimate: h.epsEstimate && h.epsEstimate.raw != null ? h.epsEstimate.raw : null,
+      surprise_pct: h.surprisePercent && h.surprisePercent.raw != null ? h.surprisePercent.raw * 100 : null,
+    })),
+  };
 }

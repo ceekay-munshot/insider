@@ -25,7 +25,7 @@
 
 import { pathToFileURL } from "node:url";
 import { writeJson } from "./lib/io.mjs";
-import { dailyCloses, earningsSurprises } from "./lib/yahoo.mjs";
+import { dailyCloses, quoteSummary } from "./lib/yahoo.mjs";
 
 const WINDOWS = [1, 3, 7];
 const THRESHOLDS = [0, 2, 3, 5, 10];
@@ -165,10 +165,12 @@ async function enrich(events, maxPriced) {
     if (closes.length >= 20) {
       const mv = movesFor(closes, e.earnings_date);
       if (mv) {
-        const rec = { ...e, pre: mv.pre, post: mv.post, reaction_up: mv.post[1] > 0, surprise_pct: null, beat: null };
+        const rec = { ...e, pre: mv.pre, post: mv.post, reaction_up: mv.post[1] > 0, market_cap: null, surprise_pct: null, beat: null };
         if (BEATMISS) {
-          const surprises = await earningsSurprises(e.symbol).catch(() => []);
-          const s = matchSurprise(surprises, e.earnings_date);
+          // one quoteSummary call -> market cap (for the size filter) + real beat/miss
+          const qs = await quoteSummary(e.symbol).catch(() => ({ marketCap: null, surprises: [] }));
+          rec.market_cap = qs.marketCap;
+          const s = matchSurprise(qs.surprises, e.earnings_date);
           if (s) { rec.surprise_pct = s.surprise_pct; rec.beat = s.beat; }
           await sleep(YH_SLEEP);
         }
@@ -210,21 +212,6 @@ function cellsFor(records) {
   return cells;
 }
 
-function summarize(records, market) {
-  const withSurprise = records.filter((r) => r.beat != null).length;
-  return {
-    events_analyzed: records.length,
-    beatmiss_available: withSurprise,
-    cells: cellsFor(records),
-    // a small sample (biggest 3-day run-ups) for display / sanity
-    sample: records
-      .slice()
-      .sort((a, b) => b.pre[3] - a.pre[3])
-      .slice(0, 20)
-      .map((r) => ({ market: r.market, ticker: r.ticker, company: r.company, earnings_date: r.earnings_date, pre3: r.pre[3], post3: r.post[3], post7: r.post[7], surprise_pct: r.surprise_pct })),
-  };
-}
-
 // ---- run -----------------------------------------------------------------
 
 export async function run() {
@@ -248,21 +235,27 @@ export async function run() {
   const usRec = await enrich(usEv, MAX_EVENTS);
   const allRec = inRec.concat(usRec);
 
+  // Flat per-event records; the dashboard aggregates them live (so it can filter
+  // by market cap / threshold / window without a re-run).
+  const trim = (r) => ({
+    market: r.market, ticker: r.ticker, company: r.company, earnings_date: r.earnings_date,
+    pre: r.pre, post: r.post, market_cap: r.market_cap, currency: r.market === "IN" ? "INR" : "USD",
+    surprise_pct: r.surprise_pct, beat: r.beat,
+  });
   const payload = {
     generated_at: new Date().toISOString(),
     lookback: { from: from.dashed, to: to.dashed },
     windows: WINDOWS,
     thresholds: THRESHOLDS,
     directions: DIRS,
-    markets: {
-      IN: summarize(inRec, "IN"),
-      US: summarize(usRec, "US"),
-      ALL: summarize(allRec, "ALL"),
-    },
+    counts: { IN: inRec.length, US: usRec.length },
+    records: allRec.map(trim),
   };
   const path = await writeJson("study.json", payload);
+  // quick sanity line: IN, rose >2% over 3d -> continuation after 3d
+  const c = cellsFor(inRec).find((x) => x.pre_window === 3 && x.direction === "up" && x.threshold === 2);
   console.log(`[backtest] wrote ${path}`);
-  console.log(`[backtest] analyzed IN=${inRec.length} US=${usRec.length} ALL=${allRec.length}`);
+  console.log(`[backtest] analyzed IN=${inRec.length} US=${usRec.length}` + (c ? ` | IN rose>2%/3d: n=${c.n}, after3d ${c.post["3"].hit_pct}%` : ""));
   return payload;
 }
 
