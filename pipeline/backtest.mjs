@@ -1,35 +1,29 @@
-// backtest.mjs — the STUDY: does a pre-earnings run-up predict a post-earnings rise?
+// backtest.mjs — the STUDY: if a stock runs up on its result day, does it keep
+// running afterward?
 //
-// Client's question, verbatim:
-//   "Average gain in next 1 / 3 / 7 days if a stock rose >X% (variable) in the
-//    1 / 3 / 7 days before earnings — and how often. If 70 names rose 2% before
-//    and ~80% also rose after, it's a beautiful algo." Also study FALLS (down),
-//    and whether the result actually beat/missed.
+// The idea: results come out after close (~5pm, AMC), so the stock's own move on
+// the result day is the pre-result run-up — if that's big (>X%), someone likely
+// knew. You'd enter at the result-day close. The study asks: how often, and how
+// much, did those names keep rising the next day and over the next 3 days.
 //
 // Standalone (NOT in the 30-min radar). Writes public/data/study.json.
 //
-// Method, per past earnings event (report far enough back that +7 days elapsed):
-//   d0        = last trading close BEFORE the earnings date (pre-earnings ref)
-//   pre[N]    = % change over the N trading days INTO d0        (the run-up)
-//   post[N]   = % change from d0 to N trading days AFTER earnings (the payoff)
-// Aggregate by (market, pre-window W, direction, threshold X):
-//   cohort    = events with pre[W] > X (up)  or  pre[W] < -X (down)
-//   hit_pct   = % of cohort whose post[P] continued the same way
-//   avg_pct   = average post[P] of the cohort
-// beat/miss: real analyst surprise from Yahoo when available (STUDY_BEATMISS),
-//   else the price reaction (post[1] sign) is the market's verdict.
+// Method, per past earnings event (E = the result day; far enough back that +3
+// trading days have elapsed):
+//   runup = close[E]   / close[E-1] - 1   same-day pre-result move → the trigger
+//   ret1  = close[E+1] / close[E]   - 1   next-day return
+//   ret3  = close[E+3] / close[E]   - 1   3-day total return
+// The dashboard aggregates the flat records live: cohort = runup > X (or < -X);
+//   win = ret1 > 0 (kept running next day); strict win = ret1 > 0 AND ret3 > 0.
+// beat/miss: real analyst surprise from Yahoo where an estimate exists.
 //
-// Data: past earnings dates — India from BSE board-meeting OUTCOMES, US from
+// Data: past result dates — India from BSE board-meeting OUTCOMES, US from
 // Finnhub (needs FINNHUB_API_KEY). Prices + surprises from Yahoo. Fail-soft: a
 // name we can't price is skipped, never fatal.
 
 import { pathToFileURL } from "node:url";
 import { writeJson } from "./lib/io.mjs";
 import { dailyCloses, quoteSummary } from "./lib/yahoo.mjs";
-
-const WINDOWS = [1, 3, 7];
-const THRESHOLDS = [0, 2, 3, 5, 10];
-const DIRS = ["up", "down"];
 
 const START_DAYS = Number(process.env.STUDY_START_DAYS || 60); // oldest event ~this many days back
 const END_DAYS = Number(process.env.STUDY_END_DAYS || 12); // newest event ~this many days back (so +7d elapsed)
@@ -121,25 +115,25 @@ async function usEvents(fromD, toD) {
 
 // ---- per-event moves -----------------------------------------------------
 
+// Anchor on the RESULT-DAY close (E). Results are after-close (AMC), so E's own
+// daytime move is the pre-result run-up (the entry signal), and returns are
+// measured forward from E's close.
+//   runup = close[E]   / close[E-1] - 1   (same-day pre-result move → trigger)
+//   ret1  = close[E+1] / close[E]   - 1   (next-day return)
+//   ret3  = close[E+3] / close[E]   - 1   (3-day total return)
 function movesFor(closes, earnings_date) {
-  // d0 = last close strictly BEFORE the earnings date
-  let d0 = -1;
+  let iE = -1;
   for (let i = 0; i < closes.length; i++) {
-    if (closes[i].date < earnings_date) d0 = i;
-    else break;
+    if (closes[i].date === earnings_date) { iE = i; break; }
   }
-  const maxW = Math.max(...WINDOWS);
-  if (d0 < maxW || d0 + maxW >= closes.length) return null; // not enough surrounding data
-  const base = closes[d0].close;
-  const pre = {}, post = {};
-  for (const N of WINDOWS) {
-    const preRef = closes[d0 - N].close;
-    const postRef = closes[d0 + N].close;
-    if (!preRef || !base || !postRef) return null;
-    pre[N] = round2((base / preRef - 1) * 100);
-    post[N] = round2((postRef / base - 1) * 100);
-  }
-  return { pre, post };
+  if (iE < 1 || iE + 3 >= closes.length) return null; // need E-1 .. E+3
+  const cP = closes[iE - 1].close, cE = closes[iE].close, c1 = closes[iE + 1].close, c3 = closes[iE + 3].close;
+  if (!cP || !cE || !c1 || !c3) return null;
+  return {
+    runup: round2((cE / cP - 1) * 100),
+    ret1: round2((c1 / cE - 1) * 100),
+    ret3: round2((c3 / cE - 1) * 100),
+  };
 }
 
 // nearest surprise to the earnings date (within ~45 days) -> {surprise_pct, beat} | null
@@ -165,7 +159,7 @@ async function enrich(events, maxPriced) {
     if (closes.length >= 20) {
       const mv = movesFor(closes, e.earnings_date);
       if (mv) {
-        const rec = { ...e, pre: mv.pre, post: mv.post, reaction_up: mv.post[1] > 0, market_cap: null, surprise_pct: null, beat: null };
+        const rec = { ...e, runup: mv.runup, ret1: mv.ret1, ret3: mv.ret3, market_cap: null, surprise_pct: null, beat: null };
         if (BEATMISS) {
           // one quoteSummary call -> market cap (for the size filter) + real beat/miss
           const qs = await quoteSummary(e.symbol).catch(() => ({ marketCap: null, surprises: [] }));
@@ -184,33 +178,6 @@ async function enrich(events, maxPriced) {
 }
 
 // ---- aggregation ---------------------------------------------------------
-
-function mean(a) { return a.length ? round2(a.reduce((x, y) => x + y, 0) / a.length) : null; }
-
-function cellsFor(records) {
-  const cells = [];
-  for (const W of WINDOWS) {
-    for (const dir of DIRS) {
-      for (const X of THRESHOLDS) {
-        const cohort = records.filter((r) => (dir === "up" ? r.pre[W] > X : r.pre[W] < -X));
-        const post = {};
-        for (const P of WINDOWS) {
-          const vals = cohort.map((r) => r.post[P]);
-          const cont = cohort.filter((r) => (dir === "up" ? r.post[P] > 0 : r.post[P] < 0)).length;
-          post[P] = { hit_pct: cohort.length ? Math.round((100 * cont) / cohort.length) : null, avg_pct: mean(vals) };
-        }
-        const withBeat = cohort.filter((r) => r.beat != null);
-        const beatN = withBeat.filter((r) => r.beat).length;
-        cells.push({
-          pre_window: W, direction: dir, threshold: X, n: cohort.length, post,
-          beat_rate: withBeat.length ? Math.round((100 * beatN) / withBeat.length) : null,
-          beat_sample: withBeat.length,
-        });
-      }
-    }
-  }
-  return cells;
-}
 
 // ---- run -----------------------------------------------------------------
 
@@ -236,26 +203,25 @@ export async function run() {
   const allRec = inRec.concat(usRec);
 
   // Flat per-event records; the dashboard aggregates them live (so it can filter
-  // by market cap / threshold / window without a re-run).
+  // by market cap / threshold / direction without a re-run).
   const trim = (r) => ({
     market: r.market, ticker: r.ticker, company: r.company, earnings_date: r.earnings_date,
-    pre: r.pre, post: r.post, market_cap: r.market_cap, currency: r.market === "IN" ? "INR" : "USD",
+    runup: r.runup, ret1: r.ret1, ret3: r.ret3,
+    market_cap: r.market_cap, currency: r.market === "IN" ? "INR" : "USD",
     surprise_pct: r.surprise_pct, beat: r.beat,
   });
   const payload = {
     generated_at: new Date().toISOString(),
     lookback: { from: from.dashed, to: to.dashed },
-    windows: WINDOWS,
-    thresholds: THRESHOLDS,
-    directions: DIRS,
     counts: { IN: inRec.length, US: usRec.length },
     records: allRec.map(trim),
   };
   const path = await writeJson("study.json", payload);
-  // quick sanity line: IN, rose >2% over 3d -> continuation after 3d
-  const c = cellsFor(inRec).find((x) => x.pre_window === 3 && x.direction === "up" && x.threshold === 2);
+  // sanity: IN, ran up >3% on the result day -> % with a positive NEXT-day return
+  const co = inRec.filter((r) => r.runup > 3);
+  const win = co.filter((r) => r.ret1 > 0).length;
   console.log(`[backtest] wrote ${path}`);
-  console.log(`[backtest] analyzed IN=${inRec.length} US=${usRec.length}` + (c ? ` | IN rose>2%/3d: n=${c.n}, after3d ${c.post["3"].hit_pct}%` : ""));
+  console.log(`[backtest] analyzed IN=${inRec.length} US=${usRec.length}` + (co.length ? ` | IN ran>3% same-day: n=${co.length}, next-day win ${Math.round((100 * win) / co.length)}%` : ""));
   return payload;
 }
 

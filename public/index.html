@@ -177,26 +177,18 @@
                   </div>
                 </div>
                 <div class="fgroup">
-                  <span class="cap">Move before earnings</span>
+                  <span class="cap">On the result day it</span>
                   <div class="seg" id="st-dir" role="group">
-                    <button data-dir="up" aria-pressed="true">▲ Rose</button>
+                    <button data-dir="up" aria-pressed="true">▲ Ran up</button>
                     <button data-dir="down" aria-pressed="false">▼ Fell</button>
-                  </div>
-                </div>
-                <div class="fgroup">
-                  <span class="cap">Over</span>
-                  <div class="seg" id="st-window" role="group">
-                    <button data-w="1" aria-pressed="false">1 day</button>
-                    <button data-w="3" aria-pressed="true">3 days</button>
-                    <button data-w="7" aria-pressed="false">7 days</button>
                   </div>
                 </div>
                 <div class="fgroup">
                   <span class="cap">By at least</span>
                   <select class="sel" id="st-threshold">
                     <option value="0">any move (&gt;0%)</option>
-                    <option value="2" selected>2%</option>
-                    <option value="3">3%</option>
+                    <option value="2">2%</option>
+                    <option value="3" selected>3%</option>
                     <option value="5">5%</option>
                     <option value="10">10%</option>
                   </select>
@@ -227,8 +219,8 @@
             <section class="card">
               <div class="card-hd">
                 <div>
-                  <h3 id="study-sample-title">Biggest run-ups in the sample</h3>
-                  <p class="sub">A few real cases behind the numbers — did the run-up continue after results?</p>
+                  <h3 id="study-sample-title">Biggest result-day run-ups in the sample</h3>
+                  <p class="sub">Real cases behind the numbers — did the same-day run-up keep going after?</p>
                 </div>
               </div>
               <div class="card-bd">
@@ -236,8 +228,8 @@
                   <table class="tbl">
                     <thead>
                       <tr>
-                        <th>Ticker</th><th>Company</th><th>Earnings</th>
-                        <th class="num">Before (3d)</th><th class="num">After (3d)</th><th class="num">After (7d)</th><th class="num">Surprise</th>
+                        <th>Ticker</th><th>Company</th><th>Result day</th>
+                        <th class="num">Run-up (day)</th><th class="num">Next day</th><th class="num">3-day total</th><th class="num">Surprise</th>
                       </tr>
                     </thead>
                     <tbody id="study-sample"></tbody>

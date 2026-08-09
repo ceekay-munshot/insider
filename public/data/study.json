@@ -1,45 +1,1530 @@
 {
-  "generated_at": "2026-08-09T10:38:50.175Z",
+  "generated_at": "2026-08-09T11:11:26.913Z",
   "lookback": {
     "from": "2026-06-10",
-    "to": "2026-07-28"
+    "to": "2026-07-30"
   },
-  "windows": [
-    1,
-    3,
-    7
-  ],
-  "thresholds": [
-    0,
-    2,
-    3,
-    5,
-    10
-  ],
-  "directions": [
-    "up",
-    "down"
-  ],
   "counts": {
-    "IN": 350,
+    "IN": 347,
     "US": 0
   },
   "records": [
     {
       "market": "IN",
+      "ticker": "526935",
+      "company": "Kalind Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -0.1,
+      "ret1": -5,
+      "ret3": -14.13,
+      "market_cap": 121860000,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "503811",
+      "company": "Siyaram Silk Mills Ltd-$",
+      "earnings_date": "2026-07-30",
+      "runup": -1.96,
+      "ret1": -0.8,
+      "ret3": 3.54,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "539678",
+      "company": "Quick Heal Technologies Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -1.09,
+      "ret1": -2.4,
+      "ret3": -0.38,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "532992",
+      "company": "CHL Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -1.46,
+      "ret1": 0.71,
+      "ret3": 2.3,
+      "market_cap": 2005253504,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "513307",
+      "company": "Belding India Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 1.53,
+      "ret1": 3.57,
+      "ret3": 1.44,
+      "market_cap": 115505416,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "524687",
+      "company": "Basant Agro Tech India Ltd-$",
+      "earnings_date": "2026-07-30",
+      "runup": 15.95,
+      "ret1": -4.9,
+      "ret3": -4.97,
+      "market_cap": 1891653376,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "539400",
+      "company": "Mallcom (India) Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0.03,
+      "ret1": -4.6,
+      "ret3": -3.99,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "531950",
+      "company": "Vertex Securities Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -0.9,
+      "ret1": 1.82,
+      "ret3": -4.24,
+      "market_cap": 475158336,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "539894",
+      "company": "Madhav Infra Projects Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -0.87,
+      "ret1": -1.76,
+      "ret3": -0.88,
+      "market_cap": 3753060096,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "541703",
+      "company": "Raconteur Global Resources Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0,
+      "ret1": 4.96,
+      "ret3": 2.96,
+      "market_cap": 107138656,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "539660",
+      "company": "Best Agrolife Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -0.48,
+      "ret1": 14.15,
+      "ret3": 36.03,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "501151",
+      "company": "Kartik Investments Trust Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 1.99,
+      "ret1": 2,
+      "ret3": 5.68,
+      "market_cap": 183597952,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "531155",
+      "company": "Epsom Properties Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0,
+      "ret1": 0,
+      "ret3": -1.44,
+      "market_cap": 55896000,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "522064",
+      "company": "Honda India Power Products Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -0.44,
+      "ret1": -0.07,
+      "ret3": 0.13,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "532332",
+      "company": "Cura Technologies Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 1.47,
+      "ret1": 0,
+      "ret3": -2.86,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "516108",
+      "company": "South India Paper Mills Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 4.52,
+      "ret1": -3.22,
+      "ret3": -3.31,
+      "market_cap": 2132500352,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "531673",
+      "company": "Anka India Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -1.87,
+      "ret1": -4.99,
+      "ret3": -13.35,
+      "market_cap": 214200960,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "540293",
+      "company": "Pricol Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 3.1,
+      "ret1": 2.69,
+      "ret3": 12.52,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "531210",
+      "company": "Colinz Laboratories Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 1.52,
+      "ret1": 2.5,
+      "ret3": -2.5,
+      "market_cap": 164839712,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "543830",
+      "company": "Labelkraft Technologies Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 1.54,
+      "market_cap": 215167504,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "535667",
+      "company": "India Finsec Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0,
+      "ret1": 0.43,
+      "ret3": -6.96,
+      "market_cap": 3390823936,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "530525",
+      "company": "Rajnish Retail Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0.85,
+      "ret1": -3.8,
+      "ret3": -0.42,
+      "market_cap": 11993726976,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "530609",
+      "company": "Carnation Industries Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
+      "market_cap": 26524188,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "590031",
+      "company": "De Nora India Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -0.24,
+      "ret1": 3.47,
+      "ret3": 2.24,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "530401",
+      "company": "Vinyoflex Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 6.28,
+      "ret1": -1.14,
+      "ret3": -3.19,
+      "market_cap": 400588192,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "521018",
+      "company": "Maral Overseas Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 1.58,
+      "ret1": -4.99,
+      "ret3": -8.23,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "531017",
+      "company": "Arihants Securities Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0.11,
+      "ret1": 1.58,
+      "ret3": 3.79,
+      "market_cap": 110336920,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "532024",
+      "company": "Aarcon Facilities Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
+      "market_cap": 43441108,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "531982",
+      "company": "Spectrum Foods Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -3.35,
+      "ret1": 4.99,
+      "ret3": 15.7,
+      "market_cap": 746165696,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "533644",
+      "company": "Ujaas Energy Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 9.04,
+      "ret1": 19.99,
+      "ret3": 58.33,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "544112",
+      "company": "Jasch Gauging Technologies Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0.48,
+      "ret1": -1.17,
+      "ret3": 2.02,
+      "market_cap": 3266992384,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "532742",
+      "company": "Paushak Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 3.88,
+      "ret1": 4.22,
+      "ret3": 21.84,
+      "market_cap": 16927101952,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "531209",
+      "company": "Nucleus Software Exports Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -0.52,
+      "ret1": -6.76,
+      "ret3": -5.24,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "514240",
+      "company": "Kush Industries Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -0.49,
+      "ret1": -2.46,
+      "ret3": 2.79,
+      "market_cap": 136191760,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "531257",
+      "company": "Vellora Impact Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 10.32,
+      "ret1": -3.51,
+      "ret3": -1.95,
+      "market_cap": 136076048,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "502589",
+      "company": "Vapi Enterprise Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 4.99,
+      "ret1": 4.98,
+      "ret3": 4.72,
+      "market_cap": 581340736,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "500236",
+      "company": "Kanel Industries Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 10.23,
+      "market_cap": 26145608,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "530461",
+      "company": "Saboo Sodium Chloro Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 2.5,
+      "ret1": -2.59,
+      "ret3": -1.18,
+      "market_cap": 871006336,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "500295",
+      "company": "Vedanta Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 1.17,
+      "ret1": -1.25,
+      "ret3": 0.9,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "524109",
+      "company": "Kabra Extrusiontechnik Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -7.19,
+      "ret1": 8.78,
+      "ret3": 13.95,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "523467",
+      "company": "Jai Mata Glass Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -4.86,
+      "ret1": 4.74,
+      "ret3": 15.33,
+      "market_cap": 198591744,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "531111",
+      "company": "Gothi Plascon India Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0,
+      "ret1": 4.99,
+      "ret3": 9.01,
+      "market_cap": 383882400,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "540221",
+      "company": "Shashank Traders Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
+      "market_cap": 74900896,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "501370",
+      "company": "Walchand Peoplefirst Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 14.14,
+      "ret1": 8.34,
+      "ret3": 11.41,
+      "market_cap": 761977280,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "514322",
+      "company": "Kamadgiri Fashion Ltd-$",
+      "earnings_date": "2026-07-30",
+      "runup": -4.98,
+      "ret1": 5,
+      "ret3": 14.48,
+      "market_cap": 434744224,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "505750",
+      "company": "Josts Engineering Company Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 0.1,
+      "ret1": -7.59,
+      "ret3": -10.82,
+      "market_cap": 9126047744,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "500220",
+      "company": "Jasch Industries Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -4.99,
+      "ret1": -4.97,
+      "ret3": -5.45,
+      "market_cap": 1240279680,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "516078",
+      "company": "Jumbo Bag Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 20,
+      "ret1": 2.25,
+      "ret3": 15.77,
+      "market_cap": 349601984,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "539957",
+      "company": "Mahanagar Gas Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": 1.18,
+      "ret1": -0.33,
+      "ret3": -0.63,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "540544",
+      "company": "PSP Projects Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -7.09,
+      "ret1": 3.23,
+      "ret3": -1.85,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "511176",
+      "company": "Parshwanath Corporation Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -0.33,
+      "ret1": 4.99,
+      "ret3": 5.16,
+      "market_cap": 193516400,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "505737",
+      "company": "International Combustion India Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -8.66,
+      "ret1": -5.39,
+      "ret3": -7.49,
+      "market_cap": 3129115392,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "530117",
+      "company": "Privi Speciality Chemicals Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -3.46,
+      "ret1": 1.99,
+      "ret3": 2.97,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "505533",
+      "company": "Westlife Foodworld Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -0.4,
+      "ret1": 4.29,
+      "ret3": 11.32,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "515043",
+      "company": "Saint Gobain Sekurit India Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -5.92,
+      "ret1": -0.89,
+      "ret3": -3.19,
+      "market_cap": 12556508160,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "524129",
+      "company": "Vinyl Chemicals (India) Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -3.34,
+      "ret1": 2.97,
+      "ret3": 4.05,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "532404",
+      "company": "Saven Technologies Ltd",
+      "earnings_date": "2026-07-30",
+      "runup": -9.4,
+      "ret1": -5.01,
+      "ret3": -8.43,
+      "market_cap": 607466624,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "531524",
+      "company": "ICSA (India) Ltd-$",
+      "earnings_date": "2026-07-29",
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "533287",
+      "company": "Zee Learn Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 3.85,
+      "ret1": -4.98,
+      "ret3": -5.9,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "543616",
+      "company": "Trident Lifeline Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 0.49,
+      "ret1": 1.3,
+      "ret3": -0.56,
+      "market_cap": 3264086528,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "543542",
+      "company": "Kesar India Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 1.04,
+      "ret1": -2.71,
+      "ret3": -1,
+      "market_cap": 17379049472,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "539978",
+      "company": "Quess Corp Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 1.15,
+      "ret1": 0.86,
+      "ret3": 12.49,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "519183",
+      "company": "Adf Foods Ltd-$",
+      "earnings_date": "2026-07-29",
+      "runup": 0.22,
+      "ret1": -12.45,
+      "ret3": -8.84,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "533274",
+      "company": "Prestige Estates Projects Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -0.65,
+      "ret1": -4.64,
+      "ret3": -2.33,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "542399",
+      "company": "Chalet Hotels Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -0.99,
+      "ret1": -3.79,
+      "ret3": -1.85,
+      "market_cap": 0,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "521113",
+      "company": "Suditi Industries Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 0.06,
+      "ret1": 0.05,
+      "ret3": -0.35,
+      "market_cap": 345675296,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "512008",
+      "company": "EFC (I) Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 1.72,
+      "ret1": -5.57,
+      "ret3": -3.65,
+      "market_cap": 27446218752,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "532092",
+      "company": "Epuja Spiritech Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 3.45,
+      "ret1": -4.67,
+      "ret3": -3.33,
+      "market_cap": 415742816,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "511644",
+      "company": "Omega Interactive Technologies Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -4.99,
+      "ret1": -4.99,
+      "ret3": -14.23,
+      "market_cap": 403056352,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "500414",
+      "company": "Timex Group India Ltd-$",
+      "earnings_date": "2026-07-29",
+      "runup": -2.19,
+      "ret1": -4.42,
+      "ret3": -1.22,
+      "market_cap": 17034639360,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "505650",
+      "company": "Skyline Millars Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 2.87,
+      "ret1": -2.66,
+      "ret3": 0.97,
+      "market_cap": 1005607488,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "517166",
+      "company": "SPEL Semiconductor Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -2.04,
+      "ret1": -0.91,
+      "ret3": -0.03,
+      "market_cap": 10736131072,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "540615",
+      "company": "7NR Retail Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -1.9,
+      "ret1": -1.78,
+      "ret3": -4.37,
+      "market_cap": 192126656,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "532470",
+      "company": "MPF Systems Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 4.82,
+      "ret1": 0,
+      "ret3": 4.98,
+      "market_cap": 11623418,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "531436",
+      "company": "Saffron Industries Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 1.2,
+      "ret1": -3.48,
+      "ret3": -4.84,
+      "market_cap": 58274108,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "532056",
+      "company": "Trustedge Capital Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 1.71,
+      "ret1": 0.97,
+      "ret3": 0.67,
+      "market_cap": 109916040,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "511431",
+      "company": "Vakrangee Ltd-$",
+      "earnings_date": "2026-07-29",
+      "runup": 0.16,
+      "ret1": -1.48,
+      "ret3": -2.13,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "539268",
+      "company": "Syngene International Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 1.08,
+      "ret1": -3.58,
+      "ret3": -2.95,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "530469",
+      "company": "GSL Securities Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 0,
+      "ret1": -2.1,
+      "ret3": 0.44,
+      "market_cap": 78292504,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "530175",
+      "company": "Odyssey Technologies Ltd-$",
+      "earnings_date": "2026-07-29",
+      "runup": 1.96,
+      "ret1": -10.73,
+      "ret3": -11.35,
+      "market_cap": 2441946624,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "530755",
+      "company": "Coral Newsprints Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 0,
+      "ret1": -1.01,
+      "ret3": -1.01,
+      "market_cap": 54978580,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "539725",
+      "company": "Gokul Agro Resources Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 5.47,
+      "ret1": 1.17,
+      "ret3": 3.68,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "540175",
+      "company": "Regency Fincorp Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 2.26,
+      "ret1": -2.41,
+      "ret3": -1.25,
+      "market_cap": 706790336,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "526851",
+      "company": "Arex Industries Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -2,
+      "ret1": 4.99,
+      "ret3": 10.2,
+      "market_cap": 567097792,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "537573",
+      "company": "Polymac Thermoformers Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 4.93,
+      "ret1": 3.84,
+      "ret3": 8.96,
+      "market_cap": 200134528,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "532652",
+      "company": "Karnataka Bank Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 0.81,
+      "ret1": 4.41,
+      "ret3": 3.73,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "507789",
+      "company": "Jagsonpal Pharmaceuticals Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 2.9,
+      "ret1": 2.73,
+      "ret3": 2.21,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "533286",
+      "company": "Moil Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 2.58,
+      "ret1": 5.24,
+      "ret3": 3.05,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "514211",
+      "company": "Sumeet Industries Ltd-$",
+      "earnings_date": "2026-07-29",
+      "runup": -4.99,
+      "ret1": -4.97,
+      "ret3": -14.17,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "541735",
+      "company": "Vivanta Industries Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -3.03,
+      "ret1": -0.62,
+      "ret3": 3.12,
+      "market_cap": 509229888,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "539658",
+      "company": "TeamLease Services Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -0.27,
+      "ret1": -2.36,
+      "ret3": -4.58,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "506042",
+      "company": "Prabhu Steel Industries Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
+      "market_cap": 85681504,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "538868",
+      "company": "Continental Securities Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 0.71,
+      "ret1": 2.04,
+      "ret3": -4.64,
+      "market_cap": 301341376,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "530309",
+      "company": "Chandra Prabhu International Ltd-$",
+      "earnings_date": "2026-07-29",
+      "runup": 5.23,
+      "ret1": 6.08,
+      "ret3": 2.74,
+      "market_cap": 459876192,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "538920",
+      "company": "Vintage Coffee And Beverages Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -5.96,
+      "ret1": -4.3,
+      "ret3": -1.49,
+      "market_cap": 8434024960,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "512599",
+      "company": "Adani Enterprises Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 0.73,
+      "ret1": 0.84,
+      "ret3": 1.34,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "540749",
+      "company": "MAS Financial Services Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 2.97,
+      "ret1": -1.31,
+      "ret3": -2.24,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "535205",
+      "company": "Mystic Electronics Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 8.36,
+      "ret1": -6.65,
+      "ret3": -5.85,
+      "market_cap": 92703480,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "505250",
+      "company": "G. G. Dandekar Properties Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -6.76,
+      "ret1": -4.35,
+      "ret3": -9.75,
+      "market_cap": 526181216,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "506590",
+      "company": "PCBL Chemical Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 14.94,
+      "ret1": -10.33,
+      "ret3": -10.63,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "538666",
+      "company": "Sharda Cropchem Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -5.58,
+      "ret1": -0.62,
+      "ret3": 0.33,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "517174",
+      "company": "Honeywell Automation India Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 6.73,
+      "ret1": -1.13,
+      "ret3": -3.62,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "541206",
+      "company": "OBCL Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -1.79,
+      "ret1": 0.88,
+      "ret3": 1.92,
+      "market_cap": 0,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "542011",
+      "company": "Garden Reach Shipbuilders & Engineers Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 0.47,
+      "ret1": -1.48,
+      "ret3": -1.65,
+      "market_cap": 0,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "508486",
+      "company": "Hawkins Cookers Ltd-$",
+      "earnings_date": "2026-07-29",
+      "runup": -2.91,
+      "ret1": 0.28,
+      "ret3": 0.2,
+      "market_cap": 45255544832,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "532853",
+      "company": "Asahi Songwon Colors Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 1.68,
+      "ret1": 6.08,
+      "ret3": 10.55,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "524200",
+      "company": "Vinati Organics Ltd-$",
+      "earnings_date": "2026-07-29",
+      "runup": 0.73,
+      "ret1": -1.18,
+      "ret3": 0.77,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "534598",
+      "company": "Sampann Utpadan India Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 2.12,
+      "ret1": -1.54,
+      "ret3": -2.97,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "532143",
+      "company": "SKM Egg Products Export (India) Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 0.7,
+      "ret1": -8.75,
+      "ret3": -11.44,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "540596",
+      "company": "Eris Lifesciences Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 2.57,
+      "ret1": -3.62,
+      "ret3": -3.09,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "511110",
+      "company": "V B Desai Financial Services Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 2.82,
+      "ret1": 0,
+      "ret3": 14.42,
+      "market_cap": 84037632,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "522034",
+      "company": "Shanthi Gears Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 0.26,
+      "ret1": -2.77,
+      "ret3": -1.71,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "532921",
+      "company": "Adani Ports and Special Economic Zone Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -3.19,
+      "ret1": -3.26,
+      "ret3": -1.36,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "523021",
+      "company": "Rishi Techtex Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": 5.13,
+      "ret1": -0.54,
+      "ret3": -6.44,
+      "market_cap": 479416000,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "533158",
+      "company": "Thangamayil Jewellery Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -10,
+      "ret1": -10,
+      "ret3": -23.05,
+      "market_cap": null,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "540703",
+      "company": "Pro Clb Global Ltd",
+      "earnings_date": "2026-07-29",
+      "runup": -4.11,
+      "ret1": 5,
+      "ret3": 11.72,
+      "market_cap": 50825880,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
       "ticker": "532983",
       "company": "RPG Life Sciences Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0.19,
-        "3": -2.89,
-        "7": -0.13
-      },
-      "post": {
-        "1": -1.28,
-        "3": -4.83,
-        "7": -7.14
-      },
+      "runup": -1.28,
+      "ret1": -1.19,
+      "ret3": -4.23,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -50,16 +1535,9 @@
       "ticker": "533344",
       "company": "PTC India Financial Services Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0.62,
-        "3": -0.47,
-        "7": -1.87
-      },
-      "post": {
-        "1": -2.01,
-        "3": -6.66,
-        "7": -1.9
-      },
+      "runup": -2.01,
+      "ret1": -3.61,
+      "ret3": -3.26,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -70,16 +1548,9 @@
       "ticker": "539450",
       "company": "S H Kelkar and Company Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 5.75,
-        "3": 6.66,
-        "7": 14.49
-      },
-      "post": {
-        "1": -2.87,
-        "3": 14.85,
-        "7": 12.59
-      },
+      "runup": -2.87,
+      "ret1": 14.28,
+      "ret3": 13.76,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -90,16 +1561,9 @@
       "ticker": "533121",
       "company": "Expleo Solutions Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0.21,
-        "3": -0.07,
-        "7": 0.61
-      },
-      "post": {
-        "1": 0.5,
-        "3": 12.94,
-        "7": 0.95
-      },
+      "runup": 0.5,
+      "ret1": 14.78,
+      "ret3": -0.76,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -110,16 +1574,9 @@
       "ticker": "500187",
       "company": "Agi Greenpac Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 5.13,
-        "3": 6.18,
-        "7": 1.06
-      },
-      "post": {
-        "1": -1.44,
-        "3": -0.43,
-        "7": 1.67
-      },
+      "runup": -1.44,
+      "ret1": 1.94,
+      "ret3": 1.38,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -130,16 +1587,9 @@
       "ticker": "539562",
       "company": "Aarnav Fashions Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 11.95,
-        "3": 9.45,
-        "7": 1.01
-      },
-      "post": {
-        "1": -0.16,
-        "3": -3.67,
-        "7": -5.12
-      },
+      "runup": -0.16,
+      "ret1": -7.14,
+      "ret3": -1.13,
       "market_cap": 2144031232,
       "currency": "INR",
       "surprise_pct": null,
@@ -150,16 +1600,9 @@
       "ticker": "503100",
       "company": "The Phoenix Mills Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 1.17,
-        "3": -0.96,
-        "7": -2.47
-      },
-      "post": {
-        "1": -0.68,
-        "3": -7.29,
-        "7": -5.42
-      },
+      "runup": -0.68,
+      "ret1": -5.53,
+      "ret3": -6.42,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -170,16 +1613,9 @@
       "ticker": "531400",
       "company": "Almondz Global Securities Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0.93,
-        "3": -0.08,
-        "7": -2.19
-      },
-      "post": {
-        "1": -1.47,
-        "3": 11.81,
-        "7": 12.19
-      },
+      "runup": -1.47,
+      "ret1": 19.97,
+      "ret3": 15.9,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -190,16 +1626,9 @@
       "ticker": "531540",
       "company": "Maruti Infrastructure Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0.47,
-        "3": -4.84,
-        "7": -8.53
-      },
-      "post": {
-        "1": 1.6,
-        "3": 2.35,
-        "7": -1.69
-      },
+      "runup": 1.6,
+      "ret1": -1.11,
+      "ret3": 0.09,
       "market_cap": 21309175808,
       "currency": "INR",
       "surprise_pct": null,
@@ -210,16 +1639,9 @@
       "ticker": "530139",
       "company": "Kreon Finnancial Services Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": -0.07,
-        "3": 2.69,
-        "7": 1.63
-      },
-      "post": {
-        "1": 2.76,
-        "3": 7.58,
-        "7": 10.18
-      },
+      "runup": 2.76,
+      "ret1": 4.55,
+      "ret3": 5.41,
       "market_cap": 803358464,
       "currency": "INR",
       "surprise_pct": null,
@@ -230,16 +1652,9 @@
       "ticker": "531582",
       "company": "Beryl Securities Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": -3.78,
-        "3": -4.56,
-        "7": 0.58
-      },
-      "post": {
-        "1": -4.35,
-        "3": 3.06,
-        "7": 2.63
-      },
+      "runup": -4.35,
+      "ret1": 4.79,
+      "ret3": 10.72,
       "market_cap": 147529760,
       "currency": "INR",
       "surprise_pct": null,
@@ -250,16 +1665,9 @@
       "ticker": "511672",
       "company": "Scan Steels Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": -1.38,
-        "3": 2.23,
-        "7": -1.02
-      },
-      "post": {
-        "1": 4.37,
-        "3": 24.52,
-        "7": 36.51
-      },
+      "runup": 4.37,
+      "ret1": 16.72,
+      "ret3": 23.65,
       "market_cap": 3627482368,
       "currency": "INR",
       "surprise_pct": null,
@@ -270,16 +1678,9 @@
       "ticker": "540310",
       "company": "Classic Filaments Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": -4.99,
-        "3": -4.99,
-        "7": -4.99
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": -4.88
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": 210910576,
       "currency": "INR",
       "surprise_pct": null,
@@ -290,16 +1691,9 @@
       "ticker": "526095",
       "company": "Ravileela Granites Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 4.41,
-        "3": 9.62,
-        "7": 8.3
-      },
-      "post": {
-        "1": 0.44,
-        "3": 1.28,
-        "7": 13.76
-      },
+      "runup": 0.44,
+      "ret1": 4.99,
+      "ret3": 5.88,
       "market_cap": 429073504,
       "currency": "INR",
       "surprise_pct": null,
@@ -310,16 +1704,9 @@
       "ticker": "519463",
       "company": "IB Infotech Enterprises Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": -4.99,
-        "3": -5.23,
-        "7": 9.06
-      },
-      "post": {
-        "1": -2.09,
-        "3": -11.62,
-        "7": -12.12
-      },
+      "runup": -2.09,
+      "ret1": -4.99,
+      "ret3": -14.24,
       "market_cap": 179300800,
       "currency": "INR",
       "surprise_pct": null,
@@ -330,16 +1717,9 @@
       "ticker": "511716",
       "company": "Invigorated Business Consulting Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": -0.83,
-        "3": -3.23,
-        "7": -11.37
-      },
-      "post": {
-        "1": 6.67,
-        "3": 7.5,
-        "7": 3.5
-      },
+      "runup": 6.67,
+      "ret1": 1.56,
+      "ret3": 4.37,
       "market_cap": 296622368,
       "currency": "INR",
       "surprise_pct": null,
@@ -350,16 +1730,9 @@
       "ticker": "542446",
       "company": "Jonjua Overseas Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0,
-        "3": 6.88,
-        "7": 8.57
-      },
-      "post": {
-        "1": 3.51,
-        "3": 11.4,
-        "7": 26.32
-      },
+      "runup": 3.51,
+      "ret1": 2.54,
+      "ret3": 5.93,
       "market_cap": 180697968,
       "currency": "INR",
       "surprise_pct": null,
@@ -370,16 +1743,9 @@
       "ticker": "532380",
       "company": "Baba Arts Ltd-$",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": -0.07,
-        "3": 1.51,
-        "7": -8.9
-      },
-      "post": {
-        "1": 1.63,
-        "3": -2.34,
-        "7": 5.03
-      },
+      "runup": 1.63,
+      "ret1": 0.14,
+      "ret3": -1.39,
       "market_cap": 674632960,
       "currency": "INR",
       "surprise_pct": null,
@@ -390,16 +1756,9 @@
       "ticker": "537254",
       "company": "JTL Defence Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": -5.77,
-        "3": -5.77,
-        "7": -2.37
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": -5
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": 94842224,
       "currency": "INR",
       "surprise_pct": null,
@@ -410,16 +1769,9 @@
       "ticker": "514418",
       "company": "Mangalam Organics Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0,
-        "3": -5.36,
-        "7": -8.23
-      },
-      "post": {
-        "1": 5,
-        "3": -5.23,
-        "7": -11.32
-      },
+      "runup": 5,
+      "ret1": -5,
+      "ret3": -10.15,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -430,16 +1782,9 @@
       "ticker": "531780",
       "company": "Kaiser Corporation Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 1.47,
-        "3": -2.21,
-        "7": 0.16
-      },
-      "post": {
-        "1": 1.61,
-        "3": 2.42,
-        "7": 0.81
-      },
+      "runup": 1.61,
+      "ret1": 1.11,
+      "ret3": 1.59,
       "market_cap": 506740224,
       "currency": "INR",
       "surprise_pct": null,
@@ -450,16 +1795,9 @@
       "ticker": "523367",
       "company": "DCM Shriram Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 2.65,
-        "3": 1.88,
-        "7": 1.42
-      },
-      "post": {
-        "1": 2.15,
-        "3": 2.17,
-        "7": -2.18
-      },
+      "runup": 2.15,
+      "ret1": -0.04,
+      "ret3": -2.3,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -470,16 +1808,9 @@
       "ticker": "539141",
       "company": "UFO Moviez India Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 1.63,
-        "3": 2.1,
-        "7": 0.51
-      },
-      "post": {
-        "1": 0.52,
-        "3": -4.47,
-        "7": 0.41
-      },
+      "runup": 0.52,
+      "ret1": -2.96,
+      "ret3": -5.76,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -490,16 +1821,9 @@
       "ticker": "532400",
       "company": "Birlasoft Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 3.91,
-        "3": 3.87,
-        "7": 1.36
-      },
-      "post": {
-        "1": 2.2,
-        "3": 4.38,
-        "7": 10.2
-      },
+      "runup": 2.2,
+      "ret1": 3.58,
+      "ret3": 0.8,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -510,16 +1834,9 @@
       "ticker": "511756",
       "company": "Abirami Financial Services India Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": -3.67
-      },
-      "post": {
-        "1": -4.51,
-        "3": -4.22,
-        "7": 1.59
-      },
+      "runup": -4.51,
+      "ret1": 3.39,
+      "ret3": 0.57,
       "market_cap": 310617536,
       "currency": "INR",
       "surprise_pct": null,
@@ -530,16 +1847,9 @@
       "ticker": "502281",
       "company": "Triveni Glass Ltd-$",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 19.82,
-        "3": 45.8,
-        "7": 59.43
-      },
-      "post": {
-        "1": 9.95,
-        "3": -3.46,
-        "7": -20.52
-      },
+      "runup": 9.95,
+      "ret1": -2.48,
+      "ret3": -15.81,
       "market_cap": 274215584,
       "currency": "INR",
       "surprise_pct": null,
@@ -550,16 +1860,9 @@
       "ticker": "514260",
       "company": "Surbhi Industries Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 5,
-        "3": 15.74,
-        "7": 40.64
-      },
-      "post": {
-        "1": 5,
-        "3": 15.74,
-        "7": 40.61
-      },
+      "runup": 5,
+      "ret1": 5,
+      "ret3": 15.74,
       "market_cap": 15193308,
       "currency": "INR",
       "surprise_pct": null,
@@ -570,16 +1873,9 @@
       "ticker": "544080",
       "company": "Sayaji Hotels (Indore) Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "post": {
-        "1": 0,
-        "3": -5.04,
-        "7": -6.28
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": -5.42,
       "market_cap": 3448751104,
       "currency": "INR",
       "surprise_pct": null,
@@ -590,16 +1886,9 @@
       "ticker": "514358",
       "company": "Everlon Financials Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 2.78,
-        "3": -4.28,
-        "7": -8.28
-      },
-      "post": {
-        "1": 1.02,
-        "3": -1.4,
-        "7": -1.63
-      },
+      "runup": 1.02,
+      "ret1": -2.4,
+      "ret3": -6.73,
       "market_cap": 892489984,
       "currency": "INR",
       "surprise_pct": null,
@@ -610,16 +1899,9 @@
       "ticker": "590025",
       "company": "Ginni Filaments Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 3.19,
-        "3": 0.64,
-        "7": -2.09
-      },
-      "post": {
-        "1": -4.94,
-        "3": -6.31,
-        "7": -6.17
-      },
+      "runup": -4.94,
+      "ret1": -1.36,
+      "ret3": -1.4,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -630,16 +1912,9 @@
       "ticker": "532039",
       "company": "Zenotech Laboratories Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 1.83,
-        "3": -0.38,
-        "7": -5.19
-      },
-      "post": {
-        "1": -2.06,
-        "3": -1.44,
-        "7": -1.18
-      },
+      "runup": -2.06,
+      "ret1": 0.5,
+      "ret3": 1.88,
       "market_cap": 4016823296,
       "currency": "INR",
       "surprise_pct": null,
@@ -650,16 +1925,9 @@
       "ticker": "511243",
       "company": "Cholamandalam Investment and Finance Company Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 3.42,
-        "3": 3.25,
-        "7": -0.22
-      },
-      "post": {
-        "1": -1.81,
-        "3": -0.64,
-        "7": 5.67
-      },
+      "runup": -1.81,
+      "ret1": 2.95,
+      "ret3": 5.55,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -670,16 +1938,9 @@
       "ticker": "514460",
       "company": "Oswal Yarns Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": 74407280,
       "currency": "INR",
       "surprise_pct": null,
@@ -690,16 +1951,9 @@
       "ticker": "532210",
       "company": "City Union Bank Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0.82,
-        "3": -0.87,
-        "7": 0.41
-      },
-      "post": {
-        "1": 7.56,
-        "3": -2.6,
-        "7": -7.79
-      },
+      "runup": 7.56,
+      "ret1": -4.03,
+      "ret3": -13.37,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -710,16 +1964,9 @@
       "ticker": "508989",
       "company": "Navneet Education Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0.38,
-        "3": 0.49,
-        "7": -3.47
-      },
-      "post": {
-        "1": -1.14,
-        "3": -5.12,
-        "7": -11.76
-      },
+      "runup": -1.14,
+      "ret1": -2.17,
+      "ret3": -6.02,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -730,16 +1977,9 @@
       "ticker": "535204",
       "company": "Mukta Agriculture Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 2.54,
-        "3": 1.07,
-        "7": -8.41
-      },
-      "post": {
-        "1": 2.47,
-        "3": 5.65,
-        "7": 2.47
-      },
+      "runup": 2.47,
+      "ret1": -1.72,
+      "ret3": 2.41,
       "market_cap": 81306752,
       "currency": "INR",
       "surprise_pct": null,
@@ -750,16 +1990,9 @@
       "ticker": "523566",
       "company": "Martin Burn Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": -2.15,
-        "3": 3.45,
-        "7": 0
-      },
-      "post": {
-        "1": -2.71,
-        "3": -3.11,
-        "7": -4.44
-      },
+      "runup": -2.71,
+      "ret1": 0.43,
+      "ret3": -1.78,
       "market_cap": 270629184,
       "currency": "INR",
       "surprise_pct": null,
@@ -770,16 +2003,9 @@
       "ticker": "517372",
       "company": "Gujarat Intrux Ltd-$",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": -0.78,
-        "3": 0.61,
-        "7": -1.3
-      },
-      "post": {
-        "1": 0.39,
-        "3": -1.25,
-        "7": -0.97
-      },
+      "runup": 0.39,
+      "ret1": -1.6,
+      "ret3": -2.17,
       "market_cap": 1391966848,
       "currency": "INR",
       "surprise_pct": null,
@@ -790,16 +2016,9 @@
       "ticker": "517506",
       "company": "TTK Prestige Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 2.23,
-        "3": 0.05,
-        "7": -2.91
-      },
-      "post": {
-        "1": 7.44,
-        "3": 0.11,
-        "7": -4.55
-      },
+      "runup": 7.44,
+      "ret1": -4.08,
+      "ret3": -9.12,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -810,16 +2029,9 @@
       "ticker": "513507",
       "company": "Gujarat Containers Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 0,
-        "3": -3.45,
-        "7": -5.43
-      },
-      "post": {
-        "1": 4.98,
-        "3": 9.59,
-        "7": 6.82
-      },
+      "runup": 4.98,
+      "ret1": 5,
+      "ret3": 9.48,
       "market_cap": 1020610496,
       "currency": "INR",
       "surprise_pct": null,
@@ -830,16 +2042,9 @@
       "ticker": "539216",
       "company": "Garment Mantra Lifestyle Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 3.57,
-        "3": 3.57,
-        "7": 3.57
-      },
-      "post": {
-        "1": 1.72,
-        "3": -0.86,
-        "7": -0.86
-      },
+      "runup": 1.72,
+      "ret1": -1.69,
+      "ret3": -1.69,
       "market_cap": 1300976640,
       "currency": "INR",
       "surprise_pct": null,
@@ -850,16 +2055,9 @@
       "ticker": "540180",
       "company": "Varun Beverages Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": 1.56,
-        "3": 1.33,
-        "7": -0.42
-      },
-      "post": {
-        "1": -7.35,
-        "3": -2.83,
-        "7": -5.6
-      },
+      "runup": -7.35,
+      "ret1": 3.96,
+      "ret3": 2.82,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -870,16 +2068,9 @@
       "ticker": "542012",
       "company": "A-1 Ltd",
       "earnings_date": "2026-07-28",
-      "pre": {
-        "1": -4.9,
-        "3": 3.82,
-        "7": -8.72
-      },
-      "post": {
-        "1": 4.96,
-        "3": 4.78,
-        "7": -13.05
-      },
+      "runup": 4.96,
+      "ret1": 4.9,
+      "ret3": -3.68,
       "market_cap": 3980774144,
       "currency": "INR",
       "surprise_pct": null,
@@ -890,16 +2081,9 @@
       "ticker": "508906",
       "company": "Everest Industries Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 4.43,
-        "3": 4.99,
-        "7": 0.91
-      },
-      "post": {
-        "1": 2.5,
-        "3": -5.05,
-        "7": -10.09
-      },
+      "runup": 2.5,
+      "ret1": -2.5,
+      "ret3": -11.99,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -910,16 +2094,9 @@
       "ticker": "532323",
       "company": "Shiva Cement Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -1.11,
-        "3": -2.07,
-        "7": -0.35
-      },
-      "post": {
-        "1": 1.41,
-        "3": 1.47,
-        "7": -0.77
-      },
+      "runup": 1.41,
+      "ret1": 2.84,
+      "ret3": -1.57,
       "market_cap": 14004526080,
       "currency": "INR",
       "surprise_pct": null,
@@ -930,16 +2107,9 @@
       "ticker": "526544",
       "company": "SGL Resources Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 1.92,
-        "3": -1.85,
-        "7": 1.92
-      },
-      "post": {
-        "1": -1.89,
-        "3": -1.89,
-        "7": 3.77
-      },
+      "runup": -1.89,
+      "ret1": -1.92,
+      "ret3": 1.92,
       "market_cap": 2163279872,
       "currency": "INR",
       "surprise_pct": null,
@@ -950,16 +2120,9 @@
       "ticker": "531595",
       "company": "Capri Global Capital Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -2.24,
-        "3": -4.42,
-        "7": -7.68
-      },
-      "post": {
-        "1": 2.81,
-        "3": -4.87,
-        "7": -3.95
-      },
+      "runup": 2.81,
+      "ret1": -6.58,
+      "ret3": -9.72,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -970,16 +2133,9 @@
       "ticker": "534816",
       "company": "Indus Towers Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 1.09,
-        "3": -2.41,
-        "7": -3.37
-      },
-      "post": {
-        "1": -1.95,
-        "3": -2.05,
-        "7": -1.24
-      },
+      "runup": -1.95,
+      "ret1": -1.29,
+      "ret3": 1.58,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -990,16 +2146,9 @@
       "ticker": "540134",
       "company": "Ishaan Infrastructures and Shelters Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -1.99,
-        "3": -1.53,
-        "7": 0.47
-      },
-      "post": {
-        "1": 4.66,
-        "3": -0.54,
-        "7": -18.84
-      },
+      "runup": 4.66,
+      "ret1": 0,
+      "ret3": -9.68,
       "market_cap": 50760864,
       "currency": "INR",
       "surprise_pct": null,
@@ -1010,16 +2159,9 @@
       "ticker": "500405",
       "company": "Supreme Petrochem Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 0.77,
-        "3": 1.99,
-        "7": 3.29
-      },
-      "post": {
-        "1": 2.67,
-        "3": -1.03,
-        "7": -3.12
-      },
+      "runup": 2.67,
+      "ret1": -2.52,
+      "ret3": -7.24,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1030,16 +2172,9 @@
       "ticker": "530999",
       "company": "Balaji Amines Ltd-$",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -7,
-        "3": -7.85,
-        "7": -5.86
-      },
-      "post": {
-        "1": 4.63,
-        "3": 4.07,
-        "7": -8.56
-      },
+      "runup": 4.63,
+      "ret1": -1.73,
+      "ret3": -1.6,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1050,16 +2185,9 @@
       "ticker": "507205",
       "company": "Tilaknagar Industries Ltd-$",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 0.87,
-        "3": -0.37,
-        "7": 0.07
-      },
-      "post": {
-        "1": 1.07,
-        "3": 5.31,
-        "7": 10.36
-      },
+      "runup": 1.07,
+      "ret1": -0.57,
+      "ret3": 4.51,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1070,16 +2198,9 @@
       "ticker": "530075",
       "company": "Antelopus Selan Energy Ltd-$",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -0.15,
-        "3": 3.17,
-        "7": 8.47
-      },
-      "post": {
-        "1": -2.45,
-        "3": -11.85,
-        "7": -4.66
-      },
+      "runup": -2.45,
+      "ret1": -5,
+      "ret3": -8.88,
       "market_cap": 0,
       "currency": "INR",
       "surprise_pct": null,
@@ -1090,16 +2211,9 @@
       "ticker": "524636",
       "company": "Oxygenta Pharmaceutical Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 5.51,
-        "3": 4.11,
-        "7": 3.52
-      },
-      "post": {
-        "1": 2.36,
-        "3": -3.75,
-        "7": -3.67
-      },
+      "runup": 2.36,
+      "ret1": -2.15,
+      "ret3": -7.33,
       "market_cap": 1216989184,
       "currency": "INR",
       "surprise_pct": null,
@@ -1110,16 +2224,9 @@
       "ticker": "532162",
       "company": "JK Paper Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 2.46,
-        "3": 6.7,
-        "7": 7.08
-      },
-      "post": {
-        "1": 3.08,
-        "3": -3.16,
-        "7": -4.67
-      },
+      "runup": 3.08,
+      "ret1": -4.32,
+      "ret3": -8.5,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1130,16 +2237,9 @@
       "ticker": "532845",
       "company": "TGB Banquets and Hotels Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -3.59,
-        "3": -3.91,
-        "7": -3.81
-      },
-      "post": {
-        "1": 6.75,
-        "3": 13.04,
-        "7": 6.64
-      },
+      "runup": 6.75,
+      "ret1": 5.89,
+      "ret3": 5.78,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1150,16 +2250,9 @@
       "ticker": "517146",
       "company": "Usha Martin Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -0.2,
-        "3": -0.97,
-        "7": -0.3
-      },
-      "post": {
-        "1": 1.34,
-        "3": 3.27,
-        "7": 1.68
-      },
+      "runup": 1.34,
+      "ret1": 1.99,
+      "ret3": 0.15,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1170,16 +2263,9 @@
       "ticker": "533278",
       "company": "Coal India Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 0.05,
-        "3": -0.9,
-        "7": -0.06
-      },
-      "post": {
-        "1": 0.06,
-        "3": -4.04,
-        "7": -3.02
-      },
+      "runup": 0.06,
+      "ret1": -4.07,
+      "ret3": -2.39,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1190,16 +2276,9 @@
       "ticker": "535910",
       "company": "Money Masters Leasing & Finance Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 4.62,
-        "3": -2.86,
-        "7": -1.45
-      },
-      "post": {
-        "1": -1.47,
-        "3": -1.47,
-        "7": -4.41
-      },
+      "runup": -1.47,
+      "ret1": 1.49,
+      "ret3": 4.48,
       "market_cap": 18992273408,
       "currency": "INR",
       "surprise_pct": null,
@@ -1210,16 +2289,9 @@
       "ticker": "530093",
       "company": "ACE Edutrend Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 4.52,
-        "3": 9.75,
-        "7": 7.86
-      },
-      "post": {
-        "1": 4.33,
-        "3": 3.64,
-        "7": 7.06
-      },
+      "runup": 4.33,
+      "ret1": -4.8,
+      "ret3": 2.62,
       "market_cap": 30213196,
       "currency": "INR",
       "surprise_pct": null,
@@ -1230,16 +2302,9 @@
       "ticker": "539314",
       "company": "Universal Autofoundry Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 3.37,
-        "3": 0.91,
-        "7": 1.9
-      },
-      "post": {
-        "1": 5.43,
-        "3": 3.32,
-        "7": -3.32
-      },
+      "runup": 5.43,
+      "ret1": 6.07,
+      "ret3": -4.89,
       "market_cap": 2253792768,
       "currency": "INR",
       "surprise_pct": null,
@@ -1250,16 +2315,9 @@
       "ticker": "506979",
       "company": "Apt Packaging Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -4.09,
-        "3": 0.58,
-        "7": 4.48
-      },
-      "post": {
-        "1": 1.4,
-        "3": -8.48,
-        "7": -25.42
-      },
+      "runup": 1.4,
+      "ret1": -4.99,
+      "ret3": -14.25,
       "market_cap": 193396864,
       "currency": "INR",
       "surprise_pct": null,
@@ -1270,16 +2328,9 @@
       "ticker": "530145",
       "company": "Kisan Mouldings Ltd-$",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 2.22,
-        "3": 3.72,
-        "7": 4.35
-      },
-      "post": {
-        "1": -3.33,
-        "3": -5.96,
-        "7": -6.54
-      },
+      "runup": -3.33,
+      "ret1": -1.21,
+      "ret3": -5.86,
       "market_cap": 8436829184,
       "currency": "INR",
       "surprise_pct": null,
@@ -1290,16 +2341,9 @@
       "ticker": "519097",
       "company": "Ritesh International Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -0.16,
-        "3": 3.49,
-        "7": 30.08
-      },
-      "post": {
-        "1": 0.97,
-        "3": 0.74,
-        "7": 3.42
-      },
+      "runup": 0.97,
+      "ret1": 2.83,
+      "ret3": -2.41,
       "market_cap": 235438080,
       "currency": "INR",
       "surprise_pct": null,
@@ -1310,16 +2354,9 @@
       "ticker": "539043",
       "company": "BKM Industries Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1330,16 +2367,9 @@
       "ticker": "539220",
       "company": "Mishka Exim Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 5.1,
-        "3": 5.07,
-        "7": 5.1
-      },
-      "post": {
-        "1": 2.24,
-        "3": -4.85,
-        "7": 7.04
-      },
+      "runup": 2.24,
+      "ret1": -6.79,
+      "ret3": -6.93,
       "market_cap": 527424992,
       "currency": "INR",
       "surprise_pct": null,
@@ -1350,16 +2380,9 @@
       "ticker": "538935",
       "company": "Abhishek Finlease Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -5,
-        "3": 4.71,
-        "7": 4.07
-      },
-      "post": {
-        "1": -4.99,
-        "3": -5.24,
-        "7": -5.7
-      },
+      "runup": -4.99,
+      "ret1": -5,
+      "ret3": 4.72,
       "market_cap": 141393200,
       "currency": "INR",
       "surprise_pct": null,
@@ -1370,16 +2393,9 @@
       "ticker": "533282",
       "company": "Gravita India Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 1.16,
-        "3": -1.62,
-        "7": -3.52
-      },
-      "post": {
-        "1": 0.8,
-        "3": -9.07,
-        "7": -6.6
-      },
+      "runup": 0.8,
+      "ret1": -8.46,
+      "ret3": -11.78,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1390,16 +2406,9 @@
       "ticker": "500322",
       "company": "Panyam Cements & Mineral Industries Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 4.53,
-        "3": 3.5,
-        "7": 16.1
-      },
-      "post": {
-        "1": 3.34,
-        "3": 3.08,
-        "7": 3.02
-      },
+      "runup": 3.34,
+      "ret1": -4.99,
+      "ret3": -0.25,
       "market_cap": 1795189376,
       "currency": "INR",
       "surprise_pct": null,
@@ -1410,16 +2419,9 @@
       "ticker": "540530",
       "company": "Housing & Urban Development Corporation Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -0.43,
-        "3": -1.95,
-        "7": -4.51
-      },
-      "post": {
-        "1": 3.27,
-        "3": -0.31,
-        "7": 3.65
-      },
+      "runup": 3.27,
+      "ret1": -3.78,
+      "ret3": -2.37,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1430,16 +2432,9 @@
       "ticker": "521097",
       "company": "Amarjothi Spinning Mills Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 0.39,
-        "3": -0.6,
-        "7": -0.14
-      },
-      "post": {
-        "1": -3.24,
-        "3": -5.97,
-        "7": -6.28
-      },
+      "runup": -3.24,
+      "ret1": -3.52,
+      "ret3": -3.34,
       "market_cap": 1403371008,
       "currency": "INR",
       "surprise_pct": null,
@@ -1450,16 +2445,9 @@
       "ticker": "533080",
       "company": "Mold-Tek Packaging Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 1.73,
-        "3": 3.49,
-        "7": 5.8
-      },
-      "post": {
-        "1": -4.58,
-        "3": -9.39,
-        "7": -5.79
-      },
+      "runup": -4.58,
+      "ret1": -4.84,
+      "ret3": -2.27,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1470,16 +2458,9 @@
       "ticker": "532141",
       "company": "Andhra Cements Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -2.64,
-        "3": -4.81,
-        "7": -5.27
-      },
-      "post": {
-        "1": 4.99,
-        "3": 2.62,
-        "7": 2.77
-      },
+      "runup": 4.99,
+      "ret1": -0.9,
+      "ret3": -2.52,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1490,16 +2471,9 @@
       "ticker": "532807",
       "company": "Cineline India Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 8.87,
-        "3": 12.1,
-        "7": 13.71
-      },
-      "post": {
-        "1": -5.42,
-        "3": -7.86,
-        "7": 3.33
-      },
+      "runup": -5.42,
+      "ret1": -1.68,
+      "ret3": -1.68,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1510,16 +2484,9 @@
       "ticker": "502015",
       "company": "ASI Industries Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -0.26,
-        "3": -0.68,
-        "7": -0.93
-      },
-      "post": {
-        "1": 17.93,
-        "3": 29.04,
-        "7": 15.66
-      },
+      "runup": 17.93,
+      "ret1": 3.78,
+      "ret3": 5.57,
       "market_cap": 2561730048,
       "currency": "INR",
       "surprise_pct": null,
@@ -1530,16 +2497,9 @@
       "ticker": "505355",
       "company": "NESCO Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 0.61,
-        "3": -2.23,
-        "7": -3.21
-      },
-      "post": {
-        "1": -4.45,
-        "3": 3.29,
-        "7": -0.54
-      },
+      "runup": -4.45,
+      "ret1": 3.91,
+      "ret3": 7.23,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1550,16 +2510,9 @@
       "ticker": "512296",
       "company": "Bhagyanagar India Ltd",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": -2.07,
-        "3": 6.71,
-        "7": 7.14
-      },
-      "post": {
-        "1": 5,
-        "3": -3.84,
-        "7": -3.23
-      },
+      "runup": 5,
+      "ret1": -3.6,
+      "ret3": -11.49,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1570,357 +2523,10 @@
       "ticker": "532483",
       "company": "Canara Bank",
       "earnings_date": "2026-07-27",
-      "pre": {
-        "1": 0.36,
-        "3": -1.45,
-        "7": -0.59
-      },
-      "post": {
-        "1": 1.27,
-        "3": -0.76,
-        "7": 1.63
-      },
+      "runup": 1.27,
+      "ret1": -2.36,
+      "ret3": -2.36,
       "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "533339",
-      "company": "ZEN Technologies Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": -1.77,
-        "3": -2.76,
-        "7": -2.91
-      },
-      "post": {
-        "1": -4.52,
-        "3": -6.99,
-        "7": -4.81
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531553",
-      "company": "Disha Resources Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": -2.22,
-        "3": -2.12,
-        "7": -4.77
-      },
-      "post": {
-        "1": 1.97,
-        "3": 3.98,
-        "7": 3.6
-      },
-      "market_cap": 131782776,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531126",
-      "company": "Kati Patang Lifestyle Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": -0.97,
-        "3": 2.67,
-        "7": 1.5
-      },
-      "post": {
-        "1": -3.31,
-        "3": -5.2,
-        "7": 19.34
-      },
-      "market_cap": 210326368,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "504176",
-      "company": "High Energy Batteries India Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": 1.58,
-        "3": -1.73,
-        "7": -2.87
-      },
-      "post": {
-        "1": -5.82,
-        "3": -7.85,
-        "7": -4.83
-      },
-      "market_cap": 6546410496,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "533268",
-      "company": "Sea TV Network Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": -3.51,
-        "3": -1.79,
-        "7": -5.17
-      },
-      "post": {
-        "1": -4.36,
-        "3": -1.82,
-        "7": 2.91
-      },
-      "market_cap": 109982992,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "514138",
-      "company": "Suryalata Spinning Mills Ltd-$",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": 0,
-        "3": 6.81,
-        "7": 4.98
-      },
-      "post": {
-        "1": -6.43,
-        "3": -1.55,
-        "7": -9.28
-      },
-      "market_cap": 1821410176,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531944",
-      "company": "Lexoraa Industries Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": -4.86,
-        "3": -7.4,
-        "7": -8.16
-      },
-      "post": {
-        "1": -0.3,
-        "3": 7.21,
-        "7": 7.45
-      },
-      "market_cap": 76615504,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "539437",
-      "company": "IDFC First Bank Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": 1.21,
-        "3": -1,
-        "7": 1.74
-      },
-      "post": {
-        "1": 5,
-        "3": 5.15,
-        "7": 5.79
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531869",
-      "company": "Sacheta Metals Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": 0,
-        "3": 0.79,
-        "7": 0
-      },
-      "post": {
-        "1": -0.26,
-        "3": 0,
-        "7": 0.26
-      },
-      "market_cap": 2511249920,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540081",
-      "company": "SAB Events & Governance Now Media Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": -4.92,
-        "3": -2.96,
-        "7": -13.55
-      },
-      "post": {
-        "1": -4.91,
-        "3": -14.08,
-        "7": -7.84
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "530281",
-      "company": "Quantum Digital Vision India Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": 0.85,
-        "3": 0.85,
-        "7": 20.59
-      },
-      "post": {
-        "1": 4.97,
-        "3": 14.69,
-        "7": 10.92
-      },
-      "market_cap": 50895484,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "523315",
-      "company": "Purity Flexpack Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540611",
-      "company": "AU Small Finance Bank Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": 2.66,
-        "3": -0.12,
-        "7": -3.69
-      },
-      "post": {
-        "1": 5.05,
-        "3": 3.91,
-        "7": 4.37
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "516092",
-      "company": "3P Land Holdings Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": -1.08,
-        "3": 1.59,
-        "7": 3.13
-      },
-      "post": {
-        "1": 0.09,
-        "3": 3.16,
-        "7": -1.84
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531169",
-      "company": "SKP Securities Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": 0.17,
-        "3": -5.02,
-        "7": -1.97
-      },
-      "post": {
-        "1": -15.28,
-        "3": -14.98,
-        "7": -5.5
-      },
-      "market_cap": 942869248,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "538964",
-      "company": "Mercury Laboratories Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": 3.37,
-        "3": -2.72,
-        "7": 4.91
-      },
-      "post": {
-        "1": -3.99,
-        "3": -5.83,
-        "7": -2.69
-      },
-      "market_cap": 1278679936,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540168",
-      "company": "Supra Pacific Financial Services Ltd",
-      "earnings_date": "2026-07-25",
-      "pre": {
-        "1": -0.53,
-        "3": 5.25,
-        "7": -0.97
-      },
-      "post": {
-        "1": -1.28,
-        "3": 0.53,
-        "7": 0.3
-      },
-      "market_cap": 974598784,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
@@ -1930,16 +2536,9 @@
       "ticker": "530253",
       "company": "Rajasthan Tube Manufacturing Company Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 1.32,
-        "3": 1.05,
-        "7": -3.67
-      },
-      "post": {
-        "1": -4.42,
-        "3": 0.09,
-        "7": -0.78
-      },
+      "runup": -4.42,
+      "ret1": 4.89,
+      "ret3": 6.88,
       "market_cap": 135955120,
       "currency": "INR",
       "surprise_pct": null,
@@ -1950,16 +2549,9 @@
       "ticker": "532407",
       "company": "Moschip Technologies Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -4.09,
-        "3": -0.17,
-        "7": -3.01
-      },
-      "post": {
-        "1": -0.66,
-        "3": -13.25,
-        "7": -9.96
-      },
+      "runup": -0.66,
+      "ret1": -10.15,
+      "ret3": -9.03,
       "market_cap": 54651691008,
       "currency": "INR",
       "surprise_pct": null,
@@ -1970,16 +2562,9 @@
       "ticker": "540725",
       "company": "Share India Securities Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 1.52,
-        "3": 6.81,
-        "7": 8.98
-      },
-      "post": {
-        "1": -1.19,
-        "3": -7.26,
-        "7": -6.71
-      },
+      "runup": -1.19,
+      "ret1": -1.05,
+      "ret3": -8.63,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -1990,16 +2575,9 @@
       "ticker": "506854",
       "company": "TANFAC Industries Ltd-$",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -0.4,
-        "3": -0.96,
-        "7": 9.66
-      },
-      "post": {
-        "1": 0.51,
-        "3": 6.45,
-        "7": 18.35
-      },
+      "runup": 0.51,
+      "ret1": -3.55,
+      "ret3": 3.27,
       "market_cap": 21212454912,
       "currency": "INR",
       "surprise_pct": null,
@@ -2010,16 +2588,9 @@
       "ticker": "540769",
       "company": "The New India Assurance Company Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -0.97,
-        "3": -1.9,
-        "7": -2.37
-      },
-      "post": {
-        "1": -0.06,
-        "3": -6.15,
-        "7": 1.18
-      },
+      "runup": -0.06,
+      "ret1": -4.36,
+      "ret3": -5.14,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2030,16 +2601,9 @@
       "ticker": "540515",
       "company": "Kanungo Financiers Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -4.95,
-        "3": 0.67,
-        "7": 7.37
-      },
-      "post": {
-        "1": 4.1,
-        "3": 14.73,
-        "7": 32.67
-      },
+      "runup": 4.1,
+      "ret1": 5,
+      "ret3": 15.64,
       "market_cap": 33632732,
       "currency": "INR",
       "surprise_pct": null,
@@ -2050,16 +2614,9 @@
       "ticker": "515085",
       "company": "Restile Ceramics Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -3.86,
-        "3": -3.58,
-        "7": -3.03
-      },
-      "post": {
-        "1": 2.38,
-        "3": -3.12,
-        "7": -1.63
-      },
+      "runup": 2.38,
+      "ret1": -3.05,
+      "ret3": -5.37,
       "market_cap": 484516448,
       "currency": "INR",
       "surprise_pct": null,
@@ -2070,16 +2627,9 @@
       "ticker": "526071",
       "company": "Stellant Securities (India) Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -3.12,
-        "3": -0.39,
-        "7": 1.46
-      },
-      "post": {
-        "1": 4.98,
-        "3": 15.73,
-        "7": 40.66
-      },
+      "runup": 4.98,
+      "ret1": 4.99,
+      "ret3": 15.75,
       "market_cap": 20059604,
       "currency": "INR",
       "surprise_pct": null,
@@ -2090,16 +2640,9 @@
       "ticker": "543931",
       "company": "Veefin Solutions Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -0.74,
-        "3": -8.36,
-        "7": -4.72
-      },
-      "post": {
-        "1": 0.78,
-        "3": 0.41,
-        "7": -0.73
-      },
+      "runup": 0.78,
+      "ret1": -0.9,
+      "ret3": -0.16,
       "market_cap": 10255299584,
       "currency": "INR",
       "surprise_pct": null,
@@ -2110,16 +2653,9 @@
       "ticker": "531412",
       "company": "Radix Industries (India) Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -8.84,
-        "3": -11.76,
-        "7": -12.32
-      },
-      "post": {
-        "1": 4.51,
-        "3": 8.29,
-        "7": 17.38
-      },
+      "runup": 4.51,
+      "ret1": -1.12,
+      "ret3": 7.57,
       "market_cap": 2462691584,
       "currency": "INR",
       "surprise_pct": null,
@@ -2130,16 +2666,9 @@
       "ticker": "511359",
       "company": "Ad-Manum Finance Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -6.49,
-        "3": -6.64,
-        "7": -10.41
-      },
-      "post": {
-        "1": 2.23,
-        "3": 5.92,
-        "7": 3.55
-      },
+      "runup": 2.23,
+      "ret1": 7.03,
+      "ret3": -0.62,
       "market_cap": 522796352,
       "currency": "INR",
       "surprise_pct": null,
@@ -2150,16 +2679,9 @@
       "ticker": "522245",
       "company": "Iykot Hitech Toolroom Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": 228448496,
       "currency": "INR",
       "surprise_pct": null,
@@ -2170,16 +2692,9 @@
       "ticker": "533202",
       "company": "Satchmo Holdings Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -0.17,
-        "3": 9.81,
-        "7": 16.63
-      },
-      "post": {
-        "1": -0.17,
-        "3": -9.79,
-        "7": -26.12
-      },
+      "runup": -0.17,
+      "ret1": -4.99,
+      "ret3": -14.11,
       "market_cap": 581503488,
       "currency": "INR",
       "surprise_pct": null,
@@ -2190,16 +2705,9 @@
       "ticker": "532286",
       "company": "Jindal Steel Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -0.45,
-        "3": 0.65,
-        "7": -0.03
-      },
-      "post": {
-        "1": -0.4,
-        "3": 1.36,
-        "7": 7.01
-      },
+      "runup": -0.4,
+      "ret1": 2.86,
+      "ret3": 5.12,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2210,16 +2718,9 @@
       "ticker": "531280",
       "company": "Pankaj Polymers Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 4.99,
-        "3": 6,
-        "7": 9.26
-      },
-      "post": {
-        "1": 5,
-        "3": 8.04,
-        "7": -2.72
-      },
+      "runup": 5,
+      "ret1": 4.99,
+      "ret3": -2.24,
       "market_cap": 61149872,
       "currency": "INR",
       "surprise_pct": null,
@@ -2230,16 +2731,9 @@
       "ticker": "502180",
       "company": "Shree Digvijay Cement Company Ltd-$",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 0.52,
-        "3": 1.2,
-        "7": 3.21
-      },
-      "post": {
-        "1": 1.88,
-        "3": -2.48,
-        "7": -1.18
-      },
+      "runup": 1.88,
+      "ret1": -4.12,
+      "ret3": -5.45,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2250,16 +2744,9 @@
       "ticker": "531431",
       "company": "Shakti Pumps India Ltd-$",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 1.05,
-        "3": -0.28,
-        "7": -2.37
-      },
-      "post": {
-        "1": 1.91,
-        "3": -4.39,
-        "7": -4.46
-      },
+      "runup": 1.91,
+      "ret1": -4.31,
+      "ret3": -5.65,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2270,16 +2757,9 @@
       "ticker": "532149",
       "company": "Bank of India",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -1.22,
-        "3": -3.23,
-        "7": 0.25
-      },
-      "post": {
-        "1": 0.32,
-        "3": -4.11,
-        "7": -2.11
-      },
+      "runup": 0.32,
+      "ret1": -3.4,
+      "ret3": -3.43,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2290,16 +2770,9 @@
       "ticker": "505807",
       "company": "Rolcon Engineering Company Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -5,
-        "3": -0.92,
-        "7": 4.04
-      },
-      "post": {
-        "1": 0,
-        "3": 3.4,
-        "7": 0.98
-      },
+      "runup": 0,
+      "ret1": 3.4,
+      "ret3": 0.98,
       "market_cap": 466320640,
       "currency": "INR",
       "surprise_pct": null,
@@ -2310,16 +2783,9 @@
       "ticker": "539091",
       "company": "Consecutive Commodities Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 0.88,
-        "3": 3.6,
-        "7": 12.75
-      },
-      "post": {
-        "1": 0.87,
-        "3": 2.61,
-        "7": 1.74
-      },
+      "runup": 0.87,
+      "ret1": 0.86,
+      "ret3": 2.59,
       "market_cap": 6993125888,
       "currency": "INR",
       "surprise_pct": null,
@@ -2330,16 +2796,9 @@
       "ticker": "539486",
       "company": "Geetanjali Credit and Capital Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": 18607160,
       "currency": "INR",
       "surprise_pct": null,
@@ -2350,16 +2809,9 @@
       "ticker": "504648",
       "company": "Bombay Wire Ropes Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 1.06,
-        "3": -0.63,
-        "7": -0.96
-      },
-      "post": {
-        "1": 0,
-        "3": 3.16,
-        "7": -6.59
-      },
+      "runup": 0,
+      "ret1": 4.15,
+      "ret3": -1.05,
       "market_cap": 406371392,
       "currency": "INR",
       "surprise_pct": null,
@@ -2370,16 +2822,9 @@
       "ticker": "542850",
       "company": "Goblin India Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 0,
-        "3": -4.64,
-        "7": 0.13
-      },
-      "post": {
-        "1": 0,
-        "3": -4.37,
-        "7": 1.75
-      },
+      "runup": 0,
+      "ret1": -4.37,
+      "ret3": -7.62,
       "market_cap": 613108224,
       "currency": "INR",
       "surprise_pct": null,
@@ -2390,16 +2835,9 @@
       "ticker": "520021",
       "company": "Omax Autos Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -0.95,
-        "3": -4.86,
-        "7": -11.02
-      },
-      "post": {
-        "1": 2.42,
-        "3": -7.55,
-        "7": -13.17
-      },
+      "runup": 2.42,
+      "ret1": -4.99,
+      "ret3": -14.24,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2410,16 +2848,9 @@
       "ticker": "526709",
       "company": "Bits Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 0.93,
-        "3": 1.34,
-        "7": -3.07
-      },
-      "post": {
-        "1": -1.06,
-        "3": -4.36,
-        "7": -1.59
-      },
+      "runup": -1.06,
+      "ret1": -1.07,
+      "ret3": -0.93,
       "market_cap": 652829312,
       "currency": "INR",
       "surprise_pct": null,
@@ -2430,16 +2861,9 @@
       "ticker": "514272",
       "company": "Bhilwara Spinners Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -3.85,
-        "3": -2.06,
-        "7": -0.55
-      },
-      "post": {
-        "1": 1.9,
-        "3": 5.03,
-        "7": 0.79
-      },
+      "runup": 1.9,
+      "ret1": 1.83,
+      "ret3": -1.36,
       "market_cap": 1104542848,
       "currency": "INR",
       "surprise_pct": null,
@@ -2450,16 +2874,9 @@
       "ticker": "509845",
       "company": "RJ Shah & Company Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 0,
-        "3": 0.33,
-        "7": 5.35
-      },
-      "post": {
-        "1": -4.98,
-        "3": -4.98,
-        "7": -4.98
-      },
+      "runup": -4.98,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": 162472688,
       "currency": "INR",
       "surprise_pct": null,
@@ -2470,16 +2887,9 @@
       "ticker": "507981",
       "company": "Jindal Hotels Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 2.03,
-        "3": 0.41,
-        "7": 1.07
-      },
-      "post": {
-        "1": 0.78,
-        "3": 0.73,
-        "7": 0.19
-      },
+      "runup": 0.78,
+      "ret1": -2.13,
+      "ret3": -0.6,
       "market_cap": 812861696,
       "currency": "INR",
       "surprise_pct": null,
@@ -2490,16 +2900,9 @@
       "ticker": "500800",
       "company": "Tata Consumer Products Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 1.1,
-        "3": 1.39,
-        "7": 0.89
-      },
-      "post": {
-        "1": -1.66,
-        "3": -2.24,
-        "7": -0.7
-      },
+      "runup": -1.66,
+      "ret1": 1.73,
+      "ret3": 0.76,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2510,16 +2913,9 @@
       "ticker": "532772",
       "company": "DCB Bank Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 0.56,
-        "3": 0.03,
-        "7": 1.31
-      },
-      "post": {
-        "1": -1.92,
-        "3": 2.9,
-        "7": 0.74
-      },
+      "runup": -1.92,
+      "ret1": 2.2,
+      "ret3": 3.47,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2530,16 +2926,9 @@
       "ticker": "526367",
       "company": "Ganesh Housing Ltd-$",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 0,
-        "3": -0.6,
-        "7": -5.37
-      },
-      "post": {
-        "1": -1.92,
-        "3": -4.5,
-        "7": -4.33
-      },
+      "runup": -1.92,
+      "ret1": 2.69,
+      "ret3": -3.09,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2550,16 +2939,9 @@
       "ticker": "538556",
       "company": "Arman Holdings Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 2.12,
-        "3": 1.61,
-        "7": 2.98
-      },
-      "post": {
-        "1": -2.4,
-        "3": 0.72,
-        "7": 8.41
-      },
+      "runup": -2.4,
+      "ret1": 2.78,
+      "ret3": 5.14,
       "market_cap": 384240288,
       "currency": "INR",
       "surprise_pct": null,
@@ -2570,16 +2952,9 @@
       "ticker": "540222",
       "company": "Laurus Labs Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -0.59,
-        "3": 0.58,
-        "7": 0.54
-      },
-      "post": {
-        "1": 2.17,
-        "3": 12.1,
-        "7": 15.48
-      },
+      "runup": 2.17,
+      "ret1": 6.99,
+      "ret3": 11.19,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2590,16 +2965,9 @@
       "ticker": "540719",
       "company": "SBI Life Insurance Company Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 2.61,
-        "3": 1.59,
-        "7": 0.72
-      },
-      "post": {
-        "1": 0.26,
-        "3": 1.97,
-        "7": 3.04
-      },
+      "runup": 0.26,
+      "ret1": 0.48,
+      "ret3": 2.05,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2610,16 +2978,9 @@
       "ticker": "530907",
       "company": "SI Capital & Financial Services Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 4.98,
-        "3": -30.75,
-        "7": -15.88
-      },
-      "post": {
-        "1": 1.67,
-        "3": 4.17,
-        "7": -12.54
-      },
+      "runup": 1.67,
+      "ret1": 2.43,
+      "ret3": -2.11,
       "market_cap": 133291912,
       "currency": "INR",
       "surprise_pct": null,
@@ -2630,16 +2991,9 @@
       "ticker": "500093",
       "company": "CG Power and Industrial Solutions Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -3.16,
-        "3": -3.11,
-        "7": -3.28
-      },
-      "post": {
-        "1": -2,
-        "3": -4.52,
-        "7": -3.85
-      },
+      "runup": -2,
+      "ret1": 1.25,
+      "ret3": -4.32,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2650,16 +3004,9 @@
       "ticker": "532144",
       "company": "Welspun Corp Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -0.05,
-        "3": -0.84,
-        "7": -4.12
-      },
-      "post": {
-        "1": -0.85,
-        "3": 1.89,
-        "7": 6.24
-      },
+      "runup": -0.85,
+      "ret1": 0.17,
+      "ret3": 6.22,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2670,16 +3017,9 @@
       "ticker": "511218",
       "company": "Shriram Finance Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -3.17,
-        "3": -0.95,
-        "7": 1.19
-      },
-      "post": {
-        "1": -1.99,
-        "3": 1.52,
-        "7": 4.34
-      },
+      "runup": -1.99,
+      "ret1": 3.28,
+      "ret3": 3.94,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2690,16 +3030,9 @@
       "ticker": "533023",
       "company": "ZF Commercial Vehicle Control Systems India Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 0.05,
-        "3": 1.1,
-        "7": 2.17
-      },
-      "post": {
-        "1": -2.07,
-        "3": 0.42,
-        "7": 3.02
-      },
+      "runup": -2.07,
+      "ret1": -0.78,
+      "ret3": 3.06,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2710,16 +3043,9 @@
       "ticker": "539524",
       "company": "Dr. Lal PathLabs Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -0.76,
-        "3": -0.47,
-        "7": -3.25
-      },
-      "post": {
-        "1": 4.15,
-        "3": 7.09,
-        "7": 12.36
-      },
+      "runup": 4.15,
+      "ret1": 3.93,
+      "ret3": 7.14,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2730,16 +3056,9 @@
       "ticker": "505872",
       "company": "WPIL Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -2.55,
-        "3": -3.05,
-        "7": -3.38
-      },
-      "post": {
-        "1": 1.33,
-        "3": -1.92,
-        "7": 2.52
-      },
+      "runup": 1.33,
+      "ret1": -1.87,
+      "ret3": -4.24,
       "market_cap": 46845288448,
       "currency": "INR",
       "surprise_pct": null,
@@ -2750,16 +3069,9 @@
       "ticker": "522261",
       "company": "Dolphin Offshore Enterprises (India) Ltd-$",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 4.95,
-        "3": 5.13,
-        "7": -0.28
-      },
-      "post": {
-        "1": -4.7,
-        "3": -5.33,
-        "7": 2.53
-      },
+      "runup": -4.7,
+      "ret1": 0.77,
+      "ret3": -0.56,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2770,16 +3082,9 @@
       "ticker": "543971",
       "company": "Bondada Engineering Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -0.68,
-        "3": 2.46,
-        "7": 3.62
-      },
-      "post": {
-        "1": 0.13,
-        "3": -2.19,
-        "7": -1.72
-      },
+      "runup": 0.13,
+      "ret1": -0.93,
+      "ret3": -2.35,
       "market_cap": 288051855360,
       "currency": "INR",
       "surprise_pct": null,
@@ -2790,16 +3095,9 @@
       "ticker": "500252",
       "company": "LMW Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -0.77,
-        "3": -1,
-        "7": -1.02
-      },
-      "post": {
-        "1": -1.17,
-        "3": -0.79,
-        "7": 1.35
-      },
+      "runup": -1.17,
+      "ret1": 2.56,
+      "ret3": 4.22,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2810,16 +3108,9 @@
       "ticker": "534976",
       "company": "V-Mart Retail Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -1.2,
-        "3": -2.92,
-        "7": 1.46
-      },
-      "post": {
-        "1": -4.42,
-        "3": -5.83,
-        "7": 2.39
-      },
+      "runup": -4.42,
+      "ret1": -1.22,
+      "ret3": 2.72,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2830,16 +3121,9 @@
       "ticker": "511525",
       "company": "Pan India Corporation Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -0.6,
-        "3": 0,
-        "7": -2.35
-      },
-      "post": {
-        "1": -0.6,
-        "3": 0,
-        "7": -2.41
-      },
+      "runup": -0.6,
+      "ret1": 1.21,
+      "ret3": 1.21,
       "market_cap": 497515200,
       "currency": "INR",
       "surprise_pct": null,
@@ -2850,16 +3134,9 @@
       "ticker": "532259",
       "company": "Apar Industries Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": -1.59,
-        "3": -3.58,
-        "7": -1.22
-      },
-      "post": {
-        "1": 3.33,
-        "3": 0.56,
-        "7": 10.03
-      },
+      "runup": 3.33,
+      "ret1": 1.36,
+      "ret3": -0.14,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2870,16 +3147,9 @@
       "ticker": "513418",
       "company": "Smiths & Founders (India) Ltd",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 1.99,
-        "3": 6.01,
-        "7": 14.5
-      },
-      "post": {
-        "1": 1.95,
-        "3": 12.31,
-        "7": 36.32
-      },
+      "runup": 1.95,
+      "ret1": 4.95,
+      "ret3": 15.64,
       "market_cap": 521204672,
       "currency": "INR",
       "surprise_pct": null,
@@ -2890,16 +3160,9 @@
       "ticker": "505163",
       "company": "ZF Steering Gear India Ltd-$",
       "earnings_date": "2026-07-24",
-      "pre": {
-        "1": 0.41,
-        "3": -1.3,
-        "7": -3.75
-      },
-      "post": {
-        "1": 3.42,
-        "3": 2.44,
-        "7": 0.76
-      },
+      "runup": 3.42,
+      "ret1": -0.32,
+      "ret3": -1.29,
       "market_cap": 9533173760,
       "currency": "INR",
       "surprise_pct": null,
@@ -2910,16 +3173,9 @@
       "ticker": "532173",
       "company": "CyberTech Systems and Software Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -0.07,
-        "3": 0.78,
-        "7": 0.04
-      },
-      "post": {
-        "1": 1.55,
-        "3": -1.86,
-        "7": -1.83
-      },
+      "runup": 1.55,
+      "ret1": 0.24,
+      "ret3": -3.05,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2930,16 +3186,9 @@
       "ticker": "533152",
       "company": "MBL Infrastructure Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 1.08,
-        "3": -0.43,
-        "7": -1.98
-      },
-      "post": {
-        "1": -0.55,
-        "3": -2.73,
-        "7": -1.74
-      },
+      "runup": -0.55,
+      "ret1": -0.6,
+      "ret3": -3.7,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2950,16 +3199,9 @@
       "ticker": "531569",
       "company": "Sanjivani Paranteral Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -1.18,
-        "3": 0.72,
-        "7": 1.7
-      },
-      "post": {
-        "1": 2.21,
-        "3": 2.32,
-        "7": 13.08
-      },
+      "runup": 2.21,
+      "ret1": -0.93,
+      "ret3": 13.76,
       "market_cap": 2375745792,
       "currency": "INR",
       "surprise_pct": null,
@@ -2970,16 +3212,9 @@
       "ticker": "535754",
       "company": "Orient Cement Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -1.72,
-        "3": -0.22,
-        "7": 0
-      },
-      "post": {
-        "1": -1.86,
-        "3": -0.58,
-        "7": -0.33
-      },
+      "runup": -1.86,
+      "ret1": -0.71,
+      "ret3": 0.22,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -2990,16 +3225,9 @@
       "ticker": "533520",
       "company": "Indiabulls Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 2.8,
-        "3": 2.27,
-        "7": -4.12
-      },
-      "post": {
-        "1": -1.14,
-        "3": 4.74,
-        "7": -9.07
-      },
+      "runup": -1.14,
+      "ret1": 4.25,
+      "ret3": 0.68,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3010,16 +3238,9 @@
       "ticker": "539408",
       "company": "Kuber Udyog Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 4.98,
-        "3": 15.69,
-        "7": 40.43
-      },
-      "post": {
-        "1": -3.89,
-        "3": -12.51,
-        "7": -8.78
-      },
+      "runup": -3.89,
+      "ret1": -4.57,
+      "ret3": -13.5,
       "market_cap": 53720680,
       "currency": "INR",
       "surprise_pct": null,
@@ -3030,16 +3251,9 @@
       "ticker": "511501",
       "company": "Bharat Bhushan Finance & Commodity Brokers Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -2.68,
-        "3": 0.34,
-        "7": -4.33
-      },
-      "post": {
-        "1": 0.04,
-        "3": -0.17,
-        "7": 0.47
-      },
+      "runup": 0.04,
+      "ret1": 2.2,
+      "ret3": -0.97,
       "market_cap": 143932080,
       "currency": "INR",
       "surprise_pct": null,
@@ -3050,16 +3264,9 @@
       "ticker": "502901",
       "company": "Jamshri Realty Ltd-$",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -1.48,
-        "3": -3.68,
-        "7": -6.06
-      },
-      "post": {
-        "1": 2.31,
-        "3": 0.57,
-        "7": -1.1
-      },
+      "runup": 2.31,
+      "ret1": -1.17,
+      "ret3": -2.63,
       "market_cap": 109726474240,
       "currency": "INR",
       "surprise_pct": null,
@@ -3070,16 +3277,9 @@
       "ticker": "523387",
       "company": "HOMRE Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 2,
-        "3": 2,
-        "7": 22.89
-      },
-      "post": {
-        "1": 0.49,
-        "3": 4.41,
-        "7": 4.41
-      },
+      "runup": 0.49,
+      "ret1": 1.95,
+      "ret3": 5.85,
       "market_cap": 107940608,
       "currency": "INR",
       "surprise_pct": null,
@@ -3090,16 +3290,9 @@
       "ticker": "519602",
       "company": "Kellton Tech Solutions Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -1.57,
-        "3": -2.43,
-        "7": -6.41
-      },
-      "post": {
-        "1": -0.62,
-        "3": -2.42,
-        "7": -2.14
-      },
+      "runup": -0.62,
+      "ret1": -1.74,
+      "ret3": -0.97,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3110,16 +3303,9 @@
       "ticker": "533333",
       "company": "Fineotex Chemical Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -0.37,
-        "3": 3.05,
-        "7": 10.36
-      },
-      "post": {
-        "1": 5.01,
-        "3": 0.58,
-        "7": -1.33
-      },
+      "runup": 5.01,
+      "ret1": -5.51,
+      "ret3": -2.91,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3130,16 +3316,9 @@
       "ticker": "534755",
       "company": "Trio Mercantile & Trading Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 1.62,
-        "3": 5.02,
-        "7": 8.66
-      },
-      "post": {
-        "1": 1.99,
-        "3": 5.98,
-        "7": 13.55
-      },
+      "runup": 1.99,
+      "ret1": 1.95,
+      "ret3": 5.86,
       "market_cap": 72692168,
       "currency": "INR",
       "surprise_pct": null,
@@ -3150,16 +3329,9 @@
       "ticker": "532701",
       "company": "Cella Space Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 4.98,
-        "3": 15.68,
-        "7": 40.56
-      },
-      "post": {
-        "1": 4.98,
-        "3": 15.69,
-        "7": 4.47
-      },
+      "runup": 4.98,
+      "ret1": 4.97,
+      "ret3": 15.7,
       "market_cap": 277482048,
       "currency": "INR",
       "surprise_pct": null,
@@ -3170,16 +3342,9 @@
       "ticker": "539148",
       "company": "Shivalik Rasayan Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 2.68,
-        "3": 12.37,
-        "7": 14.12
-      },
-      "post": {
-        "1": -0.98,
-        "3": 6.79,
-        "7": 0.71
-      },
+      "runup": -0.98,
+      "ret1": 4.98,
+      "ret3": 7.06,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3190,16 +3355,9 @@
       "ticker": "509152",
       "company": "GRP Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -2.81,
-        "3": 2.24,
-        "7": 1.4
-      },
-      "post": {
-        "1": 3.25,
-        "3": 6.92,
-        "7": 12.17
-      },
+      "runup": 3.25,
+      "ret1": 2.76,
+      "ret3": 2.22,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3210,16 +3368,9 @@
       "ticker": "533257",
       "company": "Indosolar Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 0.07,
-        "3": -0.72,
-        "7": -5.21
-      },
-      "post": {
-        "1": -1.9,
-        "3": -11.46,
-        "7": -19.17
-      },
+      "runup": -1.9,
+      "ret1": -5,
+      "ret3": -14.15,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3230,16 +3381,9 @@
       "ticker": "539522",
       "company": "Grovy India Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 4.17,
-        "3": 9.53,
-        "7": 8.56
-      },
-      "post": {
-        "1": 1.21,
-        "3": 7,
-        "7": 0.93
-      },
+      "runup": 1.21,
+      "ret1": 5.43,
+      "ret3": 1.31,
       "market_cap": 2177200128,
       "currency": "INR",
       "surprise_pct": null,
@@ -3250,16 +3394,9 @@
       "ticker": "542377",
       "company": "Aar Shyam India Investment Company Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3270,16 +3407,9 @@
       "ticker": "538685",
       "company": "Shemaroo Entertainment Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -0.56,
-        "3": 1.63,
-        "7": -3.85
-      },
-      "post": {
-        "1": 0,
-        "3": -4.2,
-        "7": -6.4
-      },
+      "runup": 0,
+      "ret1": -0.4,
+      "ret3": -5.96,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3290,16 +3420,9 @@
       "ticker": "533163",
       "company": "ARSS Infrastructure Projects Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3310,16 +3433,9 @@
       "ticker": "533896",
       "company": "Fervent Synergies Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 4.93,
-        "3": 2.34,
-        "7": 0.96
-      },
-      "post": {
-        "1": -0.19,
-        "3": 0.83,
-        "7": -4.76
-      },
+      "runup": -0.19,
+      "ret1": 2.29,
+      "ret3": 4.52,
       "market_cap": 661343360,
       "currency": "INR",
       "surprise_pct": null,
@@ -3330,16 +3446,9 @@
       "ticker": "538895",
       "company": "Mihika Industries Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 4.62,
-        "3": -5.49,
-        "7": -1.31
-      },
-      "post": {
-        "1": -5,
-        "3": -8.24,
-        "7": -19.85
-      },
+      "runup": -5,
+      "ret1": 4.88,
+      "ret3": -16.41,
       "market_cap": 246149904,
       "currency": "INR",
       "surprise_pct": null,
@@ -3350,16 +3459,9 @@
       "ticker": "539620",
       "company": "Kanoria Energy & Infrastructure Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -4.01,
-        "3": -1.31,
-        "7": -3.18
-      },
-      "post": {
-        "1": 0.57,
-        "3": 9.11,
-        "7": 8.29
-      },
+      "runup": 0.57,
+      "ret1": 5.79,
+      "ret3": 6.92,
       "market_cap": 3067718656,
       "currency": "INR",
       "surprise_pct": null,
@@ -3370,16 +3472,9 @@
       "ticker": "532175",
       "company": "Cyient Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -0.5,
-        "3": -1.28,
-        "7": -2.9
-      },
-      "post": {
-        "1": -1.45,
-        "3": -2.23,
-        "7": 0.49
-      },
+      "runup": -1.45,
+      "ret1": 1.12,
+      "ret3": 0.9,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3390,16 +3485,9 @@
       "ticker": "530271",
       "company": "Rich Universe Network Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 0,
-        "3": -9.69,
-        "7": 4.85
-      },
-      "post": {
-        "1": -4.92,
-        "3": -10.93,
-        "7": -16.24
-      },
+      "runup": -4.92,
+      "ret1": -1.66,
+      "ret3": -1.66,
       "market_cap": 142039152,
       "currency": "INR",
       "surprise_pct": null,
@@ -3410,16 +3498,9 @@
       "ticker": "526921",
       "company": "Twentyfirst Century Management Services Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 1.99,
-        "3": 6.06,
-        "7": 12.54
-      },
-      "post": {
-        "1": 1.89,
-        "3": 5.99,
-        "7": 12.18
-      },
+      "runup": 1.89,
+      "ret1": 2,
+      "ret3": 4.43,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3430,16 +3511,9 @@
       "ticker": "531840",
       "company": "IEC Education Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -3.69,
-        "3": -0.23,
-        "7": -2.66
-      },
-      "post": {
-        "1": -2.64,
-        "3": -1.96,
-        "7": -3.87
-      },
+      "runup": -2.64,
+      "ret1": -1.26,
+      "ret3": -1.73,
       "market_cap": 53715200,
       "currency": "INR",
       "surprise_pct": null,
@@ -3450,16 +3524,9 @@
       "ticker": "540181",
       "company": "Salem Erode Investments Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 1.5,
-        "3": -1.31,
-        "7": -0.21
-      },
-      "post": {
-        "1": -10.45,
-        "3": -5.03,
-        "7": -8.73
-      },
+      "runup": -10.45,
+      "ret1": -0.97,
+      "ret3": 9.57,
       "market_cap": 566395712,
       "currency": "INR",
       "surprise_pct": null,
@@ -3470,16 +3537,9 @@
       "ticker": "539767",
       "company": "Mega Nirman and Industries Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -1.62,
-        "3": -0.42,
-        "7": -3.83
-      },
-      "post": {
-        "1": -6.44,
-        "3": 0.39,
-        "7": 13.31
-      },
+      "runup": -6.44,
+      "ret1": 3.04,
+      "ret3": 9.76,
       "market_cap": 58079128,
       "currency": "INR",
       "surprise_pct": null,
@@ -3490,16 +3550,9 @@
       "ticker": "532892",
       "company": "Motilal Oswal Financial Services Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -2.03,
-        "3": -2.25,
-        "7": -3.79
-      },
-      "post": {
-        "1": -0.58,
-        "3": -8.1,
-        "7": -9.92
-      },
+      "runup": -0.58,
+      "ret1": -7.37,
+      "ret3": -8.91,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3510,16 +3563,9 @@
       "ticker": "539871",
       "company": "Thyrocare Technologies Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -0.62,
-        "3": 7.34,
-        "7": 9.36
-      },
-      "post": {
-        "1": -2.3,
-        "3": 4.49,
-        "7": 3.86
-      },
+      "runup": -2.3,
+      "ret1": 3.56,
+      "ret3": 6.29,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3530,16 +3576,9 @@
       "ticker": "539448",
       "company": "InterGlobe Aviation Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -3.57,
-        "3": -2.44,
-        "7": -2.1
-      },
-      "post": {
-        "1": -1.89,
-        "3": 2.16,
-        "7": 0.98
-      },
+      "runup": -1.89,
+      "ret1": -0.78,
+      "ret3": 4.88,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3550,16 +3589,9 @@
       "ticker": "531433",
       "company": "Sungold Capital Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 0,
-        "3": -8.57,
-        "7": -10.18
-      },
-      "post": {
-        "1": 4.69,
-        "3": 0.78,
-        "7": 8.98
-      },
+      "runup": 4.69,
+      "ret1": -3.73,
+      "ret3": 0.75,
       "market_cap": 61283652,
       "currency": "INR",
       "surprise_pct": null,
@@ -3570,16 +3602,9 @@
       "ticker": "506120",
       "company": "Alna Trading & Exports Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3590,16 +3615,9 @@
       "ticker": "532313",
       "company": "Mahindra Lifespace Developers Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 1.44,
-        "3": 0.09,
-        "7": -1.24
-      },
-      "post": {
-        "1": 1.06,
-        "3": 1.47,
-        "7": 4.86
-      },
+      "runup": 1.06,
+      "ret1": -0.86,
+      "ret3": 0.62,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3610,16 +3628,9 @@
       "ticker": "506395",
       "company": "Coromandel International Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -0.89,
-        "3": 0.23,
-        "7": -1.16
-      },
-      "post": {
-        "1": -0.56,
-        "3": -1.57,
-        "7": 1.81
-      },
+      "runup": -0.56,
+      "ret1": -2.14,
+      "ret3": 0.09,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3630,16 +3641,9 @@
       "ticker": "526849",
       "company": "Banaras Beads Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -4.76,
-        "3": -7.54,
-        "7": -5.85
-      },
-      "post": {
-        "1": 2.39,
-        "3": 9.82,
-        "7": 2.7
-      },
+      "runup": 2.39,
+      "ret1": 6.69,
+      "ret3": 3.83,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3650,16 +3654,9 @@
       "ticker": "531638",
       "company": "Suraj Ltd-$",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -0.93,
-        "3": -0.45,
-        "7": 5.15
-      },
-      "post": {
-        "1": -4.59,
-        "3": -7.18,
-        "7": -5.09
-      },
+      "runup": -4.59,
+      "ret1": 0.07,
+      "ret3": 1.28,
       "market_cap": 4568413184,
       "currency": "INR",
       "surprise_pct": null,
@@ -3670,16 +3667,9 @@
       "ticker": "500672",
       "company": "Novartis India Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -0.02,
-        "3": 8.2,
-        "7": 1.82
-      },
-      "post": {
-        "1": -1.77,
-        "3": -4.11,
-        "7": -7.84
-      },
+      "runup": -1.77,
+      "ret1": -1.3,
+      "ret3": -5.4,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3690,16 +3680,9 @@
       "ticker": "542770",
       "company": "Alphalogic Techsys Ltd",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": -2.24,
-        "3": -2.74,
-        "7": 1.37
-      },
-      "post": {
-        "1": -6.22,
-        "3": -9.52,
-        "7": -6.7
-      },
+      "runup": -6.22,
+      "ret1": 1.27,
+      "ret3": -2.51,
       "market_cap": 15170694144,
       "currency": "INR",
       "surprise_pct": null,
@@ -3710,16 +3693,9 @@
       "ticker": "522295",
       "company": "Control Print Ltd-$",
       "earnings_date": "2026-07-23",
-      "pre": {
-        "1": 2.48,
-        "3": 0.52,
-        "7": 0.64
-      },
-      "post": {
-        "1": -12.64,
-        "3": -9.7,
-        "7": -12.52
-      },
+      "runup": -12.64,
+      "ret1": 3.03,
+      "ret3": 2.69,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3730,16 +3706,9 @@
       "ticker": "534618",
       "company": "Waaree Renewable Technologies Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": -0.64,
-        "3": 1.25,
-        "7": -0.17
-      },
-      "post": {
-        "1": 0.51,
-        "3": -7.92,
-        "7": -9.94
-      },
+      "runup": 0.51,
+      "ret1": -7.3,
+      "ret3": -8.61,
       "market_cap": 195447488512,
       "currency": "INR",
       "surprise_pct": null,
@@ -3750,16 +3719,9 @@
       "ticker": "538786",
       "company": "Citizen Solar Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 1.99,
-        "3": 4.23,
-        "7": 0.85
-      },
-      "post": {
-        "1": 1.26,
-        "3": 5.22,
-        "7": 4.3
-      },
+      "runup": 1.26,
+      "ret1": 2,
+      "ret3": 1.96,
       "market_cap": 220008416,
       "currency": "INR",
       "surprise_pct": null,
@@ -3770,16 +3732,9 @@
       "ticker": "543247",
       "company": "Net Pix Shorts Digital Media Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3790,16 +3745,9 @@
       "ticker": "532756",
       "company": "CIE Automotive India Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": -0.25,
-        "3": -0.06,
-        "7": 1.69
-      },
-      "post": {
-        "1": -0.01,
-        "3": -12.37,
-        "7": -12.86
-      },
+      "runup": -0.01,
+      "ret1": -11.29,
+      "ret3": -12.5,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3810,16 +3758,9 @@
       "ticker": "526905",
       "company": "Padmanabh Industries Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": -0.56,
-        "3": -0.89,
-        "7": 1.36
-      },
-      "post": {
-        "1": -4.13,
-        "3": -4.47,
-        "7": -1.68
-      },
+      "runup": -4.13,
+      "ret1": -4.9,
+      "ret3": 4.43,
       "market_cap": 35857252,
       "currency": "INR",
       "surprise_pct": null,
@@ -3830,16 +3771,9 @@
       "ticker": "540026",
       "company": "Ladam Affordable Housing Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 5.89,
-        "3": 10.74,
-        "7": 0.14
-      },
-      "post": {
-        "1": 0.71,
-        "3": -3.99,
-        "7": -3.14
-      },
+      "runup": 0.71,
+      "ret1": -0.57,
+      "ret3": 1.42,
       "market_cap": 138764976,
       "currency": "INR",
       "surprise_pct": null,
@@ -3850,16 +3784,9 @@
       "ticker": "504646",
       "company": "Bhagwati Autocast Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 6.54,
-        "3": 8.31,
-        "7": 12.62
-      },
-      "post": {
-        "1": 1.81,
-        "3": 23.67,
-        "7": 19.56
-      },
+      "runup": 1.81,
+      "ret1": 20,
+      "ret3": 19.69,
       "market_cap": 1360182400,
       "currency": "INR",
       "surprise_pct": null,
@@ -3870,16 +3797,9 @@
       "ticker": "540125",
       "company": "Radhika Jeweltech Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 0.76,
-        "3": -1.57,
-        "7": 4.37
-      },
-      "post": {
-        "1": 0.97,
-        "3": -3.02,
-        "7": 5.26
-      },
+      "runup": 0.97,
+      "ret1": -2.84,
+      "ret3": 3.58,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3890,16 +3810,9 @@
       "ticker": "532466",
       "company": "Oracle Financial Services Software Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": -0.08,
-        "3": -0.46,
-        "7": -0.27
-      },
-      "post": {
-        "1": -6.71,
-        "3": -8.29,
-        "7": -4.24
-      },
+      "runup": -6.71,
+      "ret1": -0.11,
+      "ret3": 2.21,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3910,16 +3823,9 @@
       "ticker": "532285",
       "company": "Geojit Financial Services Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": -1.57,
-        "3": -0.87,
-        "7": 2.84
-      },
-      "post": {
-        "1": -0.53,
-        "3": -6.82,
-        "7": -7.72
-      },
+      "runup": -0.53,
+      "ret1": -3.14,
+      "ret3": -7.58,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -3930,37 +3836,10 @@
       "ticker": "530133",
       "company": "Amco India Ltd-$",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": -0.57,
-        "3": 2.25,
-        "7": 0.3
-      },
-      "post": {
-        "1": 6.11,
-        "3": 19.35,
-        "7": 8.91
-      },
+      "runup": 6.11,
+      "ret1": 20,
+      "ret3": 7.41,
       "market_cap": 254832240,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531257",
-      "company": "Vellora Impact Ltd",
-      "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 0.29,
-        "3": -1.97,
-        "7": -5.9
-      },
-      "post": {
-        "1": 0.8,
-        "3": -3.22,
-        "7": -11.49
-      },
-      "market_cap": 136076048,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
@@ -3970,16 +3849,9 @@
       "ticker": "500248",
       "company": "Krishna Filament Industries Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": -0.18,
-        "3": 4.65,
-        "7": -0.92
-      },
-      "post": {
-        "1": 2.78,
-        "3": -2.04,
-        "7": -5.56
-      },
+      "runup": 2.78,
+      "ret1": 0,
+      "ret3": -7.57,
       "market_cap": 37662180,
       "currency": "INR",
       "surprise_pct": null,
@@ -3990,16 +3862,9 @@
       "ticker": "533263",
       "company": "Orient Green Power Company Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 3.23,
-        "3": 5.19,
-        "7": 3.74
-      },
-      "post": {
-        "1": -1.9,
-        "3": -4.84,
-        "7": -6.45
-      },
+      "runup": -1.9,
+      "ret1": -3.29,
+      "ret3": -3.38,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4010,16 +3875,9 @@
       "ticker": "530187",
       "company": "Atharv Enterprises Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": -5.26,
-        "3": -7.46,
-        "7": 1.98
-      },
-      "post": {
-        "1": 0.28,
-        "3": 2.5,
-        "7": 30.28
-      },
+      "runup": 0.28,
+      "ret1": -7.48,
+      "ret3": 3.88,
       "market_cap": 48428540,
       "currency": "INR",
       "surprise_pct": null,
@@ -4030,16 +3888,9 @@
       "ticker": "531272",
       "company": "Nikki Global Finance Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 0,
-        "3": -0.17,
-        "7": -4.5
-      },
-      "post": {
-        "1": 0,
-        "3": 2.09,
-        "7": 2.5
-      },
+      "runup": 0,
+      "ret1": 1.98,
+      "ret3": 0.52,
       "market_cap": 29438466,
       "currency": "INR",
       "surprise_pct": null,
@@ -4050,16 +3901,9 @@
       "ticker": "538882",
       "company": "Emerald Finance Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 4.76,
-        "3": 1.75,
-        "7": 2.22
-      },
-      "post": {
-        "1": 0.09,
-        "3": -11.75,
-        "7": -15.55
-      },
+      "runup": 0.09,
+      "ret1": -7.82,
+      "ret3": -14.19,
       "market_cap": 2124797824,
       "currency": "INR",
       "surprise_pct": null,
@@ -4070,16 +3914,9 @@
       "ticker": "540366",
       "company": "Music Broadcast Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 0,
-        "3": -1.17,
-        "7": -1.83
-      },
-      "post": {
-        "1": 0.34,
-        "3": 8.98,
-        "7": 15.25
-      },
+      "runup": 0.34,
+      "ret1": 9.12,
+      "ret3": 11.49,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4090,16 +3927,9 @@
       "ticker": "531637",
       "company": "Praveg Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 7.57,
-        "3": 9,
-        "7": 24.26
-      },
-      "post": {
-        "1": -1.01,
-        "3": -4.04,
-        "7": -3.92
-      },
+      "runup": -1.01,
+      "ret1": 0.41,
+      "ret3": 2.35,
       "market_cap": 20316999680,
       "currency": "INR",
       "surprise_pct": null,
@@ -4110,16 +3940,9 @@
       "ticker": "532505",
       "company": "UCO Bank",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 0.9,
-        "3": 2.8,
-        "7": 0.3
-      },
-      "post": {
-        "1": -1.12,
-        "3": -3.65,
-        "7": -3.65
-      },
+      "runup": -1.12,
+      "ret1": -1.96,
+      "ret3": 0.79,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4130,16 +3953,9 @@
       "ticker": "532636",
       "company": "IIFL Finance Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 2.64,
-        "3": 0.9,
-        "7": 3.54
-      },
-      "post": {
-        "1": -0.37,
-        "3": -2.62,
-        "7": 6.31
-      },
+      "runup": -0.37,
+      "ret1": -0.22,
+      "ret3": 0.41,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4150,16 +3966,9 @@
       "ticker": "503806",
       "company": "SRF Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 2.41,
-        "3": 1.88,
-        "7": 6
-      },
-      "post": {
-        "1": -2.32,
-        "3": -9.53,
-        "7": -11.45
-      },
+      "runup": -2.32,
+      "ret1": -8.74,
+      "ret3": -8.23,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4170,16 +3979,9 @@
       "ticker": "533148",
       "company": "JSW Energy Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": -0.33,
-        "3": 4.09,
-        "7": 2.27
-      },
-      "post": {
-        "1": -0.72,
-        "3": -2.47,
-        "7": -3.99
-      },
+      "runup": -0.72,
+      "ret1": -0.82,
+      "ret3": -2.15,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4190,16 +3992,9 @@
       "ticker": "531279",
       "company": "Trishakti Industries Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 9.98,
-        "3": 1.65,
-        "7": 27.18
-      },
-      "post": {
-        "1": 5.65,
-        "3": 0.78,
-        "7": -1.71
-      },
+      "runup": 5.65,
+      "ret1": -4.69,
+      "ret3": -7.83,
       "market_cap": 900142656,
       "currency": "INR",
       "surprise_pct": null,
@@ -4210,16 +4005,9 @@
       "ticker": "533088",
       "company": "Mahindra Holidays & Resorts India Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 0.51,
-        "3": -1.06,
-        "7": -2.29
-      },
-      "post": {
-        "1": -7.09,
-        "3": -3.91,
-        "7": -5
-      },
+      "runup": -7.09,
+      "ret1": 2.83,
+      "ret3": 5.53,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4230,16 +4018,9 @@
       "ticker": "532375",
       "company": "Tips Music Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 0.18,
-        "3": 5.42,
-        "7": 0.09
-      },
-      "post": {
-        "1": -12.56,
-        "3": -1.72,
-        "7": -6.48
-      },
+      "runup": -12.56,
+      "ret1": 8.7,
+      "ret3": 14.47,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4250,37 +4031,10 @@
       "ticker": "533096",
       "company": "Adani Power Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 0.18,
-        "3": 1.68,
-        "7": 0.87
-      },
-      "post": {
-        "1": -1.52,
-        "3": -3.02,
-        "7": -5.17
-      },
+      "runup": -1.52,
+      "ret1": -2.14,
+      "ret3": -1.38,
       "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "526935",
-      "company": "Kalind Ltd",
-      "earnings_date": "2026-07-22",
-      "pre": {
-        "1": -0.04,
-        "3": -1.66,
-        "7": -5.72
-      },
-      "post": {
-        "1": -1.4,
-        "3": 3.31,
-        "7": -4.83
-      },
-      "market_cap": 121860000,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
@@ -4290,16 +4044,9 @@
       "ticker": "544209",
       "company": "Bansal Wire Industries Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 4.86,
-        "3": 5.67,
-        "7": 0.95
-      },
-      "post": {
-        "1": -5.98,
-        "3": -3.35,
-        "7": -5.37
-      },
+      "runup": -5.98,
+      "ret1": -1.96,
+      "ret3": 0.88,
       "market_cap": 54234152960,
       "currency": "INR",
       "surprise_pct": null,
@@ -4310,16 +4057,9 @@
       "ticker": "526951",
       "company": "Stylam Industries Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 3.71,
-        "3": 8.14,
-        "7": 7.11
-      },
-      "post": {
-        "1": 1.93,
-        "3": -2.84,
-        "7": -4.49
-      },
+      "runup": 1.93,
+      "ret1": -5.59,
+      "ret3": -4.68,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4330,16 +4070,9 @@
       "ticker": "531644",
       "company": "Tokyo Finance Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 0.75,
-        "3": 1.51,
-        "7": 1.07
-      },
-      "post": {
-        "1": 3.19,
-        "3": -0.8,
-        "7": -1.97
-      },
+      "runup": 3.19,
+      "ret1": -7.78,
+      "ret3": -4.43,
       "market_cap": 155858656,
       "currency": "INR",
       "surprise_pct": null,
@@ -4350,16 +4083,9 @@
       "ticker": "502294",
       "company": "Nilachal Refractories Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": -6.32,
-        "3": -6.34,
-        "7": -8.13
-      },
-      "post": {
-        "1": 1.51,
-        "3": 0.13,
-        "7": 7.4
-      },
+      "runup": 1.51,
+      "ret1": -1.36,
+      "ret3": 0.05,
       "market_cap": 1053295232,
       "currency": "INR",
       "surprise_pct": null,
@@ -4370,16 +4096,9 @@
       "ticker": "530065",
       "company": "Lords Ishwar Hotels Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": -1.75,
-        "3": -1.75,
-        "7": 0
-      },
-      "post": {
-        "1": 4.96,
-        "3": 9.18,
-        "7": 11.1
-      },
+      "runup": 4.96,
+      "ret1": 4.72,
+      "ret3": 5.78,
       "market_cap": 134796768,
       "currency": "INR",
       "surprise_pct": null,
@@ -4390,16 +4109,9 @@
       "ticker": "540144",
       "company": "DRA Consultants Ltd",
       "earnings_date": "2026-07-22",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": -5.4
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 8.82
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 8.82,
       "market_cap": 535909504,
       "currency": "INR",
       "surprise_pct": null,
@@ -4410,16 +4122,9 @@
       "ticker": "544191",
       "company": "Purple Finance Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": 6.4,
-        "3": 5.74,
-        "7": 7.9
-      },
-      "post": {
-        "1": 6.25,
-        "3": 1.19,
-        "7": 1.51
-      },
+      "runup": 6.25,
+      "ret1": 3.41,
+      "ret3": -6.1,
       "market_cap": 3435893760,
       "currency": "INR",
       "surprise_pct": null,
@@ -4430,16 +4135,9 @@
       "ticker": "540097",
       "company": "Gamco Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": 0.38,
-        "3": 0.5,
-        "7": 1.09
-      },
-      "post": {
-        "1": 1.4,
-        "3": 2.2,
-        "7": 1.08
-      },
+      "runup": 1.4,
+      "ret1": 1.36,
+      "ret3": -0.22,
       "market_cap": 1547942400,
       "currency": "INR",
       "surprise_pct": null,
@@ -4450,16 +4148,9 @@
       "ticker": "521064",
       "company": "Trident Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": 0.36,
-        "3": -0.12,
-        "7": -0.32
-      },
-      "post": {
-        "1": -0.59,
-        "3": -0.36,
-        "7": -1.7
-      },
+      "runup": -0.59,
+      "ret1": 1.43,
+      "ret3": -0.04,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4470,16 +4161,9 @@
       "ticker": "523704",
       "company": "Mastek Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": -1.59,
-        "3": 3.3,
-        "7": 8.22
-      },
-      "post": {
-        "1": 0.13,
-        "3": -3.71,
-        "7": 9.18
-      },
+      "runup": 0.13,
+      "ret1": -1.71,
+      "ret3": -3.1,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4490,16 +4174,9 @@
       "ticker": "512038",
       "company": "TCC Concept Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": -3.46,
-        "3": -8.24,
-        "7": -13.75
-      },
-      "post": {
-        "1": 1.36,
-        "3": -2.08,
-        "7": -2.65
-      },
+      "runup": 1.36,
+      "ret1": -4.09,
+      "ret3": -5.5,
       "market_cap": 23122915328,
       "currency": "INR",
       "surprise_pct": null,
@@ -4510,16 +4187,9 @@
       "ticker": "539984",
       "company": "Hindusthan Insulators & Industries Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": 1,
-        "3": 1,
-        "7": 1.89
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 1
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": 4042011904,
       "currency": "INR",
       "surprise_pct": null,
@@ -4530,16 +4200,9 @@
       "ticker": "532440",
       "company": "MPS Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": -2.04,
-        "3": 2.37,
-        "7": 1.99
-      },
-      "post": {
-        "1": 3.91,
-        "3": 29.2,
-        "7": 30.14
-      },
+      "runup": 3.91,
+      "ret1": 20,
+      "ret3": 29.33,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4550,16 +4213,9 @@
       "ticker": "520056",
       "company": "TVS Holdings Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": 0.28,
-        "3": 0.23,
-        "7": 0.54
-      },
-      "post": {
-        "1": 1.76,
-        "3": 5.66,
-        "7": 5.59
-      },
+      "runup": 1.76,
+      "ret1": 4.25,
+      "ret3": 2.56,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4570,16 +4226,9 @@
       "ticker": "517246",
       "company": "BCC Fuba India Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": 0.5,
-        "3": 10.37,
-        "7": 11.7
-      },
-      "post": {
-        "1": 4.81,
-        "3": 14.94,
-        "7": -0.03
-      },
+      "runup": 4.81,
+      "ret1": 4.44,
+      "ret3": 4.77,
       "market_cap": 1162029056,
       "currency": "INR",
       "surprise_pct": null,
@@ -4590,16 +4239,9 @@
       "ticker": "500365",
       "company": "Welspun Specialty Solutions Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": -0.4,
-        "3": -1.47,
-        "7": 0.94
-      },
-      "post": {
-        "1": 3.1,
-        "3": -6.51,
-        "7": -2.4
-      },
+      "runup": 3.1,
+      "ret1": -1.91,
+      "ret3": -5.93,
       "market_cap": 26191697920,
       "currency": "INR",
       "surprise_pct": null,
@@ -4610,16 +4252,9 @@
       "ticker": "517041",
       "company": "Ador Welding Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": 4.91,
-        "3": 6.52,
-        "7": 9.69
-      },
-      "post": {
-        "1": 3.64,
-        "3": 0.53,
-        "7": -2.85
-      },
+      "runup": 3.64,
+      "ret1": -1.8,
+      "ret3": -1.19,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4630,16 +4265,9 @@
       "ticker": "512404",
       "company": "Bengal Steel Industries Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4650,16 +4278,9 @@
       "ticker": "539254",
       "company": "Adani Energy Solutions Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": 0.38,
-        "3": 3.1,
-        "7": 6.9
-      },
-      "post": {
-        "1": 0.69,
-        "3": -2.62,
-        "7": -3.49
-      },
+      "runup": 0.69,
+      "ret1": -0.99,
+      "ret3": -2.2,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4670,16 +4291,9 @@
       "ticker": "540821",
       "company": "Crystal Business System Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": 0,
-        "3": -2.56,
-        "7": -2.56
-      },
-      "post": {
-        "1": -1.05,
-        "3": -1.58,
-        "7": 3.68
-      },
+      "runup": -1.05,
+      "ret1": -1.06,
+      "ret3": 1.06,
       "market_cap": 381007008,
       "currency": "INR",
       "surprise_pct": null,
@@ -4690,16 +4304,9 @@
       "ticker": "511549",
       "company": "Morarka Finance Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": -0.84,
-        "3": -0.41,
-        "7": 0.68
-      },
-      "post": {
-        "1": 6.4,
-        "3": 2.33,
-        "7": -0.15
-      },
+      "runup": 6.4,
+      "ret1": -0.28,
+      "ret3": -4.38,
       "market_cap": 728471104,
       "currency": "INR",
       "surprise_pct": null,
@@ -4710,37 +4317,10 @@
       "ticker": "532977",
       "company": "Bajaj Auto Ltd",
       "earnings_date": "2026-07-21",
-      "pre": {
-        "1": 0.78,
-        "3": 1.94,
-        "7": 3.6
-      },
-      "post": {
-        "1": -1.05,
-        "3": 7.22,
-        "7": 7.71
-      },
+      "runup": -1.05,
+      "ret1": 5.68,
+      "ret3": 6.92,
       "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "538868",
-      "company": "Continental Securities Ltd",
-      "earnings_date": "2026-07-21",
-      "pre": {
-        "1": 9.31,
-        "3": 4.58,
-        "7": 4.07
-      },
-      "post": {
-        "1": 7.58,
-        "3": 6.41,
-        "7": -0.62
-      },
-      "market_cap": 301341376,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
@@ -4750,37 +4330,10 @@
       "ticker": "532386",
       "company": "California Software Company Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 2.45,
-        "3": 1.37,
-        "7": 8.57
-      },
-      "post": {
-        "1": 3.52,
-        "3": 1.89,
-        "7": -3.02
-      },
+      "runup": 3.52,
+      "ret1": -0.17,
+      "ret3": -6.32,
       "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "517166",
-      "company": "SPEL Semiconductor Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -4.25,
-        "3": -0.86,
-        "7": 0.9
-      },
-      "post": {
-        "1": -1.41,
-        "3": -0.22,
-        "7": 0.13
-      },
-      "market_cap": 10736131072,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
@@ -4790,16 +4343,9 @@
       "ticker": "530585",
       "company": "Swastika Investmart Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 10,
-        "3": 58.37,
-        "7": 75.58
-      },
-      "post": {
-        "1": 9.99,
-        "3": 5.13,
-        "7": 2.88
-      },
+      "runup": 9.99,
+      "ret1": 0.59,
+      "ret3": -7.79,
       "market_cap": 13016020992,
       "currency": "INR",
       "surprise_pct": null,
@@ -4810,16 +4356,9 @@
       "ticker": "509024",
       "company": "Golden Legand Leasing & finance Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 6.01,
-        "3": -0.64,
-        "7": 0.86
-      },
-      "post": {
-        "1": -0.75,
-        "3": -6.95,
-        "7": -12.83
-      },
+      "runup": -0.75,
+      "ret1": -7.33,
+      "ret3": -9.05,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4830,16 +4369,9 @@
       "ticker": "539177",
       "company": "Authum Investment & Infrastructure Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 9.78,
-        "3": 11.61,
-        "7": 13.9
-      },
-      "post": {
-        "1": -3.5,
-        "3": -4.93,
-        "7": -2.22
-      },
+      "runup": -3.5,
+      "ret1": 1.76,
+      "ret3": -1.74,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4850,16 +4382,9 @@
       "ticker": "539872",
       "company": "Bajaj Healthcare Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 0.28,
-        "3": 7.75,
-        "7": 12.06
-      },
-      "post": {
-        "1": 2.9,
-        "3": -13.61,
-        "7": -13.96
-      },
+      "runup": 2.9,
+      "ret1": -3.83,
+      "ret3": -17.39,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4870,16 +4395,9 @@
       "ticker": "532627",
       "company": "Jaiprakash Power Ventures Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -0.65,
-        "3": 1.26,
-        "7": -0.18
-      },
-      "post": {
-        "1": 0.12,
-        "3": 2.96,
-        "7": 0.3
-      },
+      "runup": 0.12,
+      "ret1": 4.85,
+      "ret3": 1.01,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4890,16 +4408,9 @@
       "ticker": "531003",
       "company": "Swarna Securities Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -5,
-        "3": -7.95,
-        "7": -1.62
-      },
-      "post": {
-        "1": -3.66,
-        "3": -12.81,
-        "7": -0.45
-      },
+      "runup": -3.66,
+      "ret1": -5,
+      "ret3": -5.14,
       "market_cap": 154260000,
       "currency": "INR",
       "surprise_pct": null,
@@ -4910,16 +4421,9 @@
       "ticker": "505192",
       "company": "SML Mahindra Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -0.56,
-        "3": -0.26,
-        "7": 4.88
-      },
-      "post": {
-        "1": -2.85,
-        "3": -2.87,
-        "7": -6.67
-      },
+      "runup": -2.85,
+      "ret1": 3.32,
+      "ret3": -1.53,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4930,16 +4434,9 @@
       "ticker": "543543",
       "company": "B-Right Realestate Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -2.38,
-        "3": -4.65,
-        "7": -9.89
-      },
-      "post": {
-        "1": 6.06,
-        "3": 5.53,
-        "7": 6.1
-      },
+      "runup": 6.06,
+      "ret1": 3.28,
+      "ret3": 3.48,
       "market_cap": 1453772416,
       "currency": "INR",
       "surprise_pct": null,
@@ -4950,16 +4447,9 @@
       "ticker": "526953",
       "company": "Venus Remedies Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 0.39,
-        "3": -5.56,
-        "7": 6.02
-      },
-      "post": {
-        "1": -4.56,
-        "3": -6,
-        "7": -15.08
-      },
+      "runup": -4.56,
+      "ret1": 3.67,
+      "ret3": -2.78,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -4970,16 +4460,9 @@
       "ticker": "522257",
       "company": "Rajoo Engineers Ltd-$",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -0.02,
-        "3": 0.02,
-        "7": -0.02
-      },
-      "post": {
-        "1": 1.72,
-        "3": 12.13,
-        "7": 4.14
-      },
+      "runup": 1.72,
+      "ret1": 4.99,
+      "ret3": 8.48,
       "market_cap": 65352404992,
       "currency": "INR",
       "surprise_pct": null,
@@ -4990,16 +4473,9 @@
       "ticker": "504882",
       "company": "National Standard (India) Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -4.99,
-        "3": -14.25,
-        "7": -33.81
-      },
-      "post": {
-        "1": -4.99,
-        "3": -14.25,
-        "7": -30.13
-      },
+      "runup": -4.99,
+      "ret1": -5,
+      "ret3": -14.25,
       "market_cap": 93754654720,
       "currency": "INR",
       "surprise_pct": null,
@@ -5010,16 +4486,9 @@
       "ticker": "504346",
       "company": "RRP Semiconductor Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "post": {
-        "1": -1,
-        "3": -1,
-        "7": -1.99
-      },
+      "runup": -1,
+      "ret1": 0,
+      "ret3": 0,
       "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
@@ -5030,16 +4499,9 @@
       "ticker": "539176",
       "company": "Hawa Engineers Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -3.78,
-        "3": -9.17,
-        "7": -7
-      },
-      "post": {
-        "1": 7.34,
-        "3": 5.32,
-        "7": 7.07
-      },
+      "runup": 7.34,
+      "ret1": -1.88,
+      "ret3": -3.59,
       "market_cap": 626163264,
       "currency": "INR",
       "surprise_pct": null,
@@ -5050,1977 +4512,10 @@
       "ticker": "511016",
       "company": "Premier Capital Services Ltd",
       "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 0,
-        "3": 2.84,
-        "7": -5.24
-      },
-      "post": {
-        "1": 4.89,
-        "3": 10,
-        "7": 18.72
-      },
+      "runup": 4.89,
+      "ret1": 0,
+      "ret3": 5.88,
       "market_cap": 170109536,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540904",
-      "company": "Tirupati Foam Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -2.84,
-        "3": -2.55,
-        "7": 2.29
-      },
-      "post": {
-        "1": -0.03,
-        "3": 10.22,
-        "7": 33.93
-      },
-      "market_cap": 482712320,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "534748",
-      "company": "Steel Exchange India Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -0.17,
-        "3": -1.15,
-        "7": 0.58
-      },
-      "post": {
-        "1": -0.25,
-        "3": -2.9,
-        "7": -7.14
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "532538",
-      "company": "UltraTech Cement Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -0.46,
-        "3": 2.04,
-        "7": 3.23
-      },
-      "post": {
-        "1": 1.47,
-        "3": 1.43,
-        "7": 2.08
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "533029",
-      "company": "Alkali Metals Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -3.57,
-        "3": -2.29,
-        "7": 0.1
-      },
-      "post": {
-        "1": 3.56,
-        "3": -5.06,
-        "7": -14.72
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "512329",
-      "company": "SG Mart Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -0.18,
-        "3": -2.21,
-        "7": -5.03
-      },
-      "post": {
-        "1": 7.19,
-        "3": 3.58,
-        "7": 12.08
-      },
-      "market_cap": 42138251264,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "530475",
-      "company": "Tinna Rubber and Infrastructure Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 0.4,
-        "3": 0.71,
-        "7": 9.13
-      },
-      "post": {
-        "1": 20,
-        "3": 10.32,
-        "7": 11.38
-      },
-      "market_cap": 29893877760,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540175",
-      "company": "Regency Fincorp Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 4.76,
-        "3": 15.48,
-        "7": 18.22
-      },
-      "post": {
-        "1": 1.2,
-        "3": -2.29,
-        "7": -8.06
-      },
-      "market_cap": 706790336,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "524394",
-      "company": "Vimta Labs Ltd-$",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -0.86,
-        "3": 1.03,
-        "7": 4.09
-      },
-      "post": {
-        "1": -5.08,
-        "3": 4.36,
-        "7": 7.73
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "526650",
-      "company": "Tourism Finance Corporation of India Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 1.54,
-        "3": 5.67,
-        "7": 13.48
-      },
-      "post": {
-        "1": -2.14,
-        "3": -3.88,
-        "7": 14.1
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "513343",
-      "company": "Grand Foundry Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 0,
-        "3": 0,
-        "7": 4.96
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540768",
-      "company": "Mahindra Logistics Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 0.43,
-        "3": -1.04,
-        "7": 1.79
-      },
-      "post": {
-        "1": 1.19,
-        "3": 3.3,
-        "7": 5.55
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "539405",
-      "company": "Decorous Investment & Trading Co Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 1.64,
-        "3": -0.8,
-        "7": 1.22
-      },
-      "post": {
-        "1": 3.55,
-        "3": 2.42,
-        "7": 0
-      },
-      "market_cap": 32512062,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "534063",
-      "company": "Futuristic Solutions Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -4.97,
-        "3": -4.75,
-        "7": -9.38
-      },
-      "post": {
-        "1": 4.98,
-        "3": 14.95,
-        "7": 14.9
-      },
-      "market_cap": 1031106176,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "530643",
-      "company": "Eco Recycling Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -3.15,
-        "3": -5.93,
-        "7": 6.84
-      },
-      "post": {
-        "1": 3.47,
-        "3": 0.78,
-        "7": -0.48
-      },
-      "market_cap": 13681431552,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "539289",
-      "company": "Aurum PropTech Ltd",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": -0.54,
-        "3": -0.02,
-        "7": 10
-      },
-      "post": {
-        "1": -1.94,
-        "3": -5.06,
-        "7": -6.94
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "512527",
-      "company": "Super Sales India Ltd-$",
-      "earnings_date": "2026-07-20",
-      "pre": {
-        "1": 2.72,
-        "3": 1.97,
-        "7": 11.16
-      },
-      "post": {
-        "1": 12.98,
-        "3": 14.84,
-        "7": 19.4
-      },
-      "market_cap": 5669500416,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "526827",
-      "company": "Spice Islands Industries Ltd-$",
-      "earnings_date": "2026-07-18",
-      "pre": {
-        "1": 0.2,
-        "3": -4.92,
-        "7": 1.52
-      },
-      "post": {
-        "1": 0.73,
-        "3": 3.92,
-        "7": 0.14
-      },
-      "market_cap": 231403872,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "539761",
-      "company": "Vantage Knowledge Academy Ltd",
-      "earnings_date": "2026-07-18",
-      "pre": {
-        "1": 0,
-        "3": -1.06,
-        "7": -1.06
-      },
-      "post": {
-        "1": -2.15,
-        "3": -3.23,
-        "7": -5.38
-      },
-      "market_cap": 6128128000,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "500357",
-      "company": "Rama Paper Mills Ltd",
-      "earnings_date": "2026-07-18",
-      "pre": {
-        "1": 0,
-        "3": -8.19,
-        "7": -8.4
-      },
-      "post": {
-        "1": 4.92,
-        "3": 2.42,
-        "7": 1.75
-      },
-      "market_cap": 146807248,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "533295",
-      "company": "Punjab & Sind Bank",
-      "earnings_date": "2026-07-18",
-      "pre": {
-        "1": 0.12,
-        "3": 0.12,
-        "7": 2.99
-      },
-      "post": {
-        "1": 0.44,
-        "3": -1.57,
-        "7": -4.4
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "539552",
-      "company": "F Mec International Financial Services Ltd",
-      "earnings_date": "2026-07-18",
-      "pre": {
-        "1": 1.89,
-        "3": 12.11,
-        "7": -7.42
-      },
-      "post": {
-        "1": 4.56,
-        "3": 7.26,
-        "7": 7.93
-      },
-      "market_cap": 923854912,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540796",
-      "company": "Ratnabhumi Developers Ltd",
-      "earnings_date": "2026-07-18",
-      "pre": {
-        "1": 0,
-        "3": -1.05,
-        "7": 1.08
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": -2.5
-      },
-      "market_cap": 1967320064,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "523874",
-      "company": "East India Drums and Barrels Manufacturing Ltd",
-      "earnings_date": "2026-07-18",
-      "pre": {
-        "1": -0.85,
-        "3": -1.85,
-        "7": 3.96
-      },
-      "post": {
-        "1": 0.85,
-        "3": -0.19,
-        "7": 1.05
-      },
-      "market_cap": 797806784,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "514234",
-      "company": "Sangam India Ltd",
-      "earnings_date": "2026-07-18",
-      "pre": {
-        "1": 1.21,
-        "3": 1.33,
-        "7": 15.65
-      },
-      "post": {
-        "1": -1.78,
-        "3": -2.62,
-        "7": -5.29
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "514286",
-      "company": "Ashima Ltd",
-      "earnings_date": "2026-07-18",
-      "pre": {
-        "1": -1.03,
-        "3": -3.29,
-        "7": -4.26
-      },
-      "post": {
-        "1": 19.86,
-        "3": 22.85,
-        "7": 21.53
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "532644",
-      "company": "JK Cement Ltd",
-      "earnings_date": "2026-07-18",
-      "pre": {
-        "1": -0.65,
-        "3": 0.69,
-        "7": 1.13
-      },
-      "post": {
-        "1": 1.21,
-        "3": 7.01,
-        "7": 4.72
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "538838",
-      "company": "Indo Cotspin Ltd",
-      "earnings_date": "2026-07-18",
-      "pre": {
-        "1": 4.98,
-        "3": 15.74,
-        "7": 21.9
-      },
-      "post": {
-        "1": 4.99,
-        "3": 9.71,
-        "7": 13.27
-      },
-      "market_cap": 578408832,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "538607",
-      "company": "Toyam Sports Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": 0,
-        "3": -2.78,
-        "7": -9.09
-      },
-      "post": {
-        "1": -1.43,
-        "3": -2.86,
-        "7": -2.86
-      },
-      "market_cap": 2111074176,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "543400",
-      "company": "Omnipotent Industries Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": 0,
-        "3": 4.62,
-        "7": 3.42
-      },
-      "post": {
-        "1": 0,
-        "3": -8.82,
-        "7": -9.93
-      },
-      "market_cap": 65942432,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "538922",
-      "company": "COSYN Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -1.57,
-        "3": -2.26,
-        "7": -1.72
-      },
-      "post": {
-        "1": 4.83,
-        "3": 6.93,
-        "7": 9.8
-      },
-      "market_cap": 318525024,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "541402",
-      "company": "Affordable Robotic & Automation Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": 3.56,
-        "3": 14.17,
-        "7": 16.12
-      },
-      "post": {
-        "1": -2.38,
-        "3": -5.97,
-        "7": -11.93
-      },
-      "market_cap": 6010022912,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531537",
-      "company": "Mizzen Ventures Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -4.98,
-        "3": -14.22,
-        "7": -22.82
-      },
-      "post": {
-        "1": -4.97,
-        "3": -14.17,
-        "7": -30
-      },
-      "market_cap": 47396088,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "544143",
-      "company": "Royal Sense Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": 9.55,
-        "3": 4.78,
-        "7": 32.42
-      },
-      "post": {
-        "1": -14.79,
-        "3": -11.21,
-        "7": -12.37
-      },
-      "market_cap": 681120832,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "538812",
-      "company": "Aanchal Ispat Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": 0.27,
-        "3": 10.52,
-        "7": -4.96
-      },
-      "post": {
-        "1": -4.52,
-        "3": -5.59,
-        "7": -23.01
-      },
-      "market_cap": 110108072,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "514414",
-      "company": "Oxford Industries Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -4.9,
-        "3": -6.9,
-        "7": -8.73
-      },
-      "post": {
-        "1": -4.94,
-        "3": -14.18,
-        "7": -29.97
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "538395",
-      "company": "Nam Securities Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -1.04,
-        "3": 2.94,
-        "7": 18.83
-      },
-      "post": {
-        "1": -4.99,
-        "3": -0.84,
-        "7": 0.55
-      },
-      "market_cap": 641544768,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "532090",
-      "company": "Atvo Enterprises Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -1.97,
-        "3": -0.31,
-        "7": 3.61
-      },
-      "post": {
-        "1": -0.03,
-        "3": -0.78,
-        "7": -2.67
-      },
-      "market_cap": 481432512,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540065",
-      "company": "RBL Bank Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -2.74,
-        "3": -4.64,
-        "7": -3.31
-      },
-      "post": {
-        "1": 1.49,
-        "3": 1.12,
-        "7": 0
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531324",
-      "company": "Roselabs Finance Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -0.05,
-        "3": -0.28,
-        "7": -9.42
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 7.46
-      },
-      "market_cap": 341016512,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "524000",
-      "company": "Poonawalla Fincorp Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -0.74,
-        "3": -2.73,
-        "7": -0.06
-      },
-      "post": {
-        "1": 1.29,
-        "3": -1.94,
-        "7": -1.26
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531268",
-      "company": "B2B Software Technologies Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -1.23,
-        "3": -0.99,
-        "7": 0.54
-      },
-      "post": {
-        "1": 0.54,
-        "3": 16.11,
-        "7": 15.65
-      },
-      "market_cap": 452593216,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "500327",
-      "company": "Pil Italica Lifestyle Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -2.42,
-        "3": 0.68,
-        "7": 0.11
-      },
-      "post": {
-        "1": 0.23,
-        "3": 0.11,
-        "7": -1.69
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531471",
-      "company": "Duke Offshore Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": 1.99,
-        "3": 5.88,
-        "7": 14.5
-      },
-      "post": {
-        "1": 1.98,
-        "3": 6.07,
-        "7": 14.74
-      },
-      "market_cap": 207823360,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "535387",
-      "company": "Lakhotia Polyesters (India) Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": 7.08,
-        "3": -0.19,
-        "7": -0.75
-      },
-      "post": {
-        "1": 1.42,
-        "3": -2.74,
-        "7": -5.99
-      },
-      "market_cap": 378320864,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531273",
-      "company": "Radhe Developers India Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -1.87,
-        "3": -3.68,
-        "7": -2.48
-      },
-      "post": {
-        "1": 1.91,
-        "3": -3.18,
-        "7": -5.1
-      },
-      "market_cap": 1943082880,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "522285",
-      "company": "Jayaswal Neco Industries Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": 0.32,
-        "3": -2.08,
-        "7": 5.54
-      },
-      "post": {
-        "1": -1.89,
-        "3": -4.33,
-        "7": -4.78
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "533273",
-      "company": "Oberoi Realty Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -1.08,
-        "3": -3.18,
-        "7": -2.19
-      },
-      "post": {
-        "1": 1.65,
-        "3": 1.08,
-        "7": -1.81
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "539332",
-      "company": "Navkar Corporation Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": 0.61,
-        "3": 5.82,
-        "7": 9.1
-      },
-      "post": {
-        "1": -9.8,
-        "3": -10.4,
-        "7": -10.53
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "511577",
-      "company": "Mantra Capital Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -5.58,
-        "3": -5.05,
-        "7": -8.92
-      },
-      "post": {
-        "1": 0,
-        "3": 0.13,
-        "7": 3.5
-      },
-      "market_cap": 687319552,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "519612",
-      "company": "Lake Shore Realty Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": -4.19,
-        "3": -2.76,
-        "7": -7.79
-      },
-      "post": {
-        "1": 3.48,
-        "3": 6.87,
-        "7": 4.9
-      },
-      "market_cap": 238472384,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "506597",
-      "company": "Amal Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": 1.05,
-        "3": -1,
-        "7": 0.28
-      },
-      "post": {
-        "1": 20,
-        "3": 22.76,
-        "7": 24.58
-      },
-      "market_cap": 4617197056,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531212",
-      "company": "Nalin Lease Finance Ltd",
-      "earnings_date": "2026-07-17",
-      "pre": {
-        "1": 3.8,
-        "3": 4.87,
-        "7": 1.63
-      },
-      "post": {
-        "1": 2.01,
-        "3": -0.48,
-        "7": -3.35
-      },
-      "market_cap": 275509120,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "530361",
-      "company": "Prabhhans Industries Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 0.93,
-        "3": 1.43,
-        "7": 7.22
-      },
-      "post": {
-        "1": -3.74,
-        "3": -2.33,
-        "7": -7.51
-      },
-      "market_cap": 418632064,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "530179",
-      "company": "RSC International Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 1.98,
-        "3": 2.04,
-        "7": 20.56
-      },
-      "post": {
-        "1": 2,
-        "3": 6.09,
-        "7": 14.77
-      },
-      "market_cap": 81760776,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "530055",
-      "company": "Harmony Capital Service Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 0,
-        "3": 4.99,
-        "7": 4.99
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "market_cap": 121199304,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "533275",
-      "company": "Shah Metacorp Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": -0.65,
-        "3": -0.86,
-        "7": -9.41
-      },
-      "post": {
-        "1": -1.08,
-        "3": -5.41,
-        "7": -3.46
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "514348",
-      "company": "Winsome Yarns Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 1.53,
-        "3": 3.65,
-        "7": 0.51
-      },
-      "post": {
-        "1": 1.51,
-        "3": 1.51,
-        "7": 9.55
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "505358",
-      "company": "Integra Engineering India Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": -1.49,
-        "3": -8.16,
-        "7": -11.27
-      },
-      "post": {
-        "1": -4.01,
-        "3": -7.43,
-        "7": -8.94
-      },
-      "market_cap": 8355898368,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "506520",
-      "company": "Jayshree Chemicals Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": -0.17,
-        "3": -3.93,
-        "7": -2.17
-      },
-      "post": {
-        "1": 3.07,
-        "3": 0.85,
-        "7": 2.9
-      },
-      "market_cap": 272736448,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "538542",
-      "company": "Gold Coin Health Foods Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": -2.11,
-        "3": -12.43,
-        "7": -13.91
-      },
-      "post": {
-        "1": 0.96,
-        "3": 0.93,
-        "7": 0.4
-      },
-      "market_cap": 20928482,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "538713",
-      "company": "Atishay Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": -2.45,
-        "3": -1.02,
-        "7": -1.32
-      },
-      "post": {
-        "1": -0.96,
-        "3": -13.65,
-        "7": -14.89
-      },
-      "market_cap": 1497601664,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "534809",
-      "company": "PC Jeweller Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 7.19,
-        "3": 5.8,
-        "7": 11.84
-      },
-      "post": {
-        "1": -2.36,
-        "3": -6.71,
-        "7": -12.1
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "521070",
-      "company": "Alok Industries Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": -0.4,
-        "3": -0.48,
-        "7": -3.25
-      },
-      "post": {
-        "1": 0,
-        "3": -2.32,
-        "7": -3.51
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540727",
-      "company": "Poojawestern Metaliks Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 7.45,
-        "3": 6.65,
-        "7": 9.64
-      },
-      "post": {
-        "1": -0.8,
-        "3": -4.1,
-        "7": -8.05
-      },
-      "market_cap": 449416672,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531515",
-      "company": "Mahan Industries Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 0,
-        "3": 4.96,
-        "7": 4.96
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "market_cap": 131463384,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531989",
-      "company": "Deccan Polypacks Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 0,
-        "3": -5,
-        "7": -5
-      },
-      "post": {
-        "1": 0,
-        "3": -4.61,
-        "7": 0
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "533162",
-      "company": "Hathway Cable & Datacom Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": -0.88,
-        "3": 1.36,
-        "7": 0.54
-      },
-      "post": {
-        "1": -1.07,
-        "3": -1.07,
-        "7": -3.93
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "543934",
-      "company": "Machhar Industries Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": -5,
-        "3": -6.18,
-        "7": -1.61
-      },
-      "post": {
-        "1": 4.74,
-        "3": 15.46,
-        "7": 16.85
-      },
-      "market_cap": 251042448,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540597",
-      "company": "Containerway International Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 3.91,
-        "3": 8.06,
-        "7": -1.2
-      },
-      "post": {
-        "1": -6.77,
-        "3": -0.93,
-        "7": -2.83
-      },
-      "market_cap": 137940624,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540124",
-      "company": "G N A Axles Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": -1.19,
-        "3": 15.69,
-        "7": 16.13
-      },
-      "post": {
-        "1": 7.51,
-        "3": -7.44,
-        "7": -7.5
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "535916",
-      "company": "Alacrity Securities Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": -2.15,
-        "3": 0.06,
-        "7": -2.88
-      },
-      "post": {
-        "1": 1.71,
-        "3": 4.25,
-        "7": 0.06
-      },
-      "market_cap": 3916141824,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "532218",
-      "company": "South Indian Bank Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 0.42,
-        "3": -0.57,
-        "7": -2.82
-      },
-      "post": {
-        "1": -0.42,
-        "3": 1.47,
-        "7": 2.22
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531233",
-      "company": "Rasi Electrodes Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 0.32,
-        "3": 1.53,
-        "7": -1.56
-      },
-      "post": {
-        "1": -0.71,
-        "3": -2.94,
-        "7": 0.87
-      },
-      "market_cap": 901153920,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "517536",
-      "company": "Onward Technologies Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": -1.03,
-        "3": -0.02,
-        "7": 1.43
-      },
-      "post": {
-        "1": 1.58,
-        "3": -3.73,
-        "7": 2.29
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "533193",
-      "company": "Kirloskar Electric Company Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 0.34,
-        "3": 4.16,
-        "7": 2.48
-      },
-      "post": {
-        "1": 3.44,
-        "3": 2.85,
-        "7": 5.99
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "533151",
-      "company": "D. B. Corp Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 1.07,
-        "3": 2.58,
-        "7": 5.73
-      },
-      "post": {
-        "1": 1.15,
-        "3": 2.78,
-        "7": -0.02
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531460",
-      "company": "Continental Controls Ltd",
-      "earnings_date": "2026-07-16",
-      "pre": {
-        "1": 4.92,
-        "3": 15.43,
-        "7": 4.41
-      },
-      "post": {
-        "1": 4.92,
-        "3": 15.47,
-        "7": 20.75
-      },
-      "market_cap": 89252280,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "530141",
-      "company": "Gyan Developers & Builders Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 5,
-        "3": 6.64,
-        "7": 10.59
-      },
-      "post": {
-        "1": 5,
-        "3": 7.1,
-        "7": 7.1
-      },
-      "market_cap": 47938704,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "520121",
-      "company": "Arcee Industries Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 0,
-        "3": 4.26,
-        "7": -0.25
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 4.97
-      },
-      "market_cap": 30014540,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540716",
-      "company": "ICICI Lombard General Insurance Company Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 0.03,
-        "3": -0.35,
-        "7": 1.44
-      },
-      "post": {
-        "1": 1.44,
-        "3": -9.84,
-        "7": -9.35
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "523475",
-      "company": "Lotus Chocolate Company Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": -2.33,
-        "3": 9.16,
-        "7": 7.97
-      },
-      "post": {
-        "1": -3.53,
-        "3": -8.22,
-        "7": -9.97
-      },
-      "market_cap": 10936038400,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540602",
-      "company": "GTPL Hathway Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 3.1,
-        "3": 4.27,
-        "7": 2.7
-      },
-      "post": {
-        "1": 3.2,
-        "3": 1.25,
-        "7": -4.79
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "526490",
-      "company": "Pratik Panels Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 3.25,
-        "3": 8.83,
-        "7": 1
-      },
-      "post": {
-        "1": -4.8,
-        "3": -5.96,
-        "7": -4.97
-      },
-      "market_cap": 380123872,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "519242",
-      "company": "Sarda Proteins Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 0,
-        "3": 4.99,
-        "7": 4.99
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "524590",
-      "company": "Hemo Organic Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 4.99,
-        "3": 10.2,
-        "7": 15.68
-      },
-      "post": {
-        "1": 0,
-        "3": 0,
-        "7": 0
-      },
-      "market_cap": 35503232,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "513119",
-      "company": "Onix Solar Energy Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 0.59,
-        "3": 0.68,
-        "7": -3.92
-      },
-      "post": {
-        "1": -0.36,
-        "3": -0.92,
-        "7": -4.07
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "505840",
-      "company": "Jaipan Industries Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": -0.85,
-        "3": 4.01,
-        "7": 15.05
-      },
-      "post": {
-        "1": -0.03,
-        "3": -2,
-        "7": -2.88
-      },
-      "market_cap": 226853040,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "522134",
-      "company": "Artson Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 2.3,
-        "3": 8.3,
-        "7": -1.54
-      },
-      "post": {
-        "1": -4.97,
-        "3": -6.83,
-        "7": -11.24
-      },
-      "market_cap": 5843721216,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "507948",
-      "company": "Key Corporation Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 3.43,
-        "3": 2.71,
-        "7": -2.05
-      },
-      "post": {
-        "1": 4.32,
-        "3": 15,
-        "7": 22.65
-      },
-      "market_cap": 958344320,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "539837",
-      "company": "Raghav Productivity Enhancers Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": -3.98,
-        "3": -1.62,
-        "7": 0.2
-      },
-      "post": {
-        "1": -0.08,
-        "3": 3.6,
-        "7": 2.19
-      },
-      "market_cap": 20606091264,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "539016",
-      "company": "Neil Industries Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": -2.1,
-        "3": -1.14,
-        "7": -4.87
-      },
-      "post": {
-        "1": -1.49,
-        "3": 2.81,
-        "7": 0.17
-      },
-      "market_cap": 323940128,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "541703",
-      "company": "Raconteur Global Resources Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 0,
-        "3": 9.8,
-        "7": 9.8
-      },
-      "post": {
-        "1": 0,
-        "3": 1.92,
-        "7": -11.54
-      },
-      "market_cap": 107138656,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540777",
-      "company": "HDFC Life Insurance Company Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": -3.17,
-        "3": 0.41,
-        "7": -2.84
-      },
-      "post": {
-        "1": 2.41,
-        "3": 1.53,
-        "7": -0.75
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "500184",
-      "company": "Himadri Speciality Chemical Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 1.27,
-        "3": 3.31,
-        "7": 1.34
-      },
-      "post": {
-        "1": 1.47,
-        "3": 10.47,
-        "7": 15.8
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "531661",
-      "company": "Hittco Tools Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": -4.96,
-        "3": -0.69,
-        "7": 32.86
-      },
-      "post": {
-        "1": -3.76,
-        "3": -3.69,
-        "7": -6.45
-      },
-      "market_cap": 79893256,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "517320",
-      "company": "Magnus Steel and Infra Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": -4.99,
-        "3": -14.23,
-        "7": -22.78
-      },
-      "post": {
-        "1": 4.98,
-        "3": -5.25,
-        "7": -14.67
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "509567",
-      "company": "Goa Carbon Ltd-$",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": 0.2,
-        "3": 4.75,
-        "7": 4.13
-      },
-      "post": {
-        "1": -7.83,
-        "3": -10,
-        "7": -7.19
-      },
-      "market_cap": null,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "540133",
-      "company": "ICICI Prudential Life Insurance Company Ltd",
-      "earnings_date": "2026-07-15",
-      "pre": {
-        "1": -3.02,
-        "3": 2.8,
-        "7": 1.63
-      },
-      "post": {
-        "1": 4.09,
-        "3": -1.52,
-        "7": -0.51
-      },
-      "market_cap": null,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
