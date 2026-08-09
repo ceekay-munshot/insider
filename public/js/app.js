@@ -22,7 +22,7 @@
   var STUDY = null; // backtest results (study.json)
   var TODAY = todayStr();
 
-  var st = { scope: "IN", dir: "up", window: 3, threshold: 2, minMcap: 0 }; // study controls (minMcap in USD-equiv)
+  var st = { scope: "IN", dir: "up", threshold: 3, minMcap: 0 }; // study controls (minMcap in USD-equiv)
 
   // Defaults on open: India · next 3 days · Upcoming · sorted by soonest earnings.
   var DEFAULT_SORT = { key: "earnings", dir: "asc" };
@@ -531,20 +531,29 @@
     });
   }
 
-  // Aggregate a record set for the current window/direction/threshold.
+  // Aggregate for the current direction + threshold. Trigger = the same-day
+  // (result-day) run-up; payoff = next-day (ret1) and 3-day (ret3) returns.
   function aggregate(records) {
-    var W = st.window, dir = st.dir, X = st.threshold;
-    var cohort = records.filter(function (r) { return dir === "up" ? r.pre[W] > X : r.pre[W] < -X; });
-    var post = {};
-    [1, 3, 7].forEach(function (P) {
-      var vals = cohort.map(function (r) { return r.post[P]; }).filter(function (v) { return v != null; });
-      var cont = cohort.filter(function (r) { return dir === "up" ? r.post[P] > 0 : r.post[P] < 0; }).length;
+    var dir = st.dir, X = st.threshold;
+    var cohort = records.filter(function (r) { return dir === "up" ? r.runup > X : r.runup < -X; });
+    var fav = dir === "up" ? function (v) { return v > 0; } : function (v) { return v < 0; };
+    function stat(key) {
+      var vals = cohort.map(function (r) { return r[key]; }).filter(function (v) { return v != null; });
+      var wins = vals.filter(fav).length;
       var avg = vals.length ? Math.round((vals.reduce(function (a, b) { return a + b; }, 0) / vals.length) * 100) / 100 : null;
-      post[P] = { hit_pct: cohort.length ? Math.round((100 * cont) / cohort.length) : null, avg_pct: avg };
-    });
+      return { win_pct: vals.length ? Math.round((100 * wins) / vals.length) : null, avg: avg };
+    }
+    var both = cohort.filter(function (r) { return r.ret1 != null && r.ret3 != null && fav(r.ret1) && fav(r.ret3); }).length;
     var withBeat = cohort.filter(function (r) { return r.beat != null; });
     var beatN = withBeat.filter(function (r) { return r.beat; }).length;
-    return { n: cohort.length, post: post, beat_rate: withBeat.length ? Math.round((100 * beatN) / withBeat.length) : null, beat_sample: withBeat.length };
+    return {
+      n: cohort.length,
+      next: stat("ret1"),
+      d3: stat("ret3"),
+      both_pct: cohort.length ? Math.round((100 * both) / cohort.length) : null,
+      beat_rate: withBeat.length ? Math.round((100 * beatN) / withBeat.length) : null,
+      beat_sample: withBeat.length,
+    };
   }
 
   function renderStudy() {
@@ -559,59 +568,60 @@
       return;
     }
     var recs = studyRecords();
-    var cell = aggregate(recs);
-    var moved = st.dir === "up" ? "rose" : "fell";
-    var thr = st.threshold === 0 ? "moved at all" : moved + " >" + st.threshold + "%";
+    var a = aggregate(recs);
+    var moved = st.dir === "up" ? "ran up" : "fell";
+    var kept = st.dir === "up" ? "kept rising" : "kept falling";
+    var still = st.dir === "up" ? "still up" : "still down";
+    var thr = moved + " >" + st.threshold + "% on the result day";
 
-    if (cell.n === 0) {
-      hl.innerHTML = "No names " + thr + " in the " + st.window + "-day window before earnings in this slice (try a smaller size filter or threshold).";
+    if (a.n === 0) {
+      hl.innerHTML = "No names " + thr + " in this slice (try a smaller size filter or a lower threshold).";
     } else {
-      var p3 = cell.post[3];
       hl.innerHTML =
-        "Of <b class='big'>" + cell.n + "</b> names that <b>" + thr + "</b> in the <b>" + st.window +
-        " day" + (st.window > 1 ? "s" : "") + "</b> before earnings, <b class='big'>" + p3.hit_pct +
-        "%</b> also " + moved + " in the next 3 days" +
-        (p3.avg_pct != null ? " (avg <b class='" + (p3.avg_pct >= 0 ? "pos" : "neg") + "'>" + signedPct(p3.avg_pct) + "</b>)" : "") + ".";
+        "Of <b class='big'>" + a.n + "</b> names that <b>" + thr + "</b>, <b class='big'>" + a.next.win_pct +
+        "%</b> " + kept + " the next day. Full win (next-day <em>and</em> 3-day both in your favour): <b class='big'>" + a.both_pct + "%</b>.";
     }
 
-    [1, 3, 7].forEach(function (P) {
-      var post = cell.post[P];
-      var hit = post ? post.hit_pct : null;
-      var avg = post ? post.avg_pct : null;
+    // tiles
+    var t = [
+      { lbl: "Next day", win: a.next.win_pct, note: a.n ? kept + " · avg " + signedPct(a.next.avg) : "no cohort" },
+      { lbl: "Over 3 days", win: a.d3.win_pct, note: a.n ? still + " · avg " + signedPct(a.d3.avg) : "no cohort" },
+      { lbl: "Win rate (both +)", win: a.both_pct, note: "next-day AND 3-day" },
+    ];
+    t.forEach(function (x) {
       tiles.appendChild(UI.el("div", { class: "kpi" }, [
-        UI.el("div", { class: "lbl", text: "After " + P + " day" + (P > 1 ? "s" : "") }),
-        UI.el("div", { class: "val " + (hit == null ? "" : hit >= 50 ? "pos" : "amber"), text: hit == null ? "—" : hit + "%" }),
-        UI.el("div", { class: "note", text: hit == null ? "no cohort" : moved + " again · avg " + signedPct(avg) }),
+        UI.el("div", { class: "lbl", text: x.lbl }),
+        UI.el("div", { class: "val " + (x.win == null ? "" : x.win >= 50 ? "pos" : "amber"), text: x.win == null ? "—" : x.win + "%" }),
+        UI.el("div", { class: "note", text: x.note }),
       ]));
     });
-    if (cell.beat_rate != null && cell.beat_sample > 0) {
+    if (a.beat_rate != null && a.beat_sample > 0) {
       tiles.appendChild(UI.el("div", { class: "kpi" }, [
         UI.el("div", { class: "lbl", text: "Actually beat estimates" }),
-        UI.el("div", { class: "val " + (cell.beat_rate >= 50 ? "pos" : "amber"), text: cell.beat_rate + "%" }),
-        UI.el("div", { class: "note", text: "of " + cell.beat_sample + " with analyst estimates" }),
+        UI.el("div", { class: "val " + (a.beat_rate >= 50 ? "pos" : "amber"), text: a.beat_rate + "%" }),
+        UI.el("div", { class: "note", text: "of " + a.beat_sample + " with analyst estimates" }),
       ]));
     }
 
-    // sample: biggest run-ups (by the chosen window) within the current slice
-    var W = st.window;
+    // sample: biggest result-day run-ups in the current slice
     recs.slice()
-      .sort(function (a, b) { return (b.pre[W] || -1e9) - (a.pre[W] || -1e9); })
+      .sort(function (x, y) { return (y.runup || -1e9) - (x.runup || -1e9); })
       .slice(0, 20)
       .forEach(function (r) {
         sample.appendChild(UI.el("tr", {}, [
           UI.el("td", {}, [UI.el("span", { class: "sym", text: r.ticker || "—" })]),
           UI.el("td", { class: "company hide-sm", text: r.company || "—" }),
           UI.el("td", { class: "when", text: fmtDate(r.earnings_date) }),
-          moveCell(r.pre[3]), moveCell(r.post[3]), moveCell(r.post[7]),
+          moveCell(r.runup), moveCell(r.ret1), moveCell(r.ret3),
           UI.el("td", { class: "num", text: r.surprise_pct == null ? "—" : signedPct(r.surprise_pct) }),
         ]));
       });
 
     var beatCount = recs.filter(function (r) { return r.beat != null; }).length;
     function row(k, v) { return UI.el("div", { class: "row" }, [UI.el("span", { class: "k", text: k }), UI.el("span", { class: "v", html: v })]); }
-    trail.appendChild(row("Slice", "<b>" + recs.length + "</b> past earnings in view" + (STUDY.lookback ? " · " + STUDY.lookback.from + " → " + STUDY.lookback.to : "")));
-    trail.appendChild(row("Method", "Move over N trading days <b>into</b> earnings vs. the move <b>after</b> — prices from Yahoo, past events from BSE (India) / Finnhub (US)."));
-    trail.appendChild(row("Beat/miss", beatCount + " names in view had analyst estimates (real beat/miss); the rest use the price reaction."));
+    trail.appendChild(row("Slice", "<b>" + recs.length + "</b> past results in view" + (STUDY.lookback ? " · " + STUDY.lookback.from + " → " + STUDY.lookback.to : "")));
+    trail.appendChild(row("Method", "Trigger = the stock's <b>same-day (result-day) run-up</b> (results are after-close); returns measured from the result-day close. Prices: Yahoo · events: BSE (India) / Finnhub (US)."));
+    trail.appendChild(row("Beat/miss", beatCount + " names in view had analyst estimates (real beat/miss)."));
     trail.appendChild(row("Generated", "<b>" + (STUDY.generated_at ? new Date(STUDY.generated_at).toLocaleString() : "—") + "</b>"));
   }
 
@@ -707,24 +717,11 @@
       var b = e.target.closest("button"); if (!b) return;
       st.dir = b.getAttribute("data-dir"); setSeg("st-dir", "data-dir", st.dir); renderStudy();
     });
-    document.getElementById("st-window").addEventListener("click", function (e) {
-      var b = e.target.closest("button"); if (!b) return;
-      st.window = Number(b.getAttribute("data-w")); setSeg("st-window", "data-w", st.window); renderStudy();
-    });
     document.getElementById("st-threshold").addEventListener("change", function (e) {
       st.threshold = Number(e.target.value); renderStudy();
     });
     document.getElementById("st-mcap").addEventListener("change", function (e) {
       st.minMcap = Number(e.target.value); renderStudy();
-    });
-
-    // refresh — re-pull the JSON without a full page reload
-    var rf = document.getElementById("btn-refresh");
-    if (rf) rf.addEventListener("click", function () {
-      rf.classList.add("spin"); rf.disabled = true;
-      loadAndRender().then(function () {
-        setTimeout(function () { rf.classList.remove("spin"); rf.disabled = false; }, 400);
-      });
     });
 
     // refresh — re-pull the JSON without a full page reload
