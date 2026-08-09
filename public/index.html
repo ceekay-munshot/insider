@@ -194,6 +194,21 @@
                   </select>
                 </div>
                 <div class="fgroup">
+                  <span class="cap">Result was</span>
+                  <select class="sel" id="st-result">
+                    <option value="any" selected>Any</option>
+                    <option value="beat">Beat estimates</option>
+                    <option value="miss">Missed estimates</option>
+                  </select>
+                </div>
+                <div class="fgroup">
+                  <span class="cap">Then I bet it</span>
+                  <div class="seg" id="st-bet" role="group">
+                    <button data-bet="keeps" aria-pressed="true">Keeps going</button>
+                    <button data-bet="reverses" aria-pressed="false">Reverses</button>
+                  </div>
+                </div>
+                <div class="fgroup">
                   <span class="cap">Company size</span>
                   <select class="sel" id="st-mcap" title="Filters out illiquid micro-caps (USD-equivalent)">
                     <option value="0" selected>All sizes</option>

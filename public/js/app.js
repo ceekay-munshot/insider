@@ -22,7 +22,7 @@
   var STUDY = null; // backtest results (study.json)
   var TODAY = todayStr();
 
-  var st = { scope: "IN", dir: "up", threshold: 3, minMcap: 0 }; // study controls (minMcap in USD-equiv)
+  var st = { scope: "IN", dir: "up", threshold: 3, minMcap: 0, bet: "keeps", result: "any" }; // study controls
 
   // Defaults on open: India · next 3 days · Upcoming · sorted by soonest earnings.
   var DEFAULT_SORT = { key: "earnings", dir: "asc" };
@@ -531,12 +531,17 @@
     });
   }
 
-  // Aggregate for the current direction + threshold. Trigger = the same-day
-  // (result-day) run-up; payoff = next-day (ret1) and 3-day (ret3) returns.
+  // Aggregate for the current direction + threshold + result + bet. Trigger = the
+  // same-day (result-day) run-up; payoff = next-day (ret1) and 3-day (ret3).
   function aggregate(records) {
     var dir = st.dir, X = st.threshold;
     var cohort = records.filter(function (r) { return dir === "up" ? r.runup > X : r.runup < -X; });
-    var fav = dir === "up" ? function (v) { return v > 0; } : function (v) { return v < 0; };
+    // result filter: only names that beat / missed estimates (needs a surprise)
+    if (st.result === "beat") cohort = cohort.filter(function (r) { return r.beat === true; });
+    else if (st.result === "miss") cohort = cohort.filter(function (r) { return r.beat === false; });
+    // a win depends on the bet: "keeps" = move continues; "reverses" = it fades back
+    var wantUp = (dir === "up") === (st.bet === "keeps");
+    var fav = wantUp ? function (v) { return v > 0; } : function (v) { return v < 0; };
     function stat(key) {
       var vals = cohort.map(function (r) { return r[key]; }).filter(function (v) { return v != null; });
       var wins = vals.filter(fav).length;
@@ -570,23 +575,27 @@
     var recs = studyRecords();
     var a = aggregate(recs);
     var moved = st.dir === "up" ? "ran up" : "fell";
-    var kept = st.dir === "up" ? "kept rising" : "kept falling";
-    var still = st.dir === "up" ? "still up" : "still down";
-    var thr = moved + " >" + st.threshold + "% on the result day";
+    // word for a winning outcome, given the bet
+    var wantUp = (st.dir === "up") === (st.bet === "keeps");
+    var winWord = st.bet === "keeps"
+      ? (st.dir === "up" ? "kept rising" : "kept falling")
+      : (st.dir === "up" ? "fell back" : "bounced up");
+    var resultWord = st.result === "beat" ? " and beat estimates" : st.result === "miss" ? " but missed estimates" : "";
+    var thr = moved + " >" + st.threshold + "% on the result day" + resultWord;
 
     if (a.n === 0) {
-      hl.innerHTML = "No names " + thr + " in this slice (try a smaller size filter or a lower threshold).";
+      hl.innerHTML = "No names " + thr + " in this slice (try a smaller size filter, a lower threshold, or Result = Any).";
     } else {
       hl.innerHTML =
         "Of <b class='big'>" + a.n + "</b> names that <b>" + thr + "</b>, <b class='big'>" + a.next.win_pct +
-        "%</b> " + kept + " the next day. Full win (next-day <em>and</em> 3-day both in your favour): <b class='big'>" + a.both_pct + "%</b>.";
+        "%</b> " + winWord + " the next day. Won on both next-day and 3-day: <b class='big'>" + a.both_pct + "%</b>.";
     }
 
     // tiles
     var t = [
-      { lbl: "Next day", win: a.next.win_pct, note: a.n ? kept + " · avg " + signedPct(a.next.avg) : "no cohort" },
-      { lbl: "Over 3 days", win: a.d3.win_pct, note: a.n ? still + " · avg " + signedPct(a.d3.avg) : "no cohort" },
-      { lbl: "Win rate (both +)", win: a.both_pct, note: "next-day AND 3-day" },
+      { lbl: "Next day", win: a.next.win_pct, note: a.n ? winWord + " · avg " + signedPct(a.next.avg) : "no cohort" },
+      { lbl: "Over 3 days", win: a.d3.win_pct, note: a.n ? winWord + " · avg " + signedPct(a.d3.avg) : "no cohort" },
+      { lbl: "Win rate (both)", win: a.both_pct, note: "next-day AND 3-day" },
     ];
     t.forEach(function (x) {
       tiles.appendChild(UI.el("div", { class: "kpi" }, [
@@ -595,7 +604,7 @@
         UI.el("div", { class: "note", text: x.note }),
       ]));
     });
-    if (a.beat_rate != null && a.beat_sample > 0) {
+    if (st.result === "any" && a.beat_rate != null && a.beat_sample > 0) {
       tiles.appendChild(UI.el("div", { class: "kpi" }, [
         UI.el("div", { class: "lbl", text: "Actually beat estimates" }),
         UI.el("div", { class: "val " + (a.beat_rate >= 50 ? "pos" : "amber"), text: a.beat_rate + "%" }),
@@ -603,9 +612,12 @@
       ]));
     }
 
-    // sample: biggest result-day run-ups in the current slice
-    recs.slice()
-      .sort(function (x, y) { return (y.runup || -1e9) - (x.runup || -1e9); })
+    // sample: the actual cohort (same filters as the numbers above), biggest run-ups first
+    var coh = recs.filter(function (r) { return st.dir === "up" ? r.runup > st.threshold : r.runup < -st.threshold; });
+    if (st.result === "beat") coh = coh.filter(function (r) { return r.beat === true; });
+    else if (st.result === "miss") coh = coh.filter(function (r) { return r.beat === false; });
+    coh.slice()
+      .sort(function (x, y) { return st.dir === "up" ? (y.runup || -1e9) - (x.runup || -1e9) : (x.runup || 1e9) - (y.runup || 1e9); })
       .slice(0, 20)
       .forEach(function (r) {
         sample.appendChild(UI.el("tr", {}, [
@@ -722,6 +734,13 @@
     });
     document.getElementById("st-mcap").addEventListener("change", function (e) {
       st.minMcap = Number(e.target.value); renderStudy();
+    });
+    document.getElementById("st-result").addEventListener("change", function (e) {
+      st.result = e.target.value; renderStudy();
+    });
+    document.getElementById("st-bet").addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      st.bet = b.getAttribute("data-bet"); setSeg("st-bet", "data-bet", st.bet); renderStudy();
     });
 
     // refresh — re-pull the JSON without a full page reload
