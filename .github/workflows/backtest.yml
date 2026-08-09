@@ -8,20 +8,20 @@ name: Backtest study
 # side (local runs are India-only).
 on:
   schedule:
-    - cron: "30 2 * * 6" # Saturday 02:30 UTC (markets closed)
+    - cron: "30 2 * * *" # daily 02:30 UTC — rolling/live: newly-reported names flow in
   workflow_dispatch:
     inputs:
       start_days:
         description: "Oldest event, this many days back"
-        default: "60"
+        default: "180"
         required: false
       end_days:
-        description: "Newest event, this many days back (so +7d has elapsed)"
-        default: "12"
+        description: "Newest event, this many days back (so +3d has settled)"
+        default: "5"
         required: false
       max_events:
         description: "Max priced events per market"
-        default: "400"
+        default: "800"
         required: false
       beatmiss:
         description: "1 = fetch real analyst beat/miss (slower); 0 = price-reaction only"
@@ -40,9 +40,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-      STUDY_START_DAYS: ${{ inputs.start_days || '60' }}
-      STUDY_END_DAYS: ${{ inputs.end_days || '12' }}
-      STUDY_MAX_EVENTS: ${{ inputs.max_events || '400' }}
+      STUDY_START_DAYS: ${{ inputs.start_days || '180' }}
+      STUDY_END_DAYS: ${{ inputs.end_days || '5' }}
+      STUDY_MAX_EVENTS: ${{ inputs.max_events || '800' }}
       STUDY_BEATMISS: ${{ inputs.beatmiss || '1' }}
     steps:
       - name: Checkout

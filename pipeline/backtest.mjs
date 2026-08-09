@@ -17,20 +17,21 @@
 //   win = ret1 > 0 (kept running next day); strict win = ret1 > 0 AND ret3 > 0.
 // beat/miss: real analyst surprise from Yahoo where an estimate exists.
 //
-// Data: past result dates — India from BSE board-meeting OUTCOMES, US from
-// Finnhub (needs FINNHUB_API_KEY). Prices + surprises from Yahoo. Fail-soft: a
-// name we can't price is skipped, never fatal.
+// Data: past result dates — India = top liquid names by market cap + their last
+// earnings date from TradingView (real, tradable companies; market cap free);
+// US = Finnhub (needs FINNHUB_API_KEY). Prices + beat/miss from Yahoo. Rolling:
+// each run re-sources the window, so newly-reported names flow in automatically.
+// Fail-soft: a name we can't price is skipped, never fatal.
 
 import { pathToFileURL } from "node:url";
 import { writeJson } from "./lib/io.mjs";
 import { dailyCloses, quoteSummary } from "./lib/yahoo.mjs";
 
-const START_DAYS = Number(process.env.STUDY_START_DAYS || 60); // oldest event ~this many days back
-const END_DAYS = Number(process.env.STUDY_END_DAYS || 12); // newest event ~this many days back (so +7d elapsed)
-const MAX_EVENTS = Number(process.env.STUDY_MAX_EVENTS || 400); // per market cap
+const START_DAYS = Number(process.env.STUDY_START_DAYS || 180); // oldest event ~this many days back (6 months)
+const END_DAYS = Number(process.env.STUDY_END_DAYS || 5); // newest event ~this many days back (so +3d has settled → rolling/live)
+const MAX_EVENTS = Number(process.env.STUDY_MAX_EVENTS || 800); // per market
 const BEATMISS = process.env.STUDY_BEATMISS !== "0"; // real Yahoo surprise (best-effort)
 const YH_SLEEP = Number(process.env.STUDY_YH_SLEEP_MS || 120);
-const BSE_PAGES = Number(process.env.STUDY_BSE_PAGES || 70);
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -60,36 +61,46 @@ async function fetchJson(url, headers) {
 
 // ---- event sourcing ------------------------------------------------------
 
-// India: past board-meeting OUTCOMES over the last [startDays..endDays] ago.
-// BSE caps any single query at ~31 days, so we walk the window in 28-day chunks.
-// Stops once we have `cap` candidates. -> [{market,ticker,company,earnings_date,symbol}]
+// India (LIQUID): the top names by market cap, each with its last earnings date,
+// straight from TradingView — so the study is real, tradable companies (Reliance,
+// HDFC, TCS…) instead of the BSE micro-cap tail. Market cap comes free here.
+// Keeps names whose last result fell in [endDays..startDays] ago (one event each,
+// the most recent quarter). -> [{market,ticker,company,earnings_date,symbol,market_cap}]
 async function indiaEvents(startDays, endDays, cap) {
-  const ANN = "https://api.bseindia.com/BseIndiaAPI/api/AnnSubCategoryGetData/w";
-  const headers = { "User-Agent": UA, Accept: "application/json, text/plain, */*", Origin: "https://www.bseindia.com", Referer: "https://www.bseindia.com/" };
+  const body = {
+    columns: ["name", "description", "market_cap_basic", "earnings_release_date"],
+    sort: { sortBy: "market_cap_basic", sortOrder: "desc" },
+    range: [0, Math.max(2 * cap, 1500)],
+  };
+  let data = [];
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 30000);
+  try {
+    const res = await fetch("https://scanner.tradingview.com/india/scan", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", accept: "application/json", "User-Agent": UA },
+      body: JSON.stringify(body),
+      signal: ctrl.signal,
+    });
+    const j = await res.json();
+    data = Array.isArray(j.data) ? j.data : [];
+  } catch (e) {
+    console.warn(`[backtest] India (TradingView) failed: ${e.message}`);
+    return [];
+  } finally {
+    clearTimeout(timer);
+  }
+  const now = Math.floor(Date.now() / 1000);
   const seen = new Map();
-  const CHUNK = 28;
-  for (let newer = endDays; newer < startDays && seen.size < cap; newer += CHUNK) {
-    const older = Math.min(startDays, newer + CHUNK);
-    const from = dayShift(-older).compact; // older calendar date
-    const to = dayShift(-newer).compact; // newer calendar date
-    for (let page = 1; page <= BSE_PAGES && seen.size < cap; page++) {
-      const url = `${ANN}?pageno=${page}&strCat=Board%20Meeting&strPrevDate=${from}&strScrip=&strSearch=P&strToDate=${to}&strType=C&subcategory=-1`;
-      const json = await fetchJson(url, headers);
-      const rows = (json && Array.isArray(json.Table) && json.Table) || [];
-      if (rows.length === 0) break;
-      for (const a of rows) {
-        if (!a || !/outcome/i.test(String(a.NEWSSUB || ""))) continue;
-        const code = String(a.SCRIP_CD || "").trim();
-        if (!code || seen.has(code)) continue;
-        const m = String(a.NEWS_DT || "").match(/^(\d{4})-(\d{2})-(\d{2})/);
-        if (!m) continue;
-        const company = String(a.NEWSSUB || "").split(" - ")[0].trim();
-        seen.set(code, { market: "IN", ticker: code, company, earnings_date: `${m[1]}-${m[2]}-${m[3]}`, symbol: `${code}.BO` });
-      }
-      const total = json && json.Table1 && json.Table1[0] && json.Table1[0].ROWCNT;
-      if (typeof total === "number" && page * 50 >= total) break;
-      await sleep(160);
-    }
+  for (const r of data) {
+    if (!r || !r.s || !r.s.startsWith("NSE:") || !Array.isArray(r.d)) continue;
+    const name = r.d[0], desc = r.d[1], mcap = r.d[2], ed = r.d[3];
+    if (!name || seen.has(name) || !ed) continue;
+    const daysAgo = Math.round((now - ed) / 86400);
+    if (daysAgo < endDays || daysAgo > startDays) continue; // result too new (not settled) or too old
+    const edate = new Date(ed * 1000).toISOString().slice(0, 10);
+    seen.set(name, { market: "IN", ticker: name, company: desc, earnings_date: edate, symbol: `${name}.NS`, market_cap: typeof mcap === "number" ? mcap : null });
+    if (seen.size >= cap) break;
   }
   return [...seen.values()];
 }
@@ -122,9 +133,11 @@ async function usEvents(fromD, toD) {
 //   ret1  = close[E+1] / close[E]   - 1   (next-day return)
 //   ret3  = close[E+3] / close[E]   - 1   (3-day total return)
 function movesFor(closes, earnings_date) {
+  // last trading close on/before the result day (handles holidays / tz slippage)
   let iE = -1;
   for (let i = 0; i < closes.length; i++) {
-    if (closes[i].date === earnings_date) { iE = i; break; }
+    if (closes[i].date <= earnings_date) iE = i;
+    else break;
   }
   if (iE < 1 || iE + 3 >= closes.length) return null; // need E-1 .. E+3
   const cP = closes[iE - 1].close, cE = closes[iE].close, c1 = closes[iE + 1].close, c3 = closes[iE + 3].close;
@@ -159,11 +172,11 @@ async function enrich(events, maxPriced) {
     if (closes.length >= 20) {
       const mv = movesFor(closes, e.earnings_date);
       if (mv) {
-        const rec = { ...e, runup: mv.runup, ret1: mv.ret1, ret3: mv.ret3, market_cap: null, surprise_pct: null, beat: null };
+        const rec = { ...e, runup: mv.runup, ret1: mv.ret1, ret3: mv.ret3, market_cap: e.market_cap != null ? e.market_cap : null, surprise_pct: null, beat: null };
         if (BEATMISS) {
-          // one quoteSummary call -> market cap (for the size filter) + real beat/miss
+          // one quoteSummary call -> real beat/miss (+ market cap when we don't already have it)
           const qs = await quoteSummary(e.symbol).catch(() => ({ marketCap: null, surprises: [] }));
-          rec.market_cap = qs.marketCap;
+          if (rec.market_cap == null) rec.market_cap = qs.marketCap;
           const s = matchSurprise(qs.surprises, e.earnings_date);
           if (s) { rec.surprise_pct = s.surprise_pct; rec.beat = s.beat; }
           await sleep(YH_SLEEP);
@@ -187,7 +200,7 @@ export async function run() {
 
   const CAND = MAX_EVENTS * 2; // collect extra; ~half won't price cleanly
 
-  console.log("[backtest] sourcing India events (BSE outcomes, 28-day chunks)…");
+  console.log("[backtest] sourcing India events (top liquid names via TradingView)…");
   const inEv = await indiaEvents(START_DAYS, END_DAYS, CAND);
   console.log(`[backtest] India candidates: ${inEv.length}`);
 
