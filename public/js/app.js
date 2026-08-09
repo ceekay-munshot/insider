@@ -19,7 +19,10 @@
 
   var ALL = { US: [], IN: [] }; // all signals, grouped by market
   var META = null;
+  var STUDY = null; // backtest results (study.json)
   var TODAY = todayStr();
+
+  var st = { scope: "IN", dir: "up", window: 3, threshold: 2 }; // study controls
 
   // Defaults on open: India · next 3 days · Upcoming · sorted by soonest earnings.
   var DEFAULT_SORT = { key: "earnings", dir: "asc" };
@@ -487,6 +490,96 @@
   }
   function closeAlerts() { document.getElementById("alerts-modal").hidden = true; }
 
+  // ---- study (backtest) ---------------------------------------------------
+
+  function signedPct(n) { return n == null ? "—" : (n > 0 ? "+" : "") + Number(n).toFixed(2) + "%"; }
+
+  function studyCell() {
+    if (!STUDY || !STUDY.markets || !STUDY.markets[st.scope]) return null;
+    var cells = STUDY.markets[st.scope].cells || [];
+    for (var i = 0; i < cells.length; i++) {
+      var c = cells[i];
+      if (c.pre_window === st.window && c.direction === st.dir && c.threshold === st.threshold) return c;
+    }
+    return null;
+  }
+
+  function renderStudy() {
+    var hl = document.getElementById("study-headline");
+    var tiles = document.getElementById("study-tiles");
+    var sample = document.getElementById("study-sample");
+    var trail = document.getElementById("study-trail");
+    UI.clear(tiles); UI.clear(sample); UI.clear(trail);
+
+    if (!STUDY) {
+      hl.textContent = "Study not run yet — run `node pipeline/backtest.mjs` to generate it.";
+      return;
+    }
+    var m = STUDY.markets[st.scope] || {};
+    var cell = studyCell();
+    var moved = st.dir === "up" ? "rose" : "fell";
+    var thr = st.threshold === 0 ? "moved at all" : moved + " >" + st.threshold + "%";
+
+    // headline (anchored on the 3-day-after payoff)
+    if (!cell || cell.n === 0) {
+      hl.innerHTML = "No names " + thr + " in the " + st.window + "-day window before earnings in this sample.";
+    } else {
+      var p3 = cell.post["3"];
+      hl.innerHTML =
+        "Of <b class='big'>" + cell.n + "</b> names that <b>" + thr + "</b> in the <b>" + st.window +
+        " day" + (st.window > 1 ? "s" : "") + "</b> before earnings, <b class='big'>" + p3.hit_pct +
+        "%</b> also " + moved + " in the next 3 days" +
+        (p3.avg_pct != null ? " (avg <b class='" + (p3.avg_pct >= 0 ? "pos" : "neg") + "'>" + signedPct(p3.avg_pct) + "</b>)" : "") + ".";
+    }
+
+    // tiles: what happened AFTER (1/3/7 days)
+    [1, 3, 7].forEach(function (P) {
+      var post = cell && cell.post[String(P)];
+      var hit = post ? post.hit_pct : null;
+      var avg = post ? post.avg_pct : null;
+      tiles.appendChild(UI.el("div", { class: "kpi" }, [
+        UI.el("div", { class: "lbl", text: "After " + P + " day" + (P > 1 ? "s" : "") }),
+        UI.el("div", { class: "val " + (hit == null ? "" : hit >= 50 ? "pos" : "amber"), text: hit == null ? "—" : hit + "%" }),
+        UI.el("div", { class: "note", text: hit == null ? "no cohort" : moved + " again · avg " + signedPct(avg) }),
+      ]));
+    });
+    // beat-rate tile when we have real surprises
+    if (cell && cell.beat_rate != null && cell.beat_sample > 0) {
+      tiles.appendChild(UI.el("div", { class: "kpi" }, [
+        UI.el("div", { class: "lbl", text: "Actually beat estimates" }),
+        UI.el("div", { class: "val " + (cell.beat_rate >= 50 ? "pos" : "amber"), text: cell.beat_rate + "%" }),
+        UI.el("div", { class: "note", text: "of " + cell.beat_sample + " with analyst estimates" }),
+      ]));
+    }
+
+    // sample rows
+    (m.sample || []).forEach(function (e) {
+      sample.appendChild(UI.el("tr", { class: "border-t" }, [
+        UI.el("td", {}, [UI.el("span", { class: "sym", text: e.ticker || "—" })]),
+        UI.el("td", { class: "company hide-sm", text: e.company || "—" }),
+        UI.el("td", { class: "when", text: fmtDate(e.earnings_date) }),
+        moveCell(e.pre3), moveCell(e.post3), moveCell(e.post7),
+        UI.el("td", { class: "num", text: e.surprise_pct == null ? "—" : signedPct(e.surprise_pct) }),
+      ]));
+    });
+
+    // method + freshness
+    function row(k, v) { return UI.el("div", { class: "row" }, [UI.el("span", { class: "k", text: k }), UI.el("span", { class: "v", html: v })]); }
+    trail.appendChild(row("Sample", "<b>" + (m.events_analyzed || 0) + "</b> past earnings analyzed" + (STUDY.lookback ? " · " + STUDY.lookback.from + " → " + STUDY.lookback.to : "")));
+    trail.appendChild(row("Method", "Move over N trading days <b>into</b> earnings vs. the move <b>after</b> — prices from Yahoo, past events from BSE (India) / Finnhub (US)."));
+    trail.appendChild(row("Beat/miss", (m.beatmiss_available || 0) + " names had analyst estimates (real beat/miss); the rest use the price reaction."));
+    trail.appendChild(row("Generated", "<b>" + (STUDY.generated_at ? new Date(STUDY.generated_at).toLocaleString() : "—") + "</b>"));
+  }
+
+  function setStudyView(on) {
+    document.getElementById("view-radar").hidden = on;
+    document.getElementById("view-study").hidden = !on;
+    document.getElementById("view-hint").textContent = on
+      ? "Backtest: did a pre-earnings move predict the move after?"
+      : "Live: stocks running up before earnings";
+    if (on) renderStudy();
+  }
+
   // ---- controls -----------------------------------------------------------
 
   function onSort(key) {
@@ -554,6 +647,30 @@
     // reflect the default status in the dropdown
     document.getElementById("sel-status").value = filters.status;
 
+    // view switch: radar vs study
+    document.getElementById("seg-view").addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      var v = b.getAttribute("data-view");
+      setSeg("seg-view", "data-view", v);
+      setStudyView(v === "study");
+    });
+    // study controls
+    document.getElementById("st-market").addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      st.scope = b.getAttribute("data-scope"); setSeg("st-market", "data-scope", st.scope); renderStudy();
+    });
+    document.getElementById("st-dir").addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      st.dir = b.getAttribute("data-dir"); setSeg("st-dir", "data-dir", st.dir); renderStudy();
+    });
+    document.getElementById("st-window").addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      st.window = Number(b.getAttribute("data-w")); setSeg("st-window", "data-w", st.window); renderStudy();
+    });
+    document.getElementById("st-threshold").addEventListener("change", function (e) {
+      st.threshold = Number(e.target.value); renderStudy();
+    });
+
     // alerts preview
     document.getElementById("btn-alerts").addEventListener("click", openAlerts);
     document.getElementById("alerts-close").addEventListener("click", closeAlerts);
@@ -577,6 +694,7 @@
     Promise.all([
       loadJson("metadata.json", null),
       loadJson("signals.json", { signals: [] }),
+      loadJson("study.json", null),
     ]).then(function (r) {
       META = r[0];
       var grouped = { US: [], IN: [] };
@@ -585,6 +703,7 @@
         grouped[s.market].push(s);
       });
       ALL = grouped;
+      STUDY = r[2];
       renderFreshness();
       renderTrail();
       renderAlertBadge();

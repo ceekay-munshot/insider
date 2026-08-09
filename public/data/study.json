@@ -1,0 +1,2428 @@
+{
+  "generated_at": "2026-08-09T10:05:36.237Z",
+  "lookback": {
+    "from": "2026-06-10",
+    "to": "2026-07-28"
+  },
+  "windows": [
+    1,
+    3,
+    7
+  ],
+  "thresholds": [
+    0,
+    2,
+    3,
+    5,
+    10
+  ],
+  "directions": [
+    "up",
+    "down"
+  ],
+  "markets": {
+    "IN": {
+      "events_analyzed": 300,
+      "beatmiss_available": 0,
+      "cells": [
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 0,
+          "n": 137,
+          "post": {
+            "1": {
+              "hit_pct": 54,
+              "avg_pct": 0.1
+            },
+            "3": {
+              "hit_pct": 44,
+              "avg_pct": -0.21
+            },
+            "7": {
+              "hit_pct": 40,
+              "avg_pct": -0.78
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 2,
+          "n": 63,
+          "post": {
+            "1": {
+              "hit_pct": 59,
+              "avg_pct": 0.75
+            },
+            "3": {
+              "hit_pct": 48,
+              "avg_pct": 0.09
+            },
+            "7": {
+              "hit_pct": 40,
+              "avg_pct": -1.01
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 3,
+          "n": 46,
+          "post": {
+            "1": {
+              "hit_pct": 59,
+              "avg_pct": 0.68
+            },
+            "3": {
+              "hit_pct": 41,
+              "avg_pct": -0.12
+            },
+            "7": {
+              "hit_pct": 37,
+              "avg_pct": -1.15
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 5,
+          "n": 18,
+          "post": {
+            "1": {
+              "hit_pct": 56,
+              "avg_pct": 1
+            },
+            "3": {
+              "hit_pct": 33,
+              "avg_pct": -0.32
+            },
+            "7": {
+              "hit_pct": 39,
+              "avg_pct": -1.31
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 10,
+          "n": 2,
+          "post": {
+            "1": {
+              "hit_pct": 50,
+              "avg_pct": 4.89
+            },
+            "3": {
+              "hit_pct": 0,
+              "avg_pct": -3.56
+            },
+            "7": {
+              "hit_pct": 0,
+              "avg_pct": -12.82
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 0,
+          "n": 129,
+          "post": {
+            "1": {
+              "hit_pct": 40,
+              "avg_pct": 0.81
+            },
+            "3": {
+              "hit_pct": 48,
+              "avg_pct": 0.78
+            },
+            "7": {
+              "hit_pct": 48,
+              "avg_pct": 1.37
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 2,
+          "n": 53,
+          "post": {
+            "1": {
+              "hit_pct": 38,
+              "avg_pct": 0.65
+            },
+            "3": {
+              "hit_pct": 43,
+              "avg_pct": 0.62
+            },
+            "7": {
+              "hit_pct": 47,
+              "avg_pct": 0.82
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 3,
+          "n": 38,
+          "post": {
+            "1": {
+              "hit_pct": 42,
+              "avg_pct": 0.35
+            },
+            "3": {
+              "hit_pct": 42,
+              "avg_pct": 0.12
+            },
+            "7": {
+              "hit_pct": 50,
+              "avg_pct": -0.49
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 5,
+          "n": 6,
+          "post": {
+            "1": {
+              "hit_pct": 0,
+              "avg_pct": 2.19
+            },
+            "3": {
+              "hit_pct": 0,
+              "avg_pct": 3.49
+            },
+            "7": {
+              "hit_pct": 33,
+              "avg_pct": 7.51
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 10,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 0,
+          "n": 141,
+          "post": {
+            "1": {
+              "hit_pct": 59,
+              "avg_pct": 0.53
+            },
+            "3": {
+              "hit_pct": 49,
+              "avg_pct": 0.92
+            },
+            "7": {
+              "hit_pct": 49,
+              "avg_pct": 1.11
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 2,
+          "n": 85,
+          "post": {
+            "1": {
+              "hit_pct": 58,
+              "avg_pct": 0.43
+            },
+            "3": {
+              "hit_pct": 46,
+              "avg_pct": 1.01
+            },
+            "7": {
+              "hit_pct": 48,
+              "avg_pct": 1.52
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 3,
+          "n": 71,
+          "post": {
+            "1": {
+              "hit_pct": 56,
+              "avg_pct": 0.28
+            },
+            "3": {
+              "hit_pct": 42,
+              "avg_pct": -0.03
+            },
+            "7": {
+              "hit_pct": 44,
+              "avg_pct": 0.13
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 5,
+          "n": 48,
+          "post": {
+            "1": {
+              "hit_pct": 54,
+              "avg_pct": 0.39
+            },
+            "3": {
+              "hit_pct": 46,
+              "avg_pct": 0.98
+            },
+            "7": {
+              "hit_pct": 50,
+              "avg_pct": 1.33
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 10,
+          "n": 15,
+          "post": {
+            "1": {
+              "hit_pct": 60,
+              "avg_pct": 1.7
+            },
+            "3": {
+              "hit_pct": 47,
+              "avg_pct": 1.91
+            },
+            "7": {
+              "hit_pct": 47,
+              "avg_pct": -0.3
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 0,
+          "n": 143,
+          "post": {
+            "1": {
+              "hit_pct": 45,
+              "avg_pct": 0.34
+            },
+            "3": {
+              "hit_pct": 55,
+              "avg_pct": -0.43
+            },
+            "7": {
+              "hit_pct": 55,
+              "avg_pct": -0.47
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 2,
+          "n": 73,
+          "post": {
+            "1": {
+              "hit_pct": 38,
+              "avg_pct": 0.66
+            },
+            "3": {
+              "hit_pct": 48,
+              "avg_pct": -0.64
+            },
+            "7": {
+              "hit_pct": 58,
+              "avg_pct": -1.09
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 3,
+          "n": 49,
+          "post": {
+            "1": {
+              "hit_pct": 24,
+              "avg_pct": 1.33
+            },
+            "3": {
+              "hit_pct": 41,
+              "avg_pct": -0.18
+            },
+            "7": {
+              "hit_pct": 55,
+              "avg_pct": -1.54
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 5,
+          "n": 25,
+          "post": {
+            "1": {
+              "hit_pct": 40,
+              "avg_pct": -0.24
+            },
+            "3": {
+              "hit_pct": 44,
+              "avg_pct": -2.51
+            },
+            "7": {
+              "hit_pct": 64,
+              "avg_pct": -4.56
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 10,
+          "n": 4,
+          "post": {
+            "1": {
+              "hit_pct": 50,
+              "avg_pct": -0.94
+            },
+            "3": {
+              "hit_pct": 50,
+              "avg_pct": -3.99
+            },
+            "7": {
+              "hit_pct": 75,
+              "avg_pct": -13.82
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 0,
+          "n": 157,
+          "post": {
+            "1": {
+              "hit_pct": 57,
+              "avg_pct": 0.46
+            },
+            "3": {
+              "hit_pct": 46,
+              "avg_pct": 0.46
+            },
+            "7": {
+              "hit_pct": 47,
+              "avg_pct": 1.12
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 2,
+          "n": 95,
+          "post": {
+            "1": {
+              "hit_pct": 55,
+              "avg_pct": 0.54
+            },
+            "3": {
+              "hit_pct": 44,
+              "avg_pct": 0.02
+            },
+            "7": {
+              "hit_pct": 43,
+              "avg_pct": 0.79
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 3,
+          "n": 88,
+          "post": {
+            "1": {
+              "hit_pct": 57,
+              "avg_pct": 0.64
+            },
+            "3": {
+              "hit_pct": 44,
+              "avg_pct": 0.15
+            },
+            "7": {
+              "hit_pct": 43,
+              "avg_pct": 0.69
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 5,
+          "n": 63,
+          "post": {
+            "1": {
+              "hit_pct": 62,
+              "avg_pct": 1.11
+            },
+            "3": {
+              "hit_pct": 52,
+              "avg_pct": 0.93
+            },
+            "7": {
+              "hit_pct": 49,
+              "avg_pct": 2.14
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 10,
+          "n": 32,
+          "post": {
+            "1": {
+              "hit_pct": 63,
+              "avg_pct": 1.31
+            },
+            "3": {
+              "hit_pct": 59,
+              "avg_pct": 2.8
+            },
+            "7": {
+              "hit_pct": 59,
+              "avg_pct": 3.19
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 0,
+          "n": 127,
+          "post": {
+            "1": {
+              "hit_pct": 44,
+              "avg_pct": 0.36
+            },
+            "3": {
+              "hit_pct": 52,
+              "avg_pct": -0.1
+            },
+            "7": {
+              "hit_pct": 54,
+              "avg_pct": -0.67
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 2,
+          "n": 89,
+          "post": {
+            "1": {
+              "hit_pct": 42,
+              "avg_pct": 0.78
+            },
+            "3": {
+              "hit_pct": 47,
+              "avg_pct": -0.09
+            },
+            "7": {
+              "hit_pct": 54,
+              "avg_pct": -1.09
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 3,
+          "n": 72,
+          "post": {
+            "1": {
+              "hit_pct": 35,
+              "avg_pct": 1.24
+            },
+            "3": {
+              "hit_pct": 43,
+              "avg_pct": 0.39
+            },
+            "7": {
+              "hit_pct": 50,
+              "avg_pct": -0.86
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 5,
+          "n": 42,
+          "post": {
+            "1": {
+              "hit_pct": 29,
+              "avg_pct": 1.69
+            },
+            "3": {
+              "hit_pct": 40,
+              "avg_pct": 0.43
+            },
+            "7": {
+              "hit_pct": 50,
+              "avg_pct": -1.38
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 10,
+          "n": 10,
+          "post": {
+            "1": {
+              "hit_pct": 30,
+              "avg_pct": 0.87
+            },
+            "3": {
+              "hit_pct": 50,
+              "avg_pct": -2.55
+            },
+            "7": {
+              "hit_pct": 60,
+              "avg_pct": -6.29
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        }
+      ],
+      "sample": [
+        {
+          "market": "IN",
+          "ticker": "530585",
+          "company": "Swastika Investmart Ltd",
+          "earnings_date": "2026-07-20",
+          "pre3": 58.37,
+          "post3": 5.13,
+          "post7": 2.88,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "502281",
+          "company": "Triveni Glass Ltd-$",
+          "earnings_date": "2026-07-28",
+          "pre3": 45.8,
+          "post3": -3.46,
+          "post7": -20.52,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "514260",
+          "company": "Surbhi Industries Ltd",
+          "earnings_date": "2026-07-28",
+          "pre3": 15.74,
+          "post3": 15.74,
+          "post7": 40.61,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "538838",
+          "company": "Indo Cotspin Ltd",
+          "earnings_date": "2026-07-18",
+          "pre3": 15.74,
+          "post3": 9.71,
+          "post7": 13.27,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "539408",
+          "company": "Kuber Udyog Ltd",
+          "earnings_date": "2026-07-23",
+          "pre3": 15.69,
+          "post3": -12.51,
+          "post7": -8.78,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "532701",
+          "company": "Cella Space Ltd",
+          "earnings_date": "2026-07-23",
+          "pre3": 15.68,
+          "post3": 15.69,
+          "post7": 4.47,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "540175",
+          "company": "Regency Fincorp Ltd",
+          "earnings_date": "2026-07-20",
+          "pre3": 15.48,
+          "post3": -2.29,
+          "post7": -8.06,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "541402",
+          "company": "Affordable Robotic & Automation Ltd",
+          "earnings_date": "2026-07-17",
+          "pre3": 14.17,
+          "post3": -5.97,
+          "post7": -11.93,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "539148",
+          "company": "Shivalik Rasayan Ltd",
+          "earnings_date": "2026-07-23",
+          "pre3": 12.37,
+          "post3": 6.79,
+          "post7": 0.71,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "539552",
+          "company": "F Mec International Financial Services Ltd",
+          "earnings_date": "2026-07-18",
+          "pre3": 12.11,
+          "post3": 7.26,
+          "post7": 7.93,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "532807",
+          "company": "Cineline India Ltd",
+          "earnings_date": "2026-07-27",
+          "pre3": 12.1,
+          "post3": -7.86,
+          "post7": 3.33,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "539177",
+          "company": "Authum Investment & Infrastructure Ltd",
+          "earnings_date": "2026-07-20",
+          "pre3": 11.61,
+          "post3": -4.93,
+          "post7": -2.22,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "540026",
+          "company": "Ladam Affordable Housing Ltd",
+          "earnings_date": "2026-07-22",
+          "pre3": 10.74,
+          "post3": -3.99,
+          "post7": -3.14,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "538812",
+          "company": "Aanchal Ispat Ltd",
+          "earnings_date": "2026-07-17",
+          "pre3": 10.52,
+          "post3": -5.59,
+          "post7": -23.01,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "517246",
+          "company": "BCC Fuba India Ltd",
+          "earnings_date": "2026-07-21",
+          "pre3": 10.37,
+          "post3": 14.94,
+          "post7": -0.03,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "533202",
+          "company": "Satchmo Holdings Ltd",
+          "earnings_date": "2026-07-24",
+          "pre3": 9.81,
+          "post3": -9.79,
+          "post7": -26.12,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "530093",
+          "company": "ACE Edutrend Ltd",
+          "earnings_date": "2026-07-27",
+          "pre3": 9.75,
+          "post3": 3.64,
+          "post7": 7.06,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "526095",
+          "company": "Ravileela Granites Ltd",
+          "earnings_date": "2026-07-28",
+          "pre3": 9.62,
+          "post3": 1.28,
+          "post7": 13.76,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "539522",
+          "company": "Grovy India Ltd",
+          "earnings_date": "2026-07-23",
+          "pre3": 9.53,
+          "post3": 7,
+          "post7": 0.93,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "539562",
+          "company": "Aarnav Fashions Ltd",
+          "earnings_date": "2026-07-28",
+          "pre3": 9.45,
+          "post3": -3.67,
+          "post7": -5.12,
+          "surprise_pct": null
+        }
+      ]
+    },
+    "US": {
+      "events_analyzed": 0,
+      "beatmiss_available": 0,
+      "cells": [
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 0,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 2,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 3,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 5,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 10,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 0,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 2,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 3,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 5,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 10,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 0,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 2,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 3,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 5,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 10,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 0,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 2,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 3,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 5,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 10,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 0,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 2,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 3,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 5,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 10,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 0,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 2,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 3,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 5,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 10,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        }
+      ],
+      "sample": []
+    },
+    "ALL": {
+      "events_analyzed": 300,
+      "beatmiss_available": 0,
+      "cells": [
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 0,
+          "n": 137,
+          "post": {
+            "1": {
+              "hit_pct": 54,
+              "avg_pct": 0.1
+            },
+            "3": {
+              "hit_pct": 44,
+              "avg_pct": -0.21
+            },
+            "7": {
+              "hit_pct": 40,
+              "avg_pct": -0.78
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 2,
+          "n": 63,
+          "post": {
+            "1": {
+              "hit_pct": 59,
+              "avg_pct": 0.75
+            },
+            "3": {
+              "hit_pct": 48,
+              "avg_pct": 0.09
+            },
+            "7": {
+              "hit_pct": 40,
+              "avg_pct": -1.01
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 3,
+          "n": 46,
+          "post": {
+            "1": {
+              "hit_pct": 59,
+              "avg_pct": 0.68
+            },
+            "3": {
+              "hit_pct": 41,
+              "avg_pct": -0.12
+            },
+            "7": {
+              "hit_pct": 37,
+              "avg_pct": -1.15
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 5,
+          "n": 18,
+          "post": {
+            "1": {
+              "hit_pct": 56,
+              "avg_pct": 1
+            },
+            "3": {
+              "hit_pct": 33,
+              "avg_pct": -0.32
+            },
+            "7": {
+              "hit_pct": 39,
+              "avg_pct": -1.31
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "up",
+          "threshold": 10,
+          "n": 2,
+          "post": {
+            "1": {
+              "hit_pct": 50,
+              "avg_pct": 4.89
+            },
+            "3": {
+              "hit_pct": 0,
+              "avg_pct": -3.56
+            },
+            "7": {
+              "hit_pct": 0,
+              "avg_pct": -12.82
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 0,
+          "n": 129,
+          "post": {
+            "1": {
+              "hit_pct": 40,
+              "avg_pct": 0.81
+            },
+            "3": {
+              "hit_pct": 48,
+              "avg_pct": 0.78
+            },
+            "7": {
+              "hit_pct": 48,
+              "avg_pct": 1.37
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 2,
+          "n": 53,
+          "post": {
+            "1": {
+              "hit_pct": 38,
+              "avg_pct": 0.65
+            },
+            "3": {
+              "hit_pct": 43,
+              "avg_pct": 0.62
+            },
+            "7": {
+              "hit_pct": 47,
+              "avg_pct": 0.82
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 3,
+          "n": 38,
+          "post": {
+            "1": {
+              "hit_pct": 42,
+              "avg_pct": 0.35
+            },
+            "3": {
+              "hit_pct": 42,
+              "avg_pct": 0.12
+            },
+            "7": {
+              "hit_pct": 50,
+              "avg_pct": -0.49
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 5,
+          "n": 6,
+          "post": {
+            "1": {
+              "hit_pct": 0,
+              "avg_pct": 2.19
+            },
+            "3": {
+              "hit_pct": 0,
+              "avg_pct": 3.49
+            },
+            "7": {
+              "hit_pct": 33,
+              "avg_pct": 7.51
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 1,
+          "direction": "down",
+          "threshold": 10,
+          "n": 0,
+          "post": {
+            "1": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "3": {
+              "hit_pct": null,
+              "avg_pct": null
+            },
+            "7": {
+              "hit_pct": null,
+              "avg_pct": null
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 0,
+          "n": 141,
+          "post": {
+            "1": {
+              "hit_pct": 59,
+              "avg_pct": 0.53
+            },
+            "3": {
+              "hit_pct": 49,
+              "avg_pct": 0.92
+            },
+            "7": {
+              "hit_pct": 49,
+              "avg_pct": 1.11
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 2,
+          "n": 85,
+          "post": {
+            "1": {
+              "hit_pct": 58,
+              "avg_pct": 0.43
+            },
+            "3": {
+              "hit_pct": 46,
+              "avg_pct": 1.01
+            },
+            "7": {
+              "hit_pct": 48,
+              "avg_pct": 1.52
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 3,
+          "n": 71,
+          "post": {
+            "1": {
+              "hit_pct": 56,
+              "avg_pct": 0.28
+            },
+            "3": {
+              "hit_pct": 42,
+              "avg_pct": -0.03
+            },
+            "7": {
+              "hit_pct": 44,
+              "avg_pct": 0.13
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 5,
+          "n": 48,
+          "post": {
+            "1": {
+              "hit_pct": 54,
+              "avg_pct": 0.39
+            },
+            "3": {
+              "hit_pct": 46,
+              "avg_pct": 0.98
+            },
+            "7": {
+              "hit_pct": 50,
+              "avg_pct": 1.33
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "up",
+          "threshold": 10,
+          "n": 15,
+          "post": {
+            "1": {
+              "hit_pct": 60,
+              "avg_pct": 1.7
+            },
+            "3": {
+              "hit_pct": 47,
+              "avg_pct": 1.91
+            },
+            "7": {
+              "hit_pct": 47,
+              "avg_pct": -0.3
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 0,
+          "n": 143,
+          "post": {
+            "1": {
+              "hit_pct": 45,
+              "avg_pct": 0.34
+            },
+            "3": {
+              "hit_pct": 55,
+              "avg_pct": -0.43
+            },
+            "7": {
+              "hit_pct": 55,
+              "avg_pct": -0.47
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 2,
+          "n": 73,
+          "post": {
+            "1": {
+              "hit_pct": 38,
+              "avg_pct": 0.66
+            },
+            "3": {
+              "hit_pct": 48,
+              "avg_pct": -0.64
+            },
+            "7": {
+              "hit_pct": 58,
+              "avg_pct": -1.09
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 3,
+          "n": 49,
+          "post": {
+            "1": {
+              "hit_pct": 24,
+              "avg_pct": 1.33
+            },
+            "3": {
+              "hit_pct": 41,
+              "avg_pct": -0.18
+            },
+            "7": {
+              "hit_pct": 55,
+              "avg_pct": -1.54
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 5,
+          "n": 25,
+          "post": {
+            "1": {
+              "hit_pct": 40,
+              "avg_pct": -0.24
+            },
+            "3": {
+              "hit_pct": 44,
+              "avg_pct": -2.51
+            },
+            "7": {
+              "hit_pct": 64,
+              "avg_pct": -4.56
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 3,
+          "direction": "down",
+          "threshold": 10,
+          "n": 4,
+          "post": {
+            "1": {
+              "hit_pct": 50,
+              "avg_pct": -0.94
+            },
+            "3": {
+              "hit_pct": 50,
+              "avg_pct": -3.99
+            },
+            "7": {
+              "hit_pct": 75,
+              "avg_pct": -13.82
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 0,
+          "n": 157,
+          "post": {
+            "1": {
+              "hit_pct": 57,
+              "avg_pct": 0.46
+            },
+            "3": {
+              "hit_pct": 46,
+              "avg_pct": 0.46
+            },
+            "7": {
+              "hit_pct": 47,
+              "avg_pct": 1.12
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 2,
+          "n": 95,
+          "post": {
+            "1": {
+              "hit_pct": 55,
+              "avg_pct": 0.54
+            },
+            "3": {
+              "hit_pct": 44,
+              "avg_pct": 0.02
+            },
+            "7": {
+              "hit_pct": 43,
+              "avg_pct": 0.79
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 3,
+          "n": 88,
+          "post": {
+            "1": {
+              "hit_pct": 57,
+              "avg_pct": 0.64
+            },
+            "3": {
+              "hit_pct": 44,
+              "avg_pct": 0.15
+            },
+            "7": {
+              "hit_pct": 43,
+              "avg_pct": 0.69
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 5,
+          "n": 63,
+          "post": {
+            "1": {
+              "hit_pct": 62,
+              "avg_pct": 1.11
+            },
+            "3": {
+              "hit_pct": 52,
+              "avg_pct": 0.93
+            },
+            "7": {
+              "hit_pct": 49,
+              "avg_pct": 2.14
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "up",
+          "threshold": 10,
+          "n": 32,
+          "post": {
+            "1": {
+              "hit_pct": 63,
+              "avg_pct": 1.31
+            },
+            "3": {
+              "hit_pct": 59,
+              "avg_pct": 2.8
+            },
+            "7": {
+              "hit_pct": 59,
+              "avg_pct": 3.19
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 0,
+          "n": 127,
+          "post": {
+            "1": {
+              "hit_pct": 44,
+              "avg_pct": 0.36
+            },
+            "3": {
+              "hit_pct": 52,
+              "avg_pct": -0.1
+            },
+            "7": {
+              "hit_pct": 54,
+              "avg_pct": -0.67
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 2,
+          "n": 89,
+          "post": {
+            "1": {
+              "hit_pct": 42,
+              "avg_pct": 0.78
+            },
+            "3": {
+              "hit_pct": 47,
+              "avg_pct": -0.09
+            },
+            "7": {
+              "hit_pct": 54,
+              "avg_pct": -1.09
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 3,
+          "n": 72,
+          "post": {
+            "1": {
+              "hit_pct": 35,
+              "avg_pct": 1.24
+            },
+            "3": {
+              "hit_pct": 43,
+              "avg_pct": 0.39
+            },
+            "7": {
+              "hit_pct": 50,
+              "avg_pct": -0.86
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 5,
+          "n": 42,
+          "post": {
+            "1": {
+              "hit_pct": 29,
+              "avg_pct": 1.69
+            },
+            "3": {
+              "hit_pct": 40,
+              "avg_pct": 0.43
+            },
+            "7": {
+              "hit_pct": 50,
+              "avg_pct": -1.38
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        },
+        {
+          "pre_window": 7,
+          "direction": "down",
+          "threshold": 10,
+          "n": 10,
+          "post": {
+            "1": {
+              "hit_pct": 30,
+              "avg_pct": 0.87
+            },
+            "3": {
+              "hit_pct": 50,
+              "avg_pct": -2.55
+            },
+            "7": {
+              "hit_pct": 60,
+              "avg_pct": -6.29
+            }
+          },
+          "beat_rate": null,
+          "beat_sample": 0
+        }
+      ],
+      "sample": [
+        {
+          "market": "IN",
+          "ticker": "530585",
+          "company": "Swastika Investmart Ltd",
+          "earnings_date": "2026-07-20",
+          "pre3": 58.37,
+          "post3": 5.13,
+          "post7": 2.88,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "502281",
+          "company": "Triveni Glass Ltd-$",
+          "earnings_date": "2026-07-28",
+          "pre3": 45.8,
+          "post3": -3.46,
+          "post7": -20.52,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "514260",
+          "company": "Surbhi Industries Ltd",
+          "earnings_date": "2026-07-28",
+          "pre3": 15.74,
+          "post3": 15.74,
+          "post7": 40.61,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "538838",
+          "company": "Indo Cotspin Ltd",
+          "earnings_date": "2026-07-18",
+          "pre3": 15.74,
+          "post3": 9.71,
+          "post7": 13.27,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "539408",
+          "company": "Kuber Udyog Ltd",
+          "earnings_date": "2026-07-23",
+          "pre3": 15.69,
+          "post3": -12.51,
+          "post7": -8.78,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "532701",
+          "company": "Cella Space Ltd",
+          "earnings_date": "2026-07-23",
+          "pre3": 15.68,
+          "post3": 15.69,
+          "post7": 4.47,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "540175",
+          "company": "Regency Fincorp Ltd",
+          "earnings_date": "2026-07-20",
+          "pre3": 15.48,
+          "post3": -2.29,
+          "post7": -8.06,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "541402",
+          "company": "Affordable Robotic & Automation Ltd",
+          "earnings_date": "2026-07-17",
+          "pre3": 14.17,
+          "post3": -5.97,
+          "post7": -11.93,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "539148",
+          "company": "Shivalik Rasayan Ltd",
+          "earnings_date": "2026-07-23",
+          "pre3": 12.37,
+          "post3": 6.79,
+          "post7": 0.71,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "539552",
+          "company": "F Mec International Financial Services Ltd",
+          "earnings_date": "2026-07-18",
+          "pre3": 12.11,
+          "post3": 7.26,
+          "post7": 7.93,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "532807",
+          "company": "Cineline India Ltd",
+          "earnings_date": "2026-07-27",
+          "pre3": 12.1,
+          "post3": -7.86,
+          "post7": 3.33,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "539177",
+          "company": "Authum Investment & Infrastructure Ltd",
+          "earnings_date": "2026-07-20",
+          "pre3": 11.61,
+          "post3": -4.93,
+          "post7": -2.22,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "540026",
+          "company": "Ladam Affordable Housing Ltd",
+          "earnings_date": "2026-07-22",
+          "pre3": 10.74,
+          "post3": -3.99,
+          "post7": -3.14,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "538812",
+          "company": "Aanchal Ispat Ltd",
+          "earnings_date": "2026-07-17",
+          "pre3": 10.52,
+          "post3": -5.59,
+          "post7": -23.01,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "517246",
+          "company": "BCC Fuba India Ltd",
+          "earnings_date": "2026-07-21",
+          "pre3": 10.37,
+          "post3": 14.94,
+          "post7": -0.03,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "533202",
+          "company": "Satchmo Holdings Ltd",
+          "earnings_date": "2026-07-24",
+          "pre3": 9.81,
+          "post3": -9.79,
+          "post7": -26.12,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "530093",
+          "company": "ACE Edutrend Ltd",
+          "earnings_date": "2026-07-27",
+          "pre3": 9.75,
+          "post3": 3.64,
+          "post7": 7.06,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "526095",
+          "company": "Ravileela Granites Ltd",
+          "earnings_date": "2026-07-28",
+          "pre3": 9.62,
+          "post3": 1.28,
+          "post7": 13.76,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "539522",
+          "company": "Grovy India Ltd",
+          "earnings_date": "2026-07-23",
+          "pre3": 9.53,
+          "post3": 7,
+          "post7": 0.93,
+          "surprise_pct": null
+        },
+        {
+          "market": "IN",
+          "ticker": "539562",
+          "company": "Aarnav Fashions Ltd",
+          "earnings_date": "2026-07-28",
+          "pre3": 9.45,
+          "post3": -3.67,
+          "post7": -5.12,
+          "surprise_pct": null
+        }
+      ]
+    }
+  }
+}

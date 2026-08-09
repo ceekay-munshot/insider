@@ -1,0 +1,75 @@
+name: Backtest study
+
+# The historical study (does a pre-earnings move predict the move after?).
+# Heavy + slow-changing, so it runs weekly and on manual dispatch — NOT on the
+# 30-min radar cron. Writes public/data/study.json and commits it back.
+#
+# On the runner FINNHUB_API_KEY is present, so this run also populates the US
+# side (local runs are India-only).
+on:
+  schedule:
+    - cron: "30 2 * * 6" # Saturday 02:30 UTC (markets closed)
+  workflow_dispatch:
+    inputs:
+      start_days:
+        description: "Oldest event, this many days back"
+        default: "60"
+        required: false
+      end_days:
+        description: "Newest event, this many days back (so +7d has elapsed)"
+        default: "12"
+        required: false
+      max_events:
+        description: "Max priced events per market"
+        default: "400"
+        required: false
+      beatmiss:
+        description: "1 = fetch real analyst beat/miss (slower); 0 = price-reaction only"
+        default: "1"
+        required: false
+
+concurrency:
+  group: backtest-study
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    env:
+      FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+      STUDY_START_DAYS: ${{ inputs.start_days || '60' }}
+      STUDY_END_DAYS: ${{ inputs.end_days || '12' }}
+      STUDY_MAX_EVENTS: ${{ inputs.max_events || '400' }}
+      STUDY_BEATMISS: ${{ inputs.beatmiss || '1' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run backtest
+        run: node pipeline/backtest.mjs
+
+      - name: Commit study
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/study.json
+          if git diff --cached --quiet; then
+            echo "No study changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(data): refresh backtest study"
+          for i in 1 2 3 4; do
+            if git push; then echo "Pushed on attempt $i"; exit 0; fi
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            sleep "$((2 ** i))"
+          done
+          echo "Failed to push after 4 attempts" >&2
+          exit 1

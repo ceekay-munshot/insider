@@ -314,6 +314,18 @@ table.tbl tbody tr.flagged:hover { background: rgba(217, 119, 6, 0.1); }
 .trail .row .v { font-size: 12px; color: var(--muted); }
 .trail .row .v b { color: var(--text-2); font-weight: 600; }
 
+/* ---- view switch + study ------------------------------------------------ */
+
+.viewswitch { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.viewhint { font-size: 12px; color: var(--hint); }
+.seg button.big-seg, #seg-view button { font-size: 13px; }
+
+.study-headline { margin: 0; padding: 18px 20px; font-size: 15px; line-height: 1.7; color: var(--text-2); }
+.study-headline b { color: var(--text); font-weight: 700; }
+.study-headline .big { font-size: 26px; font-weight: 800; color: var(--primary-text); vertical-align: -2px; }
+.study-headline .pos { color: var(--pos); }
+.study-headline .neg { color: var(--neg); }
+
 /* ---- alerts button + modal --------------------------------------------- */
 
 .alertbtn {
