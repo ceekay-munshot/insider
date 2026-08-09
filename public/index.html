@@ -37,6 +37,16 @@
       <!-- Zone 2 — scrollable content -->
       <main class="zone">
         <div class="stack">
+          <!-- View switch: live Radar vs historical Study -->
+          <div class="viewswitch">
+            <div class="seg" id="seg-view" role="group" aria-label="View">
+              <button data-view="radar" aria-pressed="true">📡 Radar</button>
+              <button data-view="study" aria-pressed="false">🔬 Study</button>
+            </div>
+            <span class="viewhint" id="view-hint">Live: stocks running up before earnings</span>
+          </div>
+
+          <div id="view-radar">
           <!-- Filters / context -->
           <section class="card" aria-label="Filters">
             <div class="filters" id="filters">
@@ -148,6 +158,88 @@
               <div class="trail" id="trail"></div>
             </div>
           </section>
+          </div><!-- /view-radar -->
+
+          <!-- ============ STUDY (backtest) ============ -->
+          <div id="view-study" hidden>
+            <!-- controls -->
+            <section class="card">
+              <div class="filters">
+                <div class="fgroup">
+                  <span class="cap">Market</span>
+                  <div class="seg" id="st-market" role="group">
+                    <button data-scope="IN" aria-pressed="true">India</button>
+                    <button data-scope="US" aria-pressed="false">US</button>
+                    <button data-scope="ALL" aria-pressed="false">Both</button>
+                  </div>
+                </div>
+                <div class="fgroup">
+                  <span class="cap">Move before earnings</span>
+                  <div class="seg" id="st-dir" role="group">
+                    <button data-dir="up" aria-pressed="true">▲ Rose</button>
+                    <button data-dir="down" aria-pressed="false">▼ Fell</button>
+                  </div>
+                </div>
+                <div class="fgroup">
+                  <span class="cap">Over</span>
+                  <div class="seg" id="st-window" role="group">
+                    <button data-w="1" aria-pressed="false">1 day</button>
+                    <button data-w="3" aria-pressed="true">3 days</button>
+                    <button data-w="7" aria-pressed="false">7 days</button>
+                  </div>
+                </div>
+                <div class="fgroup">
+                  <span class="cap">By at least</span>
+                  <select class="sel" id="st-threshold">
+                    <option value="0">any move (&gt;0%)</option>
+                    <option value="2" selected>2%</option>
+                    <option value="3">3%</option>
+                    <option value="5">5%</option>
+                    <option value="10">10%</option>
+                  </select>
+                </div>
+              </div>
+            </section>
+
+            <!-- headline -->
+            <section class="card">
+              <div class="card-bd">
+                <p class="study-headline" id="study-headline">…</p>
+              </div>
+            </section>
+
+            <!-- result tiles: what happened AFTER -->
+            <section class="kpi-grid" id="study-tiles" aria-label="After earnings"></section>
+
+            <!-- sample table -->
+            <section class="card">
+              <div class="card-hd">
+                <div>
+                  <h3 id="study-sample-title">Biggest run-ups in the sample</h3>
+                  <p class="sub">A few real cases behind the numbers — did the run-up continue after results?</p>
+                </div>
+              </div>
+              <div class="card-bd">
+                <div class="tbl-wrap">
+                  <table class="tbl">
+                    <thead>
+                      <tr>
+                        <th>Ticker</th><th>Company</th><th>Earnings</th>
+                        <th class="num">Before (3d)</th><th class="num">After (3d)</th><th class="num">After (7d)</th><th class="num">Surprise</th>
+                      </tr>
+                    </thead>
+                    <tbody id="study-sample"></tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            <!-- method / freshness -->
+            <section class="card">
+              <div class="card-hd"><div><h3>Method &amp; freshness</h3></div></div>
+              <div class="card-bd"><div class="trail" id="study-trail"></div></div>
+            </section>
+          </div><!-- /view-study -->
         </div>
       </main>
 
