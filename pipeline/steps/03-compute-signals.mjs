@@ -138,10 +138,12 @@ function buildSignal(event, reading, prior, now) {
   let currency = null;
   let baseline_prev_close = null;
   let change_1d_pct = null;
+  let market_cap = null;
   if (fresh) {
     price = numOrNull(reading.price);
     currency = reading.currency ?? null;
     baseline_prev_close = numOrNull(reading.prev_close);
+    market_cap = numOrNull(reading.market_cap);
     if (price != null && baseline_prev_close != null && baseline_prev_close !== 0) {
       change_1d_pct = round2(((price - baseline_prev_close) / baseline_prev_close) * 100);
     }
@@ -151,6 +153,7 @@ function buildSignal(event, reading, prior, now) {
     currency = prior.currency ?? null;
     baseline_prev_close = prior.baseline_prev_close ?? null;
     change_1d_pct = prior.change_1d_pct ?? null;
+    market_cap = prior.market_cap ?? null;
   }
 
   // peak: max UP move seen WHILE pre_earnings (sticky, from fresh readings only).
@@ -207,6 +210,7 @@ function buildSignal(event, reading, prior, now) {
     eps_yoy_pct: event.eps_yoy_pct ?? null,
     minutes_to_earnings,
     price,
+    market_cap,
     currency,
     baseline_prev_close,
     change_1d_pct,
