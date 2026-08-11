@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T05:34:06.215Z",
+  "generated_at": "2026-08-11T07:00:13.528Z",
   "count": 3413,
   "events": [
     {
@@ -2778,11 +2778,12 @@
       "company": "Apex Capital And Finance Ltd",
       "bse_code": "541133",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T06:56:00.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ADVLIFE",
@@ -3996,11 +3997,12 @@
       "company": "Globus Constructors & Developers Ltd",
       "bse_code": "526025",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T06:30:47.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "GOKAKTEX",
@@ -4272,11 +4274,12 @@
       "company": "Infinity Infoway Ltd",
       "bse_code": "544567",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T05:55:35.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "INFRONICS",
@@ -4620,11 +4623,12 @@
       "company": "KPI Green Energy Ltd",
       "bse_code": "542323",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T05:44:40.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true,
       "concall_datetime_utc": "2026-08-12T05:30:00.000Z",
       "concall_title": "Q1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46ff0bdf-b20c-4a32-a09b-fc59b64aa2ec.pdf"
@@ -5688,11 +5692,12 @@
       "company": "Quintegra Solutions Ltd",
       "bse_code": "532866",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T06:54:39.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "RADHIKAJWE",
@@ -6822,11 +6827,12 @@
       "company": "Vikram Aroma Ltd",
       "bse_code": "544371",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T06:59:31.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "VIKRAMTH",
@@ -21244,7 +21250,10 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-08-14T04:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ec87920-6935-47cb-8551-f2a7bb6e2653.pdf"
     },
     {
       "ticker": "DNAMEDIA",
