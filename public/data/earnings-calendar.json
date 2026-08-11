@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T09:30:22.030Z",
+  "generated_at": "2026-08-11T10:46:37.126Z",
   "count": 3441,
   "events": [
     {
@@ -2695,11 +2695,12 @@
       "company": "Alembic Ltd",
       "bse_code": "506235",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:46:35.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ALPHAGEO",
@@ -2712,7 +2713,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 1663.78
     },
     {
       "ticker": "ALUFLUOR",
@@ -2756,11 +2758,12 @@
       "company": "AMS Polymers Ltd",
       "bse_code": "540066",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:31:44.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ARCFIN",
@@ -2768,11 +2771,12 @@
       "company": "ARC Finance Ltd",
       "bse_code": "540135",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:20:52.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ARFIN",
@@ -2785,7 +2789,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 300
     },
     {
       "ticker": "ARIES",
@@ -2809,10 +2814,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43f1d32c-ce16-42e0-b4c7-a9298d987e67.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "ARL",
@@ -2820,11 +2822,12 @@
       "company": "Anand Rayons Ltd",
       "bse_code": "542721",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:10:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ARTEFACT",
@@ -2848,10 +2851,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51499da7-697e-4138-9e2b-2229562531bc.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "ASHOKA",
@@ -2863,10 +2863,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T09:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4db92938-1dc5-488e-9a23-889f901413b4.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "ASHUTPM",
@@ -2902,10 +2899,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1a00a8a-f7e7-4d6b-aa34-b11c81335476.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "AUSTENG",
@@ -2913,11 +2907,12 @@
       "company": "Austin Engineering Company Ltd",
       "bse_code": "522005",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T09:48:14.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "AVANCE",
@@ -2978,7 +2973,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 151.14
     },
     {
       "ticker": "BALRAMCHIN",
@@ -2986,14 +2982,12 @@
       "company": "Balrampur Chini Mills Ltd",
       "bse_code": "500038",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T09:48:08.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T07:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5925f0f-4386-425e-a40e-ce4b31912359.pdf"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "BATAINDIA",
@@ -3005,10 +2999,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-13T11:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ee8a24f-a1ea-426a-856b-5f75237fa1e3.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "BEEKAY",
@@ -3093,7 +3084,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 0
     },
     {
       "ticker": "BORANA",
@@ -3118,7 +3110,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -5.73
     },
     {
       "ticker": "BSL",
@@ -3150,14 +3143,12 @@
       "company": "Camlin Fine Sciences Ltd",
       "bse_code": "532834",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:45:34.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-11T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d430bd4-6414-4115-a0e2-5b8e77736a2c.pdf"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "CCAVENUE",
@@ -3171,9 +3162,7 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-11T11:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e2083fc-a222-4768-864c-54124b32b66d.pdf"
+      "eps_yoy_pct": 0
     },
     {
       "ticker": "CEINSYS",
@@ -3199,7 +3188,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -275
     },
     {
       "ticker": "CEWATER",
@@ -3211,10 +3201,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T04:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2eed1fc8-c4e3-4a1d-b1ca-a6d76ec61815.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "CHOKSI",
@@ -3222,11 +3209,12 @@
       "company": "Choksi Asia Ltd",
       "bse_code": "530427",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:06:03.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "CISTRO",
@@ -3250,10 +3238,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db1afc48-e5a9-4815-90ed-96eeae346ac1.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "CMMHOSP",
@@ -3261,11 +3246,12 @@
       "company": "Chennai Meenakshi Multispeciality Hospital Ltd",
       "bse_code": "523489",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:13:16.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "CONART",
@@ -3290,7 +3276,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 204.92
     },
     {
       "ticker": "CONTCHM",
@@ -3298,11 +3285,12 @@
       "company": "Continental Chemicals Ltd",
       "bse_code": "506935",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:13:41.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "CONTILI",
@@ -3334,11 +3322,12 @@
       "company": "Cubical Financial Services Ltd",
       "bse_code": "511710",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:13:51.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "CYBELEIND",
@@ -3418,11 +3407,12 @@
       "company": "Dhatre Udyog Ltd",
       "bse_code": "540080",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T09:33:49.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "DHOOTIN",
@@ -3430,11 +3420,12 @@
       "company": "Dhoot Industrial Finance Ltd",
       "bse_code": "526971",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:09:30.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "DIFFNKG",
@@ -3448,9 +3439,7 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-13T09:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=331f1487-3b35-4466-898f-b66b68f2fb8e.pdf"
+      "eps_yoy_pct": 36.2
     },
     {
       "ticker": "DISHTV",
@@ -3474,10 +3463,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=420157f2-e5a4-4e3e-a62e-dc8c702bca1d.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "DLTNCBL",
@@ -3502,7 +3488,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 24.84
     },
     {
       "ticker": "ECOSMOBLTY",
@@ -3522,11 +3509,12 @@
       "company": "E & E Enterprises Ltd",
       "bse_code": "501386",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:12:36.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "EIEL",
@@ -3538,10 +3526,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T06:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=747c61c1-7f0a-4a6f-a5f7-6789f551b8fd.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "EPACK",
@@ -3553,10 +3538,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T04:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb835718-e38f-4e1f-9f3e-a63e2661e30a.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "EPIC",
@@ -3625,11 +3607,12 @@
       "company": "Ester Industries Ltd",
       "bse_code": "500136",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T09:47:48.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "EXPOEAPL",
@@ -3666,7 +3649,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -54.61
     },
     {
       "ticker": "FINCABLES",
@@ -3680,9 +3664,7 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34b078ce-37f3-4982-bd1b-1aeabd539002.pdf"
+      "eps_yoy_pct": 53.15
     },
     {
       "ticker": "FLAIR",
@@ -3694,10 +3676,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5acdf92-12b5-4985-bd15-17bd48cf6847.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "FOODSIN",
@@ -3709,10 +3688,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30b08ad0-e924-48bd-a446-6c99d9bcceb1.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "FRASER",
@@ -3720,11 +3696,12 @@
       "company": "Fraser and Company Ltd",
       "bse_code": "539032",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:26:41.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "FRATELLI",
@@ -3736,10 +3713,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-14T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30c7288f-89db-4d9b-a695-8356dfa88065.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "FUNDVISER",
@@ -3759,11 +3733,12 @@
       "company": "Futuristic Securities Ltd",
       "bse_code": "523113",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:07:50.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "GANESHBE",
@@ -3795,11 +3770,12 @@
       "company": "Genpharmasec Ltd",
       "bse_code": "531592",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:32:48.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "GENUSPAPER",
@@ -3874,10 +3850,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T06:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01c1cd06-0f2e-4b00-9bef-ddd17e1f9e9d.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "GOODRICKE",
@@ -3902,7 +3875,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 29.03
     },
     {
       "ticker": "GSPCROP",
@@ -3914,10 +3888,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d1034d4-c0dd-40ad-94c5-04c6623768b7.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "GTL",
@@ -3941,10 +3912,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T10:30:00.000Z",
-      "concall_title": "Q1 FY26-27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e72ef1f-6c77-4590-afeb-6ec5c7b3b9ec.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "GUJWIND",
@@ -3952,11 +3920,12 @@
       "company": "Gujarat Winding Systems Ltd",
       "bse_code": "541627",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:10:25.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "HARSHA",
@@ -3970,9 +3939,7 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-11T11:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77d31a16-e14f-4134-99b4-c0b444cd6937.pdf"
+      "eps_yoy_pct": -1.44
     },
     {
       "ticker": "HEMIPROP",
@@ -3985,7 +3952,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -22.22
     },
     {
       "ticker": "HEXATRADEX",
@@ -3993,11 +3961,12 @@
       "company": "Hexa Tradex Ltd",
       "bse_code": "534328",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:25:30.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "HILINFRA",
@@ -4042,11 +4011,12 @@
       "company": "IFCI Ltd",
       "bse_code": "500106",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:40:45.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "INANI",
@@ -4184,10 +4154,7 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-11T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40d5e890-6df3-4229-b75b-0acb5a63ec4c.pdf"
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "INSPIRISYS",
@@ -4219,11 +4186,12 @@
       "company": "ISGEC Heavy Engineering Ltd",
       "bse_code": "533033",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T09:51:21.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "JAGAJITIND",
@@ -4243,11 +4211,12 @@
       "company": "Jain Marmo Industries Ltd",
       "bse_code": "539119",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:43:59.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "JASH",
@@ -4255,14 +4224,12 @@
       "company": "Jash Engineering Ltd",
       "bse_code": "544402",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T09:54:06.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T11:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d99dfbf-eef4-47b4-9b3e-3d5e88c11f8c.pdf"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "JAYIND",
@@ -4270,11 +4237,12 @@
       "company": "Jayatma Industries Ltd",
       "bse_code": "531323",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T09:53:59.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "JHS",
@@ -4310,10 +4278,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de6b07b0-1fc7-473e-a78e-1ea09c961100.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "JSWDULUX",
@@ -4325,10 +4290,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T09:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6df83d0-37be-4a3b-8d44-231470b34463.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "JUBLCPL",
@@ -4354,9 +4316,6 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-11T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9f2645f-6fb1-4964-8aff-2a36435f7410.pdf",
       "eps_yoy_pct": -32.39
     },
     {
@@ -4369,10 +4328,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a2d2d59-1e9f-4a05-8cbe-2eb7e98a137f.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "KAMATHOTEL",
@@ -4385,10 +4341,7 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-12T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22e3ff06-f85b-454a-90c1-2d848e2098fb.pdf"
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "KANORICHEM",
@@ -4475,9 +4428,6 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-12T09:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4b4ac8b-1870-436b-8537-4e29ed4f9f21.pdf",
       "eps_yoy_pct": 1.32
     },
     {
@@ -4492,9 +4442,6 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-12T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46ff0bdf-b20c-4a32-a09b-fc59b64aa2ec.pdf",
       "eps_yoy_pct": -17.84
     },
     {
@@ -4509,9 +4456,7 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-11T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6712486-37f9-4a50-867d-839324d44550.pdf"
+      "eps_yoy_pct": 45.08
     },
     {
       "ticker": "KRISHIVAL",
@@ -4574,7 +4519,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 57.98
     },
     {
       "ticker": "LADDERUP",
@@ -4595,11 +4541,12 @@
       "company": "Laffans Petrochemicals Ltd",
       "bse_code": "524522",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:27:55.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "LAL",
@@ -4635,10 +4582,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T03:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be57c013-0c71-4105-a322-24005ec8b213.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "LAXMIDENTL",
@@ -4650,10 +4594,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa6c453f-c5f5-48ee-b261-368f8ff7589a.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "LESHAIND",
@@ -4702,7 +4643,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -76.97
     },
     {
       "ticker": "LYKISLTD",
@@ -4753,7 +4695,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 38.22
     },
     {
       "ticker": "MANAKALUCO",
@@ -4777,10 +4720,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-11T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80ed3f77-3be6-46f5-9d45-29625768dad7.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "MANINDS",
@@ -4792,10 +4732,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e1f1cd0-af3c-4993-9534-3bd309a52811.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "MANUGRAPH",
@@ -4803,11 +4740,12 @@
       "company": "Manugraph India Ltd",
       "bse_code": "505324",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:45:52.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "MATHEWE",
@@ -4833,9 +4771,7 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "default",
-      "concall_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7f9dff8-a19c-4abd-bd97-6d907cd248bb.pdf"
+      "eps_yoy_pct": 136.67
     },
     {
       "ticker": "MAXIND",
@@ -4847,10 +4783,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f963536-bc9f-4d87-a60c-9f2680a89008.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "MDRNSTL",
@@ -4960,10 +4893,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-13T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccd66a23-2512-4974-b415-59a478de3855.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "MODAIRY",
@@ -4971,11 +4901,12 @@
       "company": "Modern Dairies Ltd",
       "bse_code": "519287",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:29:18.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "MOTOGENFIN",
@@ -5067,11 +4998,12 @@
       "company": "Nagarjuna Agri Tech Ltd",
       "bse_code": "531832",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:24:49.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "NARPROP",
@@ -5084,7 +5016,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 14.68
     },
     {
       "ticker": "NATPLAS",
@@ -5104,14 +5037,12 @@
       "company": "NBCC (India) Ltd",
       "bse_code": "534309",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T09:46:31.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T05:30:00.000Z",
-      "concall_title": "Q1 FY26-27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3370a339-31b8-44d0-af4d-ae8f92a5d86d.pdf"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "NCLRESE",
@@ -5123,7 +5054,8 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "default",
+      "eps_yoy_pct": -50
     },
     {
       "ticker": "NEWMKTAVE",
@@ -5148,7 +5080,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -42.57
     },
     {
       "ticker": "NKIND",
@@ -5173,7 +5106,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 100
     },
     {
       "ticker": "NPST",
@@ -5185,10 +5119,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3b042d2-1b3f-4e2c-bb16-cbf4ee3e0210.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "OMINFRAL",
@@ -5224,10 +5155,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=401d9e96-5453-45dc-8043-e22ad173518c.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "ORCHASP",
@@ -5235,11 +5163,12 @@
       "company": "Orchasp Ltd",
       "bse_code": "532271",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T09:49:43.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ORIENTBELL",
@@ -5253,9 +5182,7 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-11T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c6d8b51-bf0c-425f-9ab3-69d4cf366953.pdf"
+      "eps_yoy_pct": 2276.92
     },
     {
       "ticker": "ORIENTLTD",
@@ -5340,7 +5267,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -6.82
     },
     {
       "ticker": "PEOPLIN",
@@ -5388,10 +5316,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=877b0315-1707-4055-aaff-f33be171e38d.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "PILANIINVS",
@@ -5435,11 +5360,12 @@
       "company": "Prabhatam Infra Venture Ltd",
       "bse_code": "531647",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:28:05.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "PRAKASH",
@@ -5460,11 +5386,12 @@
       "company": "Precision Camshafts Ltd",
       "bse_code": "539636",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:23:51.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "PREVEST",
@@ -5500,10 +5427,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T05:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a3f9f76-470d-4447-adf5-715c4e172fe5.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "PWASML",
@@ -5529,9 +5453,7 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T11:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ff07063-78e1-4d1d-a5b1-95c6ed0aeeb1.pdf"
+      "eps_yoy_pct": 32.09
     },
     {
       "ticker": "QUADFUTURE",
@@ -5568,7 +5490,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -52.6
     },
     {
       "ticker": "QUINTEGRA",
@@ -5595,7 +5518,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 25.97
     },
     {
       "ticker": "RAGHUNAT",
@@ -5615,11 +5539,12 @@
       "company": "Raghunath Tobacco Company Ltd",
       "bse_code": "531552",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:25:21.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "RAJTV",
@@ -5667,10 +5592,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c82d4daa-ff95-41b5-8953-66ce7a112aa3.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "RCCL",
@@ -5696,7 +5618,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 28.37
     },
     {
       "ticker": "REPCOHOME",
@@ -5708,10 +5631,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc0fda03-2dd4-46a1-9b82-5750aaf4b5e9.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "REVAMEDIA",
@@ -5735,10 +5655,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e13d49a8-1603-409e-bb6f-4837b9896e4f.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "RKDAGRRTL",
@@ -5776,9 +5693,7 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-14T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=302993ca-e85e-4e35-b467-ae3bf1a69136.pdf"
+      "eps_yoy_pct": -41.35
     },
     {
       "ticker": "RSCINT",
@@ -5810,11 +5725,12 @@
       "company": "Rubfila International Ltd",
       "bse_code": "500367",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:46:35.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "RUCHINFRA",
@@ -5852,9 +5768,7 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY2026-27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24260a29-b762-45ae-b797-156a0ce405fa.pdf"
+      "eps_yoy_pct": 16.92
     },
     {
       "ticker": "SADBHIN",
@@ -5878,10 +5792,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T09:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b78af732-4f00-461e-873b-9f9614574ab9.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "SANDHAR",
@@ -5894,7 +5805,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 33.12
     },
     {
       "ticker": "SANDUPHQ",
@@ -5914,11 +5826,12 @@
       "company": "Sanguine Media Ltd",
       "bse_code": "531898",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:45:10.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "SANTOSHF",
@@ -5978,10 +5891,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e1a455-1424-44c8-b546-8c4cfaca8ac7.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "SEPC",
@@ -6038,11 +5948,12 @@
       "company": "Shri Bajrang Alliance Ltd",
       "bse_code": "526981",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:10:21.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "SHILCTECH",
@@ -6091,7 +6002,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 49.43
     },
     {
       "ticker": "SIEMENS",
@@ -6178,9 +6090,7 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-12T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=200c4341-05af-46ce-8688-e8c1d74e9595.pdf"
+      "eps_yoy_pct": 25.44
     },
     {
       "ticker": "SNIM",
@@ -6228,10 +6138,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-13T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0421cce-1b2d-434a-a995-d724a3f3e45c.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "SPARKLEGR",
@@ -6244,7 +6151,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 211.11
     },
     {
       "ticker": "SRIKPRIND",
@@ -6269,7 +6177,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -102.79
     },
     {
       "ticker": "STARTECK",
@@ -6355,9 +6264,7 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "concall_title": "June 2026 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e74503a-d1d5-4ae8-a51e-c8824be63fc6.pdf"
+      "eps_yoy_pct": 76.77
     },
     {
       "ticker": "SUYOG",
@@ -6369,10 +6276,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T10:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f665d72b-05f0-4d9f-bc5c-d16b832b483c.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "SVAINDIA",
@@ -6433,7 +6337,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -71.43
     },
     {
       "ticker": "SYNCOMF",
@@ -6493,10 +6398,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T09:00:00.000Z",
-      "concall_title": "Q1 FY2027 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a58e68c-b06e-4535-ae78-63e9e8b7497e.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "TDPOWERSYS",
@@ -6508,10 +6410,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T06:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fcf70831-cb97-4f35-88d2-675b4ae517d8.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "TECHNOE",
@@ -6523,10 +6422,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T10:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61115eb8-6422-4fa0-80dd-d14c521764ca.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "TERASOFT",
@@ -6570,11 +6466,12 @@
       "company": "Tamilnadu Petroproducts Ltd",
       "bse_code": "500777",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:12:59.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "TRESCON",
@@ -6622,7 +6519,8 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "default",
+      "eps_yoy_pct": 1330.43
     },
     {
       "ticker": "UNICHEMLAB",
@@ -6635,7 +6533,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 403.85
     },
     {
       "ticker": "UNIVAFOODS",
@@ -6643,11 +6542,12 @@
       "company": "Univa Foods Ltd",
       "bse_code": "526683",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:14:57.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "VALLABHSQ",
@@ -6680,11 +6580,12 @@
       "company": "Vardhan Capital & Finance Ltd",
       "bse_code": "542931",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:07:51.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "VASINFRA",
@@ -6710,7 +6611,8 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "default",
+      "eps_yoy_pct": 215.94
     },
     {
       "ticker": "VIDYAWIRES",
@@ -6744,11 +6646,12 @@
       "company": "Vikram Thermo India Ltd",
       "bse_code": "530477",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:38:30.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "VIKRAN",
@@ -6760,10 +6663,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-08-12T06:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5df244fa-1867-49e3-93e1-570f6f22e579.pdf"
+      "timing_source": "default"
     },
     {
       "ticker": "VIKSHEN",
@@ -6801,9 +6701,7 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-12T10:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64e34ac1-f776-4802-a9e0-7ad883eaa3ee.pdf"
+      "eps_yoy_pct": 18.9
     },
     {
       "ticker": "WALCHANNAG",
@@ -6859,11 +6757,12 @@
       "company": "Wires & Fabriks SA Ltd",
       "bse_code": "507817",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:21:43.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "WWALUM",
@@ -6895,11 +6794,12 @@
       "company": "Yuken India Ltd",
       "bse_code": "522108",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T10:23:14.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "YUNIKM",
@@ -6919,11 +6819,12 @@
       "company": "Hindustan Housing Company Ltd ",
       "bse_code": "509650",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T09:47:27.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ZKOVALIN",
@@ -6931,11 +6832,12 @@
       "company": "Kovalam Investment & Trading Company Ltd ",
       "bse_code": "505585",
       "earnings_date": "2026-08-11",
-      "earnings_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-11T09:46:09.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ZMILGFIN",
@@ -6987,9 +6889,7 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-11T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6777c6f2-b494-4bf9-8cb5-a6341990061f.pdf"
+      "eps_yoy_pct": -35.39
     },
     {
       "ticker": "AADX",
@@ -11181,10 +11081,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-12T11:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64951836-a01e-4d4b-af7d-411b6daf7528.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "AIMCOPEST",
@@ -11404,10 +11301,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T11:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f9ab80b-959b-4533-890a-536256409f39.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ARUNAHTEL",
@@ -11440,10 +11334,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0191875f-71eb-4fd6-a833-bb0dffbee0a6.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ASHISHPO",
@@ -11542,10 +11433,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-12T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=caed58b4-dcbf-410a-abcc-404f394491d2.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ATALREAL",
@@ -11754,10 +11642,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T04:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1b7a0a5-58fe-4b17-aa28-b9feba2d6cd2.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "BCLIND",
@@ -11768,10 +11653,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T09:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09eb707e-dff9-407b-bc0f-67eafe3d1722.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "BEDMUTHA",
@@ -12156,10 +12038,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ebd70c6-c69a-4d5a-8d31-84068f27c2d2.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "CRAVATEX",
@@ -12291,10 +12170,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f03a776-7c2e-49ff-801c-e5781e8e79ee.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "DFL",
@@ -12459,10 +12335,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-17T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52666acd-7682-4907-8cd4-481802b47d15.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "DUTRON",
@@ -12517,10 +12390,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40ad2f3d-56cf-4579-beb9-3899b737e161.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "EIKO",
@@ -12553,10 +12423,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f4609e7-5623-479e-b73b-6488142b289c.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ELFORGE",
@@ -12721,10 +12588,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=081ebc98-e4ce-4146-a6b2-70b4fe0d7ca4.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "FILME",
@@ -12746,10 +12610,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T08:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9c541a7-9390-41d2-a396-d17f17c4a44e.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "FLUOROCHEM",
@@ -12760,10 +12621,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-12T11:30:00.000Z",
-      "concall_title": "1QFY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=643d9fd1-0b64-4ea0-8e17-e2a83a1bb7f9.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "FMGOETZE",
@@ -12961,10 +12819,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T04:00:00.000Z",
-      "concall_title": "Q1 FY2027 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0208e5af-f301-4f82-8bd6-33d13b0cc79f.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "GOGIACAPGL",
@@ -13030,10 +12885,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-12T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44943397-2f1a-40b3-b92b-6afdde9c6179.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "GREENCREST",
@@ -13187,10 +13039,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2616c17-28fe-4fee-9368-ace706ce501e.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "HGINFRA",
@@ -13212,10 +13061,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T07:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=563916b0-1998-4e61-b8d8-b21e005ea7a6.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "HIMTEK",
@@ -13259,10 +13105,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T06:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9db40c4-38bf-41da-b2be-8b56135af72e.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "HPBL",
@@ -13350,10 +13193,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5637b1b5-b9f2-466a-8f30-a6b5bdaf53d3.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "INDIAHOME",
@@ -13386,10 +13226,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T08:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96b6cc65-2e0e-4096-a567-252379c8919c.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "INDOAMIN",
@@ -13686,10 +13523,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-12T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55844be2-9836-41a9-9b3d-d644f9d3ebe3.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "KABRADG",
@@ -13832,10 +13666,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T05:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9dd155c6-6a2e-4f66-bdef-e7e47f90e8d3.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "KIRLOSIND",
@@ -13901,10 +13732,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T09:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08666e3b-b309-4c9b-a593-c7ea5207fa19.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "KZLFIN",
@@ -13970,10 +13798,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58543df3-e9fb-469a-9c56-cb8763edc958.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "LENSKART",
@@ -13984,10 +13809,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-12T12:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06759750-bd99-4d83-9cbe-fec8c0c43266.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "LIBORD",
@@ -14042,10 +13864,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-18T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6bfc7961-0c9a-4b6b-b32c-7131dca104a4.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "MACPLASQ",
@@ -14122,10 +13941,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d08483d5-c8da-4f36-bf7d-4ffafa0dd8b7.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "MANRAJH",
@@ -14147,10 +13963,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T11:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4568dc5-5580-48c3-b27b-5cda6d1eaf83.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "MAXHEIGHTS",
@@ -14304,10 +14117,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T09:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ddca6a5-beb5-42d2-8ab1-dfc17bcdd9ca.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "MINAXI",
@@ -14362,10 +14172,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T09:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04aefd90-1f09-41b6-92d1-b9b482570f09.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "MOTISONS",
@@ -14783,10 +14590,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T04:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=59867531-651a-479e-9ee0-2672ad8a6ac6.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "OSCARGLO",
@@ -14995,10 +14799,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T06:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46205102-a595-4f56-b158-4a26ce0db14c.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "PENINLAND",
@@ -15031,10 +14832,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T12:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dbeccfaa-347f-4628-b4e1-e3fd52b671e5.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "PHARMAID",
@@ -15199,10 +14997,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=460d99ad-ff16-4191-b8b0-02e3e90b3d24.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "PUNJCOMMU",
@@ -15389,10 +15184,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63a2a9b3-ec7f-4a81-ade1-3c893ec01c6f.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "RETAGGIO",
@@ -15656,10 +15448,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T04:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd9a4c00-59c0-4fe7-af04-39109ffc2360.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SARTHAKGL",
@@ -15769,10 +15558,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T05:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07a2da6a-e93a-41da-a52b-6effbc3ff7d1.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SHALPAINTS",
@@ -15904,10 +15690,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY2027 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbcf420c-eb7b-421a-9c63-2a689045e91c.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SHRENTI",
@@ -15973,10 +15756,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1b63cb3-566a-41f1-9135-c7931509d093.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SHRISTI",
@@ -16064,10 +15844,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T10:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e769b19-e816-49ed-8726-943005f8e071.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SITAENT",
@@ -16155,10 +15932,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-12T12:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=511cb19e-bac7-4057-b443-ee9e3c9b9cdb.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SONAL",
@@ -16202,10 +15976,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-17T09:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f8761bd-2b72-40f1-bc54-ff71eed2e52c.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SPVGLOBAL",
@@ -16590,10 +16361,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T12:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80f796f5-ac05-4a34-94de-4e85a511da82.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "TMCV",
@@ -16604,10 +16372,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-12T13:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=895bdc01-e064-4d10-810b-ad27bb560027.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "TNPL",
@@ -16816,10 +16581,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T06:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b53160a-bf7a-4beb-9fb3-cdf89bd1d31b.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "VBIND",
@@ -16841,10 +16603,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T08:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1d35d1a-fa44-4950-932a-df6a8f8b3620.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "VELHO",
@@ -17042,10 +16801,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f56298e6-48d4-4344-8684-76fa48d279e5.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "WALLFORT",
@@ -17111,10 +16867,7 @@
       "earnings_datetime_utc": "2026-08-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df72d1c0-b1ac-4b2b-9270-a053480848d8.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "YOGI",
@@ -19330,10 +19083,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T06:30:00.000Z",
-      "concall_title": "First Quarter Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f8d7ff6-b338-4cd4-bd28-9de36eed3cec.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "AAYUSH",
@@ -19399,10 +19149,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=832c8f82-90ec-4ade-bcb2-08f48f9cf9da.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ACCEDERE",
@@ -19710,10 +19457,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80d90802-b73f-4707-95cc-12ac377fae8b.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ALPINEHOU",
@@ -19757,10 +19501,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T02:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05ff0c64-026f-405e-9552-b3197dec468e.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "AMARNATH",
@@ -20101,10 +19842,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T12:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67b1d174-3342-479e-9699-91355d9f579e.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "AXISCADES",
@@ -20115,10 +19853,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T12:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca225050-7292-4372-af4f-4b11b05c4032.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "AZADIND",
@@ -20470,10 +20205,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T09:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da1d8cf8-2dbc-4a0f-8d8b-dd1f47397d27.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "BROOKS",
@@ -20759,10 +20491,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T11:30:00.000Z",
-      "concall_title": "Q2 2026 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3da50ad1-d9dc-46fa-9268-75d5e42b0d90.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "COMCL",
@@ -21081,10 +20810,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T04:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ec87920-6935-47cb-8551-f2a7bb6e2653.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "DNAMEDIA",
@@ -21106,10 +20832,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8637a8e-f82c-4cab-8f10-6a3da35bc08a.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "DSSL",
@@ -21263,10 +20986,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d35c0d36-1a7f-421f-86d3-3e34afcd47b9.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ELIXIR",
@@ -21310,10 +21030,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78427b7a-7368-448a-88b8-ea9755a2fee6.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ENGINERSIN",
@@ -21324,10 +21041,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dad4fcf8-bd76-4caf-b19a-29bb4c53ea91.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ENVAIREL",
@@ -21404,10 +21118,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=057dcb43-f4b2-477b-bd33-fa0f4458ed35.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "FINOPB",
@@ -21418,10 +21129,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f168a616-7a52-4780-bded-55ec2b4d4003.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "FIRSTCRY",
@@ -21432,10 +21140,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T12:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdb51b0f-cad2-4aa7-8975-c0323e74f93d.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "FLEXFO",
@@ -21512,10 +21217,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a703adae-a6e2-4167-a1a5-0727c9686dd6.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "GALLOPENT",
@@ -21988,10 +21690,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T12:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6ed2bdb-6e0f-44f6-a39c-b622efe1deda.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "HPAL",
@@ -22046,10 +21745,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdd90436-f4cc-4159-88e5-368a0061b25f.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "IKOMA",
@@ -22115,10 +21811,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bac37c9-2b55-4b85-b58b-8b340ab3a8f8.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "INDINFRA",
@@ -22217,10 +21910,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T10:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b16a6eec-79ea-4398-8560-29294d64a012.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "IPOWER",
@@ -22495,10 +22185,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T04:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b5d78cb-76cc-4797-92ee-9a97efb23075.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "JTEKTINDIA",
@@ -22520,10 +22207,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T11:15:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5fbf0e9-6be3-443f-849e-45526071d3ec.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "JULIEN",
@@ -22875,10 +22559,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T06:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ecce9a7-ff48-4301-98b2-61bcfc0bee94.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "KOHINOOR",
@@ -22911,10 +22592,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-17T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ba9af92-ba56-4499-a3dd-5545df5a9df6.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "KRBL",
@@ -22925,10 +22603,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-17T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=460981d8-2f66-4140-93b8-e3ec22f41452.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "KRETTOSYS",
@@ -22972,10 +22647,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T07:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=495f46eb-b5a0-4742-b4b9-abecba4b98fb.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "KSCL",
@@ -22986,10 +22658,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T10:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36f87eec-0012-4cf0-b328-31010b1c6973.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "KSOILS",
@@ -23088,10 +22757,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9bede1e7-1a71-4995-8af5-8d05eb3ccb6e.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "LIBORDFIN",
@@ -23157,10 +22823,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T07:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2287730c-9118-4c6f-a704-f8e7e7c4a5a9.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "MADHAV",
@@ -23292,10 +22955,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T08:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=305ed54c-4e83-4384-92e7-b269ccbf3d12.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "MARBLE",
@@ -23328,10 +22988,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee0d3d83-26d7-44ae-8c6e-80b9ee3becaf.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "MAXIMUS",
@@ -23485,10 +23142,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T13:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41dbf281-e320-43f9-a6a8-f9628e4df67d.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "MINALIND",
@@ -23510,10 +23164,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da453913-8988-4e8f-8341-2734659d459e.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "MKPL",
@@ -23656,10 +23307,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T06:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=890c02f4-3668-4814-848d-c34cf45b24a1.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "MUNOTHFI",
@@ -23978,10 +23626,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e94d40f-99b4-409d-a7e4-71b8e38c1755.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "PALREDTEC",
@@ -24201,10 +23846,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7098ab9c-46f5-4ac4-875f-7324159b9b80.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "PRAVEG",
@@ -24226,10 +23868,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T07:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff9b0db1-76f5-4c33-aa8a-236c0353ac84.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "PREMIER",
@@ -24922,10 +24561,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T12:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dabef149-db3f-4b7e-baa2-cd59d831ca16.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SAMRATFORG",
@@ -25134,10 +24770,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T06:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=289c7743-36a1-4a34-8688-c0e4d56ac1ef.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SEASONST",
@@ -25390,10 +25023,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T11:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2f79b0a-4370-4320-94a7-e4dac10022a1.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SIKOZY",
@@ -25558,10 +25188,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95acec82-f02c-48ff-9a16-ec94f1bf4cd0.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SPRIGHT",
@@ -25627,10 +25254,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T10:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d030d7d9-bf48-4c40-abbf-211895754ada.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "STANPACK",
@@ -25806,10 +25430,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fe1cede-d9bd-4d76-b22f-b2712100fe11.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SURYAAMBA",
@@ -25963,10 +25584,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T11:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1852e142-c017-4697-bac3-40432f723d61.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "TEJNAKSH",
@@ -26142,10 +25760,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T13:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c070b850-29ac-4d4b-8af4-4220c9538b60.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "TPHQ",
@@ -26189,10 +25804,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T08:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c51af98-640d-4ed5-ad43-559df644cfd6.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "TRILIANCE",
@@ -26489,10 +26101,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T06:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=842196af-c4b7-482f-be10-26f6e096c928.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "VADIDAI",
@@ -26734,10 +26343,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T10:00:00.000Z",
-      "concall_title": "1QFY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98994389-228b-439e-a32b-549c3b2935f9.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "WARDHEALTH",
@@ -26781,10 +26387,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-13T11:30:00.000Z",
-      "concall_title": "1QFY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cfe8c17-d690-4d34-aa07-80159ef732a4.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "WEWIN",
@@ -27048,10 +26651,7 @@
       "earnings_datetime_utc": "2026-08-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-17T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64e0f2b8-85c0-4577-b06e-fa6e1a250b89.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ACTU",
@@ -27802,10 +27402,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T11:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97af6d3c-4d91-4120-a4b5-f8075080686c.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ALPA",
@@ -28047,10 +27644,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T11:45:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1551bb4-6c85-41a2-b813-751d04eb9afd.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ASHRAM",
@@ -28501,10 +28095,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-17T10:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b0339cd-23c2-4e88-8bb1-6208a3962016.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "BONLON",
@@ -28625,10 +28216,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T11:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f19bf6ff-c27b-42e6-8813-5c9d5a9028ab.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "CHROME",
@@ -29607,10 +29195,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-17T11:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c63c245-d288-4e79-af9c-33ad61e7488c.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "GUJAPOLLO",
@@ -30369,10 +29954,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-17T09:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=644cd89d-b30a-411a-ac75-98513a83ed36.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "KLRFM",
@@ -31164,10 +30746,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T10:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5ed48e1-50a3-4f86-beeb-5eb31b5efa1c.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "NBFOOT",
@@ -32025,10 +31604,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-17T05:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e505d4af-3d49-42b7-893c-fde897b81e48.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "PVP",
@@ -32413,10 +31989,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T12:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ab231d6a-3faf-4474-99d8-5c46bf2eedd9.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "RUDRA",
@@ -32449,10 +32022,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T12:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15cdda29-5afa-4400-b7f3-06fe234b69c7.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SAKTHIFIN",
@@ -33497,10 +33067,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-17T04:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73dc62f4-f8de-4b5f-b33f-0b7177511068.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "TIPSFILMS",
@@ -33918,10 +33485,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-14T13:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=726a9dbb-1164-43f3-b1fe-ac2c22199fe3.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "VRL",
@@ -33976,10 +33540,7 @@
       "earnings_datetime_utc": "2026-08-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-08-17T07:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=461d9765-523a-4b44-927f-fbab5f5f1cc5.pdf"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "WHITEORG",
