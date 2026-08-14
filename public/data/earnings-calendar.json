@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T12:56:49.265Z",
+  "generated_at": "2026-08-14T14:15:38.144Z",
   "count": 1197,
   "events": [
     {
@@ -307,8 +307,8 @@
       "market": "US",
       "company": "ONVC",
       "earnings_date": "2026-08-14",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-14T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1080,7 +1080,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 9.35
     },
     {
       "ticker": "ANVRDHI",
@@ -4175,7 +4176,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -25
     },
     {
       "ticker": "KAMANWALA",
@@ -6257,7 +6259,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -1075.76
     },
     {
       "ticker": "PIONAGR",
@@ -6603,7 +6606,8 @@
       "earnings_time_confirmed": true,
       "concall_datetime_utc": "2026-08-17T05:00:00.000Z",
       "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e505d4af-3d49-42b7-893c-fde897b81e48.pdf"
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e505d4af-3d49-42b7-893c-fde897b81e48.pdf",
+      "eps_yoy_pct": 142.81
     },
     {
       "ticker": "PVP",
@@ -6641,10 +6645,7 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-14T12:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18453d13-eb60-4216-a1ef-49e4ef7700a2.pdf"
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "RAINBOWDQ",
@@ -7182,10 +7183,7 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-14T12:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ab231d6a-3faf-4474-99d8-5c46bf2eedd9.pdf"
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "RUDRA",
@@ -7223,7 +7221,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -95.87
     },
     {
       "ticker": "SAKTHIFIN",
@@ -8866,10 +8865,7 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-14T13:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=259bc97f-3707-4f04-8412-5c7d4aa00aa8.pdf"
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "TVOLCON",
@@ -9292,10 +9288,7 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-14T13:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=726a9dbb-1164-43f3-b1fe-ac2c22199fe3.pdf"
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "VRL",
@@ -9490,10 +9483,7 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-14T12:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ba3985d-bbc8-4a01-adc9-2e01421487b3.pdf"
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ZEAL",
