@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T16:54:25.687Z",
+  "generated_at": "2026-08-17T17:23:54.346Z",
   "count": 469,
   "events": [
     {
@@ -1051,11 +1051,12 @@
       "company": "INDO-MIM Ltd",
       "bse_code": "544837",
       "earnings_date": "2026-08-17",
-      "earnings_datetime_utc": "2026-08-17T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-17T17:01:54.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "INDRANIB",
