@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:21:22.701Z",
+  "generated_at": "2026-08-17T15:48:52.679Z",
   "count": 469,
   "events": [
     {
@@ -1100,11 +1100,12 @@
       "company": "Starbeam Ventures Ltd",
       "bse_code": "539175",
       "earnings_date": "2026-08-17",
-      "earnings_datetime_utc": "2026-08-17T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-17T15:25:04.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ABHBY",
