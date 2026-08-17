@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T17:54:59.467Z",
-  "count": 469,
+  "generated_at": "2026-08-17T18:32:44.453Z",
+  "count": 463,
   "events": [
     {
       "ticker": "AGPU",
@@ -1033,82 +1033,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "CRSL",
-      "market": "IN",
-      "company": "Cressanda Railway Solutions Ltd",
-      "bse_code": "512379",
-      "earnings_date": "2026-08-17",
-      "earnings_datetime_utc": "2026-08-17T11:38:43.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "INDOMIM",
-      "market": "IN",
-      "company": "INDO-MIM Ltd",
-      "bse_code": "544837",
-      "earnings_date": "2026-08-17",
-      "earnings_datetime_utc": "2026-08-17T17:01:54.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "INDRANIB",
-      "market": "IN",
-      "company": "Indrayani Biotech Ltd",
-      "bse_code": "526445",
-      "earnings_date": "2026-08-17",
-      "earnings_datetime_utc": "2026-08-17T11:26:58.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "MAHANIN",
-      "market": "IN",
-      "company": "Mahan Industries Ltd",
-      "bse_code": "531515",
-      "earnings_date": "2026-08-17",
-      "earnings_datetime_utc": "2026-08-17T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "SILVERLINE",
-      "market": "IN",
-      "company": "Silverline Technologies Ltd",
-      "bse_code": "500389",
-      "earnings_date": "2026-08-17",
-      "earnings_datetime_utc": "2026-08-17T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "STARBEAM",
-      "market": "IN",
-      "company": "Starbeam Ventures Ltd",
-      "bse_code": "539175",
-      "earnings_date": "2026-08-17",
-      "earnings_datetime_utc": "2026-08-17T15:25:04.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
       "ticker": "ABHBY",
       "market": "US",
       "company": "ABHBY",
@@ -1757,7 +1681,8 @@
       "earnings_datetime_utc": "2026-08-18T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "PTIL",
@@ -1768,7 +1693,8 @@
       "earnings_datetime_utc": "2026-08-18T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "AARD",
