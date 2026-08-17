@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T11:28:48.801Z",
+  "generated_at": "2026-08-17T11:51:53.887Z",
   "count": 469,
   "events": [
     {
@@ -1038,11 +1038,12 @@
       "company": "Cressanda Railway Solutions Ltd",
       "bse_code": "512379",
       "earnings_date": "2026-08-17",
-      "earnings_datetime_utc": "2026-08-17T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-17T11:38:43.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "INDOMIM",
@@ -2484,7 +2485,7 @@
     {
       "ticker": "SPICEISLIN",
       "market": "IN",
-      "company": "Spice Islands Industries Ltd",
+      "company": "Spice Islands Industries Ltd-$",
       "bse_code": "526827",
       "earnings_date": "2026-08-19",
       "earnings_datetime_utc": "2026-08-19T10:30:00.000Z",
