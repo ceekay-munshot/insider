@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T03:35:52.140Z",
+  "generated_at": "2026-08-17T03:37:27.049Z",
   "lookback": {
-    "from": "2026-02-17",
-    "to": "2026-08-11"
+    "from": "2026-02-18",
+    "to": "2026-08-12"
   },
   "counts": {
     "IN": 800,
@@ -2944,7 +2944,7 @@
       "ret3": -3.06,
       "market_cap": 327358638031,
       "currency": "INR",
-      "surprise_pct": 8.73,
+      "surprise_pct": 8.54,
       "beat": true
     },
     {
@@ -3386,8 +3386,8 @@
       "ret3": 3.12,
       "market_cap": 265613172383.00003,
       "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
+      "surprise_pct": 51.35,
+      "beat": true
     },
     {
       "market": "IN",
@@ -7512,6 +7512,19 @@
     },
     {
       "market": "IN",
+      "ticker": "GOKEX",
+      "company": "Gokaldas Exports Limited",
+      "earnings_date": "2026-08-11",
+      "runup": -0.9,
+      "ret1": -3.38,
+      "ret3": -0.67,
+      "market_cap": 57376913695,
+      "currency": "INR",
+      "surprise_pct": -22.99,
+      "beat": false
+    },
+    {
+      "market": "IN",
       "ticker": "MASTEK",
       "company": "Mastek Limited",
       "earnings_date": "2026-07-21",
@@ -9046,6 +9059,19 @@
     },
     {
       "market": "IN",
+      "ticker": "ASHOKA",
+      "company": "Ashoka Buildcon Limited",
+      "earnings_date": "2026-08-11",
+      "runup": -0.84,
+      "ret1": -2.64,
+      "ret3": -3.93,
+      "market_cap": 31539251717,
+      "currency": "INR",
+      "surprise_pct": 16.67,
+      "beat": true
+    },
+    {
+      "market": "IN",
       "ticker": "KKCL",
       "company": "Kewal Kiran Clothing Limited",
       "earnings_date": "2026-08-06",
@@ -10384,32 +10410,6 @@
       "beat": null
     },
     {
-      "market": "IN",
-      "ticker": "AWHCL",
-      "company": "Antony Waste Handling Cell Ltd.",
-      "earnings_date": "2026-08-10",
-      "runup": 0.38,
-      "ret1": -6.71,
-      "ret3": -5.71,
-      "market_cap": 11084628477,
-      "currency": "INR",
-      "surprise_pct": -93.57,
-      "beat": false
-    },
-    {
-      "market": "IN",
-      "ticker": "IRISDOREME",
-      "company": "Iris Clothings Ltd.",
-      "earnings_date": "2026-05-11",
-      "runup": -1.21,
-      "ret1": -1.36,
-      "ret3": -0.27,
-      "market_cap": 11025901923,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
       "market": "US",
       "ticker": "ABCP",
       "company": "ABCP",
@@ -10731,8 +10731,8 @@
       "ret3": -2.07,
       "market_cap": 10535367,
       "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
+      "surprise_pct": 36.36,
+      "beat": true
     },
     {
       "market": "US",
@@ -10835,7 +10835,7 @@
       "ret3": 18.52,
       "market_cap": 181880688,
       "currency": "USD",
-      "surprise_pct": 112.48,
+      "surprise_pct": 99.19,
       "beat": true
     },
     {
@@ -11406,19 +11406,6 @@
       "ret1": 0,
       "ret3": 12.5,
       "market_cap": 296625,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
-      "ticker": "FDCT",
-      "company": "FDCT",
-      "earnings_date": "2026-08-11",
-      "runup": -0.29,
-      "ret1": -11.75,
-      "ret3": 14.61,
-      "market_cap": 13031008,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13825,8 +13812,8 @@
       "ret3": 7.45,
       "market_cap": 684793664,
       "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
+      "surprise_pct": -16.45,
+      "beat": false
     },
     {
       "market": "US",
@@ -13968,8 +13955,8 @@
       "ret3": 21.77,
       "market_cap": 36744352,
       "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
+      "surprise_pct": 15.52,
+      "beat": true
     },
     {
       "market": "US",
@@ -17340,19 +17327,6 @@
     },
     {
       "market": "US",
-      "ticker": "BACK",
-      "company": "BACK",
-      "earnings_date": "2026-08-08",
-      "runup": 0,
-      "ret1": -25,
-      "ret3": 25,
-      "market_cap": 1892,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "PFSB",
       "company": "PFSB",
       "earnings_date": "2026-08-08",
@@ -17985,8 +17959,8 @@
       "ret3": -1.25,
       "market_cap": 81211016,
       "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
+      "surprise_pct": 20,
+      "beat": true
     },
     {
       "market": "US",
@@ -18504,19 +18478,6 @@
       "ret1": 3.4,
       "ret3": 1.89,
       "market_cap": 982342144,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
-      "ticker": "MCGA",
-      "company": "MCGA",
-      "earnings_date": "2026-08-07",
-      "runup": -0.1,
-      "ret1": 0.59,
-      "ret3": 0.49,
-      "market_cap": 242839744,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -20807,6 +20768,45 @@
       "market_cap": 195153632,
       "currency": "USD",
       "surprise_pct": -46.32,
+      "beat": false
+    },
+    {
+      "market": "US",
+      "ticker": "CRNC",
+      "company": "CRNC",
+      "earnings_date": "2026-08-06",
+      "runup": -2.17,
+      "ret1": 1.39,
+      "ret3": -6.54,
+      "market_cap": 406620000,
+      "currency": "USD",
+      "surprise_pct": 9.23,
+      "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "CRSR",
+      "company": "CRSR",
+      "earnings_date": "2026-08-06",
+      "runup": -5.27,
+      "ret1": 35.25,
+      "ret3": 20.92,
+      "market_cap": 1405218688,
+      "currency": "USD",
+      "surprise_pct": 227.59,
+      "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "CRVS",
+      "company": "CRVS",
+      "earnings_date": "2026-08-06",
+      "runup": -0.5,
+      "ret1": 0.43,
+      "ret3": 6.28,
+      "market_cap": 1252560896,
+      "currency": "USD",
+      "surprise_pct": -13.43,
       "beat": false
     }
   ]
