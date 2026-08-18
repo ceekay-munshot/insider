@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T17:53:16.399Z",
-  "count": 398,
+  "generated_at": "2026-08-18T18:32:12.088Z",
+  "count": 394,
   "events": [
     {
       "ticker": "ABHBY",
@@ -641,59 +641,6 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "EUREKAI",
-      "market": "IN",
-      "company": "Eureka Industries Ltd",
-      "bse_code": "521137",
-      "earnings_date": "2026-08-18",
-      "earnings_datetime_utc": "2026-08-18T12:12:57.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "PTIL",
-      "market": "IN",
-      "company": "Prabhat Technologies (India) Ltd",
-      "bse_code": "540027",
-      "earnings_date": "2026-08-18",
-      "earnings_datetime_utc": "2026-08-18T13:48:08.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "SILVERLINE",
-      "market": "IN",
-      "company": "Silverline Technologies Ltd",
-      "bse_code": "500389",
-      "earnings_date": "2026-08-18",
-      "earnings_datetime_utc": "2026-08-18T13:25:29.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "TVVISION",
-      "market": "IN",
-      "company": "TV Vision Ltd",
-      "bse_code": "540083",
-      "earnings_date": "2026-08-18",
-      "earnings_datetime_utc": "2026-08-18T12:16:53.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 29.85
     },
     {
       "ticker": "AARD",
@@ -1415,6 +1362,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-08-20T10:30:00.000Z",
       "concall_title": "Q1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66ef41ca-a79a-4ca7-b62c-6b803d0eb667.pdf"
@@ -1422,13 +1370,14 @@
     {
       "ticker": "SPICEISLIN",
       "market": "IN",
-      "company": "Spice Islands Industries Ltd-$",
+      "company": "Spice Islands Industries Ltd",
       "bse_code": "526827",
       "earnings_date": "2026-08-19",
       "earnings_datetime_utc": "2026-08-19T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "UMIYA",
@@ -1439,7 +1388,8 @@
       "earnings_datetime_utc": "2026-08-19T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "XTRANET",
@@ -1450,7 +1400,8 @@
       "earnings_datetime_utc": "2026-08-19T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "AAP",
