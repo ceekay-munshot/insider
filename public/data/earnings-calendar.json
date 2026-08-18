@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T20:52:44.808Z",
-  "count": 463,
+  "generated_at": "2026-08-18T03:40:32.885Z",
+  "count": 467,
   "events": [
     {
       "ticker": "AGPU",
@@ -357,8 +357,8 @@
       "market": "US",
       "company": "FEED",
       "earnings_date": "2026-08-17",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-17T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1697,6 +1697,30 @@
       "timing_source": "default"
     },
     {
+      "ticker": "SILVERLINE",
+      "market": "IN",
+      "company": "Silverline Technologies Ltd",
+      "bse_code": "500389",
+      "earnings_date": "2026-08-18",
+      "earnings_datetime_utc": "2026-08-18T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "timing_source": "default"
+    },
+    {
+      "ticker": "TVVISION",
+      "market": "IN",
+      "company": "TV Vision Ltd",
+      "bse_code": "540083",
+      "earnings_date": "2026-08-18",
+      "earnings_datetime_utc": "2026-08-18T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "timing_source": "default"
+    },
+    {
       "ticker": "AARD",
       "market": "US",
       "company": "AARD",
@@ -2021,8 +2045,8 @@
       "market": "US",
       "company": "JBSS",
       "earnings_date": "2026-08-19",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-19T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2838,12 +2862,34 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9ff97cd-1f2c-43e7-a2cd-af808cdffe83.pdf"
     },
     {
+      "ticker": "SPELS",
+      "market": "IN",
+      "company": "SPEL Semiconductor Ltd",
+      "bse_code": "517166",
+      "earnings_date": "2026-08-20",
+      "earnings_datetime_utc": "2026-08-20T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "STDSFAC",
+      "market": "IN",
+      "company": "Standard Surfactants Ltd",
+      "bse_code": "526231",
+      "earnings_date": "2026-08-20",
+      "earnings_datetime_utc": "2026-08-20T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "BJ",
       "market": "US",
       "company": "BJ",
       "earnings_date": "2026-08-21",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-21T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2862,8 +2908,8 @@
       "market": "US",
       "company": "ZKH",
       "earnings_date": "2026-08-21",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-21T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -3014,8 +3060,8 @@
       "market": "US",
       "company": "GGR",
       "earnings_date": "2026-08-24",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-24T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -3164,8 +3210,8 @@
       "market": "US",
       "company": "TUYA",
       "earnings_date": "2026-08-24",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-24T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -3174,8 +3220,8 @@
       "market": "US",
       "company": "XPEV",
       "earnings_date": "2026-08-24",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-24T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
