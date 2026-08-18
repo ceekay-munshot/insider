@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T11:50:27.928Z",
+  "generated_at": "2026-08-18T12:37:03.541Z",
   "count": 398,
   "events": [
     {
@@ -648,11 +648,12 @@
       "company": "Eureka Industries Ltd",
       "bse_code": "521137",
       "earnings_date": "2026-08-18",
-      "earnings_datetime_utc": "2026-08-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-18T12:12:57.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "PTIL",
@@ -684,11 +685,12 @@
       "company": "TV Vision Ltd",
       "bse_code": "540083",
       "earnings_date": "2026-08-18",
-      "earnings_datetime_utc": "2026-08-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-18T12:16:53.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "AARD",
