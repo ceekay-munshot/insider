@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T13:38:52.620Z",
+  "generated_at": "2026-08-18T14:29:09.916Z",
   "count": 398,
   "events": [
     {
@@ -661,11 +661,12 @@
       "company": "Prabhat Technologies (India) Ltd",
       "bse_code": "540027",
       "earnings_date": "2026-08-18",
-      "earnings_datetime_utc": "2026-08-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-18T13:48:08.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "SILVERLINE",
@@ -1420,7 +1421,7 @@
     {
       "ticker": "SPICEISLIN",
       "market": "IN",
-      "company": "Spice Islands Industries Ltd",
+      "company": "Spice Islands Industries Ltd-$",
       "bse_code": "526827",
       "earnings_date": "2026-08-19",
       "earnings_datetime_utc": "2026-08-19T10:30:00.000Z",
