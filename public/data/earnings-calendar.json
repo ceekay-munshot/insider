@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T14:28:51.500Z",
+  "generated_at": "2026-08-19T15:03:06.792Z",
   "count": 378,
   "events": [
     {
@@ -718,11 +718,12 @@
       "company": "Lohia Corp Ltd",
       "bse_code": "544839",
       "earnings_date": "2026-08-19",
-      "earnings_datetime_utc": "2026-08-19T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-19T15:02:40.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true,
       "concall_datetime_utc": "2026-08-20T10:30:00.000Z",
       "concall_title": "Q1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66ef41ca-a79a-4ca7-b62c-6b803d0eb667.pdf"
@@ -730,7 +731,7 @@
     {
       "ticker": "SPICEISLIN",
       "market": "IN",
-      "company": "Spice Islands Industries Ltd",
+      "company": "Spice Islands Industries Ltd-$",
       "bse_code": "526827",
       "earnings_date": "2026-08-19",
       "earnings_datetime_utc": "2026-08-19T12:05:49.000Z",
