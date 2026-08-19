@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T18:28:59.408Z",
-  "count": 381,
+  "generated_at": "2026-08-19T19:04:04.431Z",
+  "count": 377,
   "events": [
     {
       "ticker": "AARD",
@@ -713,64 +713,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "LCL",
-      "market": "IN",
-      "company": "Lohia Corp Ltd",
-      "bse_code": "544839",
-      "earnings_date": "2026-08-19",
-      "earnings_datetime_utc": "2026-08-19T15:02:40.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-20T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66ef41ca-a79a-4ca7-b62c-6b803d0eb667.pdf"
-    },
-    {
-      "ticker": "SPICEISLIN",
-      "market": "IN",
-      "company": "Spice Islands Industries Ltd-$",
-      "bse_code": "526827",
-      "earnings_date": "2026-08-19",
-      "earnings_datetime_utc": "2026-08-19T12:05:49.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "UMIYA",
-      "market": "IN",
-      "company": "Umiya Tubes Ltd",
-      "bse_code": "539798",
-      "earnings_date": "2026-08-19",
-      "earnings_datetime_utc": "2026-08-19T13:06:21.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "XTRANET",
-      "market": "IN",
-      "company": "Xtranet Technologies Ltd",
-      "bse_code": "544838",
-      "earnings_date": "2026-08-19",
-      "earnings_datetime_utc": "2026-08-19T13:05:03.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-24T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58c3e0ee-30e7-4a44-9815-4291d9ff4965.pdf"
-    },
-    {
       "ticker": "AAP",
       "market": "US",
       "company": "AAP",
@@ -1160,6 +1102,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-08-21T05:30:00.000Z",
       "concall_title": "Q1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9ff97cd-1f2c-43e7-a2cd-af808cdffe83.pdf"
@@ -1173,7 +1116,8 @@
       "earnings_datetime_utc": "2026-08-20T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "STDSFAC",
@@ -1184,7 +1128,8 @@
       "earnings_datetime_utc": "2026-08-20T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "BJ",
