@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T20:48:26.770Z",
-  "count": 394,
+  "generated_at": "2026-08-19T03:42:18.891Z",
+  "count": 396,
   "events": [
     {
       "ticker": "ABHBY",
@@ -737,8 +737,8 @@
       "market": "US",
       "company": "BEEM",
       "earnings_date": "2026-08-19",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-19T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1047,8 +1047,8 @@
       "market": "US",
       "company": "MRT",
       "earnings_date": "2026-08-19",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-19T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1871,12 +1871,34 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "INNOVACAP",
+      "market": "IN",
+      "company": "Innova Captab Ltd",
+      "bse_code": "544067",
+      "earnings_date": "2026-08-21",
+      "earnings_datetime_utc": "2026-08-21T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "OCTAVIUSPL",
       "market": "IN",
       "company": "Octavius Plantations Ltd",
       "bse_code": "542938",
       "earnings_date": "2026-08-21",
       "earnings_datetime_utc": "2026-08-21T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "HERANBA",
+      "market": "IN",
+      "company": "Heranba Industries Ltd",
+      "bse_code": "543266",
+      "earnings_date": "2026-08-22",
+      "earnings_datetime_utc": "2026-08-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
@@ -2206,8 +2228,8 @@
       "market": "US",
       "company": "BOX",
       "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-25T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2256,8 +2278,8 @@
       "market": "US",
       "company": "ELMD",
       "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-25T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2276,8 +2298,8 @@
       "market": "US",
       "company": "FSCO",
       "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-25T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2296,8 +2318,8 @@
       "market": "US",
       "company": "HEI",
       "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-25T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2376,8 +2398,8 @@
       "market": "US",
       "company": "NCNO",
       "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-25T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2386,8 +2408,8 @@
       "market": "US",
       "company": "NOAH",
       "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-25T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2416,8 +2438,8 @@
       "market": "US",
       "company": "QFIN",
       "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-25T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2446,8 +2468,8 @@
       "market": "US",
       "company": "SHMD",
       "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-25T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2476,8 +2498,8 @@
       "market": "US",
       "company": "SMTC",
       "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-25T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2486,8 +2508,8 @@
       "market": "US",
       "company": "STRT",
       "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-25T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
