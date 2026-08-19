@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T11:49:33.342Z",
+  "generated_at": "2026-08-19T12:38:34.663Z",
   "count": 378,
   "events": [
     {
@@ -733,11 +733,12 @@
       "company": "Spice Islands Industries Ltd",
       "bse_code": "526827",
       "earnings_date": "2026-08-19",
-      "earnings_datetime_utc": "2026-08-19T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-19T12:05:49.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "UMIYA",
