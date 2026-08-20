@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T11:52:59.591Z",
+  "generated_at": "2026-08-20T12:39:36.185Z",
   "count": 361,
   "events": [
     {
@@ -415,11 +415,12 @@
       "company": "Standard Surfactants Ltd",
       "bse_code": "526231",
       "earnings_date": "2026-08-20",
-      "earnings_datetime_utc": "2026-08-20T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-20T12:34:34.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "BJ",
