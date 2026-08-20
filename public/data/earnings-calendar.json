@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T20:53:10.735Z",
-  "count": 377,
+  "generated_at": "2026-08-20T03:42:49.024Z",
+  "count": 380,
   "events": [
     {
       "ticker": "AARD",
@@ -57,8 +57,8 @@
       "market": "US",
       "company": "ALVO",
       "earnings_date": "2026-08-19",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-19T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -637,8 +637,8 @@
       "market": "US",
       "company": "VTIX",
       "earnings_date": "2026-08-19",
-      "earnings_datetime_utc": "2026-08-19T12:00:00.000Z",
-      "timing": "BMO",
+      "earnings_datetime_utc": "2026-08-19T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -987,8 +987,8 @@
       "market": "US",
       "company": "NMM",
       "earnings_date": "2026-08-20",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-20T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1216,6 +1216,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "LLFICL",
+      "market": "IN",
+      "company": "Leading Leasing Finance And Investment Company Ltd",
+      "bse_code": "540360",
+      "earnings_date": "2026-08-22",
+      "earnings_datetime_utc": "2026-08-22T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "ADMT",
       "market": "US",
       "company": "ADMT",
@@ -1420,8 +1431,8 @@
       "market": "US",
       "company": "PICS",
       "earnings_date": "2026-08-24",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-24T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1514,6 +1525,17 @@
       "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "TELECANOR",
+      "market": "IN",
+      "company": "TeleCanor Global Ltd",
+      "bse_code": "530595",
+      "earnings_date": "2026-08-24",
+      "earnings_datetime_utc": "2026-08-24T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ALCY",
@@ -1941,8 +1963,8 @@
       "market": "US",
       "company": "BBWI",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1971,8 +1993,8 @@
       "market": "US",
       "company": "CRWD",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1981,8 +2003,8 @@
       "market": "US",
       "company": "DCI",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": "2026-08-26T20:15:00.000Z",
-      "timing": "AMC",
+      "earnings_datetime_utc": "2026-08-26T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2101,8 +2123,8 @@
       "market": "US",
       "company": "LTRX",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2141,8 +2163,8 @@
       "market": "US",
       "company": "OKTA",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2161,8 +2183,8 @@
       "market": "US",
       "company": "OOMA",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2171,8 +2193,8 @@
       "market": "US",
       "company": "P",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2181,8 +2203,8 @@
       "market": "US",
       "company": "PLAB",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2201,8 +2223,8 @@
       "market": "US",
       "company": "SFL",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2211,8 +2233,8 @@
       "market": "US",
       "company": "SJM",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2221,8 +2243,8 @@
       "market": "US",
       "company": "SNPS",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2251,8 +2273,8 @@
       "market": "US",
       "company": "URBN",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2295,6 +2317,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "JNPR",
+      "market": "IN",
+      "company": "Juniper Green Energy Ltd",
+      "bse_code": "544853",
+      "earnings_date": "2026-08-26",
+      "earnings_datetime_utc": "2026-08-26T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ADNH",
