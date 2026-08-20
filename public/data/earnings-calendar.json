@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T08:33:33.608Z",
-  "count": 362,
+  "generated_at": "2026-08-20T09:29:48.859Z",
+  "count": 361,
   "events": [
     {
       "ticker": "AAP",
@@ -263,16 +263,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "MOV",
-      "market": "US",
-      "company": "MOV",
-      "earnings_date": "2026-08-20",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "NMM",
       "market": "US",
       "company": "NMM",
@@ -306,6 +296,16 @@
       "ticker": "PDEX",
       "market": "US",
       "company": "PDEX",
+      "earnings_date": "2026-08-20",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "PSEC",
+      "market": "US",
+      "company": "PSEC",
       "earnings_date": "2026-08-20",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -683,6 +683,16 @@
       "earnings_date": "2026-08-24",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "NSSC",
+      "market": "US",
+      "company": "NSSC",
+      "earnings_date": "2026-08-24",
+      "earnings_datetime_utc": "2026-08-24T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1419,6 +1429,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "MOV",
+      "market": "US",
+      "company": "MOV",
+      "earnings_date": "2026-08-26",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "NAT",
       "market": "US",
       "company": "NAT",
@@ -1770,16 +1790,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "FLWS",
-      "market": "US",
-      "company": "FLWS",
-      "earnings_date": "2026-08-27",
-      "earnings_datetime_utc": "2026-08-27T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "GAP",
       "market": "US",
       "company": "GAP",
@@ -1806,16 +1816,6 @@
       "earnings_date": "2026-08-27",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "GOLD",
-      "market": "US",
-      "company": "GOLD",
-      "earnings_date": "2026-08-27",
-      "earnings_datetime_utc": "2026-08-27T20:15:00.000Z",
-      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2196,16 +2196,6 @@
       "earnings_date": "2026-08-31",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "NSSC",
-      "market": "US",
-      "company": "NSSC",
-      "earnings_date": "2026-08-31",
-      "earnings_datetime_utc": "2026-08-31T12:00:00.000Z",
-      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
