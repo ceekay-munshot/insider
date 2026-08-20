@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T17:55:46.336Z",
-  "count": 361,
+  "generated_at": "2026-08-20T18:35:39.166Z",
+  "count": 358,
   "events": [
     {
       "ticker": "AAP",
@@ -383,48 +383,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "MANIPALHOS",
-      "market": "IN",
-      "company": "Manipal Health Enterprises Ltd",
-      "bse_code": "544847",
-      "earnings_date": "2026-08-20",
-      "earnings_datetime_utc": "2026-08-20T13:04:28.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-21T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9ff97cd-1f2c-43e7-a2cd-af808cdffe83.pdf"
-    },
-    {
-      "ticker": "SPELS",
-      "market": "IN",
-      "company": "SPEL Semiconductor Ltd",
-      "bse_code": "517166",
-      "earnings_date": "2026-08-20",
-      "earnings_datetime_utc": "2026-08-20T14:26:35.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "STDSFAC",
-      "market": "IN",
-      "company": "Standard Surfactants Ltd",
-      "bse_code": "526231",
-      "earnings_date": "2026-08-20",
-      "earnings_datetime_utc": "2026-08-20T12:34:34.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
       "ticker": "BJ",
       "market": "US",
       "company": "BJ",
@@ -473,7 +431,8 @@
       "earnings_datetime_utc": "2026-08-21T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "INNOVACAP",
@@ -484,7 +443,9 @@
       "earnings_datetime_utc": "2026-08-21T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default",
+      "eps_yoy_pct": 42.25
     },
     {
       "ticker": "OCTAVIUSPL",
@@ -495,7 +456,9 @@
       "earnings_datetime_utc": "2026-08-21T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default",
+      "eps_yoy_pct": -55.32
     },
     {
       "ticker": "HERANBA",
