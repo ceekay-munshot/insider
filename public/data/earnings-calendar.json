@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T13:42:49.027Z",
+  "generated_at": "2026-08-20T14:32:09.490Z",
   "count": 361,
   "events": [
     {
@@ -404,11 +404,12 @@
       "company": "SPEL Semiconductor Ltd",
       "bse_code": "517166",
       "earnings_date": "2026-08-20",
-      "earnings_datetime_utc": "2026-08-20T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-20T14:26:35.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "STDSFAC",
