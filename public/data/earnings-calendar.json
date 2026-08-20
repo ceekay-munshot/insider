@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:29:40.498Z",
+  "generated_at": "2026-08-20T16:01:03.807Z",
   "count": 361,
   "events": [
     {
@@ -2543,16 +2543,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "PSEC",
-      "market": "US",
-      "company": "PSEC",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "PSNY",
       "market": "US",
       "company": "PSNY",
@@ -2627,6 +2617,16 @@
       "market": "US",
       "company": "YQ",
       "earnings_date": "2026-09-01",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "AGX",
+      "market": "US",
+      "company": "AGX",
+      "earnings_date": "2026-09-02",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
       "confirmed": true,
@@ -2923,6 +2923,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "GOLD",
+      "market": "US",
+      "company": "GOLD",
+      "earnings_date": "2026-09-02",
+      "earnings_datetime_utc": "2026-09-02T20:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "HPE",
       "market": "US",
       "company": "HPE",
@@ -3097,16 +3107,6 @@
       "market": "US",
       "company": "ZUMZ",
       "earnings_date": "2026-09-02",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "AGX",
-      "market": "US",
-      "company": "AGX",
-      "earnings_date": "2026-09-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
       "confirmed": true,
