@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T13:41:50.626Z",
+  "generated_at": "2026-08-21T14:30:47.366Z",
   "count": 331,
   "events": [
     {
@@ -48,11 +48,12 @@
       "company": "Flexituff Ventures International Ltd",
       "bse_code": "533638",
       "earnings_date": "2026-08-21",
-      "earnings_datetime_utc": "2026-08-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-21T14:01:16.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "INNOVACAP",
