@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T08:35:43.634Z",
-  "count": 330,
+  "generated_at": "2026-08-21T09:32:50.769Z",
+  "count": 331,
   "events": [
     {
       "ticker": "BJ",
@@ -1128,6 +1128,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "PAHC",
+      "market": "US",
+      "company": "PAHC",
+      "earnings_date": "2026-08-26",
+      "earnings_datetime_utc": "2026-08-26T20:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "PLAB",
       "market": "US",
       "company": "PLAB",
@@ -1419,16 +1429,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "GCO",
-      "market": "US",
-      "company": "GCO",
-      "earnings_date": "2026-08-27",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "GLGI",
       "market": "US",
       "company": "GLGI",
@@ -1515,6 +1515,16 @@
       "earnings_date": "2026-08-27",
       "earnings_datetime_utc": "2026-08-27T12:00:00.000Z",
       "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "LUCK",
+      "market": "US",
+      "company": "LUCK",
+      "earnings_date": "2026-08-27",
+      "earnings_datetime_utc": "2026-08-27T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
