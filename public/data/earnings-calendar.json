@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T17:55:29.441Z",
-  "count": 335,
+  "generated_at": "2026-08-21T18:32:05.259Z",
+  "count": 332,
   "events": [
     {
       "ticker": "BJ",
@@ -43,45 +43,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "FLEXITUFF",
-      "market": "IN",
-      "company": "Flexituff Ventures International Ltd",
-      "bse_code": "533638",
-      "earnings_date": "2026-08-21",
-      "earnings_datetime_utc": "2026-08-21T14:01:16.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "INNOVACAP",
-      "market": "IN",
-      "company": "Innova Captab Ltd",
-      "bse_code": "544067",
-      "earnings_date": "2026-08-21",
-      "earnings_datetime_utc": "2026-08-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "eps_yoy_pct": 42.25
-    },
-    {
-      "ticker": "OCTAVIUSPL",
-      "market": "IN",
-      "company": "Octavius Plantations Ltd",
-      "bse_code": "542938",
-      "earnings_date": "2026-08-21",
-      "earnings_datetime_utc": "2026-08-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "eps_yoy_pct": -55.32
-    },
-    {
       "ticker": "HERANBA",
       "market": "IN",
       "company": "Heranba Industries Ltd",
@@ -90,7 +51,8 @@
       "earnings_datetime_utc": "2026-08-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "LLFICL",
@@ -101,7 +63,8 @@
       "earnings_datetime_utc": "2026-08-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ADMT",
