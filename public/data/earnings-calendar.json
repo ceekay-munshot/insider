@@ -1,71 +1,7 @@
 {
-  "generated_at": "2026-08-21T20:48:42.816Z",
-  "count": 332,
+  "generated_at": "2026-08-24T03:51:25.067Z",
+  "count": 330,
   "events": [
-    {
-      "ticker": "BJ",
-      "market": "US",
-      "company": "BJ",
-      "earnings_date": "2026-08-21",
-      "earnings_datetime_utc": "2026-08-21T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "OWLS",
-      "market": "US",
-      "company": "OWLS",
-      "earnings_date": "2026-08-21",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "UI",
-      "market": "US",
-      "company": "UI",
-      "earnings_date": "2026-08-21",
-      "earnings_datetime_utc": "2026-08-21T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "ZKH",
-      "market": "US",
-      "company": "ZKH",
-      "earnings_date": "2026-08-21",
-      "earnings_datetime_utc": "2026-08-21T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "HERANBA",
-      "market": "IN",
-      "company": "Heranba Industries Ltd",
-      "bse_code": "543266",
-      "earnings_date": "2026-08-22",
-      "earnings_datetime_utc": "2026-08-22T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "LLFICL",
-      "market": "IN",
-      "company": "Leading Leasing Finance And Investment Company Ltd",
-      "bse_code": "540360",
-      "earnings_date": "2026-08-22",
-      "earnings_datetime_utc": "2026-08-22T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
     {
       "ticker": "ADMT",
       "market": "US",
@@ -385,7 +321,8 @@
       "earnings_datetime_utc": "2026-08-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ALCY",
@@ -1230,6 +1167,42 @@
       "earnings_datetime_utc": "2026-08-26T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-08-27T05:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50554933-7b48-4919-93e8-148c51e3ff5e.pdf"
+    },
+    {
+      "ticker": "ONEINDIG",
+      "market": "IN",
+      "company": "Oneindig Technologies Ltd",
+      "bse_code": "544852",
+      "earnings_date": "2026-08-26",
+      "earnings_datetime_utc": "2026-08-26T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SIMBHALS",
+      "market": "IN",
+      "company": "Simbhaoli Sugars Ltd",
+      "bse_code": "539742",
+      "earnings_date": "2026-08-26",
+      "earnings_datetime_utc": "2026-08-26T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "VIKASECO",
+      "market": "IN",
+      "company": "Vikas EcoTech Ltd",
+      "bse_code": "530961",
+      "earnings_date": "2026-08-26",
+      "earnings_datetime_utc": "2026-08-26T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
       "source": "bse:forth_results"
     },
     {
@@ -1881,6 +1854,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "MILKYMIST",
+      "market": "IN",
+      "company": "Milky Mist Dairy Food Ltd",
+      "bse_code": "544868",
+      "earnings_date": "2026-08-31",
+      "earnings_datetime_utc": "2026-08-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ABLT",
