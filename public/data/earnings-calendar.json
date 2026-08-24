@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T14:37:34.707Z",
-  "count": 354,
+  "generated_at": "2026-08-24T15:35:32.036Z",
+  "count": 355,
   "events": [
     {
       "ticker": "ADMT",
@@ -311,6 +311,18 @@
       "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "TELECANOR",
+      "market": "IN",
+      "company": "TeleCanor Global Ltd",
+      "bse_code": "530595",
+      "earnings_date": "2026-08-24",
+      "earnings_datetime_utc": "2026-08-24T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ALCY",
@@ -702,7 +714,10 @@
       "earnings_datetime_utc": "2026-08-25T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-08-27T05:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=feaf6fef-942a-4cf9-8f06-f93679016327.pdf"
     },
     {
       "ticker": "STCINDIA",
