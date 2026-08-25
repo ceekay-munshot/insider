@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T08:37:16.081Z",
-  "count": 347,
+  "generated_at": "2026-08-25T09:31:11.905Z",
+  "count": 346,
   "events": [
     {
       "ticker": "ALCY",
@@ -378,11 +378,12 @@
       "company": "Ardee Industries Ltd",
       "bse_code": "544860",
       "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": "2026-08-25T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-25T08:50:20.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "MVELECTRO",
@@ -1157,16 +1158,6 @@
       "earnings_date": "2026-08-27",
       "earnings_datetime_utc": "2026-08-27T12:00:00.000Z",
       "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "MCFT",
-      "market": "US",
-      "company": "MCFT",
-      "earnings_date": "2026-08-27",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
