@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T20:58:36.731Z",
-  "count": 354,
+  "generated_at": "2026-08-25T03:44:18.448Z",
+  "count": 359,
   "events": [
     {
       "ticker": "ADMT",
@@ -1591,6 +1591,28 @@
       "source": "finnhub"
     },
     {
+      "ticker": "EY",
+      "market": "IN",
+      "company": "Eyantra Ventures Ltd",
+      "bse_code": "512099",
+      "earnings_date": "2026-08-27",
+      "earnings_datetime_utc": "2026-08-27T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "INDAGIV",
+      "market": "IN",
+      "company": "Ind Agiv Commerce Ltd",
+      "bse_code": "517077",
+      "earnings_date": "2026-08-27",
+      "earnings_datetime_utc": "2026-08-27T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "BLPG",
       "market": "US",
       "company": "BLPG",
@@ -1609,6 +1631,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "SETCO",
+      "market": "IN",
+      "company": "Setco Automotive Ltd",
+      "bse_code": "505075",
+      "earnings_date": "2026-08-29",
+      "earnings_datetime_utc": "2026-08-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "AEO",
@@ -1805,8 +1838,8 @@
       "market": "US",
       "company": "SAIC",
       "earnings_date": "2026-08-31",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-31T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1845,6 +1878,17 @@
       "market": "IN",
       "company": "Milky Mist Dairy Food Ltd",
       "bse_code": "544868",
+      "earnings_date": "2026-08-31",
+      "earnings_datetime_utc": "2026-08-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "STDSFAC",
+      "market": "IN",
+      "company": "Standard Surfactants Ltd",
+      "bse_code": "526231",
       "earnings_date": "2026-08-31",
       "earnings_datetime_utc": "2026-08-31T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -2190,6 +2234,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "TELECANOR",
+      "market": "IN",
+      "company": "TeleCanor Global Ltd",
+      "bse_code": "530595",
+      "earnings_date": "2026-09-01",
+      "earnings_datetime_utc": "2026-09-01T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "AGX",
