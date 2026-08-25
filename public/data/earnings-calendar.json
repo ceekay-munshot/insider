@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T17:57:14.073Z",
-  "count": 346,
+  "generated_at": "2026-08-25T18:41:04.930Z",
+  "count": 342,
   "events": [
     {
       "ticker": "ALCY",
@@ -371,66 +371,6 @@
       "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "ARDEE",
-      "market": "IN",
-      "company": "Ardee Industries Ltd",
-      "bse_code": "544860",
-      "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": "2026-08-25T08:50:20.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-31T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94b1adc3-7fd8-4fc1-8515-5a15c472f1d0.pdf",
-      "eps_yoy_pct": 7700
-    },
-    {
-      "ticker": "MVELECTRO",
-      "market": "IN",
-      "company": "MV Electrosystems Ltd",
-      "bse_code": "544851",
-      "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": "2026-08-25T10:58:18.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-27T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=feaf6fef-942a-4cf9-8f06-f93679016327.pdf",
-      "eps_yoy_pct": -7.32
-    },
-    {
-      "ticker": "STCINDIA",
-      "market": "IN",
-      "company": "State Trading Corporation of India Ltd",
-      "bse_code": "512531",
-      "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": "2026-08-25T15:37:02.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "VINEETLAB",
-      "market": "IN",
-      "company": "Vineet Laboratories Ltd",
-      "bse_code": "543298",
-      "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": "2026-08-25T13:42:35.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
     },
     {
       "ticker": "A",
@@ -862,6 +802,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-08-27T05:30:00.000Z",
       "concall_title": "Q1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50554933-7b48-4919-93e8-148c51e3ff5e.pdf"
@@ -875,7 +816,8 @@
       "earnings_datetime_utc": "2026-08-26T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SIMBHALS",
@@ -886,7 +828,9 @@
       "earnings_datetime_utc": "2026-08-26T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default",
+      "eps_yoy_pct": -21.91
     },
     {
       "ticker": "VIKASECO",
@@ -897,7 +841,8 @@
       "earnings_datetime_utc": "2026-08-26T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ADNH",
