@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T14:40:39.989Z",
+  "generated_at": "2026-08-25T15:38:24.540Z",
   "count": 346,
   "events": [
     {
@@ -412,11 +412,12 @@
       "company": "State Trading Corporation of India Ltd",
       "bse_code": "512531",
       "earnings_date": "2026-08-25",
-      "earnings_datetime_utc": "2026-08-25T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-25T15:37:02.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "VINEETLAB",
