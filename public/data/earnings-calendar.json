@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T11:55:34.472Z",
+  "generated_at": "2026-08-26T12:45:43.038Z",
   "count": 326,
   "events": [
     {
@@ -466,11 +466,12 @@
       "company": "Simbhaoli Sugars Ltd",
       "bse_code": "539742",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": "2026-08-26T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T12:35:38.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true,
       "eps_yoy_pct": -21.91
     },
     {
