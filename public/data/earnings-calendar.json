@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T18:13:35.925Z",
-  "count": 327,
+  "generated_at": "2026-08-26T20:30:46.758Z",
+  "count": 323,
   "events": [
     {
       "ticker": "A",
@@ -433,62 +433,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "JNPR",
-      "market": "IN",
-      "company": "Juniper Green Energy Ltd",
-      "bse_code": "544853",
-      "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": "2026-08-26T14:29:06.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-08-27T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50554933-7b48-4919-93e8-148c51e3ff5e.pdf"
-    },
-    {
-      "ticker": "ONEINDIG",
-      "market": "IN",
-      "company": "Oneindig Technologies Ltd",
-      "bse_code": "544852",
-      "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": "2026-08-26T11:26:13.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "SIMBHALS",
-      "market": "IN",
-      "company": "Simbhaoli Sugars Ltd",
-      "bse_code": "539742",
-      "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": "2026-08-26T12:35:38.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": -21.91
-    },
-    {
-      "ticker": "VIKASECO",
-      "market": "IN",
-      "company": "Vikas EcoTech Ltd",
-      "bse_code": "530961",
-      "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": "2026-08-26T15:18:18.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
       "ticker": "ADNH",
       "market": "US",
       "company": "ADNH",
@@ -877,7 +821,9 @@
       "earnings_datetime_utc": "2026-08-27T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default",
+      "eps_yoy_pct": -253.57
     },
     {
       "ticker": "INDAGIV",
@@ -888,7 +834,8 @@
       "earnings_datetime_utc": "2026-08-27T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "BLPG",
