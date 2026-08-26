@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T20:56:31.114Z",
-  "count": 342,
+  "generated_at": "2026-08-26T03:50:47.500Z",
+  "count": 344,
   "events": [
     {
       "ticker": "ALCY",
@@ -1099,8 +1099,8 @@
       "market": "US",
       "company": "LUCK",
       "earnings_date": "2026-08-27",
-      "earnings_datetime_utc": "2026-08-27T20:15:00.000Z",
-      "timing": "AMC",
+      "earnings_datetime_utc": "2026-08-27T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1265,6 +1265,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "ZGOLDINV",
+      "market": "IN",
+      "company": "Gold Rock Investments Ltd",
+      "bse_code": "501111",
+      "earnings_date": "2026-08-28",
+      "earnings_datetime_utc": "2026-08-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SETCO",
@@ -1508,6 +1519,20 @@
       "source": "finnhub"
     },
     {
+      "ticker": "LEAPIND",
+      "market": "IN",
+      "company": "LEAP India Ltd",
+      "bse_code": "544865",
+      "earnings_date": "2026-08-31",
+      "earnings_datetime_utc": "2026-08-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-09-01T05:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37c2e196-d2a8-4f8c-8c38-cd5c459ff4dc.pdf"
+    },
+    {
       "ticker": "MILKYMIST",
       "market": "IN",
       "company": "Milky Mist Dairy Food Ltd",
@@ -1584,8 +1609,8 @@
       "market": "US",
       "company": "CRDO",
       "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-01T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1634,8 +1659,8 @@
       "market": "US",
       "company": "GTLB",
       "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-01T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1714,8 +1739,8 @@
       "market": "US",
       "company": "MDB",
       "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-01T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1724,8 +1749,8 @@
       "market": "US",
       "company": "MDT",
       "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1734,8 +1759,8 @@
       "market": "US",
       "company": "MMED",
       "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1754,8 +1779,8 @@
       "market": "US",
       "company": "NIO",
       "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1804,8 +1829,8 @@
       "market": "US",
       "company": "RGS",
       "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T20:15:00.000Z",
-      "timing": "AMC",
+      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1814,8 +1839,8 @@
       "market": "US",
       "company": "RZLV",
       "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1854,8 +1879,8 @@
       "market": "US",
       "company": "YEXT",
       "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
