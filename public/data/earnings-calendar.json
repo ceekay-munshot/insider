@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T11:25:15.874Z",
+  "generated_at": "2026-08-26T11:55:34.472Z",
   "count": 326,
   "events": [
     {
@@ -453,11 +453,12 @@
       "company": "Oneindig Technologies Ltd",
       "bse_code": "544852",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": "2026-08-26T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T11:26:13.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "SIMBHALS",
