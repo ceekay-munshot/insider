@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T14:40:01.390Z",
-  "count": 326,
+  "generated_at": "2026-08-26T16:15:12.282Z",
+  "count": 327,
   "events": [
     {
       "ticker": "A",
@@ -481,11 +481,12 @@
       "company": "Vikas EcoTech Ltd",
       "bse_code": "530961",
       "earnings_date": "2026-08-26",
-      "earnings_datetime_utc": "2026-08-26T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-08-26T15:18:18.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ADNH",
@@ -1732,16 +1733,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "CANG",
-      "market": "US",
-      "company": "CANG",
-      "earnings_date": "2026-09-02",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "CHPT",
       "market": "US",
       "company": "CHPT",
@@ -2282,16 +2273,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "KEQU",
-      "market": "US",
-      "company": "KEQU",
-      "earnings_date": "2026-09-03",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "KFY",
       "market": "US",
       "company": "KFY",
@@ -2598,16 +2579,6 @@
       "earnings_date": "2026-09-03",
       "earnings_datetime_utc": "2026-09-03T20:15:00.000Z",
       "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "ABM",
-      "market": "US",
-      "company": "ABM",
-      "earnings_date": "2026-09-04",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2932,6 +2903,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "ABM",
+      "market": "US",
+      "company": "ABM",
+      "earnings_date": "2026-09-08",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "ADSE",
       "market": "US",
       "company": "ADSE",
@@ -2985,6 +2966,16 @@
       "ticker": "ANIX",
       "market": "US",
       "company": "ANIX",
+      "earnings_date": "2026-09-08",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "AVO",
+      "market": "US",
+      "company": "AVO",
       "earnings_date": "2026-09-08",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -3202,6 +3193,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "KEQU",
+      "market": "US",
+      "company": "KEQU",
+      "earnings_date": "2026-09-09",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "KR",
       "market": "US",
       "company": "KR",
@@ -3218,6 +3219,16 @@
       "earnings_date": "2026-09-09",
       "earnings_datetime_utc": "2026-09-09T20:15:00.000Z",
       "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "NNOX",
+      "market": "US",
+      "company": "NNOX",
+      "earnings_date": "2026-09-09",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
