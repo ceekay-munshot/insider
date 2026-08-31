@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-31T17:10:31.116Z",
-  "count": 315,
+  "generated_at": "2026-08-31T21:59:09.274Z",
+  "count": 311,
   "events": [
     {
       "ticker": "AIJTY",
@@ -241,92 +241,6 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "CRSL",
-      "market": "IN",
-      "company": "Cressanda Railway Solutions Ltd",
-      "bse_code": "512379",
-      "earnings_date": "2026-08-31",
-      "earnings_datetime_utc": "2026-08-31T14:22:08.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "DACHEPALLI",
-      "market": "IN",
-      "company": "Dachepalli Publishers Ltd",
-      "bse_code": "544667",
-      "earnings_date": "2026-08-31",
-      "earnings_datetime_utc": "2026-08-31T08:44:14.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 4.47
-    },
-    {
-      "ticker": "LEAPIND",
-      "market": "IN",
-      "company": "LEAP India Ltd",
-      "bse_code": "544865",
-      "earnings_date": "2026-08-31",
-      "earnings_datetime_utc": "2026-08-31T14:18:44.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-09-01T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37c2e196-d2a8-4f8c-8c38-cd5c459ff4dc.pdf"
-    },
-    {
-      "ticker": "MILKYMIST",
-      "market": "IN",
-      "company": "Milky Mist Dairy Food Ltd",
-      "bse_code": "544868",
-      "earnings_date": "2026-08-31",
-      "earnings_datetime_utc": "2026-08-31T11:15:09.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-09-01T05:00:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13cc5d78-6914-4364-b383-5e99ed26a8c5.pdf",
-      "eps_yoy_pct": 910
-    },
-    {
-      "ticker": "SETCO",
-      "market": "IN",
-      "company": "Setco Automotive Ltd",
-      "bse_code": "505075",
-      "earnings_date": "2026-08-31",
-      "earnings_datetime_utc": "2026-08-31T10:16:16.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "STDSFAC",
-      "market": "IN",
-      "company": "Standard Surfactants Ltd",
-      "bse_code": "526231",
-      "earnings_date": "2026-08-31",
-      "earnings_datetime_utc": "2026-08-31T13:13:05.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
     },
     {
       "ticker": "ABLT",
@@ -677,7 +591,9 @@
       "earnings_datetime_utc": "2026-09-01T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default",
+      "eps_yoy_pct": -48.39
     },
     {
       "ticker": "TELECANOR",
@@ -688,7 +604,8 @@
       "earnings_datetime_utc": "2026-09-01T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "AGX",
@@ -1873,6 +1790,17 @@
       "source": "finnhub"
     },
     {
+      "ticker": "DHOOTTRANS",
+      "market": "IN",
+      "company": "Dhoot Transmission Ltd",
+      "bse_code": "544867",
+      "earnings_date": "2026-09-04",
+      "earnings_datetime_utc": "2026-09-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "RFMZ",
       "market": "US",
       "company": "RFMZ",
@@ -2081,6 +2009,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "SSPNFIN",
+      "market": "IN",
+      "company": "SSPN Finance Ltd",
+      "bse_code": "539026",
+      "earnings_date": "2026-09-07",
+      "earnings_datetime_utc": "2026-09-07T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ABM",
