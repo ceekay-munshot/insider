@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T13:36:45.390Z",
-  "count": 292,
+  "generated_at": "2026-09-01T17:33:26.254Z",
+  "count": 298,
   "events": [
     {
       "ticker": "ABLT",
@@ -341,6 +341,32 @@
       "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "RANJITSE",
+      "market": "IN",
+      "company": "Ranjit Securities Ltd",
+      "bse_code": "531572",
+      "earnings_date": "2026-09-01",
+      "earnings_datetime_utc": "2026-09-01T16:46:14.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -48.39
+    },
+    {
+      "ticker": "TELECANOR",
+      "market": "IN",
+      "company": "TeleCanor Global Ltd",
+      "bse_code": "530595",
+      "earnings_date": "2026-09-01",
+      "earnings_datetime_utc": "2026-09-01T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "AGX",
@@ -861,6 +887,28 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "TECHNOCRAF",
+      "market": "IN",
+      "company": "Technocraft Ventures Ltd",
+      "bse_code": "544864",
+      "earnings_date": "2026-09-02",
+      "earnings_datetime_utc": "2026-09-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "VIVANTA",
+      "market": "IN",
+      "company": "Vivanta Industries Ltd",
+      "bse_code": "541735",
+      "earnings_date": "2026-09-02",
+      "earnings_datetime_utc": "2026-09-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "AMBA",
@@ -1503,6 +1551,20 @@
       "source": "finnhub"
     },
     {
+      "ticker": "DHOOTTRANS",
+      "market": "IN",
+      "company": "Dhoot Transmission Ltd",
+      "bse_code": "544867",
+      "earnings_date": "2026-09-04",
+      "earnings_datetime_utc": "2026-09-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-09-04T09:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae4b873c-ff76-4da0-b583-b26e156de3c2.pdf"
+    },
+    {
       "ticker": "RFMZ",
       "market": "US",
       "company": "RFMZ",
@@ -1701,6 +1763,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "SSPNFIN",
+      "market": "IN",
+      "company": "SSPN Finance Ltd",
+      "bse_code": "539026",
+      "earnings_date": "2026-09-07",
+      "earnings_datetime_utc": "2026-09-07T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ABM",
