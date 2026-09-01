@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T17:33:26.254Z",
-  "count": 298,
+  "generated_at": "2026-09-01T20:28:46.891Z",
+  "count": 296,
   "events": [
     {
       "ticker": "ABLT",
@@ -341,32 +341,6 @@
       "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "RANJITSE",
-      "market": "IN",
-      "company": "Ranjit Securities Ltd",
-      "bse_code": "531572",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T16:46:14.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": -48.39
-    },
-    {
-      "ticker": "TELECANOR",
-      "market": "IN",
-      "company": "TeleCanor Global Ltd",
-      "bse_code": "530595",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
     },
     {
       "ticker": "AGX",
@@ -897,7 +871,8 @@
       "earnings_datetime_utc": "2026-09-02T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "VIVANTA",
@@ -908,7 +883,9 @@
       "earnings_datetime_utc": "2026-09-02T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default",
+      "eps_yoy_pct": 100
     },
     {
       "ticker": "AMBA",
