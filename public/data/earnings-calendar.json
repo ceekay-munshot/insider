@@ -1,347 +1,7 @@
 {
-  "generated_at": "2026-09-01T22:45:28.359Z",
-  "count": 300,
+  "generated_at": "2026-09-02T07:34:41.250Z",
+  "count": 273,
   "events": [
-    {
-      "ticker": "ABLT",
-      "market": "US",
-      "company": "ABLT",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "BASE",
-      "market": "US",
-      "company": "BASE",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "BOE",
-      "market": "US",
-      "company": "BOE",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "CIK",
-      "market": "US",
-      "company": "CIK",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "COE",
-      "market": "US",
-      "company": "COE",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "CRDO",
-      "market": "US",
-      "company": "CRDO",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "DAVA",
-      "market": "US",
-      "company": "DAVA",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "DELL",
-      "market": "US",
-      "company": "DELL",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "GGN",
-      "market": "US",
-      "company": "GGN",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "GGZ",
-      "market": "US",
-      "company": "GGZ",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "GTLB",
-      "market": "US",
-      "company": "GTLB",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "GUT",
-      "market": "US",
-      "company": "GUT",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "HMR",
-      "market": "US",
-      "company": "HMR",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "JILL",
-      "market": "US",
-      "company": "JILL",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "LDP",
-      "market": "US",
-      "company": "LDP",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "LQWC",
-      "market": "US",
-      "company": "LQWC",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "M",
-      "market": "US",
-      "company": "M",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "MACT",
-      "market": "US",
-      "company": "MACT",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "MCN",
-      "market": "US",
-      "company": "MCN",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "MDB",
-      "market": "US",
-      "company": "MDB",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "MDT",
-      "market": "US",
-      "company": "MDT",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "MMED",
-      "market": "US",
-      "company": "MMED",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "NIO",
-      "market": "US",
-      "company": "NIO",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "PANW",
-      "market": "US",
-      "company": "PANW",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "PFN",
-      "market": "US",
-      "company": "PFN",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "PSNY",
-      "market": "US",
-      "company": "PSNY",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "RGS",
-      "market": "US",
-      "company": "RGS",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "RZLV",
-      "market": "US",
-      "company": "RZLV",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SPWH",
-      "market": "US",
-      "company": "SPWH",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "STK",
-      "market": "US",
-      "company": "STK",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TY",
-      "market": "US",
-      "company": "TY",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "YEXT",
-      "market": "US",
-      "company": "YEXT",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "YQ",
-      "market": "US",
-      "company": "YQ",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "ZEPP",
-      "market": "US",
-      "company": "ZEPP",
-      "earnings_date": "2026-09-01",
-      "earnings_datetime_utc": "2026-09-01T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
     {
       "ticker": "AGX",
       "market": "US",
@@ -880,11 +540,12 @@
       "company": "Vivanta Industries Ltd",
       "bse_code": "541735",
       "earnings_date": "2026-09-02",
-      "earnings_datetime_utc": "2026-09-02T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-02T05:41:58.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true,
       "eps_yoy_pct": 100
     },
     {
@@ -1790,8 +1451,8 @@
       "market": "US",
       "company": "ABM",
       "earnings_date": "2026-09-08",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-08T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1840,8 +1501,8 @@
       "market": "US",
       "company": "AVO",
       "earnings_date": "2026-09-08",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-08T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1850,8 +1511,8 @@
       "market": "US",
       "company": "BRZE",
       "earnings_date": "2026-09-08",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-08T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1860,8 +1521,8 @@
       "market": "US",
       "company": "CASY",
       "earnings_date": "2026-09-08",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-08T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1870,8 +1531,8 @@
       "market": "US",
       "company": "GMHS",
       "earnings_date": "2026-09-08",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-08T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1910,8 +1571,8 @@
       "market": "US",
       "company": "MIND",
       "earnings_date": "2026-09-08",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-08T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1950,8 +1611,8 @@
       "market": "US",
       "company": "UNFI",
       "earnings_date": "2026-09-08",
-      "earnings_datetime_utc": "2026-09-08T20:15:00.000Z",
-      "timing": "AMC",
+      "earnings_datetime_utc": "2026-09-08T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1970,8 +1631,8 @@
       "market": "US",
       "company": "WDH",
       "earnings_date": "2026-09-08",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-08T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -3011,6 +2672,76 @@
       "market": "US",
       "company": "YYGH",
       "earnings_date": "2026-09-15",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "ABAT",
+      "market": "US",
+      "company": "ABAT",
+      "earnings_date": "2026-09-16",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "CSBR",
+      "market": "US",
+      "company": "CSBR",
+      "earnings_date": "2026-09-16",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "DLNG",
+      "market": "US",
+      "company": "DLNG",
+      "earnings_date": "2026-09-16",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "FDX",
+      "market": "US",
+      "company": "FDX",
+      "earnings_date": "2026-09-16",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "LGCY",
+      "market": "US",
+      "company": "LGCY",
+      "earnings_date": "2026-09-16",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "LUXE",
+      "market": "US",
+      "company": "LUXE",
+      "earnings_date": "2026-09-16",
+      "earnings_datetime_utc": "2026-09-16T12:00:00.000Z",
+      "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "WDSP",
+      "market": "US",
+      "company": "WDSP",
+      "earnings_date": "2026-09-16",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
       "confirmed": true,
