@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T16:49:12.043Z",
-  "count": 274,
+  "generated_at": "2026-09-02T19:37:07.361Z",
+  "count": 273,
   "events": [
     {
       "ticker": "AGX",
@@ -521,20 +521,6 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "TECHNOCRAF",
-      "market": "IN",
-      "company": "Technocraft Ventures Ltd",
-      "bse_code": "544864",
-      "earnings_date": "2026-09-02",
-      "earnings_datetime_utc": "2026-09-02T11:21:01.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 14.52
     },
     {
       "ticker": "AMBA",
@@ -1413,7 +1399,10 @@
       "earnings_datetime_utc": "2026-09-07T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-09-08T10:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eda861b6-fb37-477e-9c8d-b6a259cf6fcf.pdf"
     },
     {
       "ticker": "SHIPROCKET",
