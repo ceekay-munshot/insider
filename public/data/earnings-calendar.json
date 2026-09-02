@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T07:34:41.250Z",
-  "count": 273,
+  "generated_at": "2026-09-02T12:30:00.160Z",
+  "count": 275,
   "events": [
     {
       "ticker": "AGX",
@@ -528,11 +528,12 @@
       "company": "Technocraft Ventures Ltd",
       "bse_code": "544864",
       "earnings_date": "2026-09-02",
-      "earnings_datetime_utc": "2026-09-02T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-02T11:21:01.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "VIVANTA",
@@ -675,6 +676,16 @@
       "earnings_date": "2026-09-03",
       "earnings_datetime_utc": "2026-09-03T20:15:00.000Z",
       "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "DOMO",
+      "market": "US",
+      "company": "DOMO",
+      "earnings_date": "2026-09-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1039,16 +1050,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "TTAN",
-      "market": "US",
-      "company": "TTAN",
-      "earnings_date": "2026-09-03",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "TTC",
       "market": "US",
       "company": "TTC",
@@ -1221,7 +1222,10 @@
       "earnings_datetime_utc": "2026-09-05T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-09-08T10:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50fb416a-a62c-498e-8bb8-1a6405770c29.pdf"
     },
     {
       "ticker": "ALOT",
@@ -1433,7 +1437,10 @@
       "earnings_datetime_utc": "2026-09-07T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-09-08T03:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72f8c8b6-6918-4317-b733-f73b395a5dac.pdf"
     },
     {
       "ticker": "SSPNFIN",
@@ -1600,6 +1607,16 @@
       "ticker": "SHMP",
       "market": "US",
       "company": "SHMP",
+      "earnings_date": "2026-09-08",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "TTAN",
+      "market": "US",
+      "company": "TTAN",
       "earnings_date": "2026-09-08",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -2108,16 +2125,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "KMTS",
-      "market": "US",
-      "company": "KMTS",
-      "earnings_date": "2026-09-10",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "KXIN",
       "market": "US",
       "company": "KXIN",
@@ -2244,6 +2251,16 @@
       "earnings_date": "2026-09-10",
       "earnings_datetime_utc": "2026-09-10T12:00:00.000Z",
       "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "ANAB",
+      "market": "US",
+      "company": "ANAB",
+      "earnings_date": "2026-09-11",
+      "earnings_datetime_utc": "2026-09-11T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2421,6 +2438,16 @@
       "ticker": "KAVL",
       "market": "US",
       "company": "KAVL",
+      "earnings_date": "2026-09-14",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "KMTS",
+      "market": "US",
+      "company": "KMTS",
       "earnings_date": "2026-09-14",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
