@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T19:37:07.052Z",
-  "count": 238,
+  "generated_at": "2026-09-03T22:13:07.097Z",
+  "count": 240,
   "events": [
     {
       "ticker": "AMBA",
@@ -1143,6 +1143,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "SRUSTEELS",
+      "market": "IN",
+      "company": "SRU Steels Ltd",
+      "bse_code": "540914",
+      "earnings_date": "2026-09-08",
+      "earnings_datetime_utc": "2026-09-08T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "AEO",
       "market": "US",
       "company": "AEO",
@@ -1451,6 +1462,17 @@
       "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "NOVIS",
+      "market": "IN",
+      "company": "Nova Iron & Steel Ltd",
+      "bse_code": "513566",
+      "earnings_date": "2026-09-09",
+      "earnings_datetime_utc": "2026-09-09T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ADBE",
