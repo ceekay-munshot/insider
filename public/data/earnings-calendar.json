@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T07:40:34.293Z",
-  "count": 185,
+  "generated_at": "2026-09-04T12:28:00.254Z",
+  "count": 186,
   "events": [
     {
       "ticker": "ARDC",
@@ -68,14 +68,13 @@
       "company": "Dhoot Transmission Ltd",
       "bse_code": "544867",
       "earnings_date": "2026-09-04",
-      "earnings_datetime_utc": "2026-09-04T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-04T09:31:39.000Z",
+      "timing": "INTRADAY",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-09-04T09:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae4b873c-ff76-4da0-b583-b26e156de3c2.pdf"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 5766.67
     },
     {
       "ticker": "RFMZ",
@@ -148,16 +147,6 @@
       "earnings_date": "2026-09-07",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "DLNG",
-      "market": "US",
-      "company": "DLNG",
-      "earnings_date": "2026-09-07",
-      "earnings_datetime_utc": "2026-09-07T20:15:00.000Z",
-      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -425,6 +414,16 @@
       "ticker": "CASY",
       "market": "US",
       "company": "CASY",
+      "earnings_date": "2026-09-08",
+      "earnings_datetime_utc": "2026-09-08T20:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "DLNG",
+      "market": "US",
+      "company": "DLNG",
       "earnings_date": "2026-09-08",
       "earnings_datetime_utc": "2026-09-08T20:15:00.000Z",
       "timing": "AMC",
@@ -704,6 +703,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "JMKE",
+      "market": "US",
+      "company": "JMKE",
+      "earnings_date": "2026-09-09",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "JOCM",
       "market": "US",
       "company": "JOCM",
@@ -720,6 +729,16 @@
       "earnings_date": "2026-09-09",
       "earnings_datetime_utc": "2026-09-09T20:15:00.000Z",
       "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "KFY",
+      "market": "US",
+      "company": "KFY",
+      "earnings_date": "2026-09-09",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1135,6 +1154,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "ORCL",
+      "market": "US",
+      "company": "ORCL",
+      "earnings_date": "2026-09-10",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "RLGT",
       "market": "US",
       "company": "RLGT",
@@ -1415,16 +1444,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "ORCL",
-      "market": "US",
-      "company": "ORCL",
-      "earnings_date": "2026-09-14",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "PBSV",
       "market": "US",
       "company": "PBSV",
@@ -1685,6 +1704,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "LEN",
+      "market": "US",
+      "company": "LEN",
+      "earnings_date": "2026-09-16",
+      "earnings_datetime_utc": "2026-09-16T20:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "LGCY",
       "market": "US",
       "company": "LGCY",
@@ -1785,16 +1814,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "LEN",
-      "market": "US",
-      "company": "LEN",
-      "earnings_date": "2026-09-17",
-      "earnings_datetime_utc": "2026-09-17T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "OWPC",
       "market": "US",
       "company": "OWPC",
@@ -1808,16 +1827,6 @@
       "ticker": "RAVE",
       "market": "US",
       "company": "RAVE",
-      "earnings_date": "2026-09-17",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SCHL",
-      "market": "US",
-      "company": "SCHL",
       "earnings_date": "2026-09-17",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
