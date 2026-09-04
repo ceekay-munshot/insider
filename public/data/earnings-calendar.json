@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T16:32:24.899Z",
-  "count": 186,
+  "generated_at": "2026-09-04T19:16:22.808Z",
+  "count": 185,
   "events": [
     {
       "ticker": "ARDC",
@@ -63,20 +63,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "DHOOTTRANS",
-      "market": "IN",
-      "company": "Dhoot Transmission Ltd",
-      "bse_code": "544867",
-      "earnings_date": "2026-09-04",
-      "earnings_datetime_utc": "2026-09-04T09:31:39.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 5766.67
-    },
-    {
       "ticker": "RFMZ",
       "market": "US",
       "company": "RFMZ",
@@ -96,6 +82,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-09-08T10:30:00.000Z",
       "concall_title": "Q1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50fb416a-a62c-498e-8bb8-1a6405770c29.pdf"
