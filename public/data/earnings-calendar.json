@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T13:56:08.507Z",
-  "count": 199,
+  "generated_at": "2026-09-07T18:36:14.412Z",
+  "count": 195,
   "events": [
     {
       "ticker": "ALOT",
@@ -191,67 +191,6 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "BLEL",
-      "market": "IN",
-      "company": "Behari Lal Engineering Ltd",
-      "bse_code": "544870",
-      "earnings_date": "2026-09-07",
-      "earnings_datetime_utc": "2026-09-07T11:06:28.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-09-08T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eda861b6-fb37-477e-9c8d-b6a259cf6fcf.pdf",
-      "eps_yoy_pct": 24.56
-    },
-    {
-      "ticker": "KOTYARK",
-      "market": "IN",
-      "company": "Kotyark Industries Ltd",
-      "bse_code": "544726",
-      "earnings_date": "2026-09-07",
-      "earnings_datetime_utc": "2026-09-07T08:44:17.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 9.68
-    },
-    {
-      "ticker": "SHIPROCKET",
-      "market": "IN",
-      "company": "Shiprocket Ltd",
-      "bse_code": "544871",
-      "earnings_date": "2026-09-07",
-      "earnings_datetime_utc": "2026-09-07T11:52:30.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-09-08T03:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72f8c8b6-6918-4317-b733-f73b395a5dac.pdf",
-      "eps_yoy_pct": 79.25
-    },
-    {
-      "ticker": "SSPNFIN",
-      "market": "IN",
-      "company": "SSPN Finance Ltd",
-      "bse_code": "539026",
-      "earnings_date": "2026-09-07",
-      "earnings_datetime_utc": "2026-09-07T13:11:39.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
     },
     {
       "ticker": "ABM",
@@ -472,7 +411,8 @@
       "earnings_datetime_utc": "2026-09-08T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SRUSTEELS",
@@ -483,7 +423,8 @@
       "earnings_datetime_utc": "2026-09-08T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "AEO",
