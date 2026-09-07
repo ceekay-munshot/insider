@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T07:22:58.385Z",
+  "generated_at": "2026-09-07T07:36:23.067Z",
   "lookback": {
-    "from": "2026-03-10",
-    "to": "2026-09-01"
+    "from": "2026-03-11",
+    "to": "2026-09-02"
   },
   "counts": {
     "IN": 800,
@@ -4132,6 +4132,19 @@
     },
     {
       "market": "IN",
+      "ticker": "PFOCUS",
+      "company": "Prime Focus Limited",
+      "earnings_date": "2026-08-06",
+      "runup": -2.6,
+      "ret1": -1.47,
+      "ret3": -3.55,
+      "market_cap": 237370264468,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
       "ticker": "IRB",
       "company": "IRB Infrastructure Developers Limited",
       "earnings_date": "2026-07-30",
@@ -5523,6 +5536,19 @@
     },
     {
       "market": "IN",
+      "ticker": "SHADOWFAX",
+      "company": "Shadowfax Technologies Limited",
+      "earnings_date": "2026-09-02",
+      "runup": -1.42,
+      "ret1": 2.5,
+      "ret3": -1.91,
+      "market_cap": 152300632589,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
       "ticker": "SHAILY",
       "company": "Shaily Engineering Plastics Limited",
       "earnings_date": "2026-08-08",
@@ -5901,7 +5927,7 @@
     {
       "market": "IN",
       "ticker": "HEG",
-      "company": "HEG Limited",
+      "company": "HEG Advanced Materials Limited",
       "earnings_date": "2026-07-22",
       "runup": -1.01,
       "ret1": 4.17,
@@ -10384,32 +10410,6 @@
       "beat": null
     },
     {
-      "market": "IN",
-      "ticker": "ROUTE",
-      "company": "Route Mobile, Ltd.",
-      "earnings_date": "2026-07-23",
-      "runup": 5.89,
-      "ret1": -5.31,
-      "ret3": -8.18,
-      "market_cap": 31589745068,
-      "currency": "INR",
-      "surprise_pct": -31.92,
-      "beat": false
-    },
-    {
-      "market": "IN",
-      "ticker": "HGINFRA",
-      "company": "H.G. Infra Engineering Ltd.",
-      "earnings_date": "2026-08-12",
-      "runup": 0.72,
-      "ret1": -4.59,
-      "ret3": -6.75,
-      "market_cap": 31448319329,
-      "currency": "INR",
-      "surprise_pct": -89.65,
-      "beat": false
-    },
-    {
       "market": "US",
       "ticker": "ABLT",
       "company": "ABLT",
@@ -11367,19 +11367,6 @@
       "ret1": 1.9,
       "ret3": -0.48,
       "market_cap": 10600516,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
-      "ticker": "BRTX",
-      "company": "BRTX",
-      "earnings_date": "2026-08-27",
-      "runup": -5.03,
-      "ret1": -3.35,
-      "ret3": -3.74,
-      "market_cap": 4088138,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13024,19 +13011,6 @@
     },
     {
       "market": "US",
-      "ticker": "REX",
-      "company": "REX",
-      "earnings_date": "2026-08-25",
-      "runup": -2.1,
-      "ret1": 2.48,
-      "ret3": -0.39,
-      "market_cap": 1375462016,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "RMT",
       "company": "RMT",
       "earnings_date": "2026-08-25",
@@ -14093,9 +14067,9 @@
       "ticker": "IGR",
       "company": "IGR",
       "earnings_date": "2026-08-20",
-      "runup": -2.54,
-      "ret1": 0,
-      "ret3": 1.95,
+      "runup": 1.28,
+      "ret1": -4.2,
+      "ret3": -5.88,
       "market_cap": 681400448,
       "currency": "USD",
       "surprise_pct": null,
@@ -17886,19 +17860,6 @@
     },
     {
       "market": "US",
-      "ticker": "GTBP",
-      "company": "GTBP",
-      "earnings_date": "2026-08-14",
-      "runup": -0.34,
-      "ret1": -3.72,
-      "ret3": -3.04,
-      "market_cap": 10871388,
-      "currency": "USD",
-      "surprise_pct": -50,
-      "beat": false
-    },
-    {
-      "market": "US",
       "ticker": "GTEN",
       "company": "GTEN",
       "earnings_date": "2026-08-14",
@@ -20805,6 +20766,45 @@
       "ret1": 0,
       "ret3": 0.56,
       "market_cap": 101539880,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "BIRK",
+      "company": "BIRK",
+      "earnings_date": "2026-08-13",
+      "runup": 11.59,
+      "ret1": -4.02,
+      "ret3": -9.2,
+      "market_cap": 5614290944,
+      "currency": "USD",
+      "surprise_pct": -2.04,
+      "beat": false
+    },
+    {
+      "market": "US",
+      "ticker": "BIVI",
+      "company": "BIVI",
+      "earnings_date": "2026-08-13",
+      "runup": 0,
+      "ret1": -10.26,
+      "ret3": -38.21,
+      "market_cap": 16902296,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "BIXI",
+      "company": "BIXI",
+      "earnings_date": "2026-08-13",
+      "runup": 0.1,
+      "ret1": 0.09,
+      "ret3": 0,
+      "market_cap": 304043680,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
