@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T12:35:23.090Z",
+  "generated_at": "2026-09-08T17:03:05.605Z",
   "count": 187,
   "events": [
     {
@@ -230,11 +230,12 @@
       "company": "SRU Steels Ltd",
       "bse_code": "540914",
       "earnings_date": "2026-09-08",
-      "earnings_datetime_utc": "2026-09-08T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-08T12:37:56.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "AEO",
