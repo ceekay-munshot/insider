@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T20:02:54.866Z",
-  "count": 185,
+  "generated_at": "2026-09-08T22:52:03.235Z",
+  "count": 188,
   "events": [
     {
       "ticker": "ABM",
@@ -995,6 +995,17 @@
       "source": "finnhub"
     },
     {
+      "ticker": "CMICABLES",
+      "market": "IN",
+      "company": "CMI Ltd",
+      "bse_code": "517330",
+      "earnings_date": "2026-09-11",
+      "earnings_datetime_utc": "2026-09-11T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "HORIZONIND",
       "market": "IN",
       "company": "Horizon Industrial Parks Ltd",
@@ -1023,6 +1034,28 @@
       "bse_code": "513566",
       "earnings_date": "2026-09-11",
       "earnings_datetime_utc": "2026-09-11T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SIPIND",
+      "market": "IN",
+      "company": "SIP Industries Ltd",
+      "bse_code": "523164",
+      "earnings_date": "2026-09-11",
+      "earnings_datetime_utc": "2026-09-11T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SICLTD",
+      "market": "IN",
+      "company": "Shivom Investment & Consultancy Ltd",
+      "bse_code": "539833",
+      "earnings_date": "2026-09-12",
+      "earnings_datetime_utc": "2026-09-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
@@ -1302,8 +1335,8 @@
       "market": "US",
       "company": "FPS",
       "earnings_date": "2026-09-15",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-15T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1372,8 +1405,8 @@
       "market": "US",
       "company": "VRA",
       "earnings_date": "2026-09-15",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-15T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
