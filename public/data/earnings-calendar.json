@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T17:03:05.605Z",
-  "count": 187,
+  "generated_at": "2026-09-08T20:02:54.866Z",
+  "count": 185,
   "events": [
     {
       "ticker": "ABM",
@@ -211,31 +211,6 @@
       "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "SPITZE",
-      "market": "IN",
-      "company": "Maruti Interior Products Ltd",
-      "bse_code": "543464",
-      "earnings_date": "2026-09-08",
-      "earnings_datetime_utc": "2026-09-08T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "SRUSTEELS",
-      "market": "IN",
-      "company": "SRU Steels Ltd",
-      "bse_code": "540914",
-      "earnings_date": "2026-09-08",
-      "earnings_datetime_utc": "2026-09-08T12:37:56.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
     },
     {
       "ticker": "AEO",
@@ -596,7 +571,8 @@
       "earnings_datetime_utc": "2026-09-09T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "NOVIS",
@@ -607,7 +583,8 @@
       "earnings_datetime_utc": "2026-09-09T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ADBE",
