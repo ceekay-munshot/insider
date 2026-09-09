@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T12:41:38.467Z",
+  "generated_at": "2026-09-09T17:00:36.911Z",
   "count": 176,
   "events": [
     {
@@ -363,7 +363,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 31.25
     },
     {
       "ticker": "NOVIS",
@@ -371,11 +372,12 @@
       "company": "Nova Iron & Steel Ltd",
       "bse_code": "513566",
       "earnings_date": "2026-09-09",
-      "earnings_datetime_utc": "2026-09-09T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-09T13:24:16.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ADBE",
