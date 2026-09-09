@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T07:50:25.780Z",
+  "generated_at": "2026-09-09T12:41:38.467Z",
   "count": 176,
   "events": [
     {
@@ -77,8 +77,8 @@
       "market": "US",
       "company": "CULP",
       "earnings_date": "2026-09-09",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-09T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -358,11 +358,12 @@
       "company": "Ind Agiv Commerce Ltd",
       "bse_code": "517077",
       "earnings_date": "2026-09-09",
-      "earnings_datetime_utc": "2026-09-09T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-09T12:36:53.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "NOVIS",
@@ -510,16 +511,6 @@
       "ticker": "HUIZ",
       "market": "US",
       "company": "HUIZ",
-      "earnings_date": "2026-09-10",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "HYFT",
-      "market": "US",
-      "company": "HYFT",
       "earnings_date": "2026-09-10",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -927,6 +918,16 @@
       "earnings_date": "2026-09-14",
       "earnings_datetime_utc": "2026-09-14T12:00:00.000Z",
       "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "HYFT",
+      "market": "US",
+      "company": "HYFT",
+      "earnings_date": "2026-09-14",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
