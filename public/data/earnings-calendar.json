@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T19:41:12.012Z",
-  "count": 174,
+  "generated_at": "2026-09-09T22:13:57.704Z",
+  "count": 177,
   "events": [
     {
       "ticker": "AEO",
@@ -297,8 +297,8 @@
       "market": "US",
       "company": "RSSS",
       "earnings_date": "2026-09-09",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-09T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1079,6 +1079,17 @@
       "source": "finnhub"
     },
     {
+      "ticker": "CMICABLES",
+      "market": "IN",
+      "company": "CMI Ltd",
+      "bse_code": "517330",
+      "earnings_date": "2026-09-14",
+      "earnings_datetime_utc": "2026-09-14T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "AXR",
       "market": "US",
       "company": "AXR",
@@ -1199,6 +1210,17 @@
       "source": "finnhub"
     },
     {
+      "ticker": "SUNSHINE",
+      "market": "IN",
+      "company": "Sunshine Pictures Ltd",
+      "bse_code": "544881",
+      "earnings_date": "2026-09-15",
+      "earnings_datetime_utc": "2026-09-15T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "ABAT",
       "market": "US",
       "company": "ABAT",
@@ -1267,6 +1289,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "TEMPSENS",
+      "market": "IN",
+      "company": "Tempsens Instruments (India) Ltd",
+      "bse_code": "544886",
+      "earnings_date": "2026-09-16",
+      "earnings_datetime_utc": "2026-09-16T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ESP",
