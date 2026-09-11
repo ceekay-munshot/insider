@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T16:52:38.293Z",
-  "count": 136,
+  "generated_at": "2026-09-11T19:25:20.358Z",
+  "count": 131,
   "events": [
     {
       "ticker": "ANAB",
@@ -73,73 +73,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "CMICABLES",
-      "market": "IN",
-      "company": "CMI Ltd",
-      "bse_code": "517330",
-      "earnings_date": "2026-09-11",
-      "earnings_datetime_utc": "2026-09-11T10:31:32.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "HORIZONIND",
-      "market": "IN",
-      "company": "Horizon Industrial Parks Ltd",
-      "bse_code": "544880",
-      "earnings_date": "2026-09-11",
-      "earnings_datetime_utc": "2026-09-11T10:25:33.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 94.37
-    },
-    {
-      "ticker": "LALITHAA",
-      "market": "IN",
-      "company": "Lalithaa Jewellery Mart Ltd",
-      "bse_code": "544879",
-      "earnings_date": "2026-09-11",
-      "earnings_datetime_utc": "2026-09-11T12:20:31.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "NOVIS",
-      "market": "IN",
-      "company": "Nova Iron & Steel Ltd",
-      "bse_code": "513566",
-      "earnings_date": "2026-09-11",
-      "earnings_datetime_utc": "2026-09-11T13:39:51.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "SIPIND",
-      "market": "IN",
-      "company": "SIP Industries Ltd",
-      "bse_code": "523164",
-      "earnings_date": "2026-09-11",
-      "earnings_datetime_utc": "2026-09-11T08:40:49.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 50
-    },
-    {
       "ticker": "SICLTD",
       "market": "IN",
       "company": "Shivom Investment & Consultancy Ltd",
@@ -148,7 +81,8 @@
       "earnings_datetime_utc": "2026-09-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "BRRE",
