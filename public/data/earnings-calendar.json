@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T19:25:20.358Z",
-  "count": 131,
+  "generated_at": "2026-09-11T21:49:56.974Z",
+  "count": 134,
   "events": [
     {
       "ticker": "ANAB",
@@ -741,6 +741,17 @@
       "source": "finnhub"
     },
     {
+      "ticker": "TOYAMSL",
+      "market": "IN",
+      "company": "Toyam Sports Ltd",
+      "bse_code": "538607",
+      "earnings_date": "2026-09-18",
+      "earnings_datetime_utc": "2026-09-18T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "AIR",
       "market": "US",
       "company": "AIR",
@@ -909,6 +920,28 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "ELITECON",
+      "market": "IN",
+      "company": "Elitecon International Ltd",
+      "bse_code": "539533",
+      "earnings_date": "2026-09-21",
+      "earnings_datetime_utc": "2026-09-21T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SYMBIOTEC",
+      "market": "IN",
+      "company": "Symbiotec Pharmalab Ltd",
+      "bse_code": "544889",
+      "earnings_date": "2026-09-21",
+      "earnings_datetime_utc": "2026-09-21T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "APOG",
