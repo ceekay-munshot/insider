@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:30:35.723Z",
+  "generated_at": "2026-09-14T15:37:11.882Z",
   "count": 172,
   "events": [
     {
@@ -268,11 +268,12 @@
       "company": "CMI Ltd",
       "bse_code": "517330",
       "earnings_date": "2026-09-14",
-      "earnings_datetime_utc": "2026-09-14T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-14T11:09:18.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "DDDX",
