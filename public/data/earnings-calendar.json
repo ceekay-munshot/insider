@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T15:37:11.882Z",
-  "count": 172,
+  "generated_at": "2026-09-14T20:07:46.081Z",
+  "count": 171,
   "events": [
     {
       "ticker": "BRRE",
@@ -263,19 +263,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "CMICABLES",
-      "market": "IN",
-      "company": "CMI Ltd",
-      "bse_code": "517330",
-      "earnings_date": "2026-09-14",
-      "earnings_datetime_utc": "2026-09-14T11:09:18.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
       "ticker": "DDDX",
       "market": "US",
       "company": "DDDX",
@@ -394,7 +381,8 @@
       "earnings_datetime_utc": "2026-09-15T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SUNSHINE",
@@ -405,7 +393,8 @@
       "earnings_datetime_utc": "2026-09-15T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ABAT",
