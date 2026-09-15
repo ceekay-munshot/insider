@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T08:20:51.209Z",
-  "count": 159,
+  "generated_at": "2026-09-15T13:45:34.826Z",
+  "count": 161,
   "events": [
     {
       "ticker": "DDDX",
@@ -118,11 +118,12 @@
       "company": "CMI Ltd",
       "bse_code": "517330",
       "earnings_date": "2026-09-15",
-      "earnings_datetime_utc": "2026-09-15T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-15T11:05:37.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "SUNSHINE",
@@ -347,7 +348,10 @@
       "earnings_datetime_utc": "2026-09-17T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-09-18T10:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=986a25fe-559c-4e93-ba8f-d49214af0718.pdf"
     },
     {
       "ticker": "AMEN",
@@ -1213,6 +1217,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "IDT",
+      "market": "US",
+      "company": "IDT",
+      "earnings_date": "2026-09-28",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "INEO",
       "market": "US",
       "company": "INEO",
@@ -1419,6 +1433,16 @@
       "earnings_date": "2026-09-28",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "TRAK",
+      "market": "US",
+      "company": "TRAK",
+      "earnings_date": "2026-09-28",
+      "earnings_datetime_utc": "2026-09-28T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
