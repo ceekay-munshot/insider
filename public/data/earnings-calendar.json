@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T13:45:34.826Z",
-  "count": 161,
+  "generated_at": "2026-09-15T17:54:07.165Z",
+  "count": 164,
   "events": [
     {
       "ticker": "DDDX",
@@ -131,11 +131,12 @@
       "company": "Sunshine Pictures Ltd",
       "bse_code": "544881",
       "earnings_date": "2026-09-15",
-      "earnings_datetime_utc": "2026-09-15T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-15T14:41:46.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ABAT",
@@ -340,6 +341,28 @@
       "source": "finnhub"
     },
     {
+      "ticker": "CLARA",
+      "market": "IN",
+      "company": "Clara Industries Ltd",
+      "bse_code": "543435",
+      "earnings_date": "2026-09-17",
+      "earnings_datetime_utc": "2026-09-17T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ORISSAMINE",
+      "market": "IN",
+      "company": "Orissa Minerals Development Company Ltd",
+      "bse_code": "590086",
+      "earnings_date": "2026-09-17",
+      "earnings_datetime_utc": "2026-09-17T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "SKYWAYS",
       "market": "IN",
       "company": "Skyways Air Services Ltd",
@@ -382,6 +405,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "HTEL",
+      "market": "IN",
+      "company": "Hy-Tech Engineers Ltd",
+      "bse_code": "544891",
+      "earnings_date": "2026-09-18",
+      "earnings_datetime_utc": "2026-09-18T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "TOYAMSL",
