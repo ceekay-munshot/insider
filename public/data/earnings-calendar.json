@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T08:14:36.473Z",
+  "generated_at": "2026-09-16T13:38:28.965Z",
   "count": 162,
   "events": [
     {
@@ -78,11 +78,12 @@
       "company": "CMI Ltd",
       "bse_code": "517330",
       "earnings_date": "2026-09-16",
-      "earnings_datetime_utc": "2026-09-16T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-16T13:09:04.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "TEMPSENS",
@@ -90,11 +91,12 @@
       "company": "Tempsens Instruments (India) Ltd",
       "bse_code": "544886",
       "earnings_date": "2026-09-16",
-      "earnings_datetime_utc": "2026-09-16T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-16T13:33:53.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ESP",
