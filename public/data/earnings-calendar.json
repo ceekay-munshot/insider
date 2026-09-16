@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-16T17:55:50.027Z",
-  "count": 164,
+  "generated_at": "2026-09-16T20:52:27.560Z",
+  "count": 162,
   "events": [
     {
       "ticker": "ABAT",
@@ -71,32 +71,6 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "CMICABLES",
-      "market": "IN",
-      "company": "CMI Ltd",
-      "bse_code": "517330",
-      "earnings_date": "2026-09-16",
-      "earnings_datetime_utc": "2026-09-16T13:09:04.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "TEMPSENS",
-      "market": "IN",
-      "company": "Tempsens Instruments (India) Ltd",
-      "bse_code": "544886",
-      "earnings_date": "2026-09-16",
-      "earnings_datetime_utc": "2026-09-16T13:33:53.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
     },
     {
       "ticker": "ESP",
@@ -217,7 +191,8 @@
       "earnings_datetime_utc": "2026-09-17T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ORISSAMINE",
@@ -228,7 +203,8 @@
       "earnings_datetime_utc": "2026-09-17T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SKYWAYS",
@@ -240,6 +216,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-09-18T10:30:00.000Z",
       "concall_title": "Q1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=986a25fe-559c-4e93-ba8f-d49214af0718.pdf"
