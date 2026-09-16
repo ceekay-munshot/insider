@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-16T13:38:28.965Z",
-  "count": 162,
+  "generated_at": "2026-09-16T17:55:50.027Z",
+  "count": 164,
   "events": [
     {
       "ticker": "ABAT",
@@ -467,10 +467,32 @@
       "source": "finnhub"
     },
     {
+      "ticker": "AUGMONT",
+      "market": "IN",
+      "company": "Augmont Enterprises Ltd",
+      "bse_code": "544888",
+      "earnings_date": "2026-09-21",
+      "earnings_datetime_utc": "2026-09-21T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "ELITECON",
       "market": "IN",
       "company": "Elitecon International Ltd",
       "bse_code": "539533",
+      "earnings_date": "2026-09-21",
+      "earnings_datetime_utc": "2026-09-21T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "LUMINO",
+      "market": "IN",
+      "company": "Lumino Industries Ltd",
+      "bse_code": "544894",
       "earnings_date": "2026-09-21",
       "earnings_datetime_utc": "2026-09-21T10:30:00.000Z",
       "timing": "UNKNOWN",
