@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17T08:21:00.591Z",
-  "count": 174,
+  "generated_at": "2026-09-17T13:40:19.251Z",
+  "count": 172,
   "events": [
     {
       "ticker": "ESP",
@@ -125,18 +125,6 @@
       "timing_source": "default"
     },
     {
-      "ticker": "ORISSAMINE",
-      "market": "IN",
-      "company": "Orissa Minerals Development Company Ltd",
-      "bse_code": "590086",
-      "earnings_date": "2026-09-17",
-      "earnings_datetime_utc": "2026-09-17T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
       "ticker": "SKYWAYS",
       "market": "IN",
       "company": "Skyways Air Services Ltd",
@@ -146,7 +134,10 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "default",
+      "concall_datetime_utc": "2026-09-18T10:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=986a25fe-559c-4e93-ba8f-d49214af0718.pdf"
     },
     {
       "ticker": "AMEN",
@@ -187,7 +178,10 @@
       "earnings_datetime_utc": "2026-09-18T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-09-22T06:00:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a301a2e-7bf6-4476-9887-bbda3c7acfd2.pdf"
     },
     {
       "ticker": "TOYAMSL",
@@ -412,15 +406,18 @@
       "earnings_datetime_utc": "2026-09-21T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-09-22T04:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=299db325-f454-42ef-b7b3-dec1c4d20498.pdf"
     },
     {
-      "ticker": "APOG",
+      "ticker": "AYTU",
       "market": "US",
-      "company": "APOG",
+      "company": "AYTU",
       "earnings_date": "2026-09-22",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-22T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1315,16 +1312,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "AYTU",
-      "market": "US",
-      "company": "AYTU",
-      "earnings_date": "2026-09-29",
-      "earnings_datetime_utc": "2026-09-29T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "BTM",
       "market": "US",
       "company": "BTM",
@@ -1388,16 +1375,6 @@
       "ticker": "MUC",
       "market": "US",
       "company": "MUC",
-      "earnings_date": "2026-09-29",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "PRGS",
-      "market": "US",
-      "company": "PRGS",
       "earnings_date": "2026-09-29",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -1541,6 +1518,16 @@
       "earnings_date": "2026-09-30",
       "earnings_datetime_utc": "2026-09-30T20:15:00.000Z",
       "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "PRGS",
+      "market": "US",
+      "company": "PRGS",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
