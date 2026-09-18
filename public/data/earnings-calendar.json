@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18T19:25:32.180Z",
-  "count": 161,
+  "generated_at": "2026-09-18T21:46:19.612Z",
+  "count": 163,
   "events": [
     {
       "ticker": "AMEN",
@@ -480,6 +480,28 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "ANNU",
+      "market": "IN",
+      "company": "Annu Projects Ltd",
+      "bse_code": "544893",
+      "earnings_date": "2026-09-23",
+      "earnings_datetime_utc": "2026-09-23T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "WINSOME",
+      "market": "IN",
+      "company": "Winsome Yarns Ltd",
+      "bse_code": "514348",
+      "earnings_date": "2026-09-23",
+      "earnings_datetime_utc": "2026-09-23T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "AFB",
