@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T12:44:38.377Z",
+  "generated_at": "2026-09-18T16:55:11.432Z",
   "count": 163,
   "events": [
     {
@@ -38,11 +38,12 @@
       "company": "Hy-Tech Engineers Ltd",
       "bse_code": "544891",
       "earnings_date": "2026-09-18",
-      "earnings_datetime_utc": "2026-09-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-18T13:03:54.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true,
       "concall_datetime_utc": "2026-09-22T06:00:00.000Z",
       "concall_title": "Q1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a301a2e-7bf6-4476-9887-bbda3c7acfd2.pdf"
@@ -53,11 +54,12 @@
       "company": "Toyam Sports Ltd",
       "bse_code": "538607",
       "earnings_date": "2026-09-18",
-      "earnings_datetime_utc": "2026-09-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-18T13:08:40.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "AIR",
