@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:32:08.413Z",
+  "generated_at": "2026-09-21T15:37:29.468Z",
   "count": 174,
   "events": [
     {
@@ -57,8 +57,8 @@
       "market": "US",
       "company": "EBF",
       "earnings_date": "2026-09-21",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-21T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -178,11 +178,12 @@
       "company": "Augmont Enterprises Ltd",
       "bse_code": "544888",
       "earnings_date": "2026-09-21",
-      "earnings_datetime_utc": "2026-09-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-21T14:14:37.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "ELITECON",
@@ -190,11 +191,12 @@
       "company": "Elitecon International Ltd",
       "bse_code": "539533",
       "earnings_date": "2026-09-21",
-      "earnings_datetime_utc": "2026-09-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-21T11:58:32.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "LUMINO",
@@ -202,11 +204,12 @@
       "company": "Lumino Industries Ltd",
       "bse_code": "544894",
       "earnings_date": "2026-09-21",
-      "earnings_datetime_utc": "2026-09-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-21T14:34:32.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "SYMBIOTEC",
@@ -214,11 +217,12 @@
       "company": "Symbiotec Pharmalab Ltd",
       "bse_code": "544889",
       "earnings_date": "2026-09-21",
-      "earnings_datetime_utc": "2026-09-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-21T13:02:33.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true,
       "concall_datetime_utc": "2026-09-22T04:30:00.000Z",
       "concall_title": "Q1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=299db325-f454-42ef-b7b3-dec1c4d20498.pdf"
