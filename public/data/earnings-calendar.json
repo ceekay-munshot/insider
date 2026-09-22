@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:33:36.531Z",
+  "generated_at": "2026-09-22T17:54:36.680Z",
   "count": 168,
   "events": [
     {
@@ -107,7 +107,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 2.67
     },
     {
       "ticker": "AGSS",
@@ -206,16 +207,6 @@
       "earnings_date": "2026-09-23",
       "earnings_datetime_utc": "2026-09-23T12:00:00.000Z",
       "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "PZG",
-      "market": "US",
-      "company": "PZG",
-      "earnings_date": "2026-09-23",
-      "earnings_datetime_utc": "2026-09-23T20:15:00.000Z",
-      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -420,6 +411,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "ESDS",
+      "market": "IN",
+      "company": "ESDS Software Solution Ltd",
+      "bse_code": "544898",
+      "earnings_date": "2026-09-24",
+      "earnings_datetime_utc": "2026-09-24T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "PALUCK",
@@ -654,16 +656,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "FEAM",
-      "market": "US",
-      "company": "FEAM",
-      "earnings_date": "2026-09-28",
-      "earnings_datetime_utc": "2026-09-28T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "FKWL",
       "market": "US",
       "company": "FKWL",
@@ -854,16 +846,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "NEUP",
-      "market": "US",
-      "company": "NEUP",
-      "earnings_date": "2026-09-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "NKE",
       "market": "US",
       "company": "NKE",
@@ -972,6 +954,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "PRASOLCHEM",
+      "market": "IN",
+      "company": "Prasol Chemicals Ltd",
+      "bse_code": "544912",
+      "earnings_date": "2026-09-28",
+      "earnings_datetime_utc": "2026-09-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "BTM",
@@ -1222,6 +1215,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "GLCL",
+      "market": "IN",
+      "company": "Globe Commercials Ltd",
+      "bse_code": "540266",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": "2026-09-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ACN",
