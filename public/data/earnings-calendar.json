@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T08:12:44.688Z",
-  "count": 166,
+  "generated_at": "2026-09-22T13:33:36.531Z",
+  "count": 168,
   "events": [
     {
       "ticker": "AYTU",
@@ -88,11 +88,13 @@
       "company": "Oswal Overseas Ltd",
       "bse_code": "531065",
       "earnings_date": "2026-09-22",
-      "earnings_datetime_utc": "2026-09-22T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-22T10:32:26.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 22.04
     },
     {
       "ticker": "RAMAPPR-B",
@@ -100,11 +102,12 @@
       "company": "Rama Paper Mills Ltd",
       "bse_code": "500357",
       "earnings_date": "2026-09-22",
-      "earnings_datetime_utc": "2026-09-22T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-22T12:55:29.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "AGSS",
@@ -417,6 +420,28 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "PALUCK",
+      "market": "IN",
+      "company": "Paluck Technologies Ltd",
+      "bse_code": "544897",
+      "earnings_date": "2026-09-24",
+      "earnings_datetime_utc": "2026-09-24T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "PERNIASPOP",
+      "market": "IN",
+      "company": "Purple Style Labs Ltd",
+      "bse_code": "544901",
+      "earnings_date": "2026-09-24",
+      "earnings_datetime_utc": "2026-09-24T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "FGPR",
