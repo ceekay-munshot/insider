@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T17:54:36.680Z",
-  "count": 168,
+  "generated_at": "2026-09-22T20:50:02.290Z",
+  "count": 160,
   "events": [
     {
       "ticker": "AYTU",
@@ -23,12 +23,12 @@
       "source": "finnhub"
     },
     {
-      "ticker": "FERG",
+      "ticker": "HERE",
       "market": "US",
-      "company": "FERG",
+      "company": "HERE",
       "earnings_date": "2026-09-22",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-22T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -83,34 +83,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "OSWALOR",
-      "market": "IN",
-      "company": "Oswal Overseas Ltd",
-      "bse_code": "531065",
-      "earnings_date": "2026-09-22",
-      "earnings_datetime_utc": "2026-09-22T10:32:26.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 22.04
-    },
-    {
-      "ticker": "RAMAPPR-B",
-      "market": "IN",
-      "company": "Rama Paper Mills Ltd",
-      "bse_code": "500357",
-      "earnings_date": "2026-09-22",
-      "earnings_datetime_utc": "2026-09-22T12:55:29.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 2.67
-    },
-    {
       "ticker": "AGSS",
       "market": "US",
       "company": "AGSS",
@@ -127,6 +99,16 @@
       "earnings_date": "2026-09-23",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "CBRL",
+      "market": "US",
+      "company": "CBRL",
+      "earnings_date": "2026-09-23",
+      "earnings_datetime_utc": "2026-09-23T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -181,16 +163,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "MGLD",
-      "market": "US",
-      "company": "MGLD",
-      "earnings_date": "2026-09-23",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "NAII",
       "market": "US",
       "company": "NAII",
@@ -211,22 +183,22 @@
       "source": "finnhub"
     },
     {
+      "ticker": "RAVE",
+      "market": "US",
+      "company": "RAVE",
+      "earnings_date": "2026-09-23",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "SFIX",
       "market": "US",
       "company": "SFIX",
       "earnings_date": "2026-09-23",
       "earnings_datetime_utc": "2026-09-23T20:15:00.000Z",
       "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "YDES",
-      "market": "US",
-      "company": "YDES",
-      "earnings_date": "2026-09-23",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -239,7 +211,8 @@
       "earnings_datetime_utc": "2026-09-23T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "WINSOME",
@@ -250,7 +223,8 @@
       "earnings_datetime_utc": "2026-09-23T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "AFB",
@@ -299,6 +273,16 @@
       "earnings_date": "2026-09-24",
       "earnings_datetime_utc": "2026-09-24T12:00:00.000Z",
       "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "JOCM",
+      "market": "US",
+      "company": "JOCM",
+      "earnings_date": "2026-09-24",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -363,16 +347,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "POCI",
-      "market": "US",
-      "company": "POCI",
-      "earnings_date": "2026-09-24",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "QH",
       "market": "US",
       "company": "QH",
@@ -407,49 +381,6 @@
       "market": "US",
       "company": "SOS",
       "earnings_date": "2026-09-24",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "ESDS",
-      "market": "IN",
-      "company": "ESDS Software Solution Ltd",
-      "bse_code": "544898",
-      "earnings_date": "2026-09-24",
-      "earnings_datetime_utc": "2026-09-24T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results"
-    },
-    {
-      "ticker": "PALUCK",
-      "market": "IN",
-      "company": "Paluck Technologies Ltd",
-      "bse_code": "544897",
-      "earnings_date": "2026-09-24",
-      "earnings_datetime_utc": "2026-09-24T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results"
-    },
-    {
-      "ticker": "PERNIASPOP",
-      "market": "IN",
-      "company": "Purple Style Labs Ltd",
-      "bse_code": "544901",
-      "earnings_date": "2026-09-24",
-      "earnings_datetime_utc": "2026-09-24T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results"
-    },
-    {
-      "ticker": "FGPR",
-      "market": "US",
-      "company": "FGPR",
-      "earnings_date": "2026-09-25",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
       "confirmed": true,
@@ -876,9 +807,19 @@
       "source": "finnhub"
     },
     {
-      "ticker": "RYSMF",
+      "ticker": "POCI",
       "market": "US",
-      "company": "RYSMF",
+      "company": "POCI",
+      "earnings_date": "2026-09-28",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "PRSI",
+      "market": "US",
+      "company": "PRSI",
       "earnings_date": "2026-09-28",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -956,17 +897,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "PRASOLCHEM",
-      "market": "IN",
-      "company": "Prasol Chemicals Ltd",
-      "bse_code": "544912",
-      "earnings_date": "2026-09-28",
-      "earnings_datetime_utc": "2026-09-28T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results"
-    },
-    {
       "ticker": "BTM",
       "market": "US",
       "company": "BTM",
@@ -993,16 +923,6 @@
       "earnings_date": "2026-09-29",
       "earnings_datetime_utc": "2026-09-29T20:15:00.000Z",
       "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "CTRM",
-      "market": "US",
-      "company": "CTRM",
-      "earnings_date": "2026-09-29",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1070,6 +990,16 @@
       "ticker": "TRSG",
       "market": "US",
       "company": "TRSG",
+      "earnings_date": "2026-09-29",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "WEBC",
+      "market": "US",
+      "company": "WEBC",
       "earnings_date": "2026-09-29",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -1147,16 +1077,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "INBP",
-      "market": "US",
-      "company": "INBP",
-      "earnings_date": "2026-09-30",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "JBL",
       "market": "US",
       "company": "JBL",
@@ -1215,17 +1135,6 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "GLCL",
-      "market": "IN",
-      "company": "Globe Commercials Ltd",
-      "bse_code": "540266",
-      "earnings_date": "2026-09-30",
-      "earnings_datetime_utc": "2026-09-30T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results"
     },
     {
       "ticker": "ACN",
