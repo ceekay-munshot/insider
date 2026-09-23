@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23T13:46:00.185Z",
-  "count": 171,
+  "generated_at": "2026-09-23T18:13:11.072Z",
+  "count": 162,
   "events": [
     {
       "ticker": "AGSS",
@@ -131,32 +131,6 @@
       "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "ANNU",
-      "market": "IN",
-      "company": "Annu Projects Ltd",
-      "bse_code": "544893",
-      "earnings_date": "2026-09-23",
-      "earnings_datetime_utc": "2026-09-23T07:42:58.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "WINSOME",
-      "market": "IN",
-      "company": "Winsome Yarns Ltd",
-      "bse_code": "514348",
-      "earnings_date": "2026-09-23",
-      "earnings_datetime_utc": "2026-09-23T13:27:19.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
     },
     {
       "ticker": "AFB",
@@ -1137,6 +1111,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "AEHR",
+      "market": "US",
+      "company": "AEHR",
+      "earnings_date": "2026-10-01",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "ANGO",
       "market": "US",
       "company": "ANGO",
@@ -1317,39 +1301,9 @@
       "source": "finnhub"
     },
     {
-      "ticker": "AEHR",
-      "market": "US",
-      "company": "AEHR",
-      "earnings_date": "2026-10-05",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "AIO",
       "market": "US",
       "company": "AIO",
-      "earnings_date": "2026-10-05",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "AXIL",
-      "market": "US",
-      "company": "AXIL",
-      "earnings_date": "2026-10-05",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "BYRN",
-      "market": "US",
-      "company": "BYRN",
       "earnings_date": "2026-10-05",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -1447,9 +1401,9 @@
       "source": "finnhub"
     },
     {
-      "ticker": "VLGEA",
+      "ticker": "VWFB",
       "market": "US",
-      "company": "VLGEA",
+      "company": "VWFB",
       "earnings_date": "2026-10-05",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -1457,9 +1411,9 @@
       "source": "finnhub"
     },
     {
-      "ticker": "VWFB",
+      "ticker": "WEBC",
       "market": "US",
-      "company": "VWFB",
+      "company": "WEBC",
       "earnings_date": "2026-10-05",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -1490,16 +1444,6 @@
       "ticker": "APOG",
       "market": "US",
       "company": "APOG",
-      "earnings_date": "2026-10-06",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "ARTW",
-      "market": "US",
-      "company": "ARTW",
       "earnings_date": "2026-10-06",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -1577,26 +1521,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "RELL",
-      "market": "US",
-      "company": "RELL",
-      "earnings_date": "2026-10-06",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "RGP",
-      "market": "US",
-      "company": "RGP",
-      "earnings_date": "2026-10-06",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "RPM",
       "market": "US",
       "company": "RPM",
@@ -1637,16 +1561,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "APLD",
-      "market": "US",
-      "company": "APLD",
-      "earnings_date": "2026-10-07",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "BKSC",
       "market": "US",
       "company": "BKSC",
@@ -1677,16 +1591,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "MLGF",
-      "market": "US",
-      "company": "MLGF",
-      "earnings_date": "2026-10-07",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "NRIX",
       "market": "US",
       "company": "NRIX",
@@ -1697,9 +1601,9 @@
       "source": "finnhub"
     },
     {
-      "ticker": "PBNC",
+      "ticker": "RGP",
       "market": "US",
-      "company": "PBNC",
+      "company": "RGP",
       "earnings_date": "2026-10-07",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
