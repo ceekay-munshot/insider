@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23T08:14:41.175Z",
-  "count": 165,
+  "generated_at": "2026-09-23T13:46:00.185Z",
+  "count": 171,
   "events": [
     {
       "ticker": "AGSS",
@@ -83,6 +83,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "MGLD",
+      "market": "US",
+      "company": "MGLD",
+      "earnings_date": "2026-09-23",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "NAII",
       "market": "US",
       "company": "NAII",
@@ -141,11 +151,12 @@
       "company": "Winsome Yarns Ltd",
       "bse_code": "514348",
       "earnings_date": "2026-09-23",
-      "earnings_datetime_utc": "2026-09-23T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-23T13:27:19.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "AFB",
@@ -268,6 +279,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "POCI",
+      "market": "US",
+      "company": "POCI",
+      "earnings_date": "2026-09-24",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "QH",
       "market": "US",
       "company": "QH",
@@ -308,22 +329,58 @@
       "source": "finnhub"
     },
     {
+      "ticker": "ESDS",
+      "market": "IN",
+      "company": "ESDS Software Solution Ltd",
+      "bse_code": "544898",
+      "earnings_date": "2026-09-24",
+      "earnings_datetime_utc": "2026-09-24T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "PALUCK",
+      "market": "IN",
+      "company": "Paluck Technologies Ltd",
+      "bse_code": "544897",
+      "earnings_date": "2026-09-24",
+      "earnings_datetime_utc": "2026-09-24T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "PERNIASPOP",
+      "market": "IN",
+      "company": "Purple Style Labs Ltd",
+      "bse_code": "544901",
+      "earnings_date": "2026-09-24",
+      "earnings_datetime_utc": "2026-09-24T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-09-29T10:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63c0c275-5041-44fe-b737-59604584cda8.pdf"
+    },
+    {
+      "ticker": "FGPR",
+      "market": "US",
+      "company": "FGPR",
+      "earnings_date": "2026-09-25",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "TBN",
       "market": "US",
       "company": "TBN",
       "earnings_date": "2026-09-25",
       "earnings_datetime_utc": "2026-09-25T12:00:00.000Z",
       "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "UEC",
-      "market": "US",
-      "company": "UEC",
-      "earnings_date": "2026-09-25",
-      "earnings_datetime_utc": "2026-09-25T20:15:00.000Z",
-      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -728,26 +785,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "POCI",
-      "market": "US",
-      "company": "POCI",
-      "earnings_date": "2026-09-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "PRSI",
-      "market": "US",
-      "company": "PRSI",
-      "earnings_date": "2026-09-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "SRXH",
       "market": "US",
       "company": "SRXH",
@@ -816,6 +853,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "PRASOLCHEM",
+      "market": "IN",
+      "company": "Prasol Chemicals Ltd",
+      "bse_code": "544912",
+      "earnings_date": "2026-09-28",
+      "earnings_datetime_utc": "2026-09-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "BTM",
@@ -918,12 +966,12 @@
       "source": "finnhub"
     },
     {
-      "ticker": "WEBC",
+      "ticker": "UEC",
       "market": "US",
-      "company": "WEBC",
+      "company": "UEC",
       "earnings_date": "2026-09-29",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-29T20:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -998,6 +1046,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "INBP",
+      "market": "US",
+      "company": "INBP",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "JBL",
       "market": "US",
       "company": "JBL",
@@ -1056,6 +1114,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "GLCL",
+      "market": "IN",
+      "company": "Globe Commercials Ltd",
+      "bse_code": "540266",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": "2026-09-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ACN",
