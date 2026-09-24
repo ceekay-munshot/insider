@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T13:40:56.623Z",
+  "generated_at": "2026-09-24T18:07:48.002Z",
   "count": 166,
   "events": [
     {
@@ -168,11 +168,12 @@
       "company": "ESDS Software Solution Ltd",
       "bse_code": "544898",
       "earnings_date": "2026-09-24",
-      "earnings_datetime_utc": "2026-09-24T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-24T15:07:48.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "PALUCK",
@@ -717,7 +718,10 @@
       "earnings_datetime_utc": "2026-09-28T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-09-29T05:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed3cfda5-611d-4fea-8a86-e5f9011d2f06.pdf"
     },
     {
       "ticker": "BTM",
