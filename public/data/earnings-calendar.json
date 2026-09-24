@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T08:06:13.797Z",
-  "count": 167,
+  "generated_at": "2026-09-24T13:40:56.623Z",
+  "count": 166,
   "events": [
     {
       "ticker": "AFB",
@@ -123,16 +123,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "POCI",
-      "market": "US",
-      "company": "POCI",
-      "earnings_date": "2026-09-24",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "QH",
       "market": "US",
       "company": "QH",
@@ -195,21 +185,6 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "default"
-    },
-    {
-      "ticker": "PERNIASPOP",
-      "market": "IN",
-      "company": "Purple Style Labs Ltd",
-      "bse_code": "544901",
-      "earnings_date": "2026-09-24",
-      "earnings_datetime_utc": "2026-09-24T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-09-29T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63c0c275-5041-44fe-b737-59604584cda8.pdf"
     },
     {
       "ticker": "FGPR",
@@ -628,6 +603,16 @@
       "earnings_date": "2026-09-28",
       "earnings_datetime_utc": "2026-09-28T12:00:00.000Z",
       "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "POCI",
+      "market": "US",
+      "company": "POCI",
+      "earnings_date": "2026-09-28",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
