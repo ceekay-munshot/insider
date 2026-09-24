@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T18:07:48.002Z",
-  "count": 166,
+  "generated_at": "2026-09-24T21:39:43.138Z",
+  "count": 171,
   "events": [
     {
       "ticker": "AFB",
@@ -161,31 +161,6 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "ESDS",
-      "market": "IN",
-      "company": "ESDS Software Solution Ltd",
-      "bse_code": "544898",
-      "earnings_date": "2026-09-24",
-      "earnings_datetime_utc": "2026-09-24T15:07:48.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "PALUCK",
-      "market": "IN",
-      "company": "Paluck Technologies Ltd",
-      "bse_code": "544897",
-      "earnings_date": "2026-09-24",
-      "earnings_datetime_utc": "2026-09-24T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
     },
     {
       "ticker": "FGPR",
@@ -844,6 +819,39 @@
       "source": "finnhub"
     },
     {
+      "ticker": "ANSALAPI",
+      "market": "IN",
+      "company": "Ansal Properties & Infrastructure Ltd",
+      "bse_code": "500013",
+      "earnings_date": "2026-09-29",
+      "earnings_datetime_utc": "2026-09-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "MYSPAPE",
+      "market": "IN",
+      "company": "Mysore Paper Mills Ltd",
+      "bse_code": "502405",
+      "earnings_date": "2026-09-29",
+      "earnings_datetime_utc": "2026-09-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "VIPULLTD",
+      "market": "IN",
+      "company": "Vipul Ltd",
+      "bse_code": "511726",
+      "earnings_date": "2026-09-29",
+      "earnings_datetime_utc": "2026-09-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "BSET",
       "market": "US",
       "company": "BSET",
@@ -972,6 +980,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "BFUTILITIE",
+      "market": "IN",
+      "company": "BF Utilities Ltd-$",
+      "bse_code": "532430",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": "2026-09-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "GLCL",
@@ -1165,6 +1184,17 @@
       "source": "finnhub"
     },
     {
+      "ticker": "MPIMANIPAL",
+      "market": "IN",
+      "company": "Manipal Payment and Identity Solutions Ltd",
+      "bse_code": "544916",
+      "earnings_date": "2026-10-01",
+      "earnings_datetime_utc": "2026-10-01T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "BABB",
       "market": "US",
       "company": "BABB",
@@ -1303,6 +1333,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "STEAMHOUSE",
+      "market": "IN",
+      "company": "Steamhouse India Ltd",
+      "bse_code": "544914",
+      "earnings_date": "2026-10-05",
+      "earnings_datetime_utc": "2026-10-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ADVB",
@@ -1672,6 +1713,17 @@
       "bse_code": "532540",
       "earnings_date": "2026-10-08",
       "earnings_datetime_utc": "2026-10-08T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "CRAMC",
+      "market": "IN",
+      "company": "Canara Robeco Asset Management Company Ltd",
+      "bse_code": "544580",
+      "earnings_date": "2026-10-09",
+      "earnings_datetime_utc": "2026-10-09T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
