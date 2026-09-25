@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T18:47:33.641Z",
-  "count": 163,
+  "generated_at": "2026-09-25T21:57:38.697Z",
+  "count": 165,
   "events": [
     {
       "ticker": "FGPR",
@@ -691,6 +691,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "PANCM",
+      "market": "IN",
+      "company": "Panyam Cements & Mineral Industries Ltd",
+      "bse_code": "500322",
+      "earnings_date": "2026-09-29",
+      "earnings_datetime_utc": "2026-09-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "VIPULLTD",
       "market": "IN",
       "company": "Vipul Ltd",
@@ -1183,6 +1194,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "LCCPROJECT",
+      "market": "IN",
+      "company": "LCC Projects Ltd",
+      "bse_code": "544918",
+      "earnings_date": "2026-10-05",
+      "earnings_datetime_utc": "2026-10-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "STEAMHOUSE",
