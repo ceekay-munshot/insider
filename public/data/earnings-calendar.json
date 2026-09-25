@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T08:29:49.049Z",
-  "count": 162,
+  "generated_at": "2026-09-25T14:06:41.048Z",
+  "count": 163,
   "events": [
     {
       "ticker": "FGPR",
@@ -339,6 +339,16 @@
       "earnings_date": "2026-09-28",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "MITQ",
+      "market": "US",
+      "company": "MITQ",
+      "earnings_date": "2026-09-28",
+      "earnings_datetime_utc": "2026-09-28T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -824,7 +834,7 @@
     {
       "ticker": "BFUTILITIE",
       "market": "IN",
-      "company": "BF Utilities Ltd",
+      "company": "BF Utilities Ltd-$",
       "bse_code": "532430",
       "earnings_date": "2026-09-30",
       "earnings_datetime_utc": "2026-09-30T10:30:00.000Z",
