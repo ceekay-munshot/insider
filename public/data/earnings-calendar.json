@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T09:18:55.392Z",
-  "count": 184,
+  "generated_at": "2026-09-28T17:45:34.461Z",
+  "count": 180,
   "events": [
     {
       "ticker": "ABLV",
@@ -493,46 +493,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "DEEPA",
-      "market": "IN",
-      "company": "Deepa Jewellers Ltd",
-      "bse_code": "544903",
-      "earnings_date": "2026-09-28",
-      "earnings_datetime_utc": "2026-09-28T08:05:51.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "MOMSBELIEF",
-      "market": "IN",
-      "company": "Rays of Belief Ltd",
-      "bse_code": "544906",
-      "earnings_date": "2026-09-28",
-      "earnings_datetime_utc": "2026-09-28T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "PRASOLCHEM",
-      "market": "IN",
-      "company": "Prasol Chemicals Ltd",
-      "bse_code": "544912",
-      "earnings_date": "2026-09-28",
-      "earnings_datetime_utc": "2026-09-28T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-09-29T05:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed3cfda5-611d-4fea-8a86-e5f9011d2f06.pdf"
-    },
-    {
       "ticker": "BTM",
       "market": "US",
       "company": "BTM",
@@ -829,19 +789,8 @@
     {
       "ticker": "BFUTILITIE",
       "market": "IN",
-      "company": "BF Utilities Ltd",
+      "company": "BF Utilities Ltd-$",
       "bse_code": "532430",
-      "earnings_date": "2026-09-30",
-      "earnings_datetime_utc": "2026-09-30T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results"
-    },
-    {
-      "ticker": "GLCL",
-      "market": "IN",
-      "company": "Globe Commercials Ltd",
-      "bse_code": "540266",
       "earnings_date": "2026-09-30",
       "earnings_datetime_utc": "2026-09-30T10:30:00.000Z",
       "timing": "UNKNOWN",
