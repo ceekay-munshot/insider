@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T17:45:34.461Z",
-  "count": 180,
+  "generated_at": "2026-09-28T22:54:21.141Z",
+  "count": 189,
   "events": [
     {
       "ticker": "ABLV",
@@ -621,7 +621,8 @@
       "earnings_datetime_utc": "2026-09-29T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "MYSPAPE",
@@ -632,7 +633,8 @@
       "earnings_datetime_utc": "2026-09-29T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "PANCM",
@@ -643,7 +645,8 @@
       "earnings_datetime_utc": "2026-09-29T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "VIPULLTD",
@@ -654,7 +657,8 @@
       "earnings_datetime_utc": "2026-09-29T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "BSET",
@@ -789,7 +793,7 @@
     {
       "ticker": "BFUTILITIE",
       "market": "IN",
-      "company": "BF Utilities Ltd-$",
+      "company": "BF Utilities Ltd",
       "bse_code": "532430",
       "earnings_date": "2026-09-30",
       "earnings_datetime_utc": "2026-09-30T10:30:00.000Z",
@@ -989,6 +993,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "PRANAV",
+      "market": "IN",
+      "company": "Pranav Constructions Ltd",
+      "bse_code": "544909",
+      "earnings_date": "2026-10-01",
+      "earnings_datetime_utc": "2026-10-01T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "BABB",
       "market": "US",
       "company": "BABB",
@@ -1007,6 +1022,28 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "HAWAENG",
+      "market": "IN",
+      "company": "Hawa Engineers Ltd",
+      "bse_code": "539176",
+      "earnings_date": "2026-10-03",
+      "earnings_datetime_utc": "2026-10-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "HIIL",
+      "market": "IN",
+      "company": "Hindusthan Insulators & Industries Ltd",
+      "bse_code": "539984",
+      "earnings_date": "2026-10-03",
+      "earnings_datetime_utc": "2026-10-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "AIO",
@@ -1127,6 +1164,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "GLCL",
+      "market": "IN",
+      "company": "Globe Commercials Ltd",
+      "bse_code": "540266",
+      "earnings_date": "2026-10-05",
+      "earnings_datetime_utc": "2026-10-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "LCCPROJECT",
@@ -1279,6 +1327,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "VEEGALAND",
+      "market": "IN",
+      "company": "Veegaland Developers Ltd",
+      "bse_code": "544923",
+      "earnings_date": "2026-10-06",
+      "earnings_datetime_utc": "2026-10-06T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "BKSC",
@@ -1593,6 +1652,17 @@
       "source": "finnhub"
     },
     {
+      "ticker": "CANFINHOME",
+      "market": "IN",
+      "company": "Can Fin Homes Ltd",
+      "bse_code": "511196",
+      "earnings_date": "2026-10-09",
+      "earnings_datetime_utc": "2026-10-09T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "CRAMC",
       "market": "IN",
       "company": "Canara Robeco Asset Management Company Ltd",
@@ -1810,6 +1880,39 @@
       "bse_code": "532281",
       "earnings_date": "2026-10-12",
       "earnings_datetime_utc": "2026-10-12T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ICICIAMC",
+      "market": "IN",
+      "company": "ICICI Prudential Asset Management Company Ltd",
+      "bse_code": "544658",
+      "earnings_date": "2026-10-12",
+      "earnings_datetime_utc": "2026-10-12T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ICICIPRULI",
+      "market": "IN",
+      "company": "ICICI Prudential Life Insurance Company Ltd",
+      "bse_code": "540133",
+      "earnings_date": "2026-10-13",
+      "earnings_datetime_utc": "2026-10-13T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "STCINDIA",
+      "market": "IN",
+      "company": "State Trading Corporation of India Ltd",
+      "bse_code": "512531",
+      "earnings_date": "2026-10-13",
+      "earnings_datetime_utc": "2026-10-13T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
