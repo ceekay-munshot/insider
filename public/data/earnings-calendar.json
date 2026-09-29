@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T16:03:06.122Z",
-  "count": 164,
+  "generated_at": "2026-09-29T20:56:49.423Z",
+  "count": 167,
   "events": [
     {
       "ticker": "BTM",
@@ -121,19 +121,6 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "VIPULLTD",
-      "market": "IN",
-      "company": "Vipul Ltd",
-      "bse_code": "511726",
-      "earnings_date": "2026-09-29",
-      "earnings_datetime_utc": "2026-09-29T15:45:30.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
     },
     {
       "ticker": "BSET",
@@ -274,7 +261,9 @@
       "earnings_datetime_utc": "2026-09-30T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default",
+      "eps_yoy_pct": -178.82
     },
     {
       "ticker": "ACN",
@@ -1664,6 +1653,56 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
+    },
+    {
+      "ticker": "CEATLTD",
+      "market": "IN",
+      "company": "Ceat Ltd",
+      "bse_code": "500878",
+      "earnings_date": "2026-10-14",
+      "earnings_datetime_utc": "2026-10-14T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "HDBFS",
+      "market": "IN",
+      "company": "HDB Financial Services Ltd",
+      "bse_code": "544429",
+      "earnings_date": "2026-10-14",
+      "earnings_datetime_utc": "2026-10-14T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-14T13:00:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ed85be1-aff1-40e4-b39f-6ffccdc304ca.pdf"
+    },
+    {
+      "ticker": "ICICIGI",
+      "market": "IN",
+      "company": "ICICI Lombard General Insurance Company Ltd",
+      "bse_code": "540716",
+      "earnings_date": "2026-10-14",
+      "earnings_datetime_utc": "2026-10-14T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "TATATECH",
+      "market": "IN",
+      "company": "Tata Technologies Ltd",
+      "bse_code": "544028",
+      "earnings_date": "2026-10-14",
+      "earnings_datetime_utc": "2026-10-14T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-14T13:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afef0e17-9388-4ccd-b473-7c90540e1b17.pdf"
     }
   ]
 }
