@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T09:25:50.592Z",
-  "count": 165,
+  "generated_at": "2026-09-29T16:03:06.122Z",
+  "count": 164,
   "events": [
     {
       "ticker": "BTM",
@@ -123,53 +123,17 @@
       "source": "finnhub"
     },
     {
-      "ticker": "ANSALAPI",
-      "market": "IN",
-      "company": "Ansal Properties & Infrastructure Ltd",
-      "bse_code": "500013",
-      "earnings_date": "2026-09-29",
-      "earnings_datetime_utc": "2026-09-29T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "MYSPAPE",
-      "market": "IN",
-      "company": "Mysore Paper Mills Ltd",
-      "bse_code": "502405",
-      "earnings_date": "2026-09-29",
-      "earnings_datetime_utc": "2026-09-29T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "PANCM",
-      "market": "IN",
-      "company": "Panyam Cements & Mineral Industries Ltd",
-      "bse_code": "500322",
-      "earnings_date": "2026-09-29",
-      "earnings_datetime_utc": "2026-09-29T08:04:56.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
       "ticker": "VIPULLTD",
       "market": "IN",
       "company": "Vipul Ltd",
       "bse_code": "511726",
       "earnings_date": "2026-09-29",
-      "earnings_datetime_utc": "2026-09-29T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-09-29T15:45:30.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "BSET",
@@ -304,7 +268,7 @@
     {
       "ticker": "BFUTILITIE",
       "market": "IN",
-      "company": "BF Utilities Ltd",
+      "company": "BF Utilities Ltd-$",
       "bse_code": "532430",
       "earnings_date": "2026-09-30",
       "earnings_datetime_utc": "2026-09-30T10:30:00.000Z",
@@ -326,16 +290,6 @@
       "ticker": "AEHR",
       "market": "US",
       "company": "AEHR",
-      "earnings_date": "2026-10-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "ANGO",
-      "market": "US",
-      "company": "ANGO",
       "earnings_date": "2026-10-01",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -473,6 +427,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "NKE",
+      "market": "US",
+      "company": "NKE",
+      "earnings_date": "2026-10-01",
+      "earnings_datetime_utc": "2026-10-01T20:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "PKE",
       "market": "US",
       "company": "PKE",
@@ -501,7 +465,10 @@
       "earnings_datetime_utc": "2026-10-01T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-05T10:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=195f4c0c-e205-486b-99b3-167e9a2e81ed.pdf"
     },
     {
       "ticker": "PRANAV",
@@ -851,6 +818,16 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "APLD",
+      "market": "US",
+      "company": "APLD",
+      "earnings_date": "2026-10-07",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "BKSC",
       "market": "US",
       "company": "BKSC",
@@ -924,6 +901,16 @@
       "ticker": "AMBK",
       "market": "US",
       "company": "AMBK",
+      "earnings_date": "2026-10-08",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "ANGO",
+      "market": "US",
+      "company": "ANGO",
       "earnings_date": "2026-10-08",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
