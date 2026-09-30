@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:16:29.418Z",
+  "generated_at": "2026-09-30T16:01:14.069Z",
   "count": 175,
   "events": [
     {
@@ -131,19 +131,6 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "BFUTILITIE",
-      "market": "IN",
-      "company": "BF Utilities Ltd-$",
-      "bse_code": "532430",
-      "earnings_date": "2026-09-30",
-      "earnings_datetime_utc": "2026-09-30T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "eps_yoy_pct": -178.82
     },
     {
       "ticker": "ACN",
@@ -543,7 +530,10 @@
       "earnings_datetime_utc": "2026-10-05T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-06T06:00:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8507c357-2d3b-4049-8fc2-72235cee62a5.pdf"
     },
     {
       "ticker": "ADVB",
@@ -572,6 +562,16 @@
       "earnings_date": "2026-10-06",
       "earnings_datetime_utc": "2026-10-06T12:00:00.000Z",
       "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "AXIL",
+      "market": "US",
+      "company": "AXIL",
+      "earnings_date": "2026-10-06",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -684,7 +684,10 @@
       "earnings_datetime_utc": "2026-10-06T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-07T10:30:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e81a6a7-1a53-4c79-bdcf-57db9f71cc0a.pdf"
     },
     {
       "ticker": "VEEGALAND",
@@ -791,16 +794,6 @@
       "ticker": "ANGO",
       "market": "US",
       "company": "ANGO",
-      "earnings_date": "2026-10-08",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "AXIL",
-      "market": "US",
-      "company": "AXIL",
       "earnings_date": "2026-10-08",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -1060,7 +1053,10 @@
       "earnings_datetime_utc": "2026-10-09T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-09T11:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8656617-33b9-4875-a365-d83c1918e370.pdf"
     },
     {
       "ticker": "ACZT",
@@ -1287,7 +1283,7 @@
     {
       "ticker": "PLASTIBLEN",
       "market": "IN",
-      "company": "Plastiblends India Ltd-$",
+      "company": "Plastiblends India Ltd",
       "bse_code": "523648",
       "earnings_date": "2026-10-12",
       "earnings_datetime_utc": "2026-10-12T10:30:00.000Z",
@@ -1372,6 +1368,16 @@
       "earnings_date": "2026-10-13",
       "earnings_datetime_utc": "2026-10-13T12:00:00.000Z",
       "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "FBK",
+      "market": "US",
+      "company": "FBK",
+      "earnings_date": "2026-10-13",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1747,7 +1753,10 @@
       "earnings_datetime_utc": "2026-10-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-15T10:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff87fc75-d23f-4f66-a211-17d0f43fecdb.pdf"
     },
     {
       "ticker": "HDBFS",
