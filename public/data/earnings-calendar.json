@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-09-30T16:01:14.069Z",
-  "count": 175,
+  "generated_at": "2026-09-30T20:55:25.166Z",
+  "count": 199,
   "events": [
+    {
+      "ticker": "ABLV",
+      "market": "US",
+      "company": "ABLV",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "ANEB",
+      "market": "US",
+      "company": "ANEB",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": "2026-09-30T20:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "ATGN",
+      "market": "US",
+      "company": "ATGN",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
     {
       "ticker": "BSET",
       "market": "US",
@@ -13,12 +43,22 @@
       "source": "finnhub"
     },
     {
-      "ticker": "BTLN",
+      "ticker": "BTM",
       "market": "US",
-      "company": "BTLN",
+      "company": "BTM",
       "earnings_date": "2026-09-30",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "CAG",
+      "market": "US",
+      "company": "CAG",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": "2026-09-30T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -33,6 +73,36 @@
       "source": "finnhub"
     },
     {
+      "ticker": "CVAT",
+      "market": "US",
+      "company": "CVAT",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "DMNIF",
+      "market": "US",
+      "company": "DMNIF",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "EESE",
+      "market": "US",
+      "company": "EESE",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "FDS",
       "market": "US",
       "company": "FDS",
@@ -43,9 +113,19 @@
       "source": "finnhub"
     },
     {
-      "ticker": "HPF",
+      "ticker": "GDTC",
       "market": "US",
-      "company": "HPF",
+      "company": "GDTC",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "GFUZ",
+      "market": "US",
+      "company": "GFUZ",
       "earnings_date": "2026-09-30",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -63,9 +143,9 @@
       "source": "finnhub"
     },
     {
-      "ticker": "INBP",
+      "ticker": "INEO",
       "market": "US",
-      "company": "INBP",
+      "company": "INEO",
       "earnings_date": "2026-09-30",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -83,9 +163,59 @@
       "source": "finnhub"
     },
     {
-      "ticker": "JEF",
+      "ticker": "JFR",
       "market": "US",
-      "company": "JEF",
+      "company": "JFR",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "JQC",
+      "market": "US",
+      "company": "JQC",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "LBUYD",
+      "market": "US",
+      "company": "LBUYD",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "LDDD",
+      "market": "US",
+      "company": "LDDD",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "LSE",
+      "market": "US",
+      "company": "LSE",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "MFI",
+      "market": "US",
+      "company": "MFI",
       "earnings_date": "2026-09-30",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -103,12 +233,62 @@
       "source": "finnhub"
     },
     {
+      "ticker": "MWAI",
+      "market": "US",
+      "company": "MWAI",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "NAMI",
+      "market": "US",
+      "company": "NAMI",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "NCPL",
+      "market": "US",
+      "company": "NCPL",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "NTCL",
+      "market": "US",
+      "company": "NTCL",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "PRGS",
       "market": "US",
       "company": "PRGS",
       "earnings_date": "2026-09-30",
       "earnings_datetime_utc": "2026-09-30T20:15:00.000Z",
       "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "RCON",
+      "market": "US",
+      "company": "RCON",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": "2026-09-30T12:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -123,9 +303,39 @@
       "source": "finnhub"
     },
     {
-      "ticker": "XERI",
+      "ticker": "SRNN",
       "market": "US",
-      "company": "XERI",
+      "company": "SRNN",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "SRXH",
+      "market": "US",
+      "company": "SRXH",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": "2026-09-30T20:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "TLIH",
+      "market": "US",
+      "company": "TLIH",
+      "earnings_date": "2026-09-30",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "ZCMD",
+      "market": "US",
+      "company": "ZCMD",
       "earnings_date": "2026-09-30",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -322,6 +532,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-05T10:30:00.000Z",
       "concall_title": "Q1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=195f4c0c-e205-486b-99b3-167e9a2e81ed.pdf"
@@ -335,7 +546,8 @@
       "earnings_datetime_utc": "2026-10-01T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "BABB",
@@ -1283,7 +1495,7 @@
     {
       "ticker": "PLASTIBLEN",
       "market": "IN",
-      "company": "Plastiblends India Ltd",
+      "company": "Plastiblends India Ltd-$",
       "bse_code": "523648",
       "earnings_date": "2026-10-12",
       "earnings_datetime_utc": "2026-10-12T10:30:00.000Z",
@@ -1796,6 +2008,39 @@
       "concall_datetime_utc": "2026-10-14T13:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afef0e17-9388-4ccd-b473-7c90540e1b17.pdf"
+    },
+    {
+      "ticker": "ANGELONE",
+      "market": "IN",
+      "company": "Angel One Ltd",
+      "bse_code": "543235",
+      "earnings_date": "2026-10-15",
+      "earnings_datetime_utc": "2026-10-15T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "HDFCAMC",
+      "market": "IN",
+      "company": "HDFC Asset Management Company Ltd",
+      "bse_code": "541729",
+      "earnings_date": "2026-10-15",
+      "earnings_datetime_utc": "2026-10-15T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "NESTLEIND",
+      "market": "IN",
+      "company": "Nestle India Ltd",
+      "bse_code": "500790",
+      "earnings_date": "2026-10-15",
+      "earnings_datetime_utc": "2026-10-15T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     }
   ]
 }
