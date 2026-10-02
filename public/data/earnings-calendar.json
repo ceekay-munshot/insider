@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T15:55:05.591Z",
-  "count": 260,
+  "generated_at": "2026-10-02T20:18:27.306Z",
+  "count": 264,
   "events": [
     {
       "ticker": "AGSS",
@@ -141,7 +141,8 @@
       "earnings_datetime_utc": "2026-10-03T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "HIIL",
@@ -152,7 +153,8 @@
       "earnings_datetime_utc": "2026-10-03T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "AIO",
@@ -2671,6 +2673,53 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
+    },
+    {
+      "ticker": "AXISBANK",
+      "market": "IN",
+      "company": "AXIS Bank Ltd",
+      "bse_code": "532215",
+      "earnings_date": "2026-10-17",
+      "earnings_datetime_utc": "2026-10-17T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "HDFCBANK",
+      "market": "IN",
+      "company": "HDFC Bank Ltd",
+      "bse_code": "500180",
+      "earnings_date": "2026-10-17",
+      "earnings_datetime_utc": "2026-10-17T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ICICIBANK",
+      "market": "IN",
+      "company": "ICICI Bank Ltd",
+      "bse_code": "532174",
+      "earnings_date": "2026-10-17",
+      "earnings_datetime_utc": "2026-10-17T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "INDIACEM",
+      "market": "IN",
+      "company": "India Cements Ltd",
+      "bse_code": "530005",
+      "earnings_date": "2026-10-17",
+      "earnings_datetime_utc": "2026-10-17T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-19T10:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2823024-d072-4aaa-8370-189467d3e646.pdf"
     }
   ]
 }
