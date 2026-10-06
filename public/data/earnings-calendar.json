@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T09:44:12.538Z",
-  "count": 350,
+  "generated_at": "2026-10-06T16:28:17.642Z",
+  "count": 345,
   "events": [
     {
       "ticker": "ADVB",
@@ -143,31 +143,17 @@
       "source": "finnhub"
     },
     {
-      "ticker": "ARCIL",
-      "market": "IN",
-      "company": "Asset Reconstruction Company (India) Ltd",
-      "bse_code": "544921",
-      "earnings_date": "2026-10-06",
-      "earnings_datetime_utc": "2026-10-06T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-10-07T10:30:00.000Z",
-      "concall_title": "Q1 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e81a6a7-1a53-4c79-bdcf-57db9f71cc0a.pdf"
-    },
-    {
       "ticker": "GLASSWALL",
       "market": "IN",
       "company": "Glass Wall Systems (India) Ltd",
       "bse_code": "544913",
       "earnings_date": "2026-10-06",
-      "earnings_datetime_utc": "2026-10-06T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-10-06T14:31:45.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "KANOHAR",
@@ -175,11 +161,12 @@
       "company": "Kanohar Electricals Ltd",
       "bse_code": "544911",
       "earnings_date": "2026-10-06",
-      "earnings_datetime_utc": "2026-10-06T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-10-06T14:03:43.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default",
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true,
       "concall_datetime_utc": "2026-10-07T04:30:00.000Z",
       "concall_title": "Q1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=608eee45-6e87-4851-b49a-f69dfc0af60d.pdf"
@@ -190,20 +177,8 @@
       "company": "Karamtara Engineering Ltd",
       "bse_code": "544917",
       "earnings_date": "2026-10-06",
-      "earnings_datetime_utc": "2026-10-06T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "VEEGALAND",
-      "market": "IN",
-      "company": "Veegaland Developers Ltd",
-      "bse_code": "544923",
-      "earnings_date": "2026-10-06",
-      "earnings_datetime_utc": "2026-10-06T09:23:44.000Z",
-      "timing": "INTRADAY",
+      "earnings_datetime_utc": "2026-10-06T14:49:57.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
@@ -656,17 +631,6 @@
       "source": "bse:forth_results"
     },
     {
-      "ticker": "CRAMC",
-      "market": "IN",
-      "company": "Canara Robeco Asset Management Company Ltd",
-      "bse_code": "544580",
-      "earnings_date": "2026-10-09",
-      "earnings_datetime_utc": "2026-10-09T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results"
-    },
-    {
       "ticker": "HATHWAYB",
       "market": "IN",
       "company": "Hathway Bhawani Cabletel & Datacom Ltd",
@@ -922,17 +886,6 @@
       "market": "IN",
       "company": "Alkali Metals Ltd",
       "bse_code": "533029",
-      "earnings_date": "2026-10-12",
-      "earnings_datetime_utc": "2026-10-12T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results"
-    },
-    {
-      "ticker": "GSFC",
-      "market": "IN",
-      "company": "Gujarat State Fertilizers & Chemicals Ltd",
-      "bse_code": "500690",
       "earnings_date": "2026-10-12",
       "earnings_datetime_utc": "2026-10-12T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -1552,7 +1505,10 @@
       "earnings_datetime_utc": "2026-10-14T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-14T13:45:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d4e01ce-a501-4a49-b354-8ef26fd249aa.pdf"
     },
     {
       "ticker": "MRPL",
@@ -2164,17 +2120,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "ANGELONE",
-      "market": "IN",
-      "company": "Angel One Ltd",
-      "bse_code": "543235",
-      "earnings_date": "2026-10-15",
-      "earnings_datetime_utc": "2026-10-15T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results"
-    },
-    {
       "ticker": "CYIENTDLM",
       "market": "IN",
       "company": "Cyient DLM Ltd",
@@ -2205,7 +2150,10 @@
       "earnings_datetime_utc": "2026-10-15T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-15T10:45:00.000Z",
+      "concall_title": "H1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3c39846-34a2-41c5-8205-91a9b6281a16.pdf"
     },
     {
       "ticker": "LTF",
@@ -2216,7 +2164,10 @@
       "earnings_datetime_utc": "2026-10-15T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-16T05:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a56dd1ef-faa6-4f5e-a5c2-6c6163962395.pdf"
     },
     {
       "ticker": "NESTLEIND",
