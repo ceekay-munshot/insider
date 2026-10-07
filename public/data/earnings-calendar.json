@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T09:43:53.354Z",
-  "count": 466,
+  "generated_at": "2026-10-07T17:12:13.195Z",
+  "count": 464,
   "events": [
     {
       "ticker": "APLD",
@@ -93,29 +93,18 @@
       "source": "finnhub"
     },
     {
-      "ticker": "ALSTONE",
+      "ticker": "GOLKONDA",
       "market": "IN",
-      "company": "Alstone Textiles (India) Ltd",
-      "bse_code": "539277",
+      "company": "Golkonda Aluminium Extrusions Ltd-$",
+      "bse_code": "513309",
       "earnings_date": "2026-10-07",
-      "earnings_datetime_utc": "2026-10-07T08:29:13.000Z",
-      "timing": "INTRADAY",
+      "earnings_datetime_utc": "2026-10-07T14:01:34.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "GOLKONDA",
-      "market": "IN",
-      "company": "Golkonda Aluminium Extrusions Ltd",
-      "bse_code": "513309",
-      "earnings_date": "2026-10-07",
-      "earnings_datetime_utc": "2026-10-07T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -166.67
     },
     {
       "ticker": "INDRANIB",
@@ -123,11 +112,12 @@
       "company": "Indrayani Biotech Ltd",
       "bse_code": "526445",
       "earnings_date": "2026-10-07",
-      "earnings_datetime_utc": "2026-10-07T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-10-07T12:28:18.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true
     },
     {
       "ticker": "TIAANC",
@@ -135,11 +125,13 @@
       "company": "Tiaan Consumer Ltd",
       "bse_code": "540108",
       "earnings_date": "2026-10-07",
-      "earnings_datetime_utc": "2026-10-07T10:30:00.000Z",
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-10-07T13:47:08.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "bse:forth_results",
-      "timing_source": "default"
+      "timing_source": "bse:outcome",
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 60
     },
     {
       "ticker": "AMBK",
@@ -472,7 +464,10 @@
       "earnings_datetime_utc": "2026-10-09T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-12T09:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bc090fb-7c04-4976-8a18-bcd7bc55fab4.pdf"
     },
     {
       "ticker": "CANHLIFE",
@@ -844,7 +839,7 @@
     {
       "ticker": "PLASTIBLEN",
       "market": "IN",
-      "company": "Plastiblends India Ltd",
+      "company": "Plastiblends India Ltd-$",
       "bse_code": "523648",
       "earnings_date": "2026-10-12",
       "earnings_datetime_utc": "2026-10-12T10:30:00.000Z",
@@ -861,7 +856,10 @@
       "earnings_datetime_utc": "2026-10-12T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-12T13:30:00.000Z",
+      "concall_title": "Q2 FY2027 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc8ac724-a252-4d33-b296-296662fd3591.pdf"
     },
     {
       "ticker": "RUDRAECO",
@@ -1459,7 +1457,7 @@
     {
       "ticker": "BIRLAMONEY",
       "market": "IN",
-      "company": "Aditya Birla Money Ltd",
+      "company": "Aditya Birla Money Ltd-$",
       "bse_code": "532974",
       "earnings_date": "2026-10-14",
       "earnings_datetime_utc": "2026-10-14T10:30:00.000Z",
@@ -1491,20 +1489,6 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
-    },
-    {
-      "ticker": "HDBFS",
-      "market": "IN",
-      "company": "HDB Financial Services Ltd",
-      "bse_code": "544429",
-      "earnings_date": "2026-10-14",
-      "earnings_datetime_utc": "2026-10-14T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-10-14T13:00:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ed85be1-aff1-40e4-b39f-6ffccdc304ca.pdf"
     },
     {
       "ticker": "ICICIGI",
@@ -2269,7 +2253,10 @@
       "earnings_datetime_utc": "2026-10-15T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-15T13:30:00.000Z",
+      "concall_title": "Q2 2026 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcb98c31-f813-41bc-a534-7d30833e49fd.pdf"
     },
     {
       "ticker": "BOTJ",
