@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-12T09:37:53.667Z",
+  "generated_at": "2026-10-13T09:44:11.832Z",
   "lookback": {
-    "from": "2026-04-15",
-    "to": "2026-10-07"
+    "from": "2026-04-16",
+    "to": "2026-10-08"
   },
   "counts": {
     "IN": 800,
-    "US": 263
+    "US": 271
   },
   "records": [
     {
@@ -81,7 +81,7 @@
       "earnings_date": "2026-10-07",
       "runup": -0.94,
       "ret1": -0.21,
-      "ret3": 2.11,
+      "ret3": 8.54,
       "market_cap": 7825923051270,
       "currency": "INR",
       "surprise_pct": 0.79,
@@ -281,19 +281,6 @@
       "currency": "INR",
       "surprise_pct": 14.35,
       "beat": true
-    },
-    {
-      "market": "IN",
-      "ticker": "HCLTECH",
-      "company": "HCL Technologies Limited",
-      "earnings_date": "2026-07-14",
-      "runup": -4.46,
-      "ret1": 0.11,
-      "ret3": 3.19,
-      "market_cap": 3295203589437,
-      "currency": "INR",
-      "surprise_pct": -0.18,
-      "beat": false
     },
     {
       "market": "IN",
@@ -654,7 +641,7 @@
       "runup": 1.77,
       "ret1": -0.98,
       "ret3": -1.56,
-      "market_cap": 1609973351247,
+      "market_cap": 1609989239919,
       "currency": "INR",
       "surprise_pct": -4.48,
       "beat": false
@@ -749,19 +736,6 @@
       "currency": "INR",
       "surprise_pct": 74.6,
       "beat": true
-    },
-    {
-      "market": "IN",
-      "ticker": "ICICIAMC",
-      "company": "ICICI Prudential Asset Management Company Ltd.",
-      "earnings_date": "2026-07-13",
-      "runup": 1.46,
-      "ret1": -1.24,
-      "ret3": -2.98,
-      "market_cap": 1496936093810,
-      "currency": "INR",
-      "surprise_pct": -2.05,
-      "beat": false
     },
     {
       "market": "IN",
@@ -2035,19 +2009,6 @@
       "market_cap": 648076516826,
       "currency": "INR",
       "surprise_pct": -7.78,
-      "beat": false
-    },
-    {
-      "market": "IN",
-      "ticker": "RBLBANK",
-      "company": "RBL Bank Ltd.",
-      "earnings_date": "2026-07-17",
-      "runup": 1.46,
-      "ret1": 0.1,
-      "ret3": -3.42,
-      "market_cap": 647577988505,
-      "currency": "INR",
-      "surprise_pct": -1.09,
       "beat": false
     },
     {
@@ -8539,19 +8500,6 @@
     },
     {
       "market": "IN",
-      "ticker": "GSFC",
-      "company": "Gujarat State Fertilizers & Chemicals Limited",
-      "earnings_date": "2026-08-12",
-      "runup": -0.4,
-      "ret1": -1.3,
-      "ret3": -0.51,
-      "market_cap": 58695742720,
-      "currency": "INR",
-      "surprise_pct": -5.24,
-      "beat": false
-    },
-    {
-      "market": "IN",
       "ticker": "GMMPFAUDLR",
       "company": "GMM Pfaudler Limited",
       "earnings_date": "2026-08-05",
@@ -9579,19 +9527,6 @@
     },
     {
       "market": "IN",
-      "ticker": "SWARAJENG",
-      "company": "Swaraj Engines Ltd",
-      "earnings_date": "2026-07-20",
-      "runup": -0.9,
-      "ret1": -1.89,
-      "ret3": -2.71,
-      "market_cap": 41761515902,
-      "currency": "INR",
-      "surprise_pct": 6.53,
-      "beat": true
-    },
-    {
-      "market": "IN",
       "ticker": "INDIQUBE",
       "company": "Indiqube Spaces Limited",
       "earnings_date": "2026-08-12",
@@ -10410,6 +10345,175 @@
       "beat": false
     },
     {
+      "market": "IN",
+      "ticker": "SHANTIGOLD",
+      "company": "Shanti Gold International Limited",
+      "earnings_date": "2026-08-13",
+      "runup": 0.74,
+      "ret1": 6.8,
+      "ret3": 9.47,
+      "market_cap": 29222389786,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "OSWALPUMPS",
+      "company": "Oswal Pumps Limited",
+      "earnings_date": "2026-08-08",
+      "runup": 0.98,
+      "ret1": -6.07,
+      "ret3": -7.65,
+      "market_cap": 28962944703,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "CARYSIL",
+      "company": "Carysil Limited",
+      "earnings_date": "2026-08-10",
+      "runup": 5.73,
+      "ret1": -4.43,
+      "ret3": -3.55,
+      "market_cap": 28958839965,
+      "currency": "INR",
+      "surprise_pct": 15.1,
+      "beat": true
+    },
+    {
+      "market": "IN",
+      "ticker": "MUTHOOTMF",
+      "company": "Muthoot Microfin Ltd",
+      "earnings_date": "2026-05-06",
+      "runup": 4.23,
+      "ret1": -2.79,
+      "ret3": -12.07,
+      "market_cap": 28710880765,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "STYLEBAAZA",
+      "company": "Baazar Style Retail Limited",
+      "earnings_date": "2026-08-13",
+      "runup": -0.97,
+      "ret1": 4.99,
+      "ret3": 15.74,
+      "market_cap": 28673408688,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "APLD",
+      "company": "APLD",
+      "earnings_date": "2026-10-07",
+      "runup": -6.04,
+      "ret1": 0.17,
+      "ret3": -2.35,
+      "market_cap": 7030500864,
+      "currency": "USD",
+      "surprise_pct": 96.7,
+      "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "BKSC",
+      "company": "BKSC",
+      "earnings_date": "2026-10-07",
+      "runup": -2.63,
+      "ret1": -0.38,
+      "ret3": 0.11,
+      "market_cap": 98769136,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "LEVI",
+      "company": "LEVI",
+      "earnings_date": "2026-10-07",
+      "runup": -4.97,
+      "ret1": -2.36,
+      "ret3": -1.38,
+      "market_cap": 7377957376,
+      "currency": "USD",
+      "surprise_pct": 33.95,
+      "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "LFS",
+      "company": "LFS",
+      "earnings_date": "2026-10-07",
+      "runup": 3.65,
+      "ret1": -7.66,
+      "ret3": -8.9,
+      "market_cap": 57553364,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "NRIX",
+      "company": "NRIX",
+      "earnings_date": "2026-10-07",
+      "runup": 0.58,
+      "ret1": -2.29,
+      "ret3": -2.51,
+      "market_cap": 2299802112,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "RELL",
+      "company": "RELL",
+      "earnings_date": "2026-10-07",
+      "runup": 4.99,
+      "ret1": -0.15,
+      "ret3": 3.7,
+      "market_cap": 308543648,
+      "currency": "USD",
+      "surprise_pct": 200,
+      "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "RGP",
+      "company": "RGP",
+      "earnings_date": "2026-10-07",
+      "runup": 1.36,
+      "ret1": -20.05,
+      "ret3": -24.87,
+      "market_cap": 97510664,
+      "currency": "USD",
+      "surprise_pct": 17.95,
+      "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "WELNF",
+      "company": "WELNF",
+      "earnings_date": "2026-10-07",
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
+      "market_cap": 35969148,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
       "market": "US",
       "ticker": "ADVB",
       "company": "ADVB",
@@ -10417,7 +10521,7 @@
       "runup": 0.63,
       "ret1": -2.66,
       "ret3": -16.77,
-      "market_cap": 8772826,
+      "market_cap": 8715002,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10443,7 +10547,7 @@
       "runup": 12.17,
       "ret1": 2.78,
       "ret3": 1.48,
-      "market_cap": 848152384,
+      "market_cap": 855465856,
       "currency": "USD",
       "surprise_pct": 84.25,
       "beat": true
@@ -10456,7 +10560,7 @@
       "runup": 1.31,
       "ret1": -3.08,
       "ret3": -7.46,
-      "market_cap": 38957508,
+      "market_cap": 38548148,
       "currency": "USD",
       "surprise_pct": -61.54,
       "beat": false
@@ -10469,7 +10573,7 @@
       "runup": 0,
       "ret1": 0,
       "ret3": 0.88,
-      "market_cap": 82758592,
+      "market_cap": 82034760,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10482,7 +10586,7 @@
       "runup": 7.49,
       "ret1": 0.38,
       "ret3": -0.08,
-      "market_cap": 6595549696,
+      "market_cap": 6913822720,
       "currency": "USD",
       "surprise_pct": 27.68,
       "beat": true
@@ -10495,7 +10599,7 @@
       "runup": -8.07,
       "ret1": -2.34,
       "ret3": -0.92,
-      "market_cap": 2586926592,
+      "market_cap": 2619672320,
       "currency": "USD",
       "surprise_pct": 50.01,
       "beat": true
@@ -10521,7 +10625,7 @@
       "runup": 8.58,
       "ret1": -4.85,
       "ret3": -4.85,
-      "market_cap": 7806699,
+      "market_cap": 7438458,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10534,7 +10638,7 @@
       "runup": 5.77,
       "ret1": 13.08,
       "ret3": 18.8,
-      "market_cap": 3908793088,
+      "market_cap": 4056115968,
       "currency": "USD",
       "surprise_pct": 29.53,
       "beat": true
@@ -10547,7 +10651,7 @@
       "runup": 3.16,
       "ret1": 0.02,
       "ret3": -0.59,
-      "market_cap": 12463867904,
+      "market_cap": 12443461632,
       "currency": "USD",
       "surprise_pct": 1.79,
       "beat": true
@@ -10560,7 +10664,7 @@
       "runup": -4.82,
       "ret1": -5.69,
       "ret3": -4.93,
-      "market_cap": 233861360,
+      "market_cap": 232305408,
       "currency": "USD",
       "surprise_pct": -8.16,
       "beat": false
@@ -10573,7 +10677,7 @@
       "runup": 2.08,
       "ret1": 2.35,
       "ret3": 6.03,
-      "market_cap": 20753657856,
+      "market_cap": 21389942784,
       "currency": "USD",
       "surprise_pct": 5.47,
       "beat": true
@@ -10586,7 +10690,7 @@
       "runup": -2.38,
       "ret1": -6.89,
       "ret3": -5.6,
-      "market_cap": 1805074304,
+      "market_cap": 1902212992,
       "currency": "USD",
       "surprise_pct": -50.86,
       "beat": false
@@ -10599,7 +10703,7 @@
       "runup": -0.86,
       "ret1": 1.78,
       "ret3": 0.36,
-      "market_cap": 875784768,
+      "market_cap": 867863808,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10612,7 +10716,7 @@
       "runup": -7.69,
       "ret1": 0,
       "ret3": 2.5,
-      "market_cap": 74245880,
+      "market_cap": 73916624,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10625,7 +10729,7 @@
       "runup": 4.67,
       "ret1": 1.34,
       "ret3": -15.63,
-      "market_cap": 2637954,
+      "market_cap": 2416974,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10638,7 +10742,7 @@
       "runup": 0,
       "ret1": 0,
       "ret3": -22.47,
-      "market_cap": 314350,
+      "market_cap": 354359,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10677,7 +10781,7 @@
       "runup": -2.93,
       "ret1": 0.15,
       "ret3": -0.23,
-      "market_cap": 291210816,
+      "market_cap": 287958240,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10690,7 +10794,7 @@
       "runup": -2.56,
       "ret1": 0.24,
       "ret3": -8.35,
-      "market_cap": 14356054,
+      "market_cap": 14581543,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10729,7 +10833,7 @@
       "runup": 1.95,
       "ret1": -0.31,
       "ret3": 0.88,
-      "market_cap": 12056779776,
+      "market_cap": 12263959552,
       "currency": "USD",
       "surprise_pct": 13.78,
       "beat": true
@@ -10755,7 +10859,7 @@
       "runup": 1.38,
       "ret1": 0.4,
       "ret3": 0.08,
-      "market_cap": 55376632,
+      "market_cap": 55910376,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10768,7 +10872,7 @@
       "runup": -0.79,
       "ret1": 1.3,
       "ret3": 1.15,
-      "market_cap": 276109920,
+      "market_cap": 278012800,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10781,7 +10885,7 @@
       "runup": 0,
       "ret1": -2.51,
       "ret3": -4.96,
-      "market_cap": 1372944640,
+      "market_cap": 1403057280,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10794,7 +10898,7 @@
       "runup": -0.24,
       "ret1": 1.81,
       "ret3": 1.97,
-      "market_cap": 706024384,
+      "market_cap": 711566208,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10820,7 +10924,7 @@
       "runup": -2.96,
       "ret1": -1.22,
       "ret3": -5.49,
-      "market_cap": 40955560,
+      "market_cap": 38577500,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10833,7 +10937,7 @@
       "runup": -0.88,
       "ret1": 5.04,
       "ret3": 3.19,
-      "market_cap": 18790156,
+      "market_cap": 18642974,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10846,7 +10950,7 @@
       "runup": -33.5,
       "ret1": 54.77,
       "ret3": -37.1,
-      "market_cap": 1058472,
+      "market_cap": 914088,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10872,7 +10976,7 @@
       "runup": -21.05,
       "ret1": -11.43,
       "ret3": -52.38,
-      "market_cap": 598438,
+      "market_cap": 588627,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10885,7 +10989,7 @@
       "runup": -2.85,
       "ret1": -4.57,
       "ret3": -13.91,
-      "market_cap": 6152896,
+      "market_cap": 5889422,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10924,7 +11028,7 @@
       "runup": 2.69,
       "ret1": -0.87,
       "ret3": 0.66,
-      "market_cap": 21717208,
+      "market_cap": 22479558,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10950,7 +11054,7 @@
       "runup": -5.8,
       "ret1": -12.31,
       "ret3": -16.15,
-      "market_cap": 5576685,
+      "market_cap": 5032618,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10976,7 +11080,7 @@
       "runup": 0.82,
       "ret1": 1.63,
       "ret3": -4.89,
-      "market_cap": 9834443,
+      "market_cap": 9875706,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -10989,7 +11093,7 @@
       "runup": -0.65,
       "ret1": 1.32,
       "ret3": -0.33,
-      "market_cap": 7158980608,
+      "market_cap": 7135585280,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11015,7 +11119,7 @@
       "runup": 4.17,
       "ret1": 9.36,
       "ret3": 10.88,
-      "market_cap": 9287367,
+      "market_cap": 9013057,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11041,7 +11145,7 @@
       "runup": 15.78,
       "ret1": -6.31,
       "ret3": -8.9,
-      "market_cap": 127932612608,
+      "market_cap": 131487989760,
       "currency": "USD",
       "surprise_pct": 3.36,
       "beat": true
@@ -11054,7 +11158,7 @@
       "runup": -3.4,
       "ret1": 3.17,
       "ret3": 1.24,
-      "market_cap": 8930971648,
+      "market_cap": 8869004288,
       "currency": "USD",
       "surprise_pct": 3.78,
       "beat": true
@@ -11067,7 +11171,7 @@
       "runup": 0.55,
       "ret1": -0.09,
       "ret3": -0.5,
-      "market_cap": 1386397824,
+      "market_cap": 1376217600,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11093,7 +11197,7 @@
       "runup": 0,
       "ret1": 0.68,
       "ret3": -0.29,
-      "market_cap": 1783684096,
+      "market_cap": 1773202048,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11106,7 +11210,7 @@
       "runup": 0.09,
       "ret1": -1.15,
       "ret3": -0.88,
-      "market_cap": 332118912,
+      "market_cap": 335596608,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11119,7 +11223,7 @@
       "runup": 0.93,
       "ret1": 0,
       "ret3": 0.1,
-      "market_cap": 125870408,
+      "market_cap": 126258896,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11132,7 +11236,7 @@
       "runup": -0.42,
       "ret1": 0.21,
       "ret3": -1.05,
-      "market_cap": 626413952,
+      "market_cap": 620371392,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11145,7 +11249,7 @@
       "runup": 1.14,
       "ret1": 0.31,
       "ret3": -1.03,
-      "market_cap": 1170349824,
+      "market_cap": 1166680960,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11158,7 +11262,7 @@
       "runup": 2.28,
       "ret1": -0.11,
       "ret3": -0.45,
-      "market_cap": 827345920,
+      "market_cap": 821698496,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11171,7 +11275,7 @@
       "runup": -0.71,
       "ret1": -3.64,
       "ret3": -1.54,
-      "market_cap": 51555065856,
+      "market_cap": 52505665536,
       "currency": "USD",
       "surprise_pct": 9.87,
       "beat": true
@@ -11184,7 +11288,7 @@
       "runup": 0.26,
       "ret1": 0.13,
       "ret3": 0.26,
-      "market_cap": 378731424,
+      "market_cap": 377004288,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11197,7 +11301,7 @@
       "runup": 14.61,
       "ret1": 5.88,
       "ret3": 25,
-      "market_cap": 131977776,
+      "market_cap": 73443696,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11236,7 +11340,7 @@
       "runup": -3.21,
       "ret1": 9.1,
       "ret3": 19.86,
-      "market_cap": 181246016,
+      "market_cap": 185312160,
       "currency": "USD",
       "surprise_pct": 100,
       "beat": true
@@ -11249,7 +11353,7 @@
       "runup": -4.88,
       "ret1": -1.79,
       "ret3": -1.86,
-      "market_cap": 6440281088,
+      "market_cap": 6530989568,
       "currency": "USD",
       "surprise_pct": 44.92,
       "beat": true
@@ -11262,7 +11366,7 @@
       "runup": -0.71,
       "ret1": -3.26,
       "ret3": -4.51,
-      "market_cap": 3005827840,
+      "market_cap": 2963321088,
       "currency": "USD",
       "surprise_pct": -63.18,
       "beat": false
@@ -11275,7 +11379,7 @@
       "runup": 0,
       "ret1": 0,
       "ret3": 0,
-      "market_cap": 9714613,
+      "market_cap": 12952818,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11314,7 +11418,7 @@
       "runup": 3.84,
       "ret1": 2.84,
       "ret3": 2.4,
-      "market_cap": 10213712896,
+      "market_cap": 10266705920,
       "currency": "USD",
       "surprise_pct": 4.03,
       "beat": true
@@ -11327,7 +11431,7 @@
       "runup": -5.17,
       "ret1": 6.76,
       "ret3": 19.81,
-      "market_cap": 10622068,
+      "market_cap": 9683984,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11340,7 +11444,7 @@
       "runup": -0.94,
       "ret1": -1.89,
       "ret3": 1.62,
-      "market_cap": 550331904,
+      "market_cap": 508389760,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11353,7 +11457,7 @@
       "runup": 0.79,
       "ret1": -0.71,
       "ret3": -1.36,
-      "market_cap": 369386880,
+      "market_cap": 372063584,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11366,7 +11470,7 @@
       "runup": 1.84,
       "ret1": 3.62,
       "ret3": -10.2,
-      "market_cap": 8812990,
+      "market_cap": 9120232,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11379,7 +11483,7 @@
       "runup": -10.03,
       "ret1": 4.51,
       "ret3": 4.91,
-      "market_cap": 32094189568,
+      "market_cap": 32694620160,
       "currency": "USD",
       "surprise_pct": 7.96,
       "beat": true
@@ -11431,7 +11535,7 @@
       "runup": -0.79,
       "ret1": -8.55,
       "ret3": -10.74,
-      "market_cap": 87985200,
+      "market_cap": 84944536,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11444,7 +11548,7 @@
       "runup": 0.97,
       "ret1": 0.42,
       "ret3": -2.85,
-      "market_cap": 451588352,
+      "market_cap": 431512768,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11457,7 +11561,7 @@
       "runup": 0,
       "ret1": 3.03,
       "ret3": -0.11,
-      "market_cap": 1164234457088,
+      "market_cap": 1119022743552,
       "currency": "USD",
       "surprise_pct": 5.03,
       "beat": true
@@ -11483,7 +11587,7 @@
       "runup": -8.56,
       "ret1": 2.98,
       "ret3": -8.51,
-      "market_cap": 8310599,
+      "market_cap": 8272651,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11496,7 +11600,7 @@
       "runup": 1.64,
       "ret1": 25,
       "ret3": 6.45,
-      "market_cap": 8946605,
+      "market_cap": 12085764,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11509,7 +11613,7 @@
       "runup": -1.52,
       "ret1": 0,
       "ret3": -2.51,
-      "market_cap": 3240022,
+      "market_cap": 2354416,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11522,9 +11626,9 @@
       "runup": 1.34,
       "ret1": -8.48,
       "ret3": -6.88,
-      "market_cap": 1607582080,
+      "market_cap": 1593684864,
       "currency": "USD",
-      "surprise_pct": 11.55,
+      "surprise_pct": 9.72,
       "beat": true
     },
     {
@@ -11535,7 +11639,7 @@
       "runup": 4.88,
       "ret1": 0.78,
       "ret3": -3.1,
-      "market_cap": 22591982,
+      "market_cap": 20556668,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11574,7 +11678,7 @@
       "runup": -3.13,
       "ret1": 3.87,
       "ret3": -3.87,
-      "market_cap": 29469214,
+      "market_cap": 27450774,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11587,7 +11691,7 @@
       "runup": 0,
       "ret1": -3.51,
       "ret3": 1.05,
-      "market_cap": 16907594,
+      "market_cap": 16848784,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11600,7 +11704,7 @@
       "runup": -4.11,
       "ret1": 1.62,
       "ret3": 10.66,
-      "market_cap": 7054413,
+      "market_cap": 6167066,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11613,7 +11717,7 @@
       "runup": 26.67,
       "ret1": 0,
       "ret3": 10.53,
-      "market_cap": 10908339,
+      "market_cap": 10334217,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11626,7 +11730,7 @@
       "runup": 13.41,
       "ret1": -2.27,
       "ret3": 2.59,
-      "market_cap": 35430477824,
+      "market_cap": 35605278720,
       "currency": "USD",
       "surprise_pct": 5.86,
       "beat": true
@@ -11639,7 +11743,7 @@
       "runup": -2.24,
       "ret1": 0.28,
       "ret3": 0.12,
-      "market_cap": 1585686272,
+      "market_cap": 1556355456,
       "currency": "USD",
       "surprise_pct": 8.15,
       "beat": true
@@ -11665,7 +11769,7 @@
       "runup": -0.87,
       "ret1": 0.44,
       "ret3": 0,
-      "market_cap": 58786168,
+      "market_cap": 58530576,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11678,7 +11782,7 @@
       "runup": 4.74,
       "ret1": -6.96,
       "ret3": -7.28,
-      "market_cap": 7467610624,
+      "market_cap": 7195080192,
       "currency": "USD",
       "surprise_pct": 58.62,
       "beat": true
@@ -11691,7 +11795,7 @@
       "runup": -0.21,
       "ret1": 1.04,
       "ret3": 0.93,
-      "market_cap": 1227580288,
+      "market_cap": 1211329280,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11704,7 +11808,7 @@
       "runup": 2.2,
       "ret1": 0.54,
       "ret3": -7.53,
-      "market_cap": 7136094,
+      "market_cap": 5755213,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11717,7 +11821,7 @@
       "runup": -5.95,
       "ret1": -2.53,
       "ret3": -7.59,
-      "market_cap": 3889646,
+      "market_cap": 3803726,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11730,7 +11834,7 @@
       "runup": -3.36,
       "ret1": -3.08,
       "ret3": -12.68,
-      "market_cap": 190303632,
+      "market_cap": 193565808,
       "currency": "USD",
       "surprise_pct": -84.78,
       "beat": false
@@ -11743,7 +11847,7 @@
       "runup": -1.72,
       "ret1": 6.99,
       "ret3": 4.47,
-      "market_cap": 152406624,
+      "market_cap": 146531536,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11756,7 +11860,7 @@
       "runup": 0.87,
       "ret1": 1.72,
       "ret3": 0.11,
-      "market_cap": 4554422784,
+      "market_cap": 4376012800,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11769,7 +11873,7 @@
       "runup": 1.43,
       "ret1": 0,
       "ret3": 0.7,
-      "market_cap": 75084664,
+      "market_cap": 72843328,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11782,7 +11886,7 @@
       "runup": -26.71,
       "ret1": 22.93,
       "ret3": 26.22,
-      "market_cap": 71227496,
+      "market_cap": 68738680,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11795,7 +11899,7 @@
       "runup": 0,
       "ret1": -1.44,
       "ret3": -10.79,
-      "market_cap": 123796992,
+      "market_cap": 102477728,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11808,7 +11912,7 @@
       "runup": -0.88,
       "ret1": -7.25,
       "ret3": -13.2,
-      "market_cap": 4036704768,
+      "market_cap": 4041528064,
       "currency": "USD",
       "surprise_pct": 15.5,
       "beat": true
@@ -11873,7 +11977,7 @@
       "runup": -1.54,
       "ret1": 610.94,
       "ret3": 656.25,
-      "market_cap": 14592449,
+      "market_cap": 13751620,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11899,7 +12003,7 @@
       "runup": -0.84,
       "ret1": -0.85,
       "ret3": -5.93,
-      "market_cap": 58913400,
+      "market_cap": 56881908,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11912,7 +12016,7 @@
       "runup": -0.41,
       "ret1": -0.83,
       "ret3": -1.24,
-      "market_cap": 26043260,
+      "market_cap": 27457372,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11925,7 +12029,7 @@
       "runup": 2.84,
       "ret1": -1.05,
       "ret3": 1.17,
-      "market_cap": 17687268,
+      "market_cap": 17121276,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11938,7 +12042,7 @@
       "runup": 0,
       "ret1": 1.98,
       "ret3": 1.98,
-      "market_cap": 98869288,
+      "market_cap": 97870408,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11964,7 +12068,7 @@
       "runup": 3.11,
       "ret1": 8.63,
       "ret3": 14.98,
-      "market_cap": 2024104448,
+      "market_cap": 2022614272,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11977,7 +12081,7 @@
       "runup": -1.15,
       "ret1": -1.29,
       "ret3": -3.99,
-      "market_cap": 9026537472,
+      "market_cap": 9154673664,
       "currency": "USD",
       "surprise_pct": 8.01,
       "beat": true
@@ -12003,7 +12107,7 @@
       "runup": 6.1,
       "ret1": -3.1,
       "ret3": -7.08,
-      "market_cap": 8380000,
+      "market_cap": 8656800,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12016,7 +12120,7 @@
       "runup": -7.09,
       "ret1": 3.12,
       "ret3": -4.68,
-      "market_cap": 5913611,
+      "market_cap": 5822050,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12029,7 +12133,7 @@
       "runup": -0.36,
       "ret1": 6.5,
       "ret3": -3.61,
-      "market_cap": 9391446,
+      "market_cap": 9340127,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12042,7 +12146,7 @@
       "runup": 2.47,
       "ret1": 7.83,
       "ret3": -3.01,
-      "market_cap": 1405920,
+      "market_cap": 1358040,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12055,7 +12159,7 @@
       "runup": 1.45,
       "ret1": 2.32,
       "ret3": 0.65,
-      "market_cap": 5203822080,
+      "market_cap": 5238388736,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12068,7 +12172,7 @@
       "runup": 4.17,
       "ret1": -13.33,
       "ret3": -16,
-      "market_cap": 33182498,
+      "market_cap": 32672000,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12081,7 +12185,7 @@
       "runup": 9.59,
       "ret1": 3.54,
       "ret3": 7.08,
-      "market_cap": 70878728,
+      "market_cap": 74344968,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12094,7 +12198,7 @@
       "runup": -2.16,
       "ret1": -5.74,
       "ret3": -5.74,
-      "market_cap": 50255388,
+      "market_cap": 50529708,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12107,7 +12211,7 @@
       "runup": 0,
       "ret1": 0,
       "ret3": 0,
-      "market_cap": 5036523,
+      "market_cap": 4045370,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12120,7 +12224,7 @@
       "runup": -5.15,
       "ret1": -4.8,
       "ret3": -5.43,
-      "market_cap": 15316076,
+      "market_cap": 15227029,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12133,7 +12237,7 @@
       "runup": -5.01,
       "ret1": -5.77,
       "ret3": -0.25,
-      "market_cap": 250386096,
+      "market_cap": 252738720,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12146,7 +12250,7 @@
       "runup": 0,
       "ret1": -1.9,
       "ret3": -6.67,
-      "market_cap": 5654499,
+      "market_cap": 5453477,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12159,7 +12263,7 @@
       "runup": -0.36,
       "ret1": -0.49,
       "ret3": 1.83,
-      "market_cap": 143061472,
+      "market_cap": 138875184,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12185,7 +12289,7 @@
       "runup": 8.17,
       "ret1": 4.44,
       "ret3": -7.44,
-      "market_cap": 3794020,
+      "market_cap": 4463811,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12198,7 +12302,7 @@
       "runup": -9.09,
       "ret1": 0,
       "ret3": 0,
-      "market_cap": 10863603,
+      "market_cap": 9777242,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12211,7 +12315,7 @@
       "runup": -9.36,
       "ret1": -10.8,
       "ret3": -13.76,
-      "market_cap": 106853664,
+      "market_cap": 106550104,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12224,7 +12328,7 @@
       "runup": -2.31,
       "ret1": 0.79,
       "ret3": 0,
-      "market_cap": 66402352,
+      "market_cap": 59634908,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12250,7 +12354,7 @@
       "runup": -0.14,
       "ret1": 1.33,
       "ret3": 2.29,
-      "market_cap": 248731552,
+      "market_cap": 248640688,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12276,7 +12380,7 @@
       "runup": 0,
       "ret1": 0,
       "ret3": 0,
-      "market_cap": 109234136,
+      "market_cap": 103484968,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12289,7 +12393,7 @@
       "runup": -5.26,
       "ret1": -5.56,
       "ret3": -11.11,
-      "market_cap": 5901326,
+      "market_cap": 5590730,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12315,7 +12419,7 @@
       "runup": -2.35,
       "ret1": -5.12,
       "ret3": -2.41,
-      "market_cap": 38888344,
+      "market_cap": 36379420,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12328,7 +12432,7 @@
       "runup": 0,
       "ret1": -1.98,
       "ret3": 1.69,
-      "market_cap": 491513248,
+      "market_cap": 478386784,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12341,7 +12445,7 @@
       "runup": -6.08,
       "ret1": -26.62,
       "ret3": -36.26,
-      "market_cap": 6942661,
+      "market_cap": 6601219,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12354,7 +12458,7 @@
       "runup": 3.75,
       "ret1": -4.82,
       "ret3": -9.3,
-      "market_cap": 63595316,
+      "market_cap": 58259656,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12367,7 +12471,7 @@
       "runup": -3.14,
       "ret1": -5.01,
       "ret3": -6.12,
-      "market_cap": 1189339520,
+      "market_cap": 1207169024,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12380,7 +12484,7 @@
       "runup": 1.56,
       "ret1": 0,
       "ret3": 4.92,
-      "market_cap": 234177376,
+      "market_cap": 237571248,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12393,7 +12497,7 @@
       "runup": -1.02,
       "ret1": -3.59,
       "ret3": -2.05,
-      "market_cap": 26617334,
+      "market_cap": 25083762,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12406,7 +12510,7 @@
       "runup": -5.86,
       "ret1": 7.47,
       "ret3": -0.41,
-      "market_cap": 9774807,
+      "market_cap": 9047717,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12419,7 +12523,7 @@
       "runup": -0.91,
       "ret1": 2.93,
       "ret3": 3.14,
-      "market_cap": 419608035328,
+      "market_cap": 425156018176,
       "currency": "USD",
       "surprise_pct": 3.41,
       "beat": true
@@ -12432,7 +12536,7 @@
       "runup": -3.02,
       "ret1": -3.61,
       "ret3": -5.85,
-      "market_cap": 22363889664,
+      "market_cap": 22584518656,
       "currency": "USD",
       "surprise_pct": -0.17,
       "beat": false
@@ -12445,7 +12549,7 @@
       "runup": 14.6,
       "ret1": 18.58,
       "ret3": -12.39,
-      "market_cap": 7954382,
+      "market_cap": 7415573,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12458,7 +12562,7 @@
       "runup": 1.37,
       "ret1": 72.88,
       "ret3": 57.97,
-      "market_cap": 3292700,
+      "market_cap": 3031028,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12471,7 +12575,7 @@
       "runup": 3.2,
       "ret1": -12.5,
       "ret3": -10.71,
-      "market_cap": 131079416,
+      "market_cap": 132104488,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12484,7 +12588,7 @@
       "runup": 21.19,
       "ret1": 0.7,
       "ret3": -3.5,
-      "market_cap": 38617228,
+      "market_cap": 37096868,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12510,7 +12614,7 @@
       "runup": 3.83,
       "ret1": 6.31,
       "ret3": -18.93,
-      "market_cap": 6139177,
+      "market_cap": 5934326,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12523,7 +12627,7 @@
       "runup": -1.3,
       "ret1": 2.11,
       "ret3": -10.26,
-      "market_cap": 125430336,
+      "market_cap": 105978576,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12549,7 +12653,7 @@
       "runup": -1.5,
       "ret1": -7.12,
       "ret3": -0.09,
-      "market_cap": 710604480,
+      "market_cap": 725332096,
       "currency": "USD",
       "surprise_pct": -6.14,
       "beat": false
@@ -12562,7 +12666,7 @@
       "runup": -9.87,
       "ret1": 1.37,
       "ret3": -0.49,
-      "market_cap": 21808777216,
+      "market_cap": 21784047616,
       "currency": "USD",
       "surprise_pct": 20.8,
       "beat": true
@@ -12575,7 +12679,7 @@
       "runup": 14.24,
       "ret1": -8.65,
       "ret3": -8.65,
-      "market_cap": 5704081,
+      "market_cap": 4970505,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12588,7 +12692,7 @@
       "runup": 2.14,
       "ret1": -23.56,
       "ret3": -40.31,
-      "market_cap": 103617040,
+      "market_cap": 104773912,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12601,7 +12705,7 @@
       "runup": -2.01,
       "ret1": -2.74,
       "ret3": 0.68,
-      "market_cap": 223285264,
+      "market_cap": 219262112,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12614,7 +12718,7 @@
       "runup": -2.8,
       "ret1": 0.96,
       "ret3": -2.88,
-      "market_cap": 5740289,
+      "market_cap": 5437031,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12627,7 +12731,7 @@
       "runup": 6.61,
       "ret1": -3.23,
       "ret3": 2.96,
-      "market_cap": 14305522,
+      "market_cap": 12982103,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12640,7 +12744,7 @@
       "runup": -1.24,
       "ret1": 1.26,
       "ret3": 2.09,
-      "market_cap": 9475819,
+      "market_cap": 9219319,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12653,7 +12757,7 @@
       "runup": 4.49,
       "ret1": 9.09,
       "ret3": 13.07,
-      "market_cap": 1284370560,
+      "market_cap": 1312981760,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12666,7 +12770,7 @@
       "runup": -3.44,
       "ret1": 2.97,
       "ret3": 4.49,
-      "market_cap": 80371974144,
+      "market_cap": 81491722240,
       "currency": "USD",
       "surprise_pct": 2.99,
       "beat": true
@@ -12679,7 +12783,7 @@
       "runup": -2.27,
       "ret1": 0.65,
       "ret3": 4.26,
-      "market_cap": 171950752,
+      "market_cap": 168308096,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12692,7 +12796,7 @@
       "runup": -1.68,
       "ret1": -0.42,
       "ret3": -1.67,
-      "market_cap": 2667771136,
+      "market_cap": 2655390464,
       "currency": "USD",
       "surprise_pct": 3.76,
       "beat": true
@@ -12705,7 +12809,7 @@
       "runup": -0.88,
       "ret1": -4.45,
       "ret3": -4.15,
-      "market_cap": 8177964,
+      "market_cap": 7528122,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12718,7 +12822,7 @@
       "runup": 1.04,
       "ret1": -2.76,
       "ret3": -6.2,
-      "market_cap": 17265047552,
+      "market_cap": 17484269568,
       "currency": "USD",
       "surprise_pct": 4.49,
       "beat": true
@@ -12731,7 +12835,7 @@
       "runup": -0.1,
       "ret1": 2.2,
       "ret3": -0.15,
-      "market_cap": 3537798400,
+      "market_cap": 3592995584,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12744,7 +12848,7 @@
       "runup": -2.63,
       "ret1": -6.49,
       "ret3": -8.11,
-      "market_cap": 7141925,
+      "market_cap": 7643113,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12757,7 +12861,7 @@
       "runup": -5.65,
       "ret1": -24.45,
       "ret3": -28.08,
-      "market_cap": 154024576,
+      "market_cap": 148713376,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12770,7 +12874,7 @@
       "runup": -8.77,
       "ret1": -2.78,
       "ret3": -4.97,
-      "market_cap": 37014851584,
+      "market_cap": 37249798144,
       "currency": "USD",
       "surprise_pct": 1.57,
       "beat": true
@@ -12783,7 +12887,7 @@
       "runup": -2.48,
       "ret1": -16.73,
       "ret3": -14.55,
-      "market_cap": 32686604,
+      "market_cap": 31976026,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12796,7 +12900,7 @@
       "runup": -5.69,
       "ret1": -21.63,
       "ret3": -12.41,
-      "market_cap": 379434464,
+      "market_cap": 360729952,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12809,7 +12913,7 @@
       "runup": 0,
       "ret1": 0,
       "ret3": 8.11,
-      "market_cap": 28386350,
+      "market_cap": 23904294,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12822,7 +12926,7 @@
       "runup": 4.69,
       "ret1": 2.24,
       "ret3": 2.24,
-      "market_cap": 22005084,
+      "market_cap": 21407416,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12835,7 +12939,7 @@
       "runup": 3.26,
       "ret1": -1.78,
       "ret3": -0.78,
-      "market_cap": 47546195968,
+      "market_cap": 46883102720,
       "currency": "USD",
       "surprise_pct": 4.01,
       "beat": true
@@ -12848,7 +12952,7 @@
       "runup": -10.81,
       "ret1": 0.61,
       "ret3": 2.42,
-      "market_cap": 90278464,
+      "market_cap": 88646920,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12861,7 +12965,7 @@
       "runup": 1.53,
       "ret1": -2.96,
       "ret3": -1.19,
-      "market_cap": 2620696832,
+      "market_cap": 2529552640,
       "currency": "USD",
       "surprise_pct": 16.71,
       "beat": true
@@ -12874,7 +12978,7 @@
       "runup": -0.15,
       "ret1": -1.23,
       "ret3": -1.13,
-      "market_cap": 1436539648,
+      "market_cap": 1457179648,
       "currency": "USD",
       "surprise_pct": 49.3,
       "beat": true
@@ -12887,7 +12991,7 @@
       "runup": 1.03,
       "ret1": -8.98,
       "ret3": 6.94,
-      "market_cap": 46628480,
+      "market_cap": 42752120,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12900,7 +13004,7 @@
       "runup": 5.52,
       "ret1": -2.02,
       "ret3": -2.24,
-      "market_cap": 3296609024,
+      "market_cap": 3301254400,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12913,7 +13017,7 @@
       "runup": 1.36,
       "ret1": 1.29,
       "ret3": 5.6,
-      "market_cap": 3076269056,
+      "market_cap": 3085628416,
       "currency": "USD",
       "surprise_pct": 9.33,
       "beat": true
@@ -12926,7 +13030,7 @@
       "runup": -0.51,
       "ret1": -1.82,
       "ret3": -5.86,
-      "market_cap": 1373686528,
+      "market_cap": 1376377088,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12939,7 +13043,7 @@
       "runup": 0.8,
       "ret1": 2.75,
       "ret3": 3.82,
-      "market_cap": 560029440,
+      "market_cap": 561295296,
       "currency": "USD",
       "surprise_pct": -2.56,
       "beat": false
@@ -12965,7 +13069,7 @@
       "runup": 3.92,
       "ret1": -12.07,
       "ret3": 51.36,
-      "market_cap": 24289312,
+      "market_cap": 22836106,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12991,7 +13095,7 @@
       "runup": -3.77,
       "ret1": 4.41,
       "ret3": 5.88,
-      "market_cap": 122855488,
+      "market_cap": 124785168,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13017,7 +13121,7 @@
       "runup": -4.03,
       "ret1": 4.12,
       "ret3": -13.21,
-      "market_cap": 555600192,
+      "market_cap": 548925376,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13030,7 +13134,7 @@
       "runup": 12.17,
       "ret1": -7.08,
       "ret3": -9.43,
-      "market_cap": 87353544,
+      "market_cap": 86488656,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13043,7 +13147,7 @@
       "runup": -6.8,
       "ret1": -5.71,
       "ret3": -9.21,
-      "market_cap": 17588310,
+      "market_cap": 16773298,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13056,7 +13160,7 @@
       "runup": -0.4,
       "ret1": 0.27,
       "ret3": -0.54,
-      "market_cap": 18182082,
+      "market_cap": 17965628,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13069,7 +13173,7 @@
       "runup": -0.12,
       "ret1": -0.31,
       "ret3": -2.17,
-      "market_cap": 11764216,
+      "market_cap": 9363355,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13095,7 +13199,7 @@
       "runup": 17.05,
       "ret1": 21.36,
       "ret3": 42.72,
-      "market_cap": 151596432,
+      "market_cap": 139102224,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13108,7 +13212,7 @@
       "runup": 3.69,
       "ret1": 38.95,
       "ret3": 45.25,
-      "market_cap": 78750392,
+      "market_cap": 71786072,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13134,7 +13238,7 @@
       "runup": -0.99,
       "ret1": 2,
       "ret3": -3,
-      "market_cap": 18706956,
+      "market_cap": 17491004,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13147,7 +13251,7 @@
       "runup": 0,
       "ret1": -0.85,
       "ret3": 0.42,
-      "market_cap": 61094588,
+      "market_cap": 61975760,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13173,7 +13277,7 @@
       "runup": 3.91,
       "ret1": 1.5,
       "ret3": 3.01,
-      "market_cap": 100009840,
+      "market_cap": 99147688,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13199,7 +13303,7 @@
       "runup": 11.3,
       "ret1": -2.32,
       "ret3": 0.09,
-      "market_cap": 58881240,
+      "market_cap": 56908144,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13212,7 +13316,7 @@
       "runup": 0.48,
       "ret1": 12.8,
       "ret3": 18.48,
-      "market_cap": 90312720,
+      "market_cap": 89491696,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13225,7 +13329,7 @@
       "runup": 2.22,
       "ret1": -4.78,
       "ret3": -22.15,
-      "market_cap": 260855312,
+      "market_cap": 254616176,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13238,7 +13342,7 @@
       "runup": 4.73,
       "ret1": 1.69,
       "ret3": 0.28,
-      "market_cap": 27710438,
+      "market_cap": 27358558,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13251,7 +13355,7 @@
       "runup": 2.28,
       "ret1": -14.04,
       "ret3": 1.34,
-      "market_cap": 220190128,
+      "market_cap": 201261504,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13277,7 +13381,7 @@
       "runup": 9.71,
       "ret1": 54.87,
       "ret3": 36.28,
-      "market_cap": 61126048,
+      "market_cap": 62484400,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13290,7 +13394,7 @@
       "runup": -2.14,
       "ret1": 1.71,
       "ret3": -0.36,
-      "market_cap": 18244569088,
+      "market_cap": 17759252480,
       "currency": "USD",
       "surprise_pct": -4.52,
       "beat": false
@@ -13303,7 +13407,7 @@
       "runup": 23.22,
       "ret1": 7.6,
       "ret3": 9.65,
-      "market_cap": 1426335232,
+      "market_cap": 1390013184,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13316,7 +13420,7 @@
       "runup": 0.07,
       "ret1": -1.23,
       "ret3": -4.72,
-      "market_cap": 3856062464,
+      "market_cap": 3855032064,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13329,7 +13433,7 @@
       "runup": -7.5,
       "ret1": -1.35,
       "ret3": -2.7,
-      "market_cap": 3782381,
+      "market_cap": 3657519,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13342,7 +13446,7 @@
       "runup": -4.12,
       "ret1": -10.52,
       "ret3": 3.59,
-      "market_cap": 73409392,
+      "market_cap": 68122952,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13355,7 +13459,7 @@
       "runup": -0.54,
       "ret1": -1.63,
       "ret3": 4.61,
-      "market_cap": 147432064,
+      "market_cap": 149038960,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13368,7 +13472,7 @@
       "runup": 9.5,
       "ret1": 11.1,
       "ret3": 25.77,
-      "market_cap": 12768961536,
+      "market_cap": 11831146496,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13394,7 +13498,7 @@
       "runup": -2.04,
       "ret1": -9.72,
       "ret3": -9.03,
-      "market_cap": 87786800,
+      "market_cap": 84899072,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13420,7 +13524,7 @@
       "runup": -0.86,
       "ret1": -4.78,
       "ret3": -2.61,
-      "market_cap": 474603456,
+      "market_cap": 454359712,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13433,7 +13537,7 @@
       "runup": -5.65,
       "ret1": -2.56,
       "ret3": -7.69,
-      "market_cap": 12021124,
+      "market_cap": 12231734,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13446,7 +13550,7 @@
       "runup": 34.54,
       "ret1": -1.71,
       "ret3": 3.91,
-      "market_cap": 147459728,
+      "market_cap": 156640112,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13459,7 +13563,7 @@
       "runup": -4.45,
       "ret1": -5.08,
       "ret3": -5.08,
-      "market_cap": 280878176,
+      "market_cap": 260917312,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13472,7 +13576,7 @@
       "runup": 2.15,
       "ret1": -5.37,
       "ret3": -14.02,
-      "market_cap": 20950758,
+      "market_cap": 21123060,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13485,7 +13589,7 @@
       "runup": -0.9,
       "ret1": -8.53,
       "ret3": -5.96,
-      "market_cap": 309409792,
+      "market_cap": 316386336,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13498,7 +13602,7 @@
       "runup": 0,
       "ret1": -4.76,
       "ret3": -4.76,
-      "market_cap": 24084260,
+      "market_cap": 23482154,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13511,7 +13615,7 @@
       "runup": 12.11,
       "ret1": -11,
       "ret3": 6,
-      "market_cap": 109724056,
+      "market_cap": 106339248,
       "currency": "USD",
       "surprise_pct": -190,
       "beat": false
@@ -13524,7 +13628,7 @@
       "runup": 7.09,
       "ret1": -0.28,
       "ret3": 0.47,
-      "market_cap": 115651784,
+      "market_cap": 113620824,
       "currency": "USD",
       "surprise_pct": 4.35,
       "beat": true
@@ -13537,7 +13641,7 @@
       "runup": 2.89,
       "ret1": -8.43,
       "ret3": -11.24,
-      "market_cap": 16426002,
+      "market_cap": 16909120,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13550,7 +13654,7 @@
       "runup": 5,
       "ret1": -12.7,
       "ret3": -4.76,
-      "market_cap": 1207691,
+      "market_cap": 1154015,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13576,7 +13680,7 @@
       "runup": -3.23,
       "ret1": 5,
       "ret3": -5,
-      "market_cap": 50369756,
+      "market_cap": 56321308,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13589,7 +13693,7 @@
       "runup": 4.42,
       "ret1": -2.82,
       "ret3": 36.72,
-      "market_cap": 15403634,
+      "market_cap": 15984903,
       "currency": "USD",
       "surprise_pct": -19.44,
       "beat": false
@@ -13602,7 +13706,7 @@
       "runup": 1.92,
       "ret1": -13.16,
       "ret3": -1.5,
-      "market_cap": 70431944,
+      "market_cap": 65956336,
       "currency": "USD",
       "surprise_pct": -70.88,
       "beat": false
@@ -13615,7 +13719,7 @@
       "runup": -2.57,
       "ret1": -0.83,
       "ret3": 4.3,
-      "market_cap": 246720864,
+      "market_cap": 244064384,
       "currency": "USD",
       "surprise_pct": 209.09,
       "beat": true
@@ -13628,7 +13732,7 @@
       "runup": 0,
       "ret1": 36.36,
       "ret3": 4.55,
-      "market_cap": 546991,
+      "market_cap": 566526,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13641,7 +13745,7 @@
       "runup": 5.3,
       "ret1": 4.66,
       "ret3": 1.21,
-      "market_cap": 1606977280,
+      "market_cap": 1602807936,
       "currency": "USD",
       "surprise_pct": 26.69,
       "beat": true
@@ -13654,7 +13758,7 @@
       "runup": 0.96,
       "ret1": -2.05,
       "ret3": -3,
-      "market_cap": 5911560,
+      "market_cap": 5941168,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13680,7 +13784,7 @@
       "runup": 2381.82,
       "ret1": -24.91,
       "ret3": -29.3,
-      "market_cap": 7632322,
+      "market_cap": 6265420,
       "currency": "USD",
       "surprise_pct": -42.22,
       "beat": false
@@ -13706,7 +13810,7 @@
       "runup": 4.05,
       "ret1": -19.01,
       "ret3": -22.79,
-      "market_cap": 240331440,
+      "market_cap": 246949264,
       "currency": "USD",
       "surprise_pct": -244.25,
       "beat": false
@@ -13719,7 +13823,7 @@
       "runup": 1.65,
       "ret1": -23.08,
       "ret3": -18.62,
-      "market_cap": 31576636,
+      "market_cap": 29130558,
       "currency": "USD",
       "surprise_pct": 12.02,
       "beat": true
@@ -13732,7 +13836,7 @@
       "runup": -12.93,
       "ret1": -2.47,
       "ret3": 8.16,
-      "market_cap": 4341496,
+      "market_cap": 3919585,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13745,7 +13849,7 @@
       "runup": -12.31,
       "ret1": -9.28,
       "ret3": -12.38,
-      "market_cap": 90144896,
+      "market_cap": 86890568,
       "currency": "USD",
       "surprise_pct": -5,
       "beat": false
@@ -13758,7 +13862,7 @@
       "runup": 0.98,
       "ret1": 19.49,
       "ret3": 8.28,
-      "market_cap": 431896256,
+      "market_cap": 425331040,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13771,7 +13875,7 @@
       "runup": 0.14,
       "ret1": 1.81,
       "ret3": 1.13,
-      "market_cap": 96936056,
+      "market_cap": 94638536,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13810,7 +13914,7 @@
       "runup": -0.2,
       "ret1": 0.48,
       "ret3": 3.37,
-      "market_cap": 411686464,
+      "market_cap": 407183072,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -13823,7 +13927,7 @@
       "runup": 0,
       "ret1": -2.54,
       "ret3": -0.85,
-      "market_cap": 62195928,
+      "market_cap": 65749984,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
