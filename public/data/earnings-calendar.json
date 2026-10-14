@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-14T13:55:03.613Z",
-  "count": 1334,
+  "generated_at": "2026-10-14T18:16:54.360Z",
+  "count": 1325,
   "events": [
     {
       "ticker": "ALOY",
@@ -173,7 +173,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": -152
     },
     {
       "ticker": "AURIQUE",
@@ -186,7 +187,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 209.2
     },
     {
       "ticker": "BACPHAR",
@@ -214,7 +216,8 @@
       "timing_source": "default",
       "concall_datetime_utc": "2026-10-15T05:00:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55c547ce-1723-4996-bdd0-8d4644ebfaf5.pdf"
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55c547ce-1723-4996-bdd0-8d4644ebfaf5.pdf",
+      "eps_yoy_pct": 65.74
     },
     {
       "ticker": "BHEL",
@@ -240,7 +243,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 7.22
     },
     {
       "ticker": "CANBK",
@@ -270,20 +274,8 @@
       "earnings_time_confirmed": true,
       "concall_datetime_utc": "2026-10-15T10:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff87fc75-d23f-4f66-a211-17d0f43fecdb.pdf"
-    },
-    {
-      "ticker": "ELECON",
-      "market": "IN",
-      "company": "Elecon Engineering Company Ltd",
-      "bse_code": "505700",
-      "earnings_date": "2026-10-14",
-      "earnings_datetime_utc": "2026-10-14T07:46:30.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff87fc75-d23f-4f66-a211-17d0f43fecdb.pdf",
+      "eps_yoy_pct": -39.78
     },
     {
       "ticker": "EMMVEE",
@@ -299,7 +291,8 @@
       "earnings_time_confirmed": true,
       "concall_datetime_utc": "2026-10-15T10:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce8e7f9c-f0d5-4155-90eb-2160167f4757.pdf"
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce8e7f9c-f0d5-4155-90eb-2160167f4757.pdf",
+      "eps_yoy_pct": 37.66
     },
     {
       "ticker": "GROWW",
@@ -314,73 +307,6 @@
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
       "eps_yoy_pct": 46.84
-    },
-    {
-      "ticker": "HATHWAY",
-      "market": "IN",
-      "company": "Hathway Cable & Datacom Ltd",
-      "bse_code": "533162",
-      "earnings_date": "2026-10-14",
-      "earnings_datetime_utc": "2026-10-14T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "HDBFS",
-      "market": "IN",
-      "company": "HDB Financial Services Ltd",
-      "bse_code": "544429",
-      "earnings_date": "2026-10-14",
-      "earnings_datetime_utc": "2026-10-14T10:30:46.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 33.95
-    },
-    {
-      "ticker": "ICICIGI",
-      "market": "IN",
-      "company": "ICICI Lombard General Insurance Company Ltd",
-      "bse_code": "540716",
-      "earnings_date": "2026-10-14",
-      "earnings_datetime_utc": "2026-10-14T13:52:50.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-14T13:45:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d4e01ce-a501-4a49-b354-8ef26fd249aa.pdf"
-    },
-    {
-      "ticker": "INDUSFINL",
-      "market": "IN",
-      "company": "Indus Finance Ltd",
-      "bse_code": "531841",
-      "earnings_date": "2026-10-14",
-      "earnings_datetime_utc": "2026-10-14T13:03:15.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "MRPL",
-      "market": "IN",
-      "company": "Mangalore Refinery and Petrochemicals Ltd",
-      "bse_code": "500109",
-      "earnings_date": "2026-10-14",
-      "earnings_datetime_utc": "2026-10-14T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
     },
     {
       "ticker": "NATURO",
@@ -433,19 +359,6 @@
       "earnings_time_confirmed": true
     },
     {
-      "ticker": "SECURCRED",
-      "market": "IN",
-      "company": "SecUR Credentials Ltd",
-      "bse_code": "543625",
-      "earnings_date": "2026-10-14",
-      "earnings_datetime_utc": "2026-10-14T13:52:15.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
       "ticker": "SONA",
       "market": "IN",
       "company": "Sonaselection India Ltd",
@@ -469,7 +382,8 @@
       "confirmed": true,
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
+      "earnings_time_confirmed": true,
+      "eps_yoy_pct": 66.67
     },
     {
       "ticker": "TATATECH",
@@ -483,9 +397,6 @@
       "source": "bse:forth_results",
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-14T13:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afef0e17-9388-4ccd-b473-7c90540e1b17.pdf",
       "eps_yoy_pct": 3.43
     },
     {
@@ -501,30 +412,6 @@
       "timing_source": "bse:outcome",
       "earnings_time_confirmed": true,
       "eps_yoy_pct": 26.34
-    },
-    {
-      "ticker": "TTLEL",
-      "market": "IN",
-      "company": "TTL Enterprises Ltd",
-      "bse_code": "514236",
-      "earnings_date": "2026-10-14",
-      "earnings_datetime_utc": "2026-10-14T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "VIJIFIN",
-      "market": "IN",
-      "company": "Viji Finance Ltd",
-      "bse_code": "537820",
-      "earnings_date": "2026-10-14",
-      "earnings_datetime_utc": "2026-10-14T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
     },
     {
       "ticker": "AA",
@@ -2106,7 +1993,10 @@
       "earnings_datetime_utc": "2026-10-16T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-16T13:45:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd181abf-eae6-4079-a0ae-e2459b2c42cf.pdf"
     },
     {
       "ticker": "TIGERLOGS",
@@ -2881,7 +2771,10 @@
       "earnings_datetime_utc": "2026-10-19T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-21T10:30:00.000Z",
+      "concall_title": "Q2 FY2027 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4492e9e9-61c3-40f2-ab29-30b141261141.pdf"
     },
     {
       "ticker": "GOCLCORP",
