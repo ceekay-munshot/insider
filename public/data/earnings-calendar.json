@@ -1,528 +1,7 @@
 {
-  "generated_at": "2026-10-21T14:00:52.104Z",
-  "count": 2084,
+  "generated_at": "2026-10-21T18:48:23.267Z",
+  "count": 2066,
   "events": [
-    {
-      "ticker": "ABSLAMC",
-      "market": "IN",
-      "company": "Aditya Birla Sun Life AMC Ltd",
-      "bse_code": "543374",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T08:38:21.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "ACGL",
-      "market": "IN",
-      "company": "Automobile Corporation of Goa Ltd",
-      "bse_code": "505036",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T12:21:43.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "ADANIGREEN",
-      "market": "IN",
-      "company": "Adani Green Energy Ltd",
-      "bse_code": "541450",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T08:49:47.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-22T05:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2b374f5-b4c0-4ef6-8077-0e9069196724.pdf",
-      "eps_yoy_pct": 15.54
-    },
-    {
-      "ticker": "ADOR",
-      "market": "IN",
-      "company": "Ador Welding Ltd",
-      "bse_code": "517041",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T09:49:41.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-23T06:00:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c2d6426-ea10-4f58-8a61-80ed59073288.pdf",
-      "eps_yoy_pct": 7.72
-    },
-    {
-      "ticker": "APTANN",
-      "market": "IN",
-      "company": "Andhra Pradesh Tanneries Ltd",
-      "bse_code": "509367",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T13:58:41.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "AYE",
-      "market": "IN",
-      "company": "Aye Finance Ltd",
-      "bse_code": "544699",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T06:18:35.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-22T04:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05ea8419-1c9a-4f83-ab66-0bbb26d4a57b.pdf",
-      "eps_yoy_pct": 96.67
-    },
-    {
-      "ticker": "DBSTOCKBRO",
-      "market": "IN",
-      "company": "DB International Stock Brokers Ltd",
-      "bse_code": "530393",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T11:24:09.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "DIGJAMLMTD",
-      "market": "IN",
-      "company": "Digjam Ltd",
-      "bse_code": "539979",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "EENTER",
-      "market": "IN",
-      "company": "E & E Enterprises Ltd",
-      "bse_code": "501386",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:25:25.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": -140.9
-    },
-    {
-      "ticker": "ETERNAL",
-      "market": "IN",
-      "company": "Eternal Ltd",
-      "bse_code": "543320",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T09:52:22.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 100
-    },
-    {
-      "ticker": "GOLDLEG",
-      "market": "IN",
-      "company": "Golden Legand Leasing & finance Ltd",
-      "bse_code": "509024",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "IGIL",
-      "market": "IN",
-      "company": "International Gemological Institute Ltd",
-      "bse_code": "544311",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T11:16:21.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 43.33
-    },
-    {
-      "ticker": "INDHOTEL",
-      "market": "IN",
-      "company": "Indian Hotels Company Ltd",
-      "bse_code": "500850",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T11:30:16.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-21T13:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5486e7f-2cea-4abe-b885-1393d9cf7631.pdf",
-      "eps_yoy_pct": 23
-    },
-    {
-      "ticker": "INFINITY",
-      "market": "IN",
-      "company": "Infinity Infoway Ltd",
-      "bse_code": "544567",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T06:39:30.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-22T10:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e661935b-a849-4de5-b4c7-73a52f7f700b.pdf",
-      "eps_yoy_pct": 27.56
-    },
-    {
-      "ticker": "KEI",
-      "market": "IN",
-      "company": "KEI Industries Ltd",
-      "bse_code": "517569",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T11:51:03.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-22T06:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52dd4b70-405e-4195-a919-0d55bbf70938.pdf"
-    },
-    {
-      "ticker": "KEYCORP",
-      "market": "IN",
-      "company": "Key Corporation Ltd",
-      "bse_code": "507948",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "eps_yoy_pct": 52
-    },
-    {
-      "ticker": "LMW",
-      "market": "IN",
-      "company": "LMW Ltd",
-      "bse_code": "500252",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T09:00:46.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "M&MFIN",
-      "market": "IN",
-      "company": "Mahindra & Mahindra Financial Services Ltd",
-      "bse_code": "532720",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T12:15:20.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-11-05T10:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06d7ee7d-54f0-4212-a569-d8a00d986150.pdf"
-    },
-    {
-      "ticker": "MARATHON",
-      "market": "IN",
-      "company": "Marathon Nextgen Realty Ltd",
-      "bse_code": "503101",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-10-23T05:00:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd6dce72-e5ab-4a6f-af41-7bfd6bbe3a17.pdf"
-    },
-    {
-      "ticker": "ORIRAIL",
-      "market": "IN",
-      "company": "Oriental Rail Infrastructure Ltd",
-      "bse_code": "531859",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T08:40:40.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-24T06:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79ae3131-f187-4d0e-8d7a-5c8d77a291a1.pdf",
-      "eps_yoy_pct": 43.4
-    },
-    {
-      "ticker": "PCJEWELLER",
-      "market": "IN",
-      "company": "PC Jeweller Ltd",
-      "bse_code": "534809",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T12:45:30.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "PILITA",
-      "market": "IN",
-      "company": "Pil Italica Lifestyle Ltd",
-      "bse_code": "500327",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:54:09.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": -80
-    },
-    {
-      "ticker": "RAJRATAN",
-      "market": "IN",
-      "company": "Rajratan Global Wire Ltd",
-      "bse_code": "517522",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:49:20.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-22T10:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f8e7e85-b27a-40df-b86f-2705017ba21d.pdf",
-      "eps_yoy_pct": 17.53
-    },
-    {
-      "ticker": "RITESHIN",
-      "market": "IN",
-      "company": "Ritesh International Ltd",
-      "bse_code": "519097",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T09:09:10.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 164.52
-    },
-    {
-      "ticker": "SEL",
-      "market": "IN",
-      "company": "Sanathnagar Enterprises Ltd",
-      "bse_code": "509423",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:33:51.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": -700
-    },
-    {
-      "ticker": "SHANTAI",
-      "market": "IN",
-      "company": "Shantai Industries Ltd",
-      "bse_code": "512297",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "SHEKHAWATI",
-      "market": "IN",
-      "company": "Shekhawati Industries Ltd",
-      "bse_code": "533301",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T12:49:11.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "SRF",
-      "market": "IN",
-      "company": "SRF Ltd",
-      "bse_code": "503806",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "SUMERUIND",
-      "market": "IN",
-      "company": "Sumeru Industries Ltd",
-      "bse_code": "530445",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:15:36.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "SWASTIKA",
-      "market": "IN",
-      "company": "Swastika Investmart Ltd",
-      "bse_code": "530585",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "SWASTIKAIN",
-      "market": "IN",
-      "company": "Swastika Infra Ltd",
-      "bse_code": "544949",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:02:49.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 43.28
-    },
-    {
-      "ticker": "VIRTUALG",
-      "market": "IN",
-      "company": "Virtual Global Education Ltd",
-      "bse_code": "534741",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "VMM",
-      "market": "IN",
-      "company": "Vishal Mega Mart Ltd",
-      "bse_code": "544307",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T07:32:00.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 3.03
-    },
-    {
-      "ticker": "WAAREEINDO",
-      "market": "IN",
-      "company": "Indosolar Ltd",
-      "bse_code": "533257",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T13:53:23.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "WELSPLSOL",
-      "market": "IN",
-      "company": "Welspun Specialty Solutions Ltd",
-      "bse_code": "500365",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T09:39:30.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "WENDT",
-      "market": "IN",
-      "company": "Wendt (India) Ltd",
-      "bse_code": "505412",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T08:35:38.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 103.33
-    },
-    {
-      "ticker": "YASHHV",
-      "market": "IN",
-      "company": "Yash Highvoltage Ltd",
-      "bse_code": "544310",
-      "earnings_date": "2026-10-21",
-      "earnings_datetime_utc": "2026-10-21T09:55:31.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 154.07
-    },
     {
       "ticker": "ABHIFIN",
       "market": "IN",
@@ -532,7 +11,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ACCELYA",
@@ -543,7 +23,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ADANIENSOL",
@@ -555,6 +36,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-23T05:30:00.000Z",
       "concall_title": "H1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8c029fe-bf90-4dd5-9a98-88607d04d6ea.pdf"
@@ -569,6 +51,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-23T07:00:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4987d32-6f43-4e43-abe9-fccd1b6884aa.pdf"
@@ -582,7 +65,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "BLUESTONE",
@@ -594,6 +78,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-23T06:00:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37c32734-5447-4b79-a68f-350ef1756cb6.pdf"
@@ -607,7 +92,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "CIEINDIA",
@@ -619,6 +105,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-22T12:30:00.000Z",
       "concall_title": "Q3CY26 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52888534-eff1-4d21-a7b3-c38c81939252.pdf"
@@ -632,7 +119,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "CONTPTR",
@@ -643,7 +131,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "CREDITACC",
@@ -655,6 +144,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-22T13:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5892275f-96c9-4c8d-9d7f-7160abcc89f8.pdf"
@@ -668,7 +158,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "CYIENT",
@@ -680,6 +171,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-22T11:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=989c423b-b9a0-48df-a37e-db32be4a13b0.pdf"
@@ -693,7 +185,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "FAIRCHEMOR",
@@ -705,6 +198,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-23T10:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbb29259-6a16-4826-bc8c-717efa627e95.pdf"
@@ -718,7 +212,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "GHUSHINE",
@@ -729,7 +224,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "GHVINFRA",
@@ -740,7 +236,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "GRWRHITECH",
@@ -752,6 +249,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-23T06:00:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3456de3-f67f-4657-864e-f72341b5ace8.pdf"
@@ -765,7 +263,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "HAVELLS",
@@ -777,6 +276,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-22T10:45:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb82cdcf-9675-4630-8b33-f32e6e126be9.pdf"
@@ -790,7 +290,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "INDOTHAI",
@@ -801,7 +302,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "J&KBANK",
@@ -812,7 +314,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "JSL",
@@ -824,6 +327,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-23T09:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b90ae5e5-4dca-41e5-9200-9ed9ef132344.pdf"
@@ -837,7 +341,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "LLFICL",
@@ -848,7 +353,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "MAHANIN",
@@ -859,7 +365,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "MAHLIFE",
@@ -870,7 +377,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "MAHSCOOTER",
@@ -881,7 +389,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "MEGRISOFT",
@@ -892,7 +401,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "MIDPOLY",
@@ -903,7 +413,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "NAM-INDIA",
@@ -914,7 +425,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "NATIONSTD",
@@ -925,7 +437,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "NUVOCO",
@@ -936,7 +449,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ORIENTCEM",
@@ -948,6 +462,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-29T11:00:00.000Z",
       "concall_title": "H1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1690f9a6-08f6-480a-a2d3-836728552306.pdf"
@@ -961,7 +476,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "PAISALO",
@@ -973,6 +489,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-22T10:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39b986e2-79ed-408f-ac73-f14b066246ca.pdf"
@@ -986,7 +503,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "PITTIENG",
@@ -998,6 +516,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-23T08:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d58b1598-b2e4-4b65-87d6-b092c563143b.pdf"
@@ -1012,6 +531,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-23T05:00:00.000Z",
       "concall_title": "H1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ee47054-bd8e-4feb-96ca-b04ffea47997.pdf"
@@ -1025,7 +545,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "RALLIS",
@@ -1037,6 +558,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-23T05:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8cb64d37-5e36-473d-b3b9-d93685771cbe.pdf"
@@ -1050,7 +572,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SAGILITY",
@@ -1062,6 +585,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-22T14:00:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d13e24ed-b5ae-4343-a6fe-3fa873ec6384.pdf"
@@ -1076,6 +600,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-22T10:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21dc45d9-de61-4bc3-ac2c-263a53349d96.pdf"
@@ -1089,7 +614,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SBL",
@@ -1100,7 +626,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SCL",
@@ -1111,7 +638,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SKYLMILAR",
@@ -1122,7 +650,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SMEL",
@@ -1133,7 +662,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SWADHATURE",
@@ -1144,7 +674,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SWIGGY",
@@ -1156,6 +687,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-22T11:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08fa628a-a7d2-4f6e-afed-e877eeb56b02.pdf"
@@ -1169,7 +701,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "TINNARUBR",
@@ -1181,6 +714,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-26T09:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2524779-931e-43dd-b730-d6d219d9cfc3.pdf"
@@ -1194,7 +728,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "TRISHAKT",
@@ -1206,6 +741,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-23T10:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1bf24c5-16a6-4b07-bf10-8d4c4759b2f8.pdf"
@@ -1219,7 +755,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "VGL",
@@ -1230,7 +767,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "WALCHPF",
@@ -1241,7 +779,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ZEELEARN",
@@ -1252,7 +791,8 @@
       "earnings_datetime_utc": "2026-10-22T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ADANIPOWER",
@@ -1795,7 +1335,10 @@
       "earnings_datetime_utc": "2026-10-23T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-26T10:00:00.000Z",
+      "concall_title": "Q1 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53121e46-1599-403c-a0fd-c56c7953fbcc.pdf"
     },
     {
       "ticker": "SBICARD",
@@ -2993,17 +2536,6 @@
       "source": "bse:forth_results"
     },
     {
-      "ticker": "NDTV",
-      "market": "IN",
-      "company": "New Delhi Television Ltd",
-      "bse_code": "532529",
-      "earnings_date": "2026-10-26",
-      "earnings_datetime_utc": "2026-10-26T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results"
-    },
-    {
       "ticker": "NETRIPPLES",
       "market": "IN",
       "company": "Netripples Software Ltd",
@@ -3167,7 +2699,10 @@
       "earnings_datetime_utc": "2026-10-26T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-27T10:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d5f4df8-a930-4e8c-b71a-a913484814c4.pdf"
     },
     {
       "ticker": "SUPREMEIND",
@@ -3863,7 +3398,10 @@
       "earnings_datetime_utc": "2026-10-27T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-29T05:00:00.000Z",
+      "concall_title": "Q3 2026 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffb2d083-d3c1-4bc1-9940-ff7036da0dab.pdf"
     },
     {
       "ticker": "SGMART",
@@ -6174,376 +5712,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "RMNI",
-      "market": "US",
-      "company": "RMNI",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "ROKU",
-      "market": "US",
-      "company": "ROKU",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "RRBI",
-      "market": "US",
-      "company": "RRBI",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "RSI",
-      "market": "US",
-      "company": "RSI",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "RYZ",
-      "market": "US",
-      "company": "RYZ",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SCI",
-      "market": "US",
-      "company": "SCI",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SCL",
-      "market": "US",
-      "company": "SCL",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SEM",
-      "market": "US",
-      "company": "SEM",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SFM",
-      "market": "US",
-      "company": "SFM",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SHEN",
-      "market": "US",
-      "company": "SHEN",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SIMO",
-      "market": "US",
-      "company": "SIMO",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SITE",
-      "market": "US",
-      "company": "SITE",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SOMC",
-      "market": "US",
-      "company": "SOMC",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SOUB",
-      "market": "US",
-      "company": "SOUB",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SRGZ",
-      "market": "US",
-      "company": "SRGZ",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SSBI",
-      "market": "US",
-      "company": "SSBI",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "STNG",
-      "market": "US",
-      "company": "STNG",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "STRL",
-      "market": "US",
-      "company": "STRL",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "SYBT",
-      "market": "US",
-      "company": "SYBT",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TAL",
-      "market": "US",
-      "company": "TAL",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TALK",
-      "market": "US",
-      "company": "TALK",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TDAY",
-      "market": "US",
-      "company": "TDAY",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TDOC",
-      "market": "US",
-      "company": "TDOC",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TEL",
-      "market": "US",
-      "company": "TEL",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TENB",
-      "market": "US",
-      "company": "TENB",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TEX",
-      "market": "US",
-      "company": "TEX",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "THG",
-      "market": "US",
-      "company": "THG",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TMUS",
-      "market": "US",
-      "company": "TMUS",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TR",
-      "market": "US",
-      "company": "TR",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TYL",
-      "market": "US",
-      "company": "TYL",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T20:15:00.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TZOO",
-      "market": "US",
-      "company": "TZOO",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "UE",
-      "market": "US",
-      "company": "UE",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "UFPI",
-      "market": "US",
-      "company": "UFPI",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "UHT",
-      "market": "US",
-      "company": "UHT",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "ULCC",
-      "market": "US",
-      "company": "ULCC",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": "2026-10-28T12:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "UVSP",
-      "market": "US",
-      "company": "UVSP",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "VFC",
-      "market": "US",
-      "company": "VFC",
-      "earnings_date": "2026-10-28",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "AARTIPHARM",
       "market": "IN",
       "company": "Aarti Pharmalabs Ltd",
@@ -6901,7 +6069,10 @@
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-28T14:15:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92e92773-634f-439a-a5b5-49edf8ce1984.pdf"
     },
     {
       "ticker": "MKEXIM",
@@ -12714,6 +11885,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "ADTN",
+      "market": "US",
+      "company": "ADTN",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "AEHR",
       "market": "US",
       "company": "AEHR",
@@ -12817,6 +11998,16 @@
       "ticker": "ALDX",
       "market": "US",
       "company": "ALDX",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "ALSN",
+      "market": "US",
+      "company": "ALSN",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -13154,6 +12345,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "CRD.B",
+      "market": "US",
+      "company": "CRD.B",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "CRGY",
       "market": "US",
       "company": "CRGY",
@@ -13190,16 +12391,6 @@
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "CVI",
-      "market": "US",
-      "company": "CVI",
-      "earnings_date": "2026-11-02",
-      "earnings_datetime_utc": "2026-11-02T21:15:00.000Z",
-      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -13294,6 +12485,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "ETR",
+      "market": "US",
+      "company": "ETR",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T13:00:00.000Z",
+      "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "EVER",
       "market": "US",
       "company": "EVER",
@@ -13320,6 +12521,16 @@
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": "2026-11-02T21:15:00.000Z",
       "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "FN",
+      "market": "US",
+      "company": "FN",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -13577,6 +12788,16 @@
       "ticker": "JAN",
       "market": "US",
       "company": "JAN",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "JAZZ",
+      "market": "US",
+      "company": "JAZZ",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -13894,6 +13115,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "PAY",
+      "market": "US",
+      "company": "PAY",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T21:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "PCF",
       "market": "US",
       "company": "PCF",
@@ -14094,6 +13325,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "SIBN",
+      "market": "US",
+      "company": "SIBN",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "SILA",
       "market": "US",
       "company": "SILA",
@@ -14164,6 +13405,26 @@
       "source": "finnhub"
     },
     {
+      "ticker": "TBBB",
+      "market": "US",
+      "company": "TBBB",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T21:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "TCMD",
+      "market": "US",
+      "company": "TCMD",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "TEM",
       "market": "US",
       "company": "TEM",
@@ -14177,16 +13438,6 @@
       "ticker": "TKMO",
       "market": "US",
       "company": "TKMO",
-      "earnings_date": "2026-11-02",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "TRNS",
-      "market": "US",
-      "company": "TRNS",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -14254,16 +13505,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "UAN",
-      "market": "US",
-      "company": "UAN",
-      "earnings_date": "2026-11-02",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "UDR",
       "market": "US",
       "company": "UDR",
@@ -14297,6 +13538,16 @@
       "ticker": "UPWK",
       "market": "US",
       "company": "UPWK",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "UTL",
+      "market": "US",
+      "company": "UTL",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -14828,9 +14079,9 @@
       "source": "finnhub"
     },
     {
-      "ticker": "ADTN",
+      "ticker": "ADT",
       "market": "US",
-      "company": "ADTN",
+      "company": "ADT",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -14881,6 +14132,26 @@
       "ticker": "ALAB",
       "market": "US",
       "company": "ALAB",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "ALIT",
+      "market": "US",
+      "company": "ALIT",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T13:00:00.000Z",
+      "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "ALKS",
+      "market": "US",
+      "company": "ALKS",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -14978,6 +14249,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "AOMR",
+      "market": "US",
+      "company": "AOMR",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T13:00:00.000Z",
+      "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "APO",
       "market": "US",
       "company": "APO",
@@ -14994,6 +14275,16 @@
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": "2026-11-03T13:00:00.000Z",
       "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "ARDX",
+      "market": "US",
+      "company": "ARDX",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -15021,6 +14312,16 @@
       "ticker": "BALL",
       "market": "US",
       "company": "BALL",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "BETA",
+      "market": "US",
+      "company": "BETA",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -15148,6 +14449,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "CBLL",
+      "market": "US",
+      "company": "CBLL",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "CBNA",
       "market": "US",
       "company": "CBNA",
@@ -15211,6 +14522,16 @@
       "ticker": "CLVT",
       "market": "US",
       "company": "CLVT",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "CMCO",
+      "market": "US",
+      "company": "CMCO",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -15288,6 +14609,26 @@
       "source": "finnhub"
     },
     {
+      "ticker": "CVGI",
+      "market": "US",
+      "company": "CVGI",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "CVI",
+      "market": "US",
+      "company": "CVI",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T21:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "CVRX",
       "market": "US",
       "company": "CVRX",
@@ -15358,9 +14699,29 @@
       "source": "finnhub"
     },
     {
+      "ticker": "DOCN",
+      "market": "US",
+      "company": "DOCN",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T13:00:00.000Z",
+      "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "DRH",
       "market": "US",
       "company": "DRH",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "DT",
+      "market": "US",
+      "company": "DT",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -15401,6 +14762,16 @@
       "ticker": "ECOR",
       "market": "US",
       "company": "ECOR",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "EGHT",
+      "market": "US",
+      "company": "EGHT",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -15478,6 +14849,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "EVTC",
+      "market": "US",
+      "company": "EVTC",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T21:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "EXPD",
       "market": "US",
       "company": "EXPD",
@@ -15534,6 +14915,16 @@
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": "2026-11-03T13:00:00.000Z",
       "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "FLYW",
+      "market": "US",
+      "company": "FLYW",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T21:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -15601,6 +14992,16 @@
       "ticker": "FUND",
       "market": "US",
       "company": "FUND",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "FWRG",
+      "market": "US",
+      "company": "FWRG",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -15788,16 +15189,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "HRMY",
-      "market": "US",
-      "company": "HRMY",
-      "earnings_date": "2026-11-03",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "HRZN",
       "market": "US",
       "company": "HRZN",
@@ -15871,6 +15262,16 @@
       "ticker": "INN",
       "market": "US",
       "company": "INN",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "INNV",
+      "market": "US",
+      "company": "INNV",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -16078,6 +15479,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "LMB",
+      "market": "US",
+      "company": "LMB",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "LPX",
       "market": "US",
       "company": "LPX",
@@ -16144,6 +15555,16 @@
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "MDGL",
+      "market": "US",
+      "company": "MDGL",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T13:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -16218,6 +15639,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "MTW",
+      "market": "US",
+      "company": "MTW",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T21:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "MUX",
       "market": "US",
       "company": "MUX",
@@ -16228,9 +15659,9 @@
       "source": "finnhub"
     },
     {
-      "ticker": "NBN",
+      "ticker": "MZTI",
       "market": "US",
-      "company": "NBN",
+      "company": "MZTI",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -16284,6 +15715,16 @@
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "NVGS",
+      "market": "US",
+      "company": "NVGS",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T21:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -16668,6 +16109,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "SLDP",
+      "market": "US",
+      "company": "SLDP",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "SLRC",
       "market": "US",
       "company": "SLRC",
@@ -16721,6 +16172,16 @@
       "ticker": "SODI",
       "market": "US",
       "company": "SODI",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "SOPH",
+      "market": "US",
+      "company": "SOPH",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -16784,6 +16245,16 @@
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "SWKS",
+      "market": "US",
+      "company": "SWKS",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T21:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -16858,6 +16329,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "TOST",
+      "market": "US",
+      "company": "TOST",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T21:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "TPST",
       "market": "US",
       "company": "TPST",
@@ -16871,6 +16352,16 @@
       "ticker": "TRNO",
       "market": "US",
       "company": "TRNO",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "TRNS",
+      "market": "US",
+      "company": "TRNS",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -16911,6 +16402,26 @@
       "ticker": "TYRA",
       "market": "US",
       "company": "TYRA",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "UAN",
+      "market": "US",
+      "company": "UAN",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "ULS",
+      "market": "US",
+      "company": "ULS",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -16974,6 +16485,16 @@
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "VITL",
+      "market": "US",
+      "company": "VITL",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T13:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -17101,6 +16622,26 @@
       "ticker": "XHR",
       "market": "US",
       "company": "XHR",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "XIFR",
+      "market": "US",
+      "company": "XIFR",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T13:00:00.000Z",
+      "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "XMTR",
+      "market": "US",
+      "company": "XMTR",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -17969,6 +17510,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "AUDC",
+      "market": "US",
+      "company": "AUDC",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "AUR",
       "market": "US",
       "company": "AUR",
@@ -18082,16 +17633,6 @@
       "ticker": "BEPC",
       "market": "US",
       "company": "BEPC",
-      "earnings_date": "2026-11-04",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "BGC",
-      "market": "US",
-      "company": "BGC",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -18229,6 +17770,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "BRKR",
+      "market": "US",
+      "company": "BRKR",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T13:00:00.000Z",
+      "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "BROS",
       "market": "US",
       "company": "BROS",
@@ -18255,6 +17806,16 @@
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "BTU",
+      "market": "US",
+      "company": "BTU",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T13:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -18449,16 +18010,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "CMCO",
-      "market": "US",
-      "company": "CMCO",
-      "earnings_date": "2026-11-04",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "CMRE",
       "market": "US",
       "company": "CMRE",
@@ -18632,16 +18183,6 @@
       "ticker": "CRUS",
       "market": "US",
       "company": "CRUS",
-      "earnings_date": "2026-11-04",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "CVGI",
-      "market": "US",
-      "company": "CVGI",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -18829,16 +18370,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "EGHT",
-      "market": "US",
-      "company": "EGHT",
-      "earnings_date": "2026-11-04",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "ELF",
       "market": "US",
       "company": "ELF",
@@ -18899,22 +18430,22 @@
       "source": "finnhub"
     },
     {
-      "ticker": "ETR",
-      "market": "US",
-      "company": "ETR",
-      "earnings_date": "2026-11-04",
-      "earnings_datetime_utc": "2026-11-04T13:00:00.000Z",
-      "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "EW",
       "market": "US",
       "company": "EW",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T21:15:00.000Z",
       "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "EXP",
+      "market": "US",
+      "company": "EXP",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -19169,6 +18700,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "HCI",
+      "market": "US",
+      "company": "HCI",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "HCMC",
       "market": "US",
       "company": "HCMC",
@@ -19182,6 +18723,16 @@
       "ticker": "HMH",
       "market": "US",
       "company": "HMH",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "HRMY",
+      "market": "US",
+      "company": "HRMY",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -19599,16 +19150,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "LYTS",
-      "market": "US",
-      "company": "LYTS",
-      "earnings_date": "2026-11-04",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "MAC",
       "market": "US",
       "company": "MAC",
@@ -19655,16 +19196,6 @@
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T13:00:00.000Z",
       "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "MCHP",
-      "market": "US",
-      "company": "MCHP",
-      "earnings_date": "2026-11-04",
-      "earnings_datetime_utc": "2026-11-04T21:15:00.000Z",
-      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -19819,6 +19350,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "MSI",
+      "market": "US",
+      "company": "MSI",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "MTG",
       "market": "US",
       "company": "MTG",
@@ -19845,16 +19386,6 @@
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "MTW",
-      "market": "US",
-      "company": "MTW",
-      "earnings_date": "2026-11-04",
-      "earnings_datetime_utc": "2026-11-04T21:15:00.000Z",
-      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -19902,6 +19433,16 @@
       "ticker": "NAN",
       "market": "US",
       "company": "NAN",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "NATL",
+      "market": "US",
+      "company": "NATL",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -20119,16 +19660,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "OIS",
-      "market": "US",
-      "company": "OIS",
-      "earnings_date": "2026-11-04",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "OLPX",
       "market": "US",
       "company": "OLPX",
@@ -20322,16 +19853,6 @@
       "ticker": "PHUN",
       "market": "US",
       "company": "PHUN",
-      "earnings_date": "2026-11-04",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "PINS",
-      "market": "US",
-      "company": "PINS",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -20595,16 +20116,6 @@
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T13:00:00.000Z",
       "timing": "BMO",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "REZI",
-      "market": "US",
-      "company": "REZI",
-      "earnings_date": "2026-11-04",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -21399,6 +20910,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "VRDN",
+      "market": "US",
+      "company": "VRDN",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "VSEC",
       "market": "US",
       "company": "VSEC",
@@ -21582,6 +21103,26 @@
       "ticker": "XPER",
       "market": "US",
       "company": "XPER",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "XRN",
+      "market": "US",
+      "company": "XRN",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T21:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "XZO",
+      "market": "US",
+      "company": "XZO",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -22064,6 +21605,247 @@
       "bse_code": "532321",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "AMAGI",
+      "market": "IN",
+      "company": "Amagi Media Labs Ltd",
+      "bse_code": "544679",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-06T04:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca4c04c8-ce92-4b0f-9353-81982eb8352f.pdf"
+    },
+    {
+      "ticker": "BERGEPAINT",
+      "market": "IN",
+      "company": "Berger Paints India Ltd",
+      "bse_code": "509480",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "GAYAHWS",
+      "market": "IN",
+      "company": "Gayatri Highways Ltd",
+      "bse_code": "541546",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "GUJENERGY",
+      "market": "IN",
+      "company": "Gujarat Energy Ltd",
+      "bse_code": "539336",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "HCG",
+      "market": "IN",
+      "company": "HealthCare Global Enterprises Ltd",
+      "bse_code": "539787",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-06T07:00:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3541617d-4920-47ee-88f8-8df492a58aa5.pdf"
+    },
+    {
+      "ticker": "HINDHARD",
+      "market": "IN",
+      "company": "Hindustan Hardy Ltd",
+      "bse_code": "505893",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "INSECTICID",
+      "market": "IN",
+      "company": "Insecticides (India) Ltd",
+      "bse_code": "532851",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-05T11:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3304fbc8-5c74-4f3b-ab4b-7aba7ae34ccd.pdf"
+    },
+    {
+      "ticker": "IRIS",
+      "market": "IN",
+      "company": "IRIS RegTech Solutions Ltd",
+      "bse_code": "540735",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "LICI",
+      "market": "IN",
+      "company": "Life Insurance Corporation of India",
+      "bse_code": "543526",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "M&M",
+      "market": "IN",
+      "company": "Mahindra & Mahindra Ltd",
+      "bse_code": "500520",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06d7ee7d-54f0-4212-a569-d8a00d986150.pdf"
+    },
+    {
+      "ticker": "MPHASIS",
+      "market": "IN",
+      "company": "Mphasis Ltd",
+      "bse_code": "526299",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-06T03:00:00.000Z",
+      "concall_title": "Q2 FY2027 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90dd27ca-bed9-4133-83ce-6e7529e0845c.pdf"
+    },
+    {
+      "ticker": "MUTHOOTCAP",
+      "market": "IN",
+      "company": "Muthoot Capital Services Ltd",
+      "bse_code": "511766",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "NATPLAS",
+      "market": "IN",
+      "company": "National Plastic Industries Ltd",
+      "bse_code": "526616",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ORIENTPPR",
+      "market": "IN",
+      "company": "Orient Paper & Industries Ltd",
+      "bse_code": "502420",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "PRAXIS",
+      "market": "IN",
+      "company": "Praxis Home Retail Ltd",
+      "bse_code": "540901",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "RISHIROOP",
+      "market": "IN",
+      "company": "Rishiroop Ltd",
+      "bse_code": "526492",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SAILIFE",
+      "market": "IN",
+      "company": "Sai Life Sciences Ltd",
+      "bse_code": "544306",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-06T05:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f608040-22a3-40e3-b146-a08684aff757.pdf"
+    },
+    {
+      "ticker": "TEAMLEASE",
+      "market": "IN",
+      "company": "TeamLease Services Ltd",
+      "bse_code": "539658",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-05T11:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30bf2d8a-ca79-4e48-ab7f-eab88743b78f.pdf"
+    },
+    {
+      "ticker": "THERMAX",
+      "market": "IN",
+      "company": "Thermax Ltd",
+      "bse_code": "500411",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "UGROCAP",
+      "market": "IN",
+      "company": "Ugro Capital Ltd",
+      "bse_code": "511742",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
