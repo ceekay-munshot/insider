@@ -1,260 +1,7 @@
 {
-  "generated_at": "2026-10-23T18:04:35.013Z",
-  "count": 2283,
+  "generated_at": "2026-10-23T21:33:41.342Z",
+  "count": 2462,
   "events": [
-    {
-      "ticker": "ASAL",
-      "market": "IN",
-      "company": "Automotive Stampings and Assemblies Ltd",
-      "bse_code": "520119",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:29:50.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "COFORGE",
-      "market": "IN",
-      "company": "Coforge Ltd",
-      "bse_code": "532541",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:42:41.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 18.25
-    },
-    {
-      "ticker": "DCBBANK",
-      "market": "IN",
-      "company": "DCB Bank Ltd",
-      "bse_code": "532772",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:04:49.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 25.68
-    },
-    {
-      "ticker": "GNA",
-      "market": "IN",
-      "company": "G N A Axles Ltd",
-      "bse_code": "540124",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "eps_yoy_pct": 41.13
-    },
-    {
-      "ticker": "GODREJPROP",
-      "market": "IN",
-      "company": "Godrej Properties Ltd",
-      "bse_code": "533150",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "eps_yoy_pct": -61.93
-    },
-    {
-      "ticker": "INDUSINDBK",
-      "market": "IN",
-      "company": "Indusind Bank Ltd",
-      "bse_code": "532187",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "eps_yoy_pct": 384.14
-    },
-    {
-      "ticker": "JINDALSTEL",
-      "market": "IN",
-      "company": "Jindal Steel Ltd",
-      "bse_code": "532286",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T09:40:07.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 21.37
-    },
-    {
-      "ticker": "JLHL",
-      "market": "IN",
-      "company": "Jupiter Life Line Hospitals Ltd",
-      "bse_code": "543980",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:37:38.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-26T04:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f64623b4-e636-47a8-b52c-b779ba15dfa4.pdf",
-      "eps_yoy_pct": -2.29
-    },
-    {
-      "ticker": "JSFB",
-      "market": "IN",
-      "company": "Jana Small Finance Bank Ltd",
-      "bse_code": "544118",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T09:36:58.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "MACIND",
-      "market": "IN",
-      "company": "Machhar Industries Ltd",
-      "bse_code": "543934",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:01:35.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 342.86
-    },
-    {
-      "ticker": "MASTEK",
-      "market": "IN",
-      "company": "Mastek Ltd",
-      "bse_code": "523704",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:12:01.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-26T02:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f33a4db-9757-48cc-bac9-7611bd8763c3.pdf",
-      "eps_yoy_pct": 8.36
-    },
-    {
-      "ticker": "REPRO",
-      "market": "IN",
-      "company": "Repro India Ltd",
-      "bse_code": "532687",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:06:04.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 76.37
-    },
-    {
-      "ticker": "SIMANDHAR",
-      "market": "IN",
-      "company": "Simandhar Impex Ltd",
-      "bse_code": "544662",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:00:38.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 82.5
-    },
-    {
-      "ticker": "SKMEGGPROD",
-      "market": "IN",
-      "company": "SKM Egg Products Export (India) Ltd",
-      "bse_code": "532143",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "eps_yoy_pct": -28.3
-    },
-    {
-      "ticker": "SKP",
-      "market": "IN",
-      "company": "Shri Krishna Prasadam Ltd",
-      "bse_code": "537954",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "eps_yoy_pct": -31.82
-    },
-    {
-      "ticker": "SPLPETRO",
-      "market": "IN",
-      "company": "Supreme Petrochem Ltd",
-      "bse_code": "500405",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T14:25:10.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "concall_datetime_utc": "2026-10-27T10:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33fa1ab5-4104-4ee9-8bde-54f64e549fa2.pdf",
-      "eps_yoy_pct": 99.22
-    },
-    {
-      "ticker": "TMCV",
-      "market": "IN",
-      "company": "Tata Motors Ltd",
-      "bse_code": "544569",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T10:26:48.000Z",
-      "timing": "AMC",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true
-    },
-    {
-      "ticker": "UNIFIED",
-      "market": "IN",
-      "company": "Unified Data Tech Solutions Ltd",
-      "bse_code": "544406",
-      "earnings_date": "2026-10-23",
-      "earnings_datetime_utc": "2026-10-23T09:36:55.000Z",
-      "timing": "INTRADAY",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "bse:outcome",
-      "earnings_time_confirmed": true,
-      "eps_yoy_pct": 63.02
-    },
     {
       "ticker": "3PLAND",
       "market": "IN",
@@ -264,7 +11,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "APOLLO",
@@ -276,6 +24,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-26T05:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02d75f04-b2ba-4246-8064-739f8800a14f.pdf"
@@ -289,7 +38,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "CASTROLIND",
@@ -301,6 +51,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-26T07:00:00.000Z",
       "concall_title": "Q3 FY26 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbdcb976-0d81-473e-8707-ecc7278761e1.pdf"
@@ -315,6 +66,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-24T09:30:00.000Z",
       "concall_title": "H1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f025592-dbd9-4073-ac20-ef65f770bb84.pdf"
@@ -328,7 +80,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "DACHEPALLI",
@@ -340,6 +93,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-28T10:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ebe0725b-db0b-4f44-8455-3eba6854b226.pdf"
@@ -347,13 +101,14 @@
     {
       "ticker": "DAMODARIND",
       "market": "IN",
-      "company": "Damodar Industries Ltd-$",
+      "company": "Damodar Industries Ltd",
       "bse_code": "521220",
       "earnings_date": "2026-10-24",
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "EVEXIA",
@@ -364,7 +119,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "GAEL",
@@ -375,7 +131,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "GERMAN",
@@ -386,7 +143,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "HIGHENE",
@@ -397,7 +155,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "IDFCFIRSTB",
@@ -409,6 +168,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-24T12:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/47844fa6-63b6-4f84-9edb-fa585ba2e040.pdf"
@@ -423,6 +183,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-27T06:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f869086-2b74-4472-b4c6-36aae0773d3e.pdf"
@@ -436,7 +197,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "KAJARIACER",
@@ -448,6 +210,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-26T03:30:00.000Z",
       "concall_title": "2QFY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37e87f8f-9e8a-44a2-a693-cb93327f3068.pdf"
@@ -462,6 +225,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-24T10:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be466d04-84ff-4e86-ac60-47a048969323.pdf"
@@ -476,6 +240,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-27T09:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1921b9ee-6a0d-4c32-b7c9-e2b1858d47a4.pdf"
@@ -490,6 +255,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-26T07:30:00.000Z",
       "concall_title": "Q2 & H1 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4d2e05c-f823-4d2a-ab81-7b62ea74892f.pdf"
@@ -503,7 +269,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "NETWEB",
@@ -515,6 +282,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-26T10:00:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eebe3b11-2171-471d-bda3-7937bf057070.pdf"
@@ -528,18 +296,20 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "PERMAGN",
       "market": "IN",
-      "company": "Permanent Magnets Ltd-$",
+      "company": "Permanent Magnets Ltd",
       "bse_code": "504132",
       "earnings_date": "2026-10-24",
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-24T09:30:00.000Z",
       "concall_title": "Q2 H1FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8693a3ae-ec75-4753-99ec-b909c4c4992d.pdf"
@@ -553,18 +323,20 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "RAJOOENG",
       "market": "IN",
-      "company": "Rajoo Engineers Ltd-$",
+      "company": "Rajoo Engineers Ltd",
       "bse_code": "522257",
       "earnings_date": "2026-10-24",
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SBFC",
@@ -576,6 +348,7 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
+      "timing_source": "default",
       "concall_datetime_utc": "2026-10-26T04:00:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9be472e-4a10-45fc-9d57-6bf42f57868a.pdf"
@@ -589,7 +362,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SESHAPAPER",
@@ -600,7 +374,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SHANGAR",
@@ -611,7 +386,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SJCORP",
@@ -622,7 +398,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SKPSEC",
@@ -633,7 +410,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SOVERDIA",
@@ -644,7 +422,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SVGLOBAL",
@@ -655,7 +434,8 @@
       "earnings_datetime_utc": "2026-10-24T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "BHARATCOAL",
@@ -826,7 +606,7 @@
     {
       "ticker": "ANTELOPUS",
       "market": "IN",
-      "company": "Antelopus Selan Energy Ltd-$",
+      "company": "Antelopus Selan Energy Ltd",
       "bse_code": "530075",
       "earnings_date": "2026-10-26",
       "earnings_datetime_utc": "2026-10-26T10:30:00.000Z",
@@ -923,7 +703,7 @@
     {
       "ticker": "BABA",
       "market": "IN",
-      "company": "Baba Arts Ltd-$",
+      "company": "Baba Arts Ltd",
       "bse_code": "532380",
       "earnings_date": "2026-10-26",
       "earnings_datetime_utc": "2026-10-26T10:30:00.000Z",
@@ -1446,7 +1226,7 @@
     {
       "ticker": "PARACABLES",
       "market": "IN",
-      "company": "Paramount Communications Ltd-$",
+      "company": "Paramount Communications Ltd",
       "bse_code": "530555",
       "earnings_date": "2026-10-26",
       "earnings_datetime_utc": "2026-10-26T10:30:00.000Z",
@@ -1579,7 +1359,7 @@
     {
       "ticker": "SHRIDINE",
       "market": "IN",
-      "company": "Shri Dinesh Mills Ltd-$",
+      "company": "Shri Dinesh Mills Ltd",
       "bse_code": "503804",
       "earnings_date": "2026-10-26",
       "earnings_datetime_utc": "2026-10-26T10:30:00.000Z",
@@ -1620,6 +1400,17 @@
       "market": "IN",
       "company": "Srit India Ltd",
       "bse_code": "544965",
+      "earnings_date": "2026-10-26",
+      "earnings_datetime_utc": "2026-10-26T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "STARLIT",
+      "market": "IN",
+      "company": "Starlit Power Systems Ltd",
+      "bse_code": "538733",
       "earnings_date": "2026-10-26",
       "earnings_datetime_utc": "2026-10-26T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -1729,7 +1520,7 @@
     {
       "ticker": "UGARSUGAR",
       "market": "IN",
-      "company": "Ugar Sugar Works Ltd-$",
+      "company": "Ugar Sugar Works Ltd",
       "bse_code": "530363",
       "earnings_date": "2026-10-26",
       "earnings_datetime_utc": "2026-10-26T10:30:00.000Z",
@@ -1787,7 +1578,7 @@
     {
       "ticker": "VIDHIING",
       "market": "IN",
-      "company": "Vidhi Specialty Food Ingredients Ltd-$",
+      "company": "Vidhi Specialty Food Ingredients Ltd",
       "bse_code": "531717",
       "earnings_date": "2026-10-26",
       "earnings_datetime_utc": "2026-10-26T10:30:00.000Z",
@@ -1909,7 +1700,7 @@
     {
       "ticker": "AMCOIND",
       "market": "IN",
-      "company": "Amco India Ltd-$",
+      "company": "Amco India Ltd",
       "bse_code": "530133",
       "earnings_date": "2026-10-27",
       "earnings_datetime_utc": "2026-10-27T10:30:00.000Z",
@@ -2014,7 +1805,7 @@
     {
       "ticker": "BBL",
       "market": "IN",
-      "company": "Bharat Bijlee Ltd-$",
+      "company": "Bharat Bijlee Ltd",
       "bse_code": "503960",
       "earnings_date": "2026-10-27",
       "earnings_datetime_utc": "2026-10-27T10:30:00.000Z",
@@ -2025,7 +1816,7 @@
     {
       "ticker": "BHARATSE",
       "market": "IN",
-      "company": "Bharat Seats Ltd-$",
+      "company": "Bharat Seats Ltd",
       "bse_code": "523229",
       "earnings_date": "2026-10-27",
       "earnings_datetime_utc": "2026-10-27T10:30:00.000Z",
@@ -2125,7 +1916,7 @@
     {
       "ticker": "DUNCANENG",
       "market": "IN",
-      "company": "Duncan Engineering Ltd-$",
+      "company": "Duncan Engineering Ltd",
       "bse_code": "504908",
       "earnings_date": "2026-10-27",
       "earnings_datetime_utc": "2026-10-27T10:30:00.000Z",
@@ -2306,6 +2097,17 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bb1a04e-51ac-4b69-a671-4c40d3b80e78.pdf"
     },
     {
+      "ticker": "INDOCRED",
+      "market": "IN",
+      "company": "Indo Credit Capital Ltd",
+      "bse_code": "526887",
+      "earnings_date": "2026-10-27",
+      "earnings_datetime_utc": "2026-10-27T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "INDUSTOWER",
       "market": "IN",
       "company": "Indus Towers Ltd",
@@ -2422,7 +2224,7 @@
     {
       "ticker": "KIRLOSBROS",
       "market": "IN",
-      "company": "Kirloskar Brothers Ltd-$",
+      "company": "Kirloskar Brothers Ltd",
       "bse_code": "500241",
       "earnings_date": "2026-10-27",
       "earnings_datetime_utc": "2026-10-27T10:30:00.000Z",
@@ -2900,7 +2702,7 @@
     {
       "ticker": "SIYSIL",
       "market": "IN",
-      "company": "Siyaram Silk Mills Ltd-$",
+      "company": "Siyaram Silk Mills Ltd",
       "bse_code": "503811",
       "earnings_date": "2026-10-27",
       "earnings_datetime_utc": "2026-10-27T10:30:00.000Z",
@@ -2939,7 +2741,7 @@
     {
       "ticker": "STERTOOLS",
       "market": "IN",
-      "company": "Sterling Tools Ltd-$",
+      "company": "Sterling Tools Ltd",
       "bse_code": "530759",
       "earnings_date": "2026-10-27",
       "earnings_datetime_utc": "2026-10-27T10:30:00.000Z",
@@ -3088,7 +2890,7 @@
     {
       "ticker": "UBL",
       "market": "IN",
-      "company": "United Breweries Ltd-$",
+      "company": "United Breweries Ltd",
       "bse_code": "532478",
       "earnings_date": "2026-10-27",
       "earnings_datetime_utc": "2026-10-27T10:30:00.000Z",
@@ -3291,7 +3093,7 @@
     {
       "ticker": "ANANTRAJ",
       "market": "IN",
-      "company": "Anant Raj Ltd-$",
+      "company": "Anant Raj Ltd",
       "bse_code": "515055",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
@@ -3309,6 +3111,20 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ARKADE",
+      "market": "IN",
+      "company": "Arkade Developers Ltd",
+      "bse_code": "544261",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1337f99-4e02-49f8-96eb-46f7e4bd3604.pdf"
     },
     {
       "ticker": "ARVIND",
@@ -3338,7 +3154,7 @@
     {
       "ticker": "BAJAJELEC",
       "market": "IN",
-      "company": "Bajaj Electricals Ltd-$",
+      "company": "Bajaj Electricals Ltd",
       "bse_code": "500031",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
@@ -3427,7 +3243,7 @@
     {
       "ticker": "CHANDRAP",
       "market": "IN",
-      "company": "Chandra Prabhu International Ltd-$",
+      "company": "Chandra Prabhu International Ltd",
       "bse_code": "530309",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
@@ -3471,7 +3287,7 @@
     {
       "ticker": "CONTROLPR",
       "market": "IN",
-      "company": "Control Print Ltd-$",
+      "company": "Control Print Ltd",
       "bse_code": "522295",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
@@ -3521,7 +3337,7 @@
     {
       "ticker": "DIAMINESQ",
       "market": "IN",
-      "company": "Diamines & Chemicals Ltd-$",
+      "company": "Diamines & Chemicals Ltd",
       "bse_code": "500120",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
@@ -3571,7 +3387,7 @@
     {
       "ticker": "ELANTAS",
       "market": "IN",
-      "company": "Elantas Beck India Ltd-$",
+      "company": "Elantas Beck India Ltd",
       "bse_code": "500123",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
@@ -3591,9 +3407,20 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "FABTECH",
+      "market": "IN",
+      "company": "Fabtech Technologies Ltd",
+      "bse_code": "544558",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "FORCEMOT",
       "market": "IN",
-      "company": "Force Motors Ltd-$",
+      "company": "Force Motors Ltd",
       "bse_code": "500033",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
@@ -3638,6 +3465,17 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03621c33-2248-4dde-b01c-05ecc1c4df6e.pdf"
     },
     {
+      "ticker": "GKL",
+      "market": "IN",
+      "company": "Guru Krupa Gems and Jewellery Ltd",
+      "bse_code": "540545",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "GLFL",
       "market": "IN",
       "company": "Gujarat Lease Financing Ltd",
@@ -3664,6 +3502,17 @@
       "market": "IN",
       "company": "Goodluck India Ltd",
       "bse_code": "530655",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "GRPLTD",
+      "market": "IN",
+      "company": "GRP Ltd",
+      "bse_code": "509152",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -3730,6 +3579,17 @@
       "concall_datetime_utc": "2026-10-28T11:00:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=556a70fc-da48-45f3-be77-441d92ccef44.pdf"
+    },
+    {
+      "ticker": "IIFLCAPS",
+      "market": "IN",
+      "company": "IIFL Capital Services Ltd",
+      "bse_code": "542773",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "INFOBEAN",
@@ -3872,6 +3732,17 @@
       "concall_datetime_utc": "2026-10-30T06:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9406dcc8-e8e0-4a5f-b288-20a303808586.pdf"
+    },
+    {
+      "ticker": "LADIAMO",
+      "market": "IN",
+      "company": "Laser Diamonds Ltd",
+      "bse_code": "531164",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "MANAKCOAT",
@@ -4021,6 +3892,28 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e695480b-c0bf-4460-b228-137f8b683719.pdf"
     },
     {
+      "ticker": "ORBTEXP",
+      "market": "IN",
+      "company": "Orbit Exports Ltd",
+      "bse_code": "512626",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ORGANICREC",
+      "market": "IN",
+      "company": "Organic Recycling Systems Ltd",
+      "bse_code": "543997",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "PIDILITIND",
       "market": "IN",
       "company": "Pidilite Industries Ltd",
@@ -4058,6 +3951,17 @@
       "concall_datetime_utc": "2026-10-29T09:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d74dd8e8-e148-4af6-9f3f-b459e972fec6.pdf"
+    },
+    {
+      "ticker": "PRUDENT",
+      "market": "IN",
+      "company": "Prudent Corporate Advisory Services Ltd",
+      "bse_code": "543527",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "PVRINOX",
@@ -4106,6 +4010,17 @@
       "market": "IN",
       "company": "Macfos Ltd",
       "bse_code": "543787",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "RRKABEL",
+      "market": "IN",
+      "company": "R R Kabel Ltd",
+      "bse_code": "543981",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -4193,9 +4108,31 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=073b157f-fad5-4a2e-b623-8669eb9e1827.pdf"
     },
     {
+      "ticker": "SCAGRO",
+      "market": "IN",
+      "company": "SC Agrotech Ltd",
+      "bse_code": "526081",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SCILAL",
+      "market": "IN",
+      "company": "Shipping Corporation of India Land and Assets Ltd",
+      "bse_code": "544142",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "SHALPAINTS",
       "market": "IN",
-      "company": "Shalimar Paints Ltd-$",
+      "company": "Shalimar Paints Ltd",
       "bse_code": "509874",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
@@ -4273,6 +4210,28 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "SMGOLD",
+      "market": "IN",
+      "company": "S. M. Gold Ltd",
+      "bse_code": "542034",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SMR",
+      "market": "IN",
+      "company": "SMR Jewels Ltd",
+      "bse_code": "544774",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "SNOWMAN",
       "market": "IN",
       "company": "Snowman Logistics Ltd",
@@ -4285,6 +4244,17 @@
       "concall_datetime_utc": "2026-10-28T10:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5bed57d-1740-497b-bcb6-aecc60ee9a41.pdf"
+    },
+    {
+      "ticker": "STANPACK",
+      "market": "IN",
+      "company": "Stanpacks India Ltd",
+      "bse_code": "530931",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "STYLAMIND",
@@ -4358,7 +4328,7 @@
     {
       "ticker": "SUPER",
       "market": "IN",
-      "company": "Super Sales India Ltd-$",
+      "company": "Super Sales India Ltd",
       "bse_code": "512527",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
@@ -4382,6 +4352,17 @@
       "market": "IN",
       "company": "Forbes Precision Tools and Machine Parts Ltd",
       "bse_code": "544186",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "TRU",
+      "market": "IN",
+      "company": "TruCap Finance Ltd",
+      "bse_code": "540268",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -4442,6 +4423,17 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ffb9106-919c-4cd3-ae0a-d70622003593.pdf"
     },
     {
+      "ticker": "VAKRANGEE",
+      "market": "IN",
+      "company": "Vakrangee Ltd",
+      "bse_code": "511431",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "VAML",
       "market": "IN",
       "company": "Vedanta Aluminium Metal Ltd",
@@ -4462,9 +4454,9 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results",
-      "concall_datetime_utc": "2026-10-29T12:00:00.000Z",
+      "concall_datetime_utc": "2026-10-28T11:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e357f083-cd28-4efe-96e7-762ca04e5208.pdf"
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=294ed2aa-8039-4fc3-95f5-3ee417d56286.pdf"
     },
     {
       "ticker": "VERTEX",
@@ -4482,6 +4474,17 @@
       "market": "IN",
       "company": "VST Industries Ltd",
       "bse_code": "509966",
+      "earnings_date": "2026-10-28",
+      "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "WELINV",
+      "market": "IN",
+      "company": "Welspun Investments and Commercials Ltd",
+      "bse_code": "533252",
       "earnings_date": "2026-10-28",
       "earnings_datetime_utc": "2026-10-28T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -4650,6 +4653,31 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b16e22b-1dcc-4b14-9b52-a4565f6b2202.pdf"
     },
     {
+      "ticker": "APLAB",
+      "market": "IN",
+      "company": "Aplab Ltd",
+      "bse_code": "517096",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ARCIL",
+      "market": "IN",
+      "company": "Asset Reconstruction Company (India) Ltd",
+      "bse_code": "544921",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-30T03:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3e26a1d-14c1-468f-804b-265cf82322f0.pdf"
+    },
+    {
       "ticker": "ASIANPAINT",
       "market": "IN",
       "company": "Asian Paints Ltd",
@@ -4701,6 +4729,17 @@
       "market": "IN",
       "company": "Banaras Beads Ltd",
       "bse_code": "526849",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "BANDARAM",
+      "market": "IN",
+      "company": "Bandaram Pharma Packtech Ltd",
+      "bse_code": "524602",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -4791,6 +4830,20 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "CAPITALSFB",
+      "market": "IN",
+      "company": "Capital Small Finance Bank Ltd",
+      "bse_code": "544120",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-30T04:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d6f3860-0592-4429-96c1-b3ddb45a84c9.pdf"
+    },
+    {
       "ticker": "CARERATING",
       "market": "IN",
       "company": "CARE Ratings Ltd",
@@ -4837,7 +4890,7 @@
     {
       "ticker": "DEEPAKNTR",
       "market": "IN",
-      "company": "Deepak Nitrite Ltd-$",
+      "company": "Deepak Nitrite Ltd",
       "bse_code": "506401",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
@@ -4861,6 +4914,17 @@
       "market": "IN",
       "company": "Emmbi Industries Ltd",
       "bse_code": "533161",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "EPACK",
+      "market": "IN",
+      "company": "EPACK Durable Ltd",
+      "bse_code": "544095",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -4979,6 +5043,28 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "GLITTEKG",
+      "market": "IN",
+      "company": "Glittek Granites Ltd",
+      "bse_code": "513528",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "GLOBUSCON",
+      "market": "IN",
+      "company": "Globus Constructors & Developers Ltd",
+      "bse_code": "526025",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "GODREJCP",
       "market": "IN",
       "company": "Godrej Consumer Products Ltd",
@@ -5023,7 +5109,7 @@
     {
       "ticker": "GRINDWELL",
       "market": "IN",
-      "company": "Grindwell Norton Ltd-$",
+      "company": "Grindwell Norton Ltd",
       "bse_code": "506076",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
@@ -5034,8 +5120,19 @@
     {
       "ticker": "GUJINTRX",
       "market": "IN",
-      "company": "Gujarat Intrux Ltd-$",
+      "company": "Gujarat Intrux Ltd",
       "bse_code": "517372",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "HEIDELBERG",
+      "market": "IN",
+      "company": "HeidelbergCement India Ltd",
+      "bse_code": "500292",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -5198,6 +5295,20 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "KALPATARU",
+      "market": "IN",
+      "company": "Kalpataru Ltd",
+      "bse_code": "544423",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-30T04:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ec3b4e9-b233-4f7c-ba1d-30554485cf4a.pdf"
+    },
+    {
       "ticker": "KKSHL",
       "market": "IN",
       "company": "KK Shah Hospitals Ltd",
@@ -5211,7 +5322,7 @@
     {
       "ticker": "KREBSBIO",
       "market": "IN",
-      "company": "Krebs Biochemicals & Industries Ltd-$",
+      "company": "Krebs Biochemicals & Industries Ltd",
       "bse_code": "524518",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
@@ -5302,7 +5413,7 @@
     {
       "ticker": "MENONBE",
       "market": "IN",
-      "company": "Menon Bearings Ltd-$",
+      "company": "Menon Bearings Ltd",
       "bse_code": "523828",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
@@ -5318,6 +5429,17 @@
       "market": "IN",
       "company": "Milky Mist Dairy Food Ltd",
       "bse_code": "544868",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "MODULEX",
+      "market": "IN",
+      "company": "Modulex Construction Technologies Ltd",
+      "bse_code": "504273",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -5474,7 +5596,7 @@
     {
       "ticker": "RAMRAT",
       "market": "IN",
-      "company": "Ram Ratna Wires Ltd-$",
+      "company": "Ram Ratna Wires Ltd",
       "bse_code": "522281",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
@@ -5487,6 +5609,17 @@
       "market": "IN",
       "company": "Ranjeet Mechatronics Ltd",
       "bse_code": "541945",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "RBA",
+      "market": "IN",
+      "company": "Restaurant Brands Asia Ltd",
+      "bse_code": "543248",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -5533,10 +5666,35 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8628a50d-d43e-4955-8d67-75ca0990d47a.pdf"
     },
     {
+      "ticker": "SHADOWFAX",
+      "market": "IN",
+      "company": "Shadowfax Technologies Ltd",
+      "bse_code": "544685",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-29T11:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d383e34c-506f-4e00-95f3-9a4c5cb0ca3a.pdf"
+    },
+    {
       "ticker": "SHAILY",
       "market": "IN",
       "company": "Shaily Engineering Plastics Ltd",
       "bse_code": "501423",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SHYAMTEL",
+      "market": "IN",
+      "company": "Shyam Telecom Ltd",
+      "bse_code": "517411",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -5564,6 +5722,20 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
+    },
+    {
+      "ticker": "STAR",
+      "market": "IN",
+      "company": "Strides Pharma Science Ltd",
+      "bse_code": "532531",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-30T04:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd05ad4f-b9ee-4b50-9b3b-1996411809ad.pdf"
     },
     {
       "ticker": "STEAMHOUSE",
@@ -5604,7 +5776,7 @@
     {
       "ticker": "SURAJLTD",
       "market": "IN",
-      "company": "Suraj Ltd-$",
+      "company": "Suraj Ltd",
       "bse_code": "531638",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
@@ -5691,6 +5863,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "TITAGARH",
+      "market": "IN",
+      "company": "Titagarh Rail Systems Ltd",
+      "bse_code": "532966",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "TRENT",
       "market": "IN",
       "company": "Trent Ltd",
@@ -5700,6 +5883,20 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
+    },
+    {
+      "ticker": "VEDPOWER",
+      "market": "IN",
+      "company": "Vedanta Power Ltd",
+      "bse_code": "544781",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-29T12:00:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e357f083-cd28-4efe-96e7-762ca04e5208.pdf"
     },
     {
       "ticker": "VGUARD",
@@ -5713,10 +5910,35 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "VOGL",
+      "market": "IN",
+      "company": "Vedanta Oil and Gas Ltd",
+      "bse_code": "544782",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-29T11:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7967a1c-f8b7-424d-b249-b264cd2c10c5.pdf"
+    },
+    {
       "ticker": "VOLTAMP",
       "market": "IN",
       "company": "Voltamp Transformers Ltd",
       "bse_code": "532757",
+      "earnings_date": "2026-10-29",
+      "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "WELCORP",
+      "market": "IN",
+      "company": "Welspun Corp Ltd",
+      "bse_code": "532144",
       "earnings_date": "2026-10-29",
       "earnings_datetime_utc": "2026-10-29T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6066,6 +6288,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "AARTIIND",
+      "market": "IN",
+      "company": "Aarti Industries Ltd",
+      "bse_code": "524208",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "ABCAPITAL",
       "market": "IN",
       "company": "Aditya Birla Capital Ltd",
@@ -6091,6 +6324,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "ADVAIT",
+      "market": "IN",
+      "company": "Advait Energy Transitions Ltd",
+      "bse_code": "543230",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "AETHER",
       "market": "IN",
       "company": "Aether Industries Ltd",
@@ -6105,6 +6349,17 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5f61eef-c08d-4ca1-8e0b-e35ad296e440.pdf"
     },
     {
+      "ticker": "AFIL",
+      "market": "IN",
+      "company": "Akme Fintrade (India) Ltd",
+      "bse_code": "544200",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "AJANTPHARM",
       "market": "IN",
       "company": "Ajanta Pharma Ltd",
@@ -6117,6 +6372,17 @@
       "concall_datetime_utc": "2026-10-30T10:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75008c0f-8085-443d-88e5-74b114bc1eaa.pdf"
+    },
+    {
+      "ticker": "ALMONDZ",
+      "market": "IN",
+      "company": "Almondz Global Securities Ltd",
+      "bse_code": "531400",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ALNATRD",
@@ -6134,6 +6400,28 @@
       "market": "IN",
       "company": "Amarjothi Spinning Mills Ltd",
       "bse_code": "521097",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "AMERISE",
+      "market": "IN",
+      "company": "Amerise Biosciences Ltd",
+      "bse_code": "531681",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "AMRAAGRI",
+      "market": "IN",
+      "company": "Amraworld Agrico Ltd",
+      "bse_code": "531991",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6176,7 +6464,7 @@
     {
       "ticker": "BASANTGL",
       "market": "IN",
-      "company": "Basant Agro Tech India Ltd-$",
+      "company": "Basant Agro Tech India Ltd",
       "bse_code": "524687",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
@@ -6218,9 +6506,42 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "BHAVIK",
+      "market": "IN",
+      "company": "Bhavik Enterprises Ltd",
+      "bse_code": "544551",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "BORORENEW",
+      "market": "IN",
+      "company": "Borosil Renewables Ltd",
+      "bse_code": "502219",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "BRIGHTBR",
+      "market": "IN",
+      "company": "Bright Brothers Ltd",
+      "bse_code": "526731",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "CHEMBOND",
       "market": "IN",
-      "company": "Chembond Material Technologies Ltd-$",
+      "company": "Chembond Material Technologies Ltd",
       "bse_code": "530871",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
@@ -6240,10 +6561,32 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "CILSEC",
+      "market": "IN",
+      "company": "Cil Securities Ltd",
+      "bse_code": "530829",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "COCHMAL",
       "market": "IN",
       "company": "Cochin Malabar Estates & Industries Ltd",
       "bse_code": "508571",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "CORNE",
+      "market": "IN",
+      "company": "Coral Newsprints Ltd",
+      "bse_code": "530755",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6267,8 +6610,19 @@
     {
       "ticker": "DAICHI",
       "market": "IN",
-      "company": "Dai-Ichi Karkaria Ltd-$",
+      "company": "Dai-Ichi Karkaria Ltd",
       "bse_code": "526821",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "DCMNVL",
+      "market": "IN",
+      "company": "DCM Nouvelle Ltd",
+      "bse_code": "542729",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6278,13 +6632,27 @@
     {
       "ticker": "DEEPAKSP",
       "market": "IN",
-      "company": "Deepak Spinners Ltd-$",
+      "company": "Deepak Spinners Ltd",
       "bse_code": "514030",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
+    },
+    {
+      "ticker": "DELHIVERY",
+      "market": "IN",
+      "company": "Delhivery Ltd",
+      "bse_code": "543529",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-10-30T12:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5439b34a-bb85-49ec-8d34-5330b2d02866.pdf"
     },
     {
       "ticker": "DIGIDRIVE",
@@ -6298,10 +6666,32 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "DIXON",
+      "market": "IN",
+      "company": "Dixon Technologies (India) Ltd",
+      "bse_code": "540699",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "DMCC",
       "market": "IN",
       "company": "DMCC Speciality Chemicals Ltd",
       "bse_code": "506405",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "DYNPRO",
+      "market": "IN",
+      "company": "Dynemic Products Ltd",
+      "bse_code": "532707",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6345,6 +6735,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "FRESITA",
+      "market": "IN",
+      "company": "Fresita Proteins Ltd",
+      "bse_code": "519242",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "FXML",
       "market": "IN",
       "company": "FX Multitech Ltd",
@@ -6372,7 +6773,7 @@
     {
       "ticker": "GANESHHOU",
       "market": "IN",
-      "company": "Ganesh Housing Ltd-$",
+      "company": "Ganesh Housing Ltd",
       "bse_code": "526367",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
@@ -6420,6 +6821,28 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "GOCOLORS",
+      "market": "IN",
+      "company": "Go Fashion (India) Ltd",
+      "bse_code": "543401",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "GOLDENCREST",
+      "market": "IN",
+      "company": "Golden Crest Education & Services Ltd",
+      "bse_code": "540062",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "GUJCONT",
       "market": "IN",
       "company": "Gujarat Containers Ltd",
@@ -6456,10 +6879,54 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb3812b9-b5d5-4174-a7dd-51941a2c593b.pdf"
     },
     {
+      "ticker": "HARDCAS",
+      "market": "IN",
+      "company": "Hardcastle & Waud Manufacturing Company Ltd",
+      "bse_code": "509597",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "HLVLTD",
       "market": "IN",
       "company": "HLV Ltd",
       "bse_code": "500193",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "HPCOTTON",
+      "market": "IN",
+      "company": "HP Cotton Textile Mills Ltd",
+      "bse_code": "502873",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "IFINSEC",
+      "market": "IN",
+      "company": "India Finsec Ltd",
+      "bse_code": "535667",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "IGL",
+      "market": "IN",
+      "company": "Indraprastha Gas Ltd",
+      "bse_code": "532514",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6494,7 +6961,7 @@
     {
       "ticker": "INDTONER",
       "market": "IN",
-      "company": "Indian Toners & Developers Ltd-$",
+      "company": "Indian Toners & Developers Ltd",
       "bse_code": "523586",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
@@ -6528,10 +6995,32 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "IOLCP",
+      "market": "IN",
+      "company": "IOL Chemicals & Pharmaceuticals Ltd",
+      "bse_code": "524164",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "JACKSON",
       "market": "IN",
       "company": "Jackson Investments Ltd",
       "bse_code": "538422",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "JNPR",
+      "market": "IN",
+      "company": "Juniper Green Energy Ltd",
+      "bse_code": "544853",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6550,10 +7039,43 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "KAMADGIRI",
+      "market": "IN",
+      "company": "Kamadgiri Fashion Ltd",
+      "bse_code": "514322",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "KAMOPAINTS",
       "market": "IN",
       "company": "Kamdhenu Ventures Ltd",
       "bse_code": "543747",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "KARTKIN",
+      "market": "IN",
+      "company": "Kartik Investments Trust Ltd",
+      "bse_code": "501151",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "KDML",
+      "market": "IN",
+      "company": "Khemani Distributors & Marketing Ltd",
+      "bse_code": "539788",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6583,6 +7105,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "LOYAL",
+      "market": "IN",
+      "company": "Loyal Equipments Ltd",
+      "bse_code": "539227",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "LYKALABS",
       "market": "IN",
       "company": "Lyka Labs Ltd",
@@ -6605,10 +7138,46 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "MALUPAPER",
+      "market": "IN",
+      "company": "Malu Paper Mills Ltd",
+      "bse_code": "532728",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "MAXHEALTH",
+      "market": "IN",
+      "company": "Max Healthcare Institute Ltd",
+      "bse_code": "543220",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-03T06:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=039ae52f-5500-4ad5-9845-81493c43ccb0.pdf"
+    },
+    {
       "ticker": "MODRNSH",
       "market": "IN",
       "company": "Modern Shares & Stockbrokers Ltd",
       "bse_code": "509760",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "MSAFE",
+      "market": "IN",
+      "company": "Msafe Equipments Ltd",
+      "bse_code": "544695",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6663,9 +7232,20 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "NATFIT",
+      "market": "IN",
+      "company": "National Fittings Ltd",
+      "bse_code": "531289",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "NAVINFLUOR",
       "market": "IN",
-      "company": "Navin Fluorine International Ltd-$",
+      "company": "Navin Fluorine International Ltd",
       "bse_code": "532504",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
@@ -6685,9 +7265,20 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "NILASPACES",
+      "market": "IN",
+      "company": "Nila Spaces Ltd",
+      "bse_code": "542231",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "NITTAGELA",
       "market": "IN",
-      "company": "Nitta Gelatin India Ltd-$",
+      "company": "Nitta Gelatin India Ltd",
       "bse_code": "506532",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
@@ -6740,6 +7331,28 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "PHOENIXLTD",
+      "market": "IN",
+      "company": "The Phoenix Mills Ltd",
+      "bse_code": "503100",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "QUESS",
+      "market": "IN",
+      "company": "Quess Corp Ltd",
+      "bse_code": "539978",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "RENUKA",
       "market": "IN",
       "company": "Shree Renuka Sugars Ltd",
@@ -6753,8 +7366,30 @@
     {
       "ticker": "RESONANCE",
       "market": "IN",
-      "company": "Resonance Specialties Ltd-$",
+      "company": "Resonance Specialties Ltd",
       "bse_code": "524218",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "RESPONIND",
+      "market": "IN",
+      "company": "Responsive Industries Ltd",
+      "bse_code": "505509",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "RISHITECH",
+      "market": "IN",
+      "company": "Rishi Techtex Ltd",
+      "bse_code": "523021",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6764,7 +7399,7 @@
     {
       "ticker": "SAGCEM",
       "market": "IN",
-      "company": "Sagar Cements Ltd-$",
+      "company": "Sagar Cements Ltd",
       "bse_code": "502090",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
@@ -6776,10 +7411,32 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72a54e52-54d8-404a-b57a-da154ec43ab4.pdf"
     },
     {
+      "ticker": "SAMBHAAV",
+      "market": "IN",
+      "company": "Sambhaav Media Ltd",
+      "bse_code": "511630",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "SHARDACROP",
       "market": "IN",
       "company": "Sharda Cropchem Ltd",
       "bse_code": "538666",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SHAREINDIA",
+      "market": "IN",
+      "company": "Share India Securities Ltd",
+      "bse_code": "540725",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6816,6 +7473,17 @@
       "market": "IN",
       "company": "SIL Investments Ltd",
       "bse_code": "521194",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SJVN",
+      "market": "IN",
+      "company": "SJVN Ltd",
+      "bse_code": "533206",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6914,10 +7582,65 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "TANAA",
+      "market": "IN",
+      "company": "Taneja Aerospace & Aviation Ltd",
+      "bse_code": "522229",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "TTKHLTCARE",
+      "market": "IN",
+      "company": "TTK Healthcare Ltd",
+      "bse_code": "507747",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "UCAL",
       "market": "IN",
       "company": "Ucal  Ltd",
       "bse_code": "500464",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "UEL",
+      "market": "IN",
+      "company": "Ujaas Energy Ltd",
+      "bse_code": "533644",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "VBL",
+      "market": "IN",
+      "company": "Varun Beverages Ltd",
+      "bse_code": "540180",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "VINATIORGA",
+      "market": "IN",
+      "company": "Vinati Organics Ltd",
+      "bse_code": "524200",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -6936,12 +7659,89 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "WAA",
+      "market": "IN",
+      "company": "Waa Solar Ltd",
+      "bse_code": "541445",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "WELSPUNLIV",
+      "market": "IN",
+      "company": "Welspun Living Ltd",
+      "bse_code": "514162",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "WESTLEIRES",
+      "market": "IN",
+      "company": "West Leisure Resorts Ltd",
+      "bse_code": "538382",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "WORTHPERI",
+      "market": "IN",
+      "company": "Worth Peripherals Ltd",
+      "bse_code": "544577",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ZODIAC",
+      "market": "IN",
+      "company": "Zodiac Energy Ltd",
+      "bse_code": "543416",
+      "earnings_date": "2026-10-30",
+      "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "ZWELCAST",
       "market": "IN",
       "company": "Welcast Steels Ltd",
       "bse_code": "504988",
       "earnings_date": "2026-10-30",
       "earnings_datetime_utc": "2026-10-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ACEENGITEC",
+      "market": "IN",
+      "company": "Ace Engitech Ltd",
+      "bse_code": "530669",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ADVENZYMES",
+      "market": "IN",
+      "company": "Advanced Enzyme Technologies Ltd",
+      "bse_code": "540025",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
@@ -6958,9 +7758,20 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "ASHIKAG",
+      "market": "IN",
+      "company": "Ashika Global Securities Ltd",
+      "bse_code": "543766",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "ATULAUTO",
       "market": "IN",
-      "company": "Atul Auto Ltd-$",
+      "company": "Atul Auto Ltd",
       "bse_code": "531795",
       "earnings_date": "2026-10-31",
       "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
@@ -6981,6 +7792,17 @@
       "concall_datetime_utc": "2026-11-02T04:00:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=142d26ac-b373-4646-bf36-4147ac3bf923.pdf"
+    },
+    {
+      "ticker": "BIRLACORPN",
+      "market": "IN",
+      "company": "Birla Corporation Ltd",
+      "bse_code": "500335",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "CAPPIPES",
@@ -7030,10 +7852,54 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "CREATIVE",
+      "market": "IN",
+      "company": "Creative Castings Ltd",
+      "bse_code": "539527",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "DEVINE",
+      "market": "IN",
+      "company": "Devine Impex Ltd",
+      "bse_code": "531585",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "DLINKINDIA",
       "market": "IN",
       "company": "D-Link (India) Ltd",
       "bse_code": "533146",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "EMMESSA",
+      "market": "IN",
+      "company": "Emmessar Biotech & Nutrition Ltd",
+      "bse_code": "524768",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "EVEREADY",
+      "market": "IN",
+      "company": "Eveready Industries India Ltd",
+      "bse_code": "531508",
       "earnings_date": "2026-10-31",
       "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -7066,6 +7932,17 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5b4c730-00bb-46d1-aad1-96632d5828ae.pdf"
     },
     {
+      "ticker": "GMPL",
+      "market": "IN",
+      "company": "G M Polyplast Ltd",
+      "bse_code": "543239",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "IITL",
       "market": "IN",
       "company": "Industrial Investment Trust Ltd",
@@ -7090,7 +7967,7 @@
     {
       "ticker": "INDOCITY",
       "market": "IN",
-      "company": "Indo City Infotech Ltd-$",
+      "company": "Indo City Infotech Ltd",
       "bse_code": "532100",
       "earnings_date": "2026-10-31",
       "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
@@ -7128,6 +8005,17 @@
       "market": "IN",
       "company": "LG Balakrishnan & Bros Ltd",
       "bse_code": "500250",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "MENNPIS",
+      "market": "IN",
+      "company": "Menon Pistons Ltd",
+      "bse_code": "531727",
       "earnings_date": "2026-10-31",
       "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -7190,6 +8078,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "NTPC",
+      "market": "IN",
+      "company": "NTPC Ltd",
+      "bse_code": "532555",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "NUCLEUS",
       "market": "IN",
       "company": "Nucleus Software Exports Ltd",
@@ -7206,7 +8105,7 @@
     {
       "ticker": "PAKKA",
       "market": "IN",
-      "company": "Pakka Ltd-$",
+      "company": "Pakka Ltd",
       "bse_code": "516030",
       "earnings_date": "2026-10-31",
       "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
@@ -7226,10 +8125,68 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "PATELSAI",
+      "market": "IN",
+      "company": "Patels Airtemp India Ltd",
+      "bse_code": "517417",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "PODDARMENT",
+      "market": "IN",
+      "company": "Poddar Pigments Ltd",
+      "bse_code": "524570",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "POONADAL",
+      "market": "IN",
+      "company": "Poona Dal & Oil Industries Ltd",
+      "bse_code": "519359",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "PRISMFN",
       "market": "IN",
       "company": "Prism Finance Ltd",
       "bse_code": "531735",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "RAINBOW",
+      "market": "IN",
+      "company": "Rainbow Children's Medicare Ltd",
+      "bse_code": "543524",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-02T04:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9a8f93d-3925-44fd-8b7a-e84a139b656b.pdf"
+    },
+    {
+      "ticker": "RASRESOR",
+      "market": "IN",
+      "company": "Ras Resorts & Apart Hotels Ltd",
+      "bse_code": "507966",
       "earnings_date": "2026-10-31",
       "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -7248,9 +8205,31 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "SAICOM",
+      "market": "IN",
+      "company": "Saianand Commercial Ltd",
+      "bse_code": "512097",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SAMKRG",
+      "market": "IN",
+      "company": "Samkrg Pistons & Rings Ltd",
+      "bse_code": "520075",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "SARDAEN",
       "market": "IN",
-      "company": "Sarda Energy & Minerals Ltd-$",
+      "company": "Sarda Energy & Minerals Ltd",
       "bse_code": "504614",
       "earnings_date": "2026-10-31",
       "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
@@ -7281,6 +8260,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "SURAJEST",
+      "market": "IN",
+      "company": "Suraj Estate Developers Ltd",
+      "bse_code": "544054",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "TEEAI",
       "market": "IN",
       "company": "Teesta Agro Industries Ltd",
@@ -7296,6 +8286,17 @@
       "market": "IN",
       "company": "Tirth Plastic Ltd",
       "bse_code": "526675",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "TTL",
+      "market": "IN",
+      "company": "T T Ltd",
+      "bse_code": "514142",
       "earnings_date": "2026-10-31",
       "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -7340,6 +8341,17 @@
       "market": "IN",
       "company": "Valencia India Ltd",
       "bse_code": "544433",
+      "earnings_date": "2026-10-31",
+      "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "VINAYAKPOL",
+      "market": "IN",
+      "company": "Vinayak Polycon International Ltd",
+      "bse_code": "534639",
       "earnings_date": "2026-10-31",
       "earnings_datetime_utc": "2026-10-31T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -9291,8 +10303,19 @@
     {
       "ticker": "BCLIND",
       "market": "IN",
-      "company": "BCL Industries Ltd-$",
+      "company": "BCL Industries Ltd",
       "bse_code": "524332",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "BIRLANU",
+      "market": "IN",
+      "company": "Birlanu Ltd",
+      "bse_code": "509675",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -9304,6 +10327,17 @@
       "market": "IN",
       "company": "Bosch Home Comfort India Ltd",
       "bse_code": "523398",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "BPL",
+      "market": "IN",
+      "company": "BPL Ltd",
+      "bse_code": "500074",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -9326,6 +10360,17 @@
       "market": "IN",
       "company": "Citizen Solar Ltd",
       "bse_code": "538786",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "CONCOR",
+      "market": "IN",
+      "company": "Container Corporation of India Ltd",
+      "bse_code": "531344",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -9383,6 +10428,17 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b023d98f-38f9-40cf-8e71-b09803efeb1a.pdf"
     },
     {
+      "ticker": "EUREKAFORB",
+      "market": "IN",
+      "company": "Eureka Forbes Ltd",
+      "bse_code": "543482",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "FINEORG",
       "market": "IN",
       "company": "Fine Organic Industries Ltd",
@@ -9438,10 +10494,54 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "GOPAL",
+      "market": "IN",
+      "company": "Gopal Snacks Ltd",
+      "bse_code": "544140",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "GRANULES",
+      "market": "IN",
+      "company": "Granules India Ltd",
+      "bse_code": "532482",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "GSFC",
       "market": "IN",
       "company": "Gujarat State Fertilizers & Chemicals Ltd",
       "bse_code": "500690",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "HAPPSTMNDS",
+      "market": "IN",
+      "company": "Happiest Minds Technologies Ltd",
+      "bse_code": "543227",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "HLEGLAS",
+      "market": "IN",
+      "company": "HLE Glascoat Ltd",
+      "bse_code": "522215",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -9482,6 +10582,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "INDOKEM",
+      "market": "IN",
+      "company": "Indokem Ltd",
+      "bse_code": "504092",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "ITC",
       "market": "IN",
       "company": "ITC Ltd",
@@ -9495,8 +10606,52 @@
     {
       "ticker": "JAMSHRI",
       "market": "IN",
-      "company": "Jamshri Realty Ltd-$",
+      "company": "Jamshri Realty Ltd",
       "bse_code": "502901",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "JKPAPER",
+      "market": "IN",
+      "company": "JK Paper Ltd",
+      "bse_code": "532162",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "JYOTIN",
+      "market": "IN",
+      "company": "Jyot International Marketing Ltd",
+      "bse_code": "542544",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "KKCL",
+      "market": "IN",
+      "company": "Kewal Kiran Clothing Ltd",
+      "bse_code": "532732",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "LKPSEC",
+      "market": "IN",
+      "company": "LKP Securities Ltd",
+      "bse_code": "540192",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -9522,6 +10677,17 @@
       "market": "IN",
       "company": "Moil Ltd",
       "bse_code": "533286",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "MPL",
+      "market": "IN",
+      "company": "Mpl Plastics Ltd",
+      "bse_code": "526143",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -9579,6 +10745,17 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93b4b32e-848b-4454-9736-eaa56bea6e38.pdf"
     },
     {
+      "ticker": "NOVYRA",
+      "market": "IN",
+      "company": "Novyra Pharmachem Ltd",
+      "bse_code": "519353",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "PEOPLIN",
       "market": "IN",
       "company": "Peoples Investments Ltd",
@@ -9590,10 +10767,35 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "PETRONET",
+      "market": "IN",
+      "company": "Petronet LNG Ltd",
+      "bse_code": "532522",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-03T06:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d979f1a6-f6bc-4b2e-ac26-62180adee9f5.pdf"
+    },
+    {
       "ticker": "PGHL",
       "market": "IN",
       "company": "Procter & Gamble Health Ltd",
       "bse_code": "500126",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "PNC",
+      "market": "IN",
+      "company": "PNC Media and Entertainment Ltd",
+      "bse_code": "532387",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -9629,10 +10831,32 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58fea15d-1b3b-4aa7-ae0c-36bd55c3e4a1.pdf"
     },
     {
+      "ticker": "RAWEDGE",
+      "market": "IN",
+      "company": "Raw Edge Industrial Solutions Ltd",
+      "bse_code": "541634",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "REGAL",
       "market": "IN",
       "company": "Regal Entertainment & Consultants Ltd",
       "bse_code": "531033",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "REGIS",
+      "market": "IN",
+      "company": "Regis Industries Ltd",
+      "bse_code": "543208",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -9665,6 +10889,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "SHEMAROO",
+      "market": "IN",
+      "company": "Shemaroo Entertainment Ltd",
+      "bse_code": "538685",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "SHK",
       "market": "IN",
       "company": "S H Kelkar and Company Ltd",
@@ -9679,10 +10914,32 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=661a2c15-29a5-4877-9d7f-c314f11f0609.pdf"
     },
     {
+      "ticker": "SHREEGANES",
+      "market": "IN",
+      "company": "Shree Ganesh Biotech (India) Ltd",
+      "bse_code": "539470",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "SPARC",
       "market": "IN",
       "company": "Sun Pharma Advanced Research Company Ltd",
       "bse_code": "532872",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SUSAN",
+      "market": "IN",
+      "company": "Susan Electricals India Ltd",
+      "bse_code": "544793",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -9726,9 +10983,20 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "WALCHANNAG",
+      "market": "IN",
+      "company": "Walchandnagar Industries Ltd",
+      "bse_code": "507410",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "WINSOMTX",
       "market": "IN",
-      "company": "Winsome Textile Industries Ltd-$",
+      "company": "Winsome Textile Industries Ltd",
       "bse_code": "514470",
       "earnings_date": "2026-11-02",
       "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
@@ -9749,6 +11017,17 @@
       "concall_datetime_utc": "2026-11-03T09:00:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45f85fcf-f453-44a1-af67-9134473ffba6.pdf"
+    },
+    {
+      "ticker": "YASHCHEM",
+      "market": "IN",
+      "company": "Yash Chemex Ltd",
+      "bse_code": "539939",
+      "earnings_date": "2026-11-02",
+      "earnings_datetime_utc": "2026-11-02T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ZUARI",
@@ -12602,6 +13881,17 @@
       "source": "finnhub"
     },
     {
+      "ticker": "ADARSHPL",
+      "market": "IN",
+      "company": "Adarsh Plant Protect Ltd",
+      "bse_code": "526711",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "AEIM",
       "market": "IN",
       "company": "Artificial Electronics Intelligent Material Ltd",
@@ -12615,7 +13905,7 @@
     {
       "ticker": "ALKYLAMINE",
       "market": "IN",
-      "company": "Alkyl Amines Chemicals Ltd-$",
+      "company": "Alkyl Amines Chemicals Ltd",
       "bse_code": "506767",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
@@ -12647,6 +13937,17 @@
       "concall_datetime_utc": "2026-11-04T11:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d18c7098-1533-4883-ae5f-373ef7984b9c.pdf"
+    },
+    {
+      "ticker": "BAIDFIN",
+      "market": "IN",
+      "company": "Baid Finserv Ltd",
+      "bse_code": "511724",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "BAJAJFINSV",
@@ -12699,6 +14000,28 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "BEFOUNDMOL",
+      "market": "IN",
+      "company": "Befound Movement Ltd",
+      "bse_code": "511585",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "BIOGEN",
+      "market": "IN",
+      "company": "Biogen Pharmachem Industries Ltd",
+      "bse_code": "531752",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "BRADYM",
       "market": "IN",
       "company": "Brady & Morris Engineering Company Ltd",
@@ -12721,10 +14044,65 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "DALMIASUG",
+      "market": "IN",
+      "company": "Dalmia Bharat Sugar and Industries Ltd",
+      "bse_code": "500097",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "DENORA",
+      "market": "IN",
+      "company": "De Nora India Ltd",
+      "bse_code": "590031",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "DLTNCBL",
+      "market": "IN",
+      "company": "Delton Cables Ltd",
+      "bse_code": "504240",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "DNAMEDIA",
       "market": "IN",
       "company": "Diligent Media Corporation Ltd",
       "bse_code": "540789",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ELCIDIN",
+      "market": "IN",
+      "company": "EL CID Investments Ltd",
+      "bse_code": "503681",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ELEFLOR",
+      "market": "IN",
+      "company": "Elegant Floriculture & Agrotech India Ltd",
+      "bse_code": "526473",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -12750,6 +14128,17 @@
       "market": "IN",
       "company": "Endurance Technologies Ltd",
       "bse_code": "540153",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "EVERFIN",
+      "market": "IN",
+      "company": "Everlon Financials Ltd",
+      "bse_code": "514358",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -12826,6 +14215,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "IPL",
+      "market": "IN",
+      "company": "India Pesticides Ltd",
+      "bse_code": "543311",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "LORDSCHLO",
       "market": "IN",
       "company": "Lords Chloro Alkali Ltd",
@@ -12855,6 +14255,17 @@
       "market": "IN",
       "company": "Lux Industries Ltd",
       "bse_code": "539542",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "MASTERTR",
+      "market": "IN",
+      "company": "Master Trust Ltd",
+      "bse_code": "511768",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -12896,6 +14307,31 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
+    },
+    {
+      "ticker": "MOBAVENUE",
+      "market": "IN",
+      "company": "Mobavenue AI Tech Ltd",
+      "bse_code": "539682",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "MONTECARLO",
+      "market": "IN",
+      "company": "Monte Carlo Fashions Ltd",
+      "bse_code": "538836",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-04T05:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65be5b2d-b78a-47a4-9676-4d406c71d3dc.pdf"
     },
     {
       "ticker": "NEPHROPLUS",
@@ -12972,7 +14408,7 @@
     {
       "ticker": "PUNJABCHEM",
       "market": "IN",
-      "company": "Punjab Chemicals & Crop Protection Ltd-$",
+      "company": "Punjab Chemicals & Crop Protection Ltd",
       "bse_code": "506618",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
@@ -12983,7 +14419,7 @@
     {
       "ticker": "RAJPALAYAM",
       "market": "IN",
-      "company": "Rajapalayam Mills Ltd-$",
+      "company": "Rajapalayam Mills Ltd",
       "bse_code": "532503",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
@@ -13042,6 +14478,28 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "SCTL",
+      "market": "IN",
+      "company": "Suncare Traders Ltd",
+      "bse_code": "539526",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SGIL",
+      "market": "IN",
+      "company": "Synergy Green Industries Ltd",
+      "bse_code": "541929",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "SHALBY",
       "market": "IN",
       "company": "Shalby Ltd",
@@ -13054,6 +14512,61 @@
       "concall_datetime_utc": "2026-11-04T10:30:00.000Z",
       "concall_title": "Q2 FY2027 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d3f3cc3-8710-4d0d-9fba-dd82e0949f31.pdf"
+    },
+    {
+      "ticker": "SHARPINV",
+      "market": "IN",
+      "company": "Sharp Investments Ltd",
+      "bse_code": "538212",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SHRDAIS",
+      "market": "IN",
+      "company": "Sharda Ispat Ltd",
+      "bse_code": "513548",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SIL",
+      "market": "IN",
+      "company": "Standard Industries Ltd",
+      "bse_code": "530017",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SPECIALITY",
+      "market": "IN",
+      "company": "Speciality Restaurants Ltd",
+      "bse_code": "534425",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "STANROS",
+      "market": "IN",
+      "company": "Stanrose Mafatlal Investments & Finance Ltd",
+      "bse_code": "506105",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "SUBEXLTD",
@@ -13070,10 +14583,46 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=daed2158-becf-4441-b4e6-95024cb3a5e1.pdf"
     },
     {
+      "ticker": "SUBROS",
+      "market": "IN",
+      "company": "Subros Ltd",
+      "bse_code": "517168",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-04T05:00:00.000Z",
+      "concall_title": "Investor Call",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fc73f61-f937-4c12-963e-9632b7fe152d.pdf"
+    },
+    {
+      "ticker": "SYTIXSE",
+      "market": "IN",
+      "company": "Systematix Securities Ltd",
+      "bse_code": "531432",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "TIMEX",
       "market": "IN",
-      "company": "Timex Group India Ltd-$",
+      "company": "Timex Group India Ltd",
       "bse_code": "500414",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "VMART",
+      "market": "IN",
+      "company": "V-Mart Retail Ltd",
+      "bse_code": "534976",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -13103,9 +14652,31 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "YUNIKM",
+      "market": "IN",
+      "company": "Yunik Managing Advisors Ltd",
+      "bse_code": "533149",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ZNILKENG",
+      "market": "IN",
+      "company": "Nilkanth Engineering Ltd",
+      "bse_code": "512004",
+      "earnings_date": "2026-11-03",
+      "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "ZYDUSWELL",
       "market": "IN",
-      "company": "Zydus Wellness Ltd-$",
+      "company": "Zydus Wellness Ltd",
       "bse_code": "531335",
       "earnings_date": "2026-11-03",
       "earnings_datetime_utc": "2026-11-03T10:30:00.000Z",
@@ -17739,7 +19310,7 @@
     {
       "ticker": "ASHIANA",
       "market": "IN",
-      "company": "Ashiana Housing Ltd-$",
+      "company": "Ashiana Housing Ltd",
       "bse_code": "523716",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
@@ -17751,10 +19322,43 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94ebdf1f-83ca-42a6-bb6e-4c89a59a4bf5.pdf"
     },
     {
+      "ticker": "ATLANTAA",
+      "market": "IN",
+      "company": "Atlantaa Ltd",
+      "bse_code": "532759",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "BASF",
       "market": "IN",
       "company": "BASF India Ltd",
       "bse_code": "500042",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "BRPL",
+      "market": "IN",
+      "company": "Bansal Roofing Products Ltd",
+      "bse_code": "538546",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "CAPACITE",
+      "market": "IN",
+      "company": "Capacite Infraprojects Ltd",
+      "bse_code": "540710",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -17778,7 +19382,7 @@
     {
       "ticker": "CENTURYPLY",
       "market": "IN",
-      "company": "Century Plyboards (India) Ltd-$",
+      "company": "Century Plyboards (India) Ltd",
       "bse_code": "532548",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
@@ -17820,9 +19424,20 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "DENISCHEM",
+      "market": "IN",
+      "company": "Denis Chem Lab Ltd",
+      "bse_code": "537536",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "ECOPLAST",
       "market": "IN",
-      "company": "Ecoplast Ltd-$",
+      "company": "Ecoplast Ltd",
       "bse_code": "526703",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
@@ -17911,10 +19526,54 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "GKSL",
+      "market": "IN",
+      "company": "Gujarat Kidney and Super Speciality Ltd",
+      "bse_code": "544666",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "GMMPFAUDLR",
+      "market": "IN",
+      "company": "GMM Pfaudler Ltd",
+      "bse_code": "505255",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "GPPL",
       "market": "IN",
       "company": "Gujarat Pipavav Port Ltd",
       "bse_code": "533248",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "GRSE",
+      "market": "IN",
+      "company": "Garden Reach Shipbuilders & Engineers Ltd",
+      "bse_code": "542011",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "GUJCRAFT",
+      "market": "IN",
+      "company": "Gujarat Craft Industries Ltd",
+      "bse_code": "526965",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -17935,7 +19594,7 @@
     {
       "ticker": "INDGELA",
       "market": "IN",
-      "company": "India Gelatine & Chemicals Ltd-$",
+      "company": "India Gelatine & Chemicals Ltd",
       "bse_code": "531253",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
@@ -17946,7 +19605,7 @@
     {
       "ticker": "INDSILHYD",
       "market": "IN",
-      "company": "Indsil Hydro Power and Manganese Ltd-$",
+      "company": "Indsil Hydro Power and Manganese Ltd",
       "bse_code": "522165",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
@@ -17977,10 +19636,35 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "JKLAKSHMI",
+      "market": "IN",
+      "company": "JK Lakshmi Cement Ltd",
+      "bse_code": "500380",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a33b0bf-7bca-4d10-b594-94a690478148.pdf"
+    },
+    {
       "ticker": "JMFINANCIL",
       "market": "IN",
-      "company": "JM Financial Ltd-$",
+      "company": "JM Financial Ltd",
       "bse_code": "523405",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "JOJO",
+      "market": "IN",
+      "company": "JOJO Ltd",
+      "bse_code": "531910",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -18087,7 +19771,7 @@
     {
       "ticker": "MAFATIND",
       "market": "IN",
-      "company": "Mafatlal Industries Ltd-$",
+      "company": "Mafatlal Industries Ltd",
       "bse_code": "500264",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
@@ -18098,7 +19782,7 @@
     {
       "ticker": "MAKERSL",
       "market": "IN",
-      "company": "Makers Laboratories Ltd-$",
+      "company": "Makers Laboratories Ltd",
       "bse_code": "506919",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
@@ -18109,7 +19793,7 @@
     {
       "ticker": "MARIS",
       "market": "IN",
-      "company": "Maris Spinners Ltd-$",
+      "company": "Maris Spinners Ltd",
       "bse_code": "531503",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
@@ -18122,6 +19806,17 @@
       "market": "IN",
       "company": "Marksans Pharma Ltd",
       "bse_code": "524404",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "MEENST",
+      "market": "IN",
+      "company": "Meenakshi Steel Industries Ltd",
+      "bse_code": "512505",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -18237,6 +19932,17 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef59ef1e-e5eb-45cc-a0e0-eaac2282e56b.pdf"
     },
     {
+      "ticker": "RVTH",
+      "market": "IN",
+      "company": "Revathi Equipment India Ltd",
+      "bse_code": "544246",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "SANATHAN",
       "market": "IN",
       "company": "Sanathan Textiles Ltd",
@@ -18284,6 +19990,28 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "SHUKRAPHAR",
+      "market": "IN",
+      "company": "Shukra Pharmaceuticals Ltd",
+      "bse_code": "524632",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SIS",
+      "market": "IN",
+      "company": "SIS Ltd",
+      "bse_code": "540673",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "STOVEKRAFT",
       "market": "IN",
       "company": "Stove Kraft Ltd",
@@ -18299,6 +20027,28 @@
       "market": "IN",
       "company": "Super Bakers India Ltd",
       "bse_code": "530735",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "TFSL",
+      "market": "IN",
+      "company": "Typhoon Financial Services Ltd",
+      "bse_code": "539468",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "TITAANIUM",
+      "market": "IN",
+      "company": "Titaanium Ten Enterprise Ltd",
+      "bse_code": "539985",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -18398,6 +20148,17 @@
       "market": "IN",
       "company": "Woodsvilla Ltd",
       "bse_code": "526959",
+      "earnings_date": "2026-11-04",
+      "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ZMANSOON",
+      "market": "IN",
+      "company": "Mansoon Trading Company Ltd",
+      "bse_code": "512303",
       "earnings_date": "2026-11-04",
       "earnings_datetime_utc": "2026-11-04T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -23236,6 +24997,20 @@
       "source": "finnhub"
     },
     {
+      "ticker": "AGARWALEYE",
+      "market": "IN",
+      "company": "Dr. Agarwals Health Care Ltd",
+      "bse_code": "544350",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-05T13:00:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78158ac0-1d36-4c60-9c60-1c800d1eb8ab.pdf"
+    },
+    {
       "ticker": "AMAGI",
       "market": "IN",
       "company": "Amagi Media Labs Ltd",
@@ -23248,6 +25023,17 @@
       "concall_datetime_utc": "2026-11-06T04:30:00.000Z",
       "concall_title": "Q2 FY27 Earnings",
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca4c04c8-ce92-4b0f-9353-81982eb8352f.pdf"
+    },
+    {
+      "ticker": "ASHNOOR",
+      "market": "IN",
+      "company": "Ashnoor Textile Mills Ltd",
+      "bse_code": "507872",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "BERGEPAINT",
@@ -23265,6 +25051,28 @@
       "market": "IN",
       "company": "Birla Cable Ltd",
       "bse_code": "500060",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "BRITANNIA",
+      "market": "IN",
+      "company": "Britannia Industries Ltd",
+      "bse_code": "500825",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "CHLLTD",
+      "market": "IN",
+      "company": "CHL Ltd",
+      "bse_code": "532992",
       "earnings_date": "2026-11-05",
       "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -23308,9 +25116,23 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef1f73d9-2508-4c27-a2f0-513c2f5cfed0.pdf"
     },
     {
+      "ticker": "GLENMARK",
+      "market": "IN",
+      "company": "Glenmark Pharmaceuticals Ltd",
+      "bse_code": "532296",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-06T03:00:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86ee2419-cd44-437f-b715-de7550d076db.pdf"
+    },
+    {
       "ticker": "GOACARBON",
       "market": "IN",
-      "company": "Goa Carbon Ltd-$",
+      "company": "Goa Carbon Ltd",
       "bse_code": "509567",
       "earnings_date": "2026-11-05",
       "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
@@ -23323,6 +25145,17 @@
       "market": "IN",
       "company": "Gujarat Energy Ltd",
       "bse_code": "539336",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "HALDYNGL",
+      "market": "IN",
+      "company": "Haldyn Glass Ltd",
+      "bse_code": "515147",
       "earnings_date": "2026-11-05",
       "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -23391,6 +25224,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "KAJALSY",
+      "market": "IN",
+      "company": "Kajal Synthetics & Silk Mills Ltd",
+      "bse_code": "512147",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "KMSUGAR",
       "market": "IN",
       "company": "K M Sugar Mills Ltd",
@@ -23406,6 +25250,17 @@
       "market": "IN",
       "company": "Life Insurance Corporation of India",
       "bse_code": "543526",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "LXCHEM",
+      "market": "IN",
+      "company": "Laxmi Organic Industries Ltd",
+      "bse_code": "543277",
       "earnings_date": "2026-11-05",
       "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -23488,6 +25343,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "MUTHOOTMF",
+      "market": "IN",
+      "company": "Muthoot Microfin Ltd",
+      "bse_code": "544055",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "NATPLAS",
       "market": "IN",
       "company": "National Plastic Industries Ltd",
@@ -23499,10 +25365,32 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "NBCC",
+      "market": "IN",
+      "company": "NBCC (India) Ltd",
+      "bse_code": "534309",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "NCC",
       "market": "IN",
       "company": "NCC Ltd",
       "bse_code": "500294",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ONGC",
+      "market": "IN",
+      "company": "Oil and Natural Gas Corporation Ltd",
+      "bse_code": "500312",
       "earnings_date": "2026-11-05",
       "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -23568,10 +25456,54 @@
       "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f608040-22a3-40e3-b146-a08684aff757.pdf"
     },
     {
+      "ticker": "SANDHAR",
+      "market": "IN",
+      "company": "Sandhar Technologies Ltd",
+      "bse_code": "541163",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SUNSHIEL",
+      "market": "IN",
+      "company": "Sunshield Chemicals Ltd",
+      "bse_code": "530845",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SURATRAML",
+      "market": "IN",
+      "company": "Surat Trade and Mercantile Ltd",
+      "bse_code": "530185",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "TAMBOLIIN",
       "market": "IN",
       "company": "Tamboli Industries Ltd",
       "bse_code": "533170",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "TCPLPACK",
+      "market": "IN",
+      "company": "TCPL Packaging Ltd",
+      "bse_code": "523301",
       "earnings_date": "2026-11-05",
       "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -23644,6 +25576,17 @@
       "market": "IN",
       "company": "Unjha Formulations Ltd",
       "bse_code": "531762",
+      "earnings_date": "2026-11-05",
+      "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "VSTTILLERS",
+      "market": "IN",
+      "company": "VST Tillers Tractors Ltd",
+      "bse_code": "531266",
       "earnings_date": "2026-11-05",
       "earnings_datetime_utc": "2026-11-05T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -24174,7 +26117,7 @@
     {
       "ticker": "BANCOINDIA",
       "market": "IN",
-      "company": "Banco Products (India) Ltd-$",
+      "company": "Banco Products (India) Ltd",
       "bse_code": "500039",
       "earnings_date": "2026-11-06",
       "earnings_datetime_utc": "2026-11-06T10:30:00.000Z",
@@ -24324,6 +26267,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "PUROHITCON",
+      "market": "IN",
+      "company": "Purohit Construction Ltd",
+      "bse_code": "538993",
+      "earnings_date": "2026-11-06",
+      "earnings_datetime_utc": "2026-11-06T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "RAIN",
       "market": "IN",
       "company": "Rain Industries Ltd",
@@ -24388,6 +26342,50 @@
       "bse_code": "500444",
       "earnings_date": "2026-11-06",
       "earnings_datetime_utc": "2026-11-06T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "DIVISLAB",
+      "market": "IN",
+      "company": "Divis Laboratories Ltd",
+      "bse_code": "532488",
+      "earnings_date": "2026-11-07",
+      "earnings_datetime_utc": "2026-11-07T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "GOLDIAM",
+      "market": "IN",
+      "company": "Goldiam International Ltd",
+      "bse_code": "526729",
+      "earnings_date": "2026-11-07",
+      "earnings_datetime_utc": "2026-11-07T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "HBLENGINE",
+      "market": "IN",
+      "company": "HBL Engineering Ltd",
+      "bse_code": "517271",
+      "earnings_date": "2026-11-07",
+      "earnings_datetime_utc": "2026-11-07T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SUPRAJIT",
+      "market": "IN",
+      "company": "Suprajit Engineering Ltd",
+      "bse_code": "532509",
+      "earnings_date": "2026-11-07",
+      "earnings_datetime_utc": "2026-11-07T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
