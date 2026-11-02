@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-01T09:37:57.295Z",
+  "generated_at": "2026-11-02T09:54:09.267Z",
   "lookback": {
-    "from": "2026-05-05",
-    "to": "2026-10-27"
+    "from": "2026-05-06",
+    "to": "2026-10-28"
   },
   "counts": {
-    "IN": 775,
+    "IN": 800,
     "US": 800
   },
   "records": [
@@ -245,6 +245,19 @@
     },
     {
       "market": "IN",
+      "ticker": "ADANIENT",
+      "company": "Adani Enterprises Limited",
+      "earnings_date": "2026-10-28",
+      "runup": -0.41,
+      "ret1": 5.17,
+      "ret3": 5,
+      "market_cap": 3489142993164,
+      "currency": "INR",
+      "surprise_pct": -8.9,
+      "beat": false
+    },
+    {
+      "market": "IN",
       "ticker": "ITC",
       "company": "ITC Limited",
       "earnings_date": "2026-07-31",
@@ -293,19 +306,6 @@
       "market_cap": 3234329903691,
       "currency": "INR",
       "surprise_pct": 4.98,
-      "beat": true
-    },
-    {
-      "market": "IN",
-      "ticker": "NTPC",
-      "company": "NTPC Limited",
-      "earnings_date": "2026-07-24",
-      "runup": -0.4,
-      "ret1": 1.04,
-      "ret3": -1.07,
-      "market_cap": 3064146460938,
-      "currency": "INR",
-      "surprise_pct": 15.69,
       "beat": true
     },
     {
@@ -359,19 +359,6 @@
       "currency": "INR",
       "surprise_pct": 37.58,
       "beat": true
-    },
-    {
-      "market": "IN",
-      "ticker": "POWERGRID",
-      "company": "Power Grid Corporation of India Limited",
-      "earnings_date": "2026-08-05",
-      "runup": -0.58,
-      "ret1": -3.9,
-      "ret3": -4.13,
-      "market_cap": 2460009629883,
-      "currency": "INR",
-      "surprise_pct": -2.93,
-      "beat": false
     },
     {
       "market": "IN",
@@ -462,6 +449,19 @@
       "market_cap": 2006773320312,
       "currency": "INR",
       "surprise_pct": 39.94,
+      "beat": true
+    },
+    {
+      "market": "IN",
+      "ticker": "TVSMOTOR",
+      "company": "TVS Motor Company Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 3.74,
+      "ret1": 0.95,
+      "ret3": -0.58,
+      "market_cap": 1995365936279,
+      "currency": "INR",
+      "surprise_pct": 6.69,
       "beat": true
     },
     {
@@ -596,6 +596,32 @@
     },
     {
       "market": "IN",
+      "ticker": "HYUNDAI",
+      "company": "Hyundai Motor India Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 0.3,
+      "ret1": 2.95,
+      "ret3": 6.22,
+      "market_cap": 1552684879859,
+      "currency": "INR",
+      "surprise_pct": -3.16,
+      "beat": false
+    },
+    {
+      "market": "IN",
+      "ticker": "PIDILITIND",
+      "company": "Pidilite Industries Limited",
+      "earnings_date": "2026-10-28",
+      "runup": -4.17,
+      "ret1": 2.33,
+      "ret3": 6.48,
+      "market_cap": 1487068635254,
+      "currency": "INR",
+      "surprise_pct": -4.8,
+      "beat": false
+    },
+    {
+      "market": "IN",
       "ticker": "TMCV",
       "company": "Tata Motors Limited",
       "earnings_date": "2026-10-23",
@@ -671,6 +697,19 @@
       "currency": "INR",
       "surprise_pct": -17.27,
       "beat": false
+    },
+    {
+      "market": "IN",
+      "ticker": "CHOLAFIN",
+      "company": "Cholamandalam Investment and Finance Co. Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": 5.19,
+      "ret1": 3.82,
+      "ret3": 4.98,
+      "market_cap": 1355167109131,
+      "currency": "INR",
+      "surprise_pct": 1.04,
+      "beat": true
     },
     {
       "market": "IN",
@@ -1051,6 +1090,19 @@
     },
     {
       "market": "IN",
+      "ticker": "MEESHO",
+      "company": "Meesho Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 1.91,
+      "ret1": -1.34,
+      "ret3": -2.55,
+      "market_cap": 1032623062479,
+      "currency": "INR",
+      "surprise_pct": -24.44,
+      "beat": false
+    },
+    {
+      "market": "IN",
       "ticker": "HEROMOTOCO",
       "company": "Hero Motocorp Limited",
       "earnings_date": "2026-10-27",
@@ -1181,15 +1233,15 @@
     },
     {
       "market": "IN",
-      "ticker": "MUTHOOTFIN",
-      "company": "Muthoot Finance Ltd",
-      "earnings_date": "2026-08-03",
-      "runup": -7.33,
-      "ret1": -0.72,
-      "ret3": 0.11,
-      "market_cap": 967338291336,
+      "ticker": "UNITDSPR",
+      "company": "United Spirits Limited",
+      "earnings_date": "2026-10-28",
+      "runup": -3.35,
+      "ret1": 5.06,
+      "ret3": 9.17,
+      "market_cap": 969558737854,
       "currency": "INR",
-      "surprise_pct": -14.03,
+      "surprise_pct": -3.57,
       "beat": false
     },
     {
@@ -1243,6 +1295,19 @@
       "currency": "INR",
       "surprise_pct": 97.87,
       "beat": true
+    },
+    {
+      "market": "IN",
+      "ticker": "GMRAIRPORT",
+      "company": "GMR Airports Ltd",
+      "earnings_date": "2026-10-28",
+      "runup": 0.26,
+      "ret1": -2.72,
+      "ret3": -0.99,
+      "market_cap": 927078427193,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "IN",
@@ -1411,6 +1476,19 @@
       "market_cap": 777987866562,
       "currency": "INR",
       "surprise_pct": 7.92,
+      "beat": true
+    },
+    {
+      "market": "IN",
+      "ticker": "NAUKRI",
+      "company": "Info Edge India Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": -2.16,
+      "ret1": -1.43,
+      "ret3": -0.82,
+      "market_cap": 771620578613,
+      "currency": "INR",
+      "surprise_pct": 7.74,
       "beat": true
     },
     {
@@ -1893,19 +1971,6 @@
       "currency": "INR",
       "surprise_pct": 5.7,
       "beat": true
-    },
-    {
-      "market": "IN",
-      "ticker": "GICRE",
-      "company": "General Insurance Corporation of India",
-      "earnings_date": "2026-08-13",
-      "runup": -2.15,
-      "ret1": 1.12,
-      "ret3": 3.36,
-      "market_cap": 546934207611.00006,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
     },
     {
       "market": "IN",
@@ -2403,6 +2468,19 @@
     },
     {
       "market": "IN",
+      "ticker": "KPRMILL",
+      "company": "K.P.R. Mill Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 5,
+      "ret1": -0.81,
+      "ret3": 3.8,
+      "market_cap": 381122604828,
+      "currency": "INR",
+      "surprise_pct": 29.36,
+      "beat": true
+    },
+    {
+      "market": "IN",
       "ticker": "PTCIL",
       "company": "PTC Industries Ltd",
       "earnings_date": "2026-08-14",
@@ -2689,19 +2767,6 @@
     },
     {
       "market": "IN",
-      "ticker": "SHYAMMETL",
-      "company": "Shyam Metalics & Energy Ltd.",
-      "earnings_date": "2026-07-20",
-      "runup": 3.18,
-      "ret1": 0.73,
-      "ret3": -1.45,
-      "market_cap": 324853644294,
-      "currency": "INR",
-      "surprise_pct": 3.97,
-      "beat": true
-    },
-    {
-      "market": "IN",
       "ticker": "NUVAMA",
       "company": "Nuvama Wealth Management Limited",
       "earnings_date": "2026-07-30",
@@ -2832,6 +2897,19 @@
     },
     {
       "market": "IN",
+      "ticker": "HEXT",
+      "company": "Hexaware Technologies Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 0.51,
+      "ret1": -5.91,
+      "ret3": -13.03,
+      "market_cap": 306363414264,
+      "currency": "INR",
+      "surprise_pct": 25.44,
+      "beat": true
+    },
+    {
+      "market": "IN",
       "ticker": "MRPL",
       "company": "Mangalore Refinery & Petrochemicals Ltd.",
       "earnings_date": "2026-10-14",
@@ -2867,6 +2945,19 @@
       "market_cap": 294387392853,
       "currency": "INR",
       "surprise_pct": 7.5,
+      "beat": true
+    },
+    {
+      "market": "IN",
+      "ticker": "ACMESOLAR",
+      "company": "ACME Solar Holdings Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": -1.18,
+      "ret1": 1.13,
+      "ret3": 1.96,
+      "market_cap": 286213411341,
+      "currency": "INR",
+      "surprise_pct": 36.36,
       "beat": true
     },
     {
@@ -2949,6 +3040,19 @@
     },
     {
       "market": "IN",
+      "ticker": "PNBHOUSING",
+      "company": "PNB Housing Finance Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 3.89,
+      "ret1": -1.07,
+      "ret3": -5.95,
+      "market_cap": 276243471836,
+      "currency": "INR",
+      "surprise_pct": 6.33,
+      "beat": true
+    },
+    {
+      "market": "IN",
       "ticker": "MANAPPURAM",
       "company": "Manappuram Finance Limited",
       "earnings_date": "2026-08-11",
@@ -2958,6 +3062,19 @@
       "market_cap": 271468138855.00003,
       "currency": "INR",
       "surprise_pct": 8.54,
+      "beat": true
+    },
+    {
+      "market": "IN",
+      "ticker": "CRAFTSMAN",
+      "company": "Craftsman Automation Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": 0.03,
+      "ret1": -1.64,
+      "ret3": -4.67,
+      "market_cap": 269099040144.00003,
+      "currency": "INR",
+      "surprise_pct": 1.49,
       "beat": true
     },
     {
@@ -2972,19 +3089,6 @@
       "currency": "INR",
       "surprise_pct": 15.45,
       "beat": true
-    },
-    {
-      "market": "IN",
-      "ticker": "CDSL",
-      "company": "Central Depository Services (India) Limited",
-      "earnings_date": "2026-08-01",
-      "runup": -0.25,
-      "ret1": -0.81,
-      "ret3": -0.49,
-      "market_cap": 263967000000,
-      "currency": "INR",
-      "surprise_pct": -16.71,
-      "beat": false
     },
     {
       "market": "IN",
@@ -3170,6 +3274,19 @@
     },
     {
       "market": "IN",
+      "ticker": "BANDHANBNK",
+      "company": "Bandhan Bank Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": 2.27,
+      "ret1": 4.17,
+      "ret3": -0.3,
+      "market_cap": 247956298296,
+      "currency": "INR",
+      "surprise_pct": 18.77,
+      "beat": true
+    },
+    {
+      "market": "IN",
       "ticker": "AEGISVOPAK",
       "company": "Aegis Vopak Terminals Limited",
       "earnings_date": "2026-10-26",
@@ -3271,6 +3388,19 @@
       "currency": "INR",
       "surprise_pct": -31.67,
       "beat": false
+    },
+    {
+      "market": "IN",
+      "ticker": "RRKABEL",
+      "company": "RR Kabel Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": 0.59,
+      "ret1": -3.83,
+      "ret3": -12.16,
+      "market_cap": 232612796530,
+      "currency": "INR",
+      "surprise_pct": 7.29,
+      "beat": true
     },
     {
       "market": "IN",
@@ -3443,6 +3573,19 @@
     },
     {
       "market": "IN",
+      "ticker": "SUNDRMFAST",
+      "company": "Sundram Fasteners Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 1.92,
+      "ret1": -0.8,
+      "ret3": -0.16,
+      "market_cap": 217745525684,
+      "currency": "INR",
+      "surprise_pct": -5.75,
+      "beat": false
+    },
+    {
+      "market": "IN",
       "ticker": "AWL",
       "company": "AWL Agri Business Ltd",
       "earnings_date": "2026-10-27",
@@ -3453,6 +3596,19 @@
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "CUB",
+      "company": "City Union Bank Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 0.88,
+      "ret1": 5.53,
+      "ret3": -2.46,
+      "market_cap": 212771557953,
+      "currency": "INR",
+      "surprise_pct": 7.44,
+      "beat": true
     },
     {
       "market": "IN",
@@ -3557,19 +3713,6 @@
       "currency": "INR",
       "surprise_pct": -10.36,
       "beat": false
-    },
-    {
-      "market": "IN",
-      "ticker": "SHRIPISTON",
-      "company": "SPR Auto Technologies Ltd",
-      "earnings_date": "2026-08-04",
-      "runup": -2.69,
-      "ret1": 0.87,
-      "ret3": -0.22,
-      "market_cap": 202875005632,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
     },
     {
       "market": "IN",
@@ -4002,6 +4145,19 @@
     },
     {
       "market": "IN",
+      "ticker": "ANANTRAJ",
+      "company": "Anant Raj Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": -0.65,
+      "ret1": 0.02,
+      "ret3": -3.4,
+      "market_cap": 161152881551,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
       "ticker": "ERIS",
       "company": "Eris Lifesciences Ltd",
       "earnings_date": "2026-10-26",
@@ -4275,6 +4431,19 @@
     },
     {
       "market": "IN",
+      "ticker": "PVRINOX",
+      "company": "PVR Inox Limited",
+      "earnings_date": "2026-10-28",
+      "runup": -1.28,
+      "ret1": 3.11,
+      "ret3": 4.46,
+      "market_cap": 146784388418,
+      "currency": "INR",
+      "surprise_pct": 19.64,
+      "beat": true
+    },
+    {
+      "market": "IN",
       "ticker": "POLYMED",
       "company": "Poly Medicure Limited",
       "earnings_date": "2026-08-07",
@@ -4340,6 +4509,19 @@
     },
     {
       "market": "IN",
+      "ticker": "KPITTECH",
+      "company": "KPIT Technologies Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 3.87,
+      "ret1": -1.59,
+      "ret3": -3.63,
+      "market_cap": 145570357178,
+      "currency": "INR",
+      "surprise_pct": -14.08,
+      "beat": false
+    },
+    {
+      "market": "IN",
       "ticker": "SOUTHBANK",
       "company": "South Indian Bank Limited",
       "earnings_date": "2026-10-15",
@@ -4376,19 +4558,6 @@
       "currency": "INR",
       "surprise_pct": -54.42,
       "beat": false
-    },
-    {
-      "market": "IN",
-      "ticker": "ZENTEC",
-      "company": "Zen Technologies Limited",
-      "earnings_date": "2026-07-25",
-      "runup": -1.78,
-      "ret1": -4.55,
-      "ret3": -6.93,
-      "market_cap": 143290800522,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
     },
     {
       "market": "IN",
@@ -4639,6 +4808,19 @@
     },
     {
       "market": "IN",
+      "ticker": "ARVIND",
+      "company": "Arvind Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 2.39,
+      "ret1": -0.56,
+      "ret3": -3.62,
+      "market_cap": 133612748311,
+      "currency": "INR",
+      "surprise_pct": 2.25,
+      "beat": true
+    },
+    {
+      "market": "IN",
       "ticker": "BASF",
       "company": "BASF India Limited",
       "earnings_date": "2026-08-04",
@@ -4834,19 +5016,6 @@
     },
     {
       "market": "IN",
-      "ticker": "RAINBOW",
-      "company": "Rainbow Childrens Medicare Limited",
-      "earnings_date": "2026-07-30",
-      "runup": 1.6,
-      "ret1": 0.32,
-      "ret3": 3.84,
-      "market_cap": 123662470853,
-      "currency": "INR",
-      "surprise_pct": 5.35,
-      "beat": true
-    },
-    {
-      "market": "IN",
       "ticker": "CROMPTON",
       "company": "Crompton Greaves Consumer Electricals Ltd.",
       "earnings_date": "2026-10-16",
@@ -4886,6 +5055,19 @@
     },
     {
       "market": "IN",
+      "ticker": "ZENSARTECH",
+      "company": "Zensar Technologies Limited",
+      "earnings_date": "2026-10-28",
+      "runup": -2.12,
+      "ret1": 8.11,
+      "ret3": 9.39,
+      "market_cap": 121945169851,
+      "currency": "INR",
+      "surprise_pct": 1.28,
+      "beat": true
+    },
+    {
+      "market": "IN",
       "ticker": "INOXWIND",
       "company": "Inox Wind Ltd.",
       "earnings_date": "2026-08-07",
@@ -4896,6 +5078,19 @@
       "currency": "INR",
       "surprise_pct": -31.48,
       "beat": false
+    },
+    {
+      "market": "IN",
+      "ticker": "SUDEEPPHRM",
+      "company": "Sudeep Pharma Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 9.45,
+      "ret1": 0.99,
+      "ret3": -1.13,
+      "market_cap": 120482291340,
+      "currency": "INR",
+      "surprise_pct": 9.29,
+      "beat": true
     },
     {
       "market": "IN",
@@ -4984,6 +5179,19 @@
       "ret1": -0.28,
       "ret3": -1.66,
       "market_cap": 117395397450,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "PRUDENT",
+      "company": "Prudent Corporate Advisory Services Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 2.89,
+      "ret1": -2.49,
+      "ret3": -2.99,
+      "market_cap": 116454218128,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
@@ -5091,6 +5299,19 @@
       "currency": "INR",
       "surprise_pct": -26.89,
       "beat": false
+    },
+    {
+      "market": "IN",
+      "ticker": "KTKBANK",
+      "company": "Karnataka Bank Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": 3.65,
+      "ret1": -1.67,
+      "ret3": -4.05,
+      "market_cap": 113137711029,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "IN",
@@ -5285,6 +5506,19 @@
       "market_cap": 106567044879,
       "currency": "INR",
       "surprise_pct": -10.96,
+      "beat": false
+    },
+    {
+      "market": "IN",
+      "ticker": "CARTRADE",
+      "company": "CarTrade Tech Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": -12.64,
+      "ret1": -5.66,
+      "ret3": -7.89,
+      "market_cap": 106464169932,
+      "currency": "INR",
+      "surprise_pct": -13.87,
       "beat": false
     },
     {
@@ -5627,6 +5861,19 @@
     },
     {
       "market": "IN",
+      "ticker": "BSOFT",
+      "company": "Birlasoft Limited",
+      "earnings_date": "2026-10-28",
+      "runup": -1.8,
+      "ret1": 11.89,
+      "ret3": 7.45,
+      "market_cap": 90360426603,
+      "currency": "INR",
+      "surprise_pct": 1.21,
+      "beat": true
+    },
+    {
+      "market": "IN",
       "ticker": "AVANTIFEED",
       "company": "Avanti Feeds Limited",
       "earnings_date": "2026-08-13",
@@ -5965,6 +6212,19 @@
     },
     {
       "market": "IN",
+      "ticker": "SANOFICONR",
+      "company": "Sanofi Consumer Healthcare India Limited",
+      "earnings_date": "2026-10-28",
+      "runup": -1.78,
+      "ret1": 4.37,
+      "ret3": 5.83,
+      "market_cap": 79111334331,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
       "ticker": "SUDARSCHEM",
       "company": "Sudarshan Chemical Industries Limited",
       "earnings_date": "2026-08-12",
@@ -6082,19 +6342,6 @@
     },
     {
       "market": "IN",
-      "ticker": "CLEAN",
-      "company": "Clean Science & Technology Ltd.",
-      "earnings_date": "2026-08-01",
-      "runup": 0.69,
-      "ret1": 4.1,
-      "ret3": 4.75,
-      "market_cap": 76163196831,
-      "currency": "INR",
-      "surprise_pct": 31.01,
-      "beat": true
-    },
-    {
-      "market": "IN",
       "ticker": "AFCONS",
       "company": "Afcons Infrastructure Limited",
       "earnings_date": "2026-08-07",
@@ -6193,6 +6440,19 @@
       "ret1": -0.38,
       "ret3": 1.65,
       "market_cap": 72361274150,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "MAHSEAMLES",
+      "company": "Maharashtra Seamless Limited",
+      "earnings_date": "2026-08-07",
+      "runup": 1.01,
+      "ret1": 3.08,
+      "ret3": 3.43,
+      "market_cap": 72167901273,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
@@ -6337,7 +6597,7 @@
       "ret3": -6.69,
       "market_cap": 69655467123,
       "currency": "INR",
-      "surprise_pct": 8.51,
+      "surprise_pct": 2.61,
       "beat": true
     },
     {
@@ -6520,19 +6780,6 @@
       "market_cap": 66982537308,
       "currency": "INR",
       "surprise_pct": 50.14,
-      "beat": true
-    },
-    {
-      "market": "IN",
-      "ticker": "NEOGEN",
-      "company": "Neogen Chemicals Ltd.",
-      "earnings_date": "2026-07-24",
-      "runup": -1.16,
-      "ret1": 0.06,
-      "ret3": -0.7,
-      "market_cap": 65472966354,
-      "currency": "INR",
-      "surprise_pct": 68.86,
       "beat": true
     },
     {
@@ -6758,19 +7005,6 @@
     },
     {
       "market": "IN",
-      "ticker": "BIRLACORPN",
-      "company": "Birla Corporation Limited",
-      "earnings_date": "2026-07-25",
-      "runup": -1.79,
-      "ret1": -4.85,
-      "ret3": -7.05,
-      "market_cap": 59756144287,
-      "currency": "INR",
-      "surprise_pct": -30.26,
-      "beat": false
-    },
-    {
-      "market": "IN",
       "ticker": "CYIENTDLM",
       "company": "Cyient DLM Limited",
       "earnings_date": "2026-10-15",
@@ -6846,6 +7080,19 @@
       "currency": "INR",
       "surprise_pct": 0.74,
       "beat": true
+    },
+    {
+      "market": "IN",
+      "ticker": "DODLA",
+      "company": "Dodla Dairy Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": 0.26,
+      "ret1": -2.64,
+      "ret3": 3,
+      "market_cap": 58701973208,
+      "currency": "INR",
+      "surprise_pct": -6.77,
+      "beat": false
     },
     {
       "market": "IN",
@@ -7057,12 +7304,25 @@
     },
     {
       "market": "IN",
+      "ticker": "KISSHT",
+      "company": "Onemi Technology Solutions Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 4.87,
+      "ret1": -0.92,
+      "ret3": -5.37,
+      "market_cap": 54351518122,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
       "ticker": "V2RETAIL",
       "company": "V2 Retail Limited",
-      "earnings_date": "2026-05-28",
-      "runup": -0.98,
-      "ret1": -2.55,
-      "ret3": 1.81,
+      "earnings_date": "2026-08-13",
+      "runup": -1.09,
+      "ret1": -0.47,
+      "ret3": 0.99,
       "market_cap": 54312765422,
       "currency": "INR",
       "surprise_pct": null,
@@ -7148,6 +7408,19 @@
     },
     {
       "market": "IN",
+      "ticker": "BALUFORGE",
+      "company": "Balu Forge Industries Ltd",
+      "earnings_date": "2026-08-12",
+      "runup": 0.87,
+      "ret1": -3.62,
+      "ret3": 10.87,
+      "market_cap": 52024162650,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
       "ticker": "CSBBANK",
       "company": "CSB Bank Ltd.",
       "earnings_date": "2026-10-23",
@@ -7171,6 +7444,19 @@
       "currency": "INR",
       "surprise_pct": -3.34,
       "beat": false
+    },
+    {
+      "market": "IN",
+      "ticker": "GULFOILLUB",
+      "company": "Gulf Oil Lubricants India Ltd",
+      "earnings_date": "2026-10-28",
+      "runup": 1.73,
+      "ret1": -0.97,
+      "ret3": -1.3,
+      "market_cap": 51138823393,
+      "currency": "INR",
+      "surprise_pct": 2,
+      "beat": true
     },
     {
       "market": "IN",
@@ -7210,6 +7496,32 @@
       "currency": "INR",
       "surprise_pct": -91.5,
       "beat": false
+    },
+    {
+      "market": "IN",
+      "ticker": "IONEXCHANG",
+      "company": "Ion Exchange (India) Ltd.",
+      "earnings_date": "2026-08-05",
+      "runup": -2.1,
+      "ret1": -7.05,
+      "ret3": -7.23,
+      "market_cap": 49609975914,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "GOODLUCK",
+      "company": "Goodluck India Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": -0.33,
+      "ret1": -7.78,
+      "ret3": -7.36,
+      "market_cap": 49209610485,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "IN",
@@ -7300,6 +7612,19 @@
       "market_cap": 46756528716,
       "currency": "INR",
       "surprise_pct": -68.75,
+      "beat": false
+    },
+    {
+      "market": "IN",
+      "ticker": "STYLAMIND",
+      "company": "Stylam Industries Limited",
+      "earnings_date": "2026-10-28",
+      "runup": -10.02,
+      "ret1": -2.13,
+      "ret3": -0.57,
+      "market_cap": 46569882814,
+      "currency": "INR",
+      "surprise_pct": -9.71,
       "beat": false
     },
     {
@@ -7499,6 +7824,19 @@
     },
     {
       "market": "IN",
+      "ticker": "MASFIN",
+      "company": "MAS Financial Services Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": 3.38,
+      "ret1": -2.94,
+      "ret3": -4.31,
+      "market_cap": 44292768515,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
       "ticker": "SURYAROSNI",
       "company": "Surya Roshni Limited",
       "earnings_date": "2026-08-10",
@@ -7548,19 +7886,6 @@
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "LATENTVIEW",
-      "company": "Latent View Analytics Limited",
-      "earnings_date": "2026-08-01",
-      "runup": 1.85,
-      "ret1": -5.8,
-      "ret3": -6.7,
-      "market_cap": 43580666530,
-      "currency": "INR",
-      "surprise_pct": -10.77,
-      "beat": false
     },
     {
       "market": "IN",
@@ -7850,6 +8175,19 @@
     },
     {
       "market": "IN",
+      "ticker": "ZOTA",
+      "company": "Zota Health Care Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": -0.7,
+      "ret1": 4.13,
+      "ret3": -3.6,
+      "market_cap": 40306033383,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
       "ticker": "THOMASCOOK",
       "company": "Thomas Cook (India) Limited",
       "earnings_date": "2026-08-03",
@@ -8084,19 +8422,6 @@
     },
     {
       "market": "IN",
-      "ticker": "NITINSPIN",
-      "company": "Nitin Spinners Limited",
-      "earnings_date": "2026-08-08",
-      "runup": 0.88,
-      "ret1": -3.23,
-      "ret3": -6.86,
-      "market_cap": 36593600167,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
       "ticker": "VISHNU",
       "company": "Vishnu Chemicals Limited",
       "earnings_date": "2026-08-01",
@@ -8195,6 +8520,19 @@
       "ret1": 1.37,
       "ret3": 0.01,
       "market_cap": 34733256325,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "KSCL",
+      "company": "Kaveri Seed Co. Ltd.",
+      "earnings_date": "2026-10-28",
+      "runup": 2.8,
+      "ret1": -2.52,
+      "ret3": -5.1,
+      "market_cap": 34145255137,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
@@ -8318,6 +8656,19 @@
     },
     {
       "market": "IN",
+      "ticker": "PNCINFRA",
+      "company": "PNC Infratech Ltd",
+      "earnings_date": "2026-10-28",
+      "runup": -0.13,
+      "ret1": -0.76,
+      "ret3": -3.84,
+      "market_cap": 31874993683,
+      "currency": "INR",
+      "surprise_pct": -7.67,
+      "beat": false
+    },
+    {
+      "market": "IN",
       "ticker": "SWSOLAR",
       "company": "Sterling And Wilson Renewable Energy Limited",
       "earnings_date": "2026-10-15",
@@ -8383,6 +8734,19 @@
     },
     {
       "market": "IN",
+      "ticker": "BAJAJELEC",
+      "company": "Bajaj Electricals Limited",
+      "earnings_date": "2026-10-28",
+      "runup": 3.85,
+      "ret1": -3.02,
+      "ret3": -8.44,
+      "market_cap": 30927763003,
+      "currency": "INR",
+      "surprise_pct": -37.5,
+      "beat": false
+    },
+    {
+      "market": "IN",
       "ticker": "TRUALT",
       "company": "Trualt Bioenergy Limited",
       "earnings_date": "2026-10-23",
@@ -8390,6 +8754,19 @@
       "ret1": -4.03,
       "ret3": -7.61,
       "market_cap": 30896658569,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "STYRENIX",
+      "company": "Styrenix Performance Materials Ltd",
+      "earnings_date": "2026-10-28",
+      "runup": -7.75,
+      "ret1": 0.54,
+      "ret3": -2.55,
+      "market_cap": 30754615983,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
@@ -8424,10 +8801,10 @@
       "market": "IN",
       "ticker": "JTEKTINDIA",
       "company": "JTEKT India Limited",
-      "earnings_date": "2026-05-14",
-      "runup": -0.23,
-      "ret1": -2.6,
-      "ret3": -5.6,
+      "earnings_date": "2026-08-13",
+      "runup": -4.4,
+      "ret1": -1.21,
+      "ret3": -2.46,
       "market_cap": 30449322148,
       "currency": "INR",
       "surprise_pct": null,
@@ -8487,19 +8864,6 @@
     },
     {
       "market": "IN",
-      "ticker": "AURIONPRO",
-      "company": "Aurionpro Solutions Limited",
-      "earnings_date": "2026-07-27",
-      "runup": 1.36,
-      "ret1": -12.1,
-      "ret3": -12.22,
-      "market_cap": 29824721461,
-      "currency": "INR",
-      "surprise_pct": -16.58,
-      "beat": false
-    },
-    {
-      "market": "IN",
       "ticker": "RSYSTEMS",
       "company": "R Systems International Limited",
       "earnings_date": "2026-08-04",
@@ -8526,19 +8890,6 @@
     },
     {
       "market": "IN",
-      "ticker": "ADVENZYMES",
-      "company": "Advanced Enzyme Technologies Ltd",
-      "earnings_date": "2026-08-08",
-      "runup": -1.65,
-      "ret1": -9.19,
-      "ret3": -7,
-      "market_cap": 29444130144,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
       "ticker": "PARAGMILK",
       "company": "Parag Milk Foods Ltd.",
       "earnings_date": "2026-08-06",
@@ -8549,6 +8900,19 @@
       "currency": "INR",
       "surprise_pct": 1.76,
       "beat": true
+    },
+    {
+      "market": "IN",
+      "ticker": "RAYMONDLSL",
+      "company": "Raymond Lifestyle Limited",
+      "earnings_date": "2026-10-28",
+      "runup": -0.58,
+      "ret1": 0.26,
+      "ret3": 0.02,
+      "market_cap": 29200695001,
+      "currency": "INR",
+      "surprise_pct": -12.06,
+      "beat": false
     },
     {
       "market": "IN",
@@ -8695,19 +9059,6 @@
     },
     {
       "market": "IN",
-      "ticker": "GANECOS",
-      "company": "Ganesha Ecosphere Limited",
-      "earnings_date": "2026-08-03",
-      "runup": -2.3,
-      "ret1": -2.58,
-      "ret3": -6.97,
-      "market_cap": 26786606328,
-      "currency": "INR",
-      "surprise_pct": 24.83,
-      "beat": true
-    },
-    {
-      "market": "IN",
       "ticker": "STYLEBAAZA",
       "company": "Baazar Style Retail Limited",
       "earnings_date": "2026-08-13",
@@ -8770,6 +9121,19 @@
       "currency": "INR",
       "surprise_pct": 98.08,
       "beat": true
+    },
+    {
+      "market": "IN",
+      "ticker": "SATIN",
+      "company": "Satin Creditcare Network Ltd",
+      "earnings_date": "2026-10-28",
+      "runup": 1.88,
+      "ret1": 10.12,
+      "ret3": 4.2,
+      "market_cap": 26265138132,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "IN",
@@ -8887,6 +9251,19 @@
       "currency": "INR",
       "surprise_pct": 295,
       "beat": true
+    },
+    {
+      "market": "IN",
+      "ticker": "APCOTEXIND",
+      "company": "Apcotex Industries Ltd",
+      "earnings_date": "2026-10-28",
+      "runup": -2.93,
+      "ret1": -4.05,
+      "ret3": -4.1,
+      "market_cap": 24854473152,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "IN",
@@ -9202,6 +9579,19 @@
     },
     {
       "market": "IN",
+      "ticker": "GATEWAY",
+      "company": "Gateway Distriparks Limited",
+      "earnings_date": "2026-10-28",
+      "runup": -0.02,
+      "ret1": -4.65,
+      "ret3": -1.33,
+      "market_cap": 21439716641,
+      "currency": "INR",
+      "surprise_pct": 5.45,
+      "beat": true
+    },
+    {
+      "market": "IN",
       "ticker": "VINCOFE",
       "company": "Vintage Coffee and Beverages Limited",
       "earnings_date": "2026-07-29",
@@ -9287,6 +9677,19 @@
       "ret1": 2.89,
       "ret3": -0.76,
       "market_cap": 20842274367,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "BODALCHEM",
+      "company": "Bodal Chemicals Limited",
+      "earnings_date": "2026-08-05",
+      "runup": 3.28,
+      "ret1": -4.99,
+      "ret3": -8.42,
+      "market_cap": 20742986508,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
@@ -9459,19 +9862,6 @@
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "NUCLEUS",
-      "company": "Nucleus Software Exports Limited",
-      "earnings_date": "2026-07-30",
-      "runup": -0.4,
-      "ret1": -7.06,
-      "ret3": -5.4,
-      "market_cap": 16939018428,
-      "currency": "INR",
-      "surprise_pct": -54.73,
-      "beat": false
     },
     {
       "market": "IN",
@@ -9729,6 +10119,19 @@
       "ret1": 1.81,
       "ret3": 0.87,
       "market_cap": 13902723297,
+      "currency": "INR",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "IN",
+      "ticker": "ALLCARGO",
+      "company": "Allcargo Logistics Limited",
+      "earnings_date": "2026-08-05",
+      "runup": -0.85,
+      "ret1": 19.9,
+      "ret3": 19.78,
+      "market_cap": 13854450592,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
@@ -9995,91 +10398,13 @@
     },
     {
       "market": "IN",
-      "ticker": "LAXMIDENTL",
-      "company": "Laxmi Dental Ltd.",
-      "earnings_date": "2026-08-11",
-      "runup": -2.23,
-      "ret1": -4.96,
-      "ret3": -4.24,
-      "market_cap": 9781479896,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "GRPLTD",
-      "company": "GRP Ltd",
-      "earnings_date": "2026-07-23",
-      "runup": 4.44,
-      "ret1": 1.77,
-      "ret3": 1.38,
-      "market_cap": 9694131152,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "RUPA",
-      "company": "Rupa & Co. Ltd.",
-      "earnings_date": "2026-08-10",
-      "runup": 0.27,
-      "ret1": -3.95,
-      "ret3": -6.91,
-      "market_cap": 9523065943,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "BIRLANU",
-      "company": "Birlanu Limited",
-      "earnings_date": "2026-08-06",
-      "runup": 10.17,
-      "ret1": 6.68,
-      "ret3": 9.5,
-      "market_cap": 9378615469,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "NIITLTD",
-      "company": "NIIT Limited",
-      "earnings_date": "2026-10-27",
-      "runup": 1.5,
-      "ret1": -8.42,
-      "ret3": -12.05,
-      "market_cap": 9149812280,
-      "currency": "INR",
-      "surprise_pct": -260,
-      "beat": false
-    },
-    {
-      "market": "IN",
-      "ticker": "UNIECOM",
-      "company": "Unicommerce eSolutions Limited",
-      "earnings_date": "2026-10-23",
-      "runup": -4.43,
-      "ret1": 2.75,
-      "ret3": 10.45,
-      "market_cap": 9029666401,
-      "currency": "INR",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "IN",
-      "ticker": "GULPOLY",
-      "company": "Gulshan Polyols Limited",
-      "earnings_date": "2026-08-06",
-      "runup": -0.81,
-      "ret1": -1.13,
-      "ret3": -4.36,
-      "market_cap": 8887808561,
+      "ticker": "KALAMANDIR",
+      "company": "Sai Silks (Kalamandir) Ltd.",
+      "earnings_date": "2026-07-15",
+      "runup": -2.29,
+      "ret1": -2.84,
+      "ret3": -5.85,
+      "market_cap": 9954994380,
       "currency": "INR",
       "surprise_pct": null,
       "beat": null
@@ -10092,7 +10417,7 @@
       "runup": -0.89,
       "ret1": 1.93,
       "ret3": 3.02,
-      "market_cap": 1696024576,
+      "market_cap": 1695734272,
       "currency": "USD",
       "surprise_pct": 44.44,
       "beat": true
@@ -10118,7 +10443,7 @@
       "runup": 12.74,
       "ret1": -0.75,
       "ret3": 1.56,
-      "market_cap": 3555017984,
+      "market_cap": 3555544320,
       "currency": "USD",
       "surprise_pct": -4.02,
       "beat": false
@@ -10203,19 +10528,6 @@
     },
     {
       "market": "US",
-      "ticker": "AMRN",
-      "company": "AMRN",
-      "earnings_date": "2026-10-27",
-      "runup": -1.16,
-      "ret1": 6.69,
-      "ret3": 1.34,
-      "market_cap": 509132832,
-      "currency": "USD",
-      "surprise_pct": 100,
-      "beat": true
-    },
-    {
-      "market": "US",
       "ticker": "AMT",
       "company": "AMT",
       "earnings_date": "2026-10-27",
@@ -10252,19 +10564,6 @@
       "currency": "USD",
       "surprise_pct": -3.3,
       "beat": false
-    },
-    {
-      "market": "US",
-      "ticker": "AROW",
-      "company": "AROW",
-      "earnings_date": "2026-10-27",
-      "runup": -0.36,
-      "ret1": -1.07,
-      "ret3": -0.21,
-      "market_cap": 711006528,
-      "currency": "USD",
-      "surprise_pct": 3.74,
-      "beat": true
     },
     {
       "market": "US",
@@ -10346,6 +10645,19 @@
     },
     {
       "market": "US",
+      "ticker": "BKR",
+      "company": "BKR",
+      "earnings_date": "2026-10-27",
+      "runup": 5.34,
+      "ret1": -7.36,
+      "ret3": -6.39,
+      "market_cap": 54847721472,
+      "currency": "USD",
+      "surprise_pct": 14,
+      "beat": true
+    },
+    {
+      "market": "US",
       "ticker": "BOOM",
       "company": "BOOM",
       "earnings_date": "2026-10-27",
@@ -10355,19 +10667,6 @@
       "market_cap": 192057872,
       "currency": "USD",
       "surprise_pct": 357.14,
-      "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "BRSP",
-      "company": "BRSP",
-      "earnings_date": "2026-10-27",
-      "runup": 0.81,
-      "ret1": -1.61,
-      "ret3": -8.06,
-      "market_cap": 426394432,
-      "currency": "USD",
-      "surprise_pct": 3.7,
       "beat": true
     },
     {
@@ -10463,6 +10762,19 @@
     },
     {
       "market": "US",
+      "ticker": "CFBK",
+      "company": "CFBK",
+      "earnings_date": "2026-10-27",
+      "runup": 0.76,
+      "ret1": -0.2,
+      "ret3": -1.3,
+      "market_cap": 231071040,
+      "currency": "USD",
+      "surprise_pct": 0,
+      "beat": false
+    },
+    {
+      "market": "US",
       "ticker": "CHE",
       "company": "CHE",
       "earnings_date": "2026-10-27",
@@ -10554,19 +10866,6 @@
     },
     {
       "market": "US",
-      "ticker": "CPF",
-      "company": "CPF",
-      "earnings_date": "2026-10-27",
-      "runup": 0.24,
-      "ret1": 0.19,
-      "ret3": 0.42,
-      "market_cap": 966351168,
-      "currency": "USD",
-      "surprise_pct": 3.77,
-      "beat": true
-    },
-    {
-      "market": "US",
       "ticker": "CR",
       "company": "CR",
       "earnings_date": "2026-10-27",
@@ -10614,7 +10913,7 @@
       "ret3": -5.75,
       "market_cap": 12138517504,
       "currency": "USD",
-      "surprise_pct": 11.97,
+      "surprise_pct": 11.93,
       "beat": true
     },
     {
@@ -10684,6 +10983,19 @@
     },
     {
       "market": "US",
+      "ticker": "EBMT",
+      "company": "EBMT",
+      "earnings_date": "2026-10-27",
+      "runup": -0.05,
+      "ret1": -0.47,
+      "ret3": -0.61,
+      "market_cap": 168946784,
+      "currency": "USD",
+      "surprise_pct": -29.19,
+      "beat": false
+    },
+    {
+      "market": "US",
       "ticker": "ECL",
       "company": "ECL",
       "earnings_date": "2026-10-27",
@@ -10703,7 +11015,7 @@
       "runup": -7.72,
       "ret1": 3.63,
       "ret3": 7.02,
-      "market_cap": 2362037248,
+      "market_cap": 2404442368,
       "currency": "USD",
       "surprise_pct": -3.82,
       "beat": false
@@ -10720,6 +11032,19 @@
       "currency": "USD",
       "surprise_pct": -18.71,
       "beat": false
+    },
+    {
+      "market": "US",
+      "ticker": "ENSG",
+      "company": "ENSG",
+      "earnings_date": "2026-10-27",
+      "runup": -4.19,
+      "ret1": 8.62,
+      "ret3": 7.09,
+      "market_cap": 10589998080,
+      "currency": "USD",
+      "surprise_pct": 3.09,
+      "beat": true
     },
     {
       "market": "US",
@@ -10755,10 +11080,23 @@
       "runup": -0.16,
       "ret1": -4.89,
       "ret3": -3.88,
-      "market_cap": 18210689024,
+      "market_cap": 18208921600,
       "currency": "USD",
       "surprise_pct": 7.54,
       "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "ESYN",
+      "company": "ESYN",
+      "earnings_date": "2026-10-27",
+      "runup": -2.94,
+      "ret1": 7.58,
+      "ret3": 6.06,
+      "market_cap": 52021200,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "US",
@@ -10823,6 +11161,19 @@
       "market_cap": 887922432,
       "currency": "USD",
       "surprise_pct": 1.3,
+      "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "FCBM",
+      "company": "FCBM",
+      "earnings_date": "2026-10-27",
+      "runup": 0.31,
+      "ret1": 0.46,
+      "ret3": -0.69,
+      "market_cap": 400179712,
+      "currency": "USD",
+      "surprise_pct": 16.42,
       "beat": true
     },
     {
@@ -10905,6 +11256,19 @@
     },
     {
       "market": "US",
+      "ticker": "FNWD",
+      "company": "FNWD",
+      "earnings_date": "2026-10-27",
+      "runup": 0.6,
+      "ret1": -0.23,
+      "ret3": -1.1,
+      "market_cap": 187570976,
+      "currency": "USD",
+      "surprise_pct": -61.64,
+      "beat": false
+    },
+    {
+      "market": "US",
       "ticker": "FRAF",
       "company": "FRAF",
       "earnings_date": "2026-10-27",
@@ -10925,19 +11289,6 @@
       "ret1": -25.58,
       "ret3": -6.98,
       "market_cap": 41729500,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
-      "ticker": "GCBC",
-      "company": "GCBC",
-      "earnings_date": "2026-10-27",
-      "runup": 0.2,
-      "ret1": -1.01,
-      "ret3": -0.17,
-      "market_cap": 608831296,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -11015,7 +11366,7 @@
       "runup": -1.84,
       "ret1": -2.05,
       "ret3": 3.89,
-      "market_cap": 3479780608,
+      "market_cap": 3479572992,
       "currency": "USD",
       "surprise_pct": 24.38,
       "beat": true
@@ -11217,19 +11568,6 @@
     },
     {
       "market": "US",
-      "ticker": "JBLU",
-      "company": "JBLU",
-      "earnings_date": "2026-10-27",
-      "runup": 18.99,
-      "ret1": 1.06,
-      "ret3": 1.06,
-      "market_cap": 1075452672,
-      "currency": "USD",
-      "surprise_pct": -8.75,
-      "beat": false
-    },
-    {
-      "market": "US",
       "ticker": "JCI",
       "company": "JCI",
       "earnings_date": "2026-10-27",
@@ -11253,6 +11591,19 @@
       "currency": "USD",
       "surprise_pct": -6.98,
       "beat": false
+    },
+    {
+      "market": "US",
+      "ticker": "KNSA",
+      "company": "KNSA",
+      "earnings_date": "2026-10-27",
+      "runup": 22.23,
+      "ret1": 6.7,
+      "ret3": 3.41,
+      "market_cap": 7247453696,
+      "currency": "USD",
+      "surprise_pct": 79.2,
+      "beat": true
     },
     {
       "market": "US",
@@ -11308,29 +11659,42 @@
     },
     {
       "market": "US",
+      "ticker": "LU",
+      "company": "LU",
+      "earnings_date": "2026-10-27",
+      "runup": 0.24,
+      "ret1": -3.88,
+      "ret3": -2.82,
+      "market_cap": 715885056,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
       "ticker": "LUNG",
       "company": "LUNG",
       "earnings_date": "2026-10-27",
       "runup": 1.54,
       "ret1": 27.27,
       "ret3": 51.77,
-      "market_cap": 129059552,
+      "market_cap": 126922800,
       "currency": "USD",
       "surprise_pct": 25.78,
       "beat": true
     },
     {
       "market": "US",
-      "ticker": "LXFR",
-      "company": "LXFR",
+      "ticker": "LXP",
+      "company": "LXP",
       "earnings_date": "2026-10-27",
-      "runup": 0.06,
-      "ret1": -0.06,
-      "ret3": -0.17,
-      "market_cap": 461069824,
+      "runup": 0.05,
+      "ret1": 0,
+      "ret3": 0.07,
+      "market_cap": 3607254016,
       "currency": "USD",
-      "surprise_pct": -9.09,
-      "beat": false
+      "surprise_pct": 2580.59,
+      "beat": true
     },
     {
       "market": "US",
@@ -11438,6 +11802,19 @@
     },
     {
       "market": "US",
+      "ticker": "NRC",
+      "company": "NRC",
+      "earnings_date": "2026-10-27",
+      "runup": -3.12,
+      "ret1": 7.91,
+      "ret3": 9.56,
+      "market_cap": 505709248,
+      "currency": "USD",
+      "surprise_pct": 16.67,
+      "beat": true
+    },
+    {
+      "market": "US",
       "ticker": "NTB",
       "company": "NTB",
       "earnings_date": "2026-10-27",
@@ -11486,19 +11863,6 @@
       "market_cap": 65435471872,
       "currency": "USD",
       "surprise_pct": 2.01,
-      "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "OBT",
-      "company": "OBT",
-      "earnings_date": "2026-10-27",
-      "runup": 0.08,
-      "ret1": -0.91,
-      "ret3": 0.62,
-      "market_cap": 518877504,
-      "currency": "USD",
-      "surprise_pct": 13.41,
       "beat": true
     },
     {
@@ -11555,16 +11919,16 @@
     },
     {
       "market": "US",
-      "ticker": "OPRA",
-      "company": "OPRA",
+      "ticker": "OKE",
+      "company": "OKE",
       "earnings_date": "2026-10-27",
-      "runup": 3.79,
-      "ret1": 1.53,
-      "ret3": -16.07,
-      "market_cap": 1370216832,
+      "runup": -0.36,
+      "ret1": -1.53,
+      "ret3": 1.1,
+      "market_cap": 61197824000,
       "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
+      "surprise_pct": 41.99,
+      "beat": true
     },
     {
       "market": "US",
@@ -11616,19 +11980,6 @@
       "market_cap": 3381971712,
       "currency": "USD",
       "surprise_pct": 83.92,
-      "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "PLPC",
-      "company": "PLPC",
-      "earnings_date": "2026-10-27",
-      "runup": 4.32,
-      "ret1": -0.17,
-      "ret3": -16.68,
-      "market_cap": 1421013120,
-      "currency": "USD",
-      "surprise_pct": 5.64,
       "beat": true
     },
     {
@@ -11756,7 +12107,7 @@
       "runup": -2.43,
       "ret1": 5.06,
       "ret3": 0.65,
-      "market_cap": 11233985536,
+      "market_cap": 11310665728,
       "currency": "USD",
       "surprise_pct": 14.49,
       "beat": true
@@ -11828,6 +12179,19 @@
     },
     {
       "market": "US",
+      "ticker": "RVSB",
+      "company": "RVSB",
+      "earnings_date": "2026-10-27",
+      "runup": -0.16,
+      "ret1": -0.5,
+      "ret3": -0.83,
+      "market_cap": 118626984,
+      "currency": "USD",
+      "surprise_pct": 42.86,
+      "beat": true
+    },
+    {
+      "market": "US",
       "ticker": "RYES",
       "company": "RYES",
       "earnings_date": "2026-10-27",
@@ -11850,19 +12214,6 @@
       "market_cap": 3195123968,
       "currency": "USD",
       "surprise_pct": 1.23,
-      "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "SEVN",
-      "company": "SEVN",
-      "earnings_date": "2026-10-27",
-      "runup": -0.16,
-      "ret1": 6.24,
-      "ret3": 4.8,
-      "market_cap": 149508768,
-      "currency": "USD",
-      "surprise_pct": 41.18,
       "beat": true
     },
     {
@@ -11984,6 +12335,19 @@
     },
     {
       "market": "US",
+      "ticker": "SSBI",
+      "company": "SSBI",
+      "earnings_date": "2026-10-27",
+      "runup": 0.17,
+      "ret1": -2.58,
+      "ret3": -4.91,
+      "market_cap": 77342424,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
       "ticker": "ST",
       "company": "ST",
       "earnings_date": "2026-10-27",
@@ -12003,7 +12367,7 @@
       "runup": -0.33,
       "ret1": 0.36,
       "ret3": 1.88,
-      "market_cap": 7254331392,
+      "market_cap": 7254145024,
       "currency": "USD",
       "surprise_pct": 28.43,
       "beat": true
@@ -12094,7 +12458,7 @@
       "runup": -2.87,
       "ret1": 1.21,
       "ret3": 2.75,
-      "market_cap": 3495755520,
+      "market_cap": 3492100864,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12205,32 +12569,6 @@
     },
     {
       "market": "US",
-      "ticker": "USLM",
-      "company": "USLM",
-      "earnings_date": "2026-10-27",
-      "runup": 0.43,
-      "ret1": -0.74,
-      "ret3": 1.35,
-      "market_cap": 3201908224,
-      "currency": "USD",
-      "surprise_pct": -10.81,
-      "beat": false
-    },
-    {
-      "market": "US",
-      "ticker": "UTMD",
-      "company": "UTMD",
-      "earnings_date": "2026-10-27",
-      "runup": -0.63,
-      "ret1": -5.78,
-      "ret3": -6.82,
-      "market_cap": 193827632,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "UWHR",
       "company": "UWHR",
       "earnings_date": "2026-10-27",
@@ -12289,7 +12627,7 @@
       "runup": 3.71,
       "ret1": -7.66,
       "ret3": -5.68,
-      "market_cap": 1661966976,
+      "market_cap": 1661217664,
       "currency": "USD",
       "surprise_pct": 2.31,
       "beat": true
@@ -12306,6 +12644,19 @@
       "currency": "USD",
       "surprise_pct": -1.42,
       "beat": false
+    },
+    {
+      "market": "US",
+      "ticker": "WNEB",
+      "company": "WNEB",
+      "earnings_date": "2026-10-27",
+      "runup": 0.22,
+      "ret1": -0.65,
+      "ret3": 0.94,
+      "market_cap": 277037280,
+      "currency": "USD",
+      "surprise_pct": 24.67,
+      "beat": true
     },
     {
       "market": "US",
@@ -12348,6 +12699,19 @@
     },
     {
       "market": "US",
+      "ticker": "WVE",
+      "company": "WVE",
+      "earnings_date": "2026-10-27",
+      "runup": 7.48,
+      "ret1": 5.51,
+      "ret3": 4.06,
+      "market_cap": 708051968,
+      "currency": "USD",
+      "surprise_pct": 7.3,
+      "beat": true
+    },
+    {
+      "market": "US",
       "ticker": "XPL",
       "company": "XPL",
       "earnings_date": "2026-10-27",
@@ -12371,6 +12735,19 @@
       "currency": "USD",
       "surprise_pct": -0.73,
       "beat": false
+    },
+    {
+      "market": "US",
+      "ticker": "ZURA",
+      "company": "ZURA",
+      "earnings_date": "2026-10-27",
+      "runup": 19.94,
+      "ret1": 1.87,
+      "ret3": -5.39,
+      "market_cap": 389154656,
+      "currency": "USD",
+      "surprise_pct": 3.85,
+      "beat": true
     },
     {
       "market": "US",
@@ -12517,16 +12894,16 @@
     },
     {
       "market": "US",
-      "ticker": "BCAL",
-      "company": "BCAL",
+      "ticker": "BBLG",
+      "company": "BBLG",
       "earnings_date": "2026-10-26",
-      "runup": -0.32,
-      "ret1": -0.09,
-      "ret3": -2.41,
-      "market_cap": 686336512,
+      "runup": -4.56,
+      "ret1": -2.39,
+      "ret3": 2.92,
+      "market_cap": 1289197,
       "currency": "USD",
-      "surprise_pct": -0.58,
-      "beat": false
+      "surprise_pct": 10.53,
+      "beat": true
     },
     {
       "market": "US",
@@ -12549,7 +12926,7 @@
       "runup": -1,
       "ret1": -2.23,
       "ret3": -1.48,
-      "market_cap": null,
+      "market_cap": 1822046336,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12660,6 +13037,19 @@
     },
     {
       "market": "US",
+      "ticker": "CBFV",
+      "company": "CBFV",
+      "earnings_date": "2026-10-26",
+      "runup": 1.29,
+      "ret1": 3.17,
+      "ret3": 2.71,
+      "market_cap": 201710832,
+      "currency": "USD",
+      "surprise_pct": 11.89,
+      "beat": true
+    },
+    {
+      "market": "US",
       "ticker": "CBK",
       "company": "CBK",
       "earnings_date": "2026-10-26",
@@ -12699,6 +13089,19 @@
     },
     {
       "market": "US",
+      "ticker": "CFFI",
+      "company": "CFFI",
+      "earnings_date": "2026-10-26",
+      "runup": 1.4,
+      "ret1": -0.24,
+      "ret3": 2.22,
+      "market_cap": 356648192,
+      "currency": "USD",
+      "surprise_pct": 3.66,
+      "beat": true
+    },
+    {
+      "market": "US",
       "ticker": "CFNB",
       "company": "CFNB",
       "earnings_date": "2026-10-26",
@@ -12712,13 +13115,26 @@
     },
     {
       "market": "US",
+      "ticker": "CHCO",
+      "company": "CHCO",
+      "earnings_date": "2026-10-26",
+      "runup": 0.56,
+      "ret1": -0.8,
+      "ret3": 0.69,
+      "market_cap": 2004103936,
+      "currency": "USD",
+      "surprise_pct": 3.05,
+      "beat": true
+    },
+    {
+      "market": "US",
       "ticker": "CHRN",
       "company": "CHRN",
       "earnings_date": "2026-10-26",
       "runup": -0.95,
       "ret1": 19.55,
       "ret3": 6.73,
-      "market_cap": 2094266624,
+      "market_cap": 2088189312,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -12800,32 +13216,6 @@
       "currency": "USD",
       "surprise_pct": 4.26,
       "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "EBMT",
-      "company": "EBMT",
-      "earnings_date": "2026-10-26",
-      "runup": 0.14,
-      "ret1": -0.05,
-      "ret3": 0.05,
-      "market_cap": 168946784,
-      "currency": "USD",
-      "surprise_pct": -29.19,
-      "beat": false
-    },
-    {
-      "market": "US",
-      "ticker": "EDU",
-      "company": "EDU",
-      "earnings_date": "2026-10-26",
-      "runup": -0.05,
-      "ret1": -0.62,
-      "ret3": -15.87,
-      "market_cap": 7546840064,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
     },
     {
       "market": "US",
@@ -12998,15 +13388,15 @@
     },
     {
       "market": "US",
-      "ticker": "HYMC",
-      "company": "HYMC",
+      "ticker": "JBLU",
+      "company": "JBLU",
       "earnings_date": "2026-10-26",
-      "runup": -0.32,
-      "ret1": 9.81,
-      "ret3": 12.22,
-      "market_cap": 1530073984,
+      "runup": -9.89,
+      "ret1": 18.99,
+      "ret3": 28.69,
+      "market_cap": 1075452672,
       "currency": "USD",
-      "surprise_pct": -32.23,
+      "surprise_pct": -8.75,
       "beat": false
     },
     {
@@ -13020,19 +13410,6 @@
       "market_cap": 1028098304,
       "currency": "USD",
       "surprise_pct": 3.25,
-      "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "KNSA",
-      "company": "KNSA",
-      "earnings_date": "2026-10-26",
-      "runup": -4.89,
-      "ret1": 22.23,
-      "ret3": 33.68,
-      "market_cap": 7247453696,
-      "currency": "USD",
-      "surprise_pct": 79.2,
       "beat": true
     },
     {
@@ -13115,6 +13492,19 @@
     },
     {
       "market": "US",
+      "ticker": "NCPL",
+      "company": "NCPL",
+      "earnings_date": "2026-10-26",
+      "runup": 0,
+      "ret1": -1.5,
+      "ret3": 33.83,
+      "market_cap": 12749301,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
       "ticker": "NE",
       "company": "NE",
       "earnings_date": "2026-10-26",
@@ -13167,19 +13557,6 @@
     },
     {
       "market": "US",
-      "ticker": "OKE",
-      "company": "OKE",
-      "earnings_date": "2026-10-26",
-      "runup": 0.55,
-      "ret1": -0.36,
-      "ret3": -0.56,
-      "market_cap": 61197824000,
-      "currency": "USD",
-      "surprise_pct": 41.99,
-      "beat": true
-    },
-    {
-      "market": "US",
       "ticker": "OVBC",
       "company": "OVBC",
       "earnings_date": "2026-10-26",
@@ -13206,6 +13583,19 @@
     },
     {
       "market": "US",
+      "ticker": "PDLB",
+      "company": "PDLB",
+      "earnings_date": "2026-10-26",
+      "runup": 3.1,
+      "ret1": 2.45,
+      "ret3": 6.68,
+      "market_cap": 543985856,
+      "currency": "USD",
+      "surprise_pct": -91.91,
+      "beat": false
+    },
+    {
+      "market": "US",
       "ticker": "PDM",
       "company": "PDM",
       "earnings_date": "2026-10-26",
@@ -13225,7 +13615,7 @@
       "runup": 0.63,
       "ret1": -1.06,
       "ret3": 0.26,
-      "market_cap": 5492369408,
+      "market_cap": 5481691136,
       "currency": "USD",
       "surprise_pct": 1.07,
       "beat": true
@@ -13297,19 +13687,6 @@
     },
     {
       "market": "US",
-      "ticker": "QMCO",
-      "company": "QMCO",
-      "earnings_date": "2026-10-26",
-      "runup": 6.07,
-      "ret1": 8.35,
-      "ret3": 11.13,
-      "market_cap": 720020736,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "QNBC",
       "company": "QNBC",
       "earnings_date": "2026-10-26",
@@ -13332,19 +13709,6 @@
       "market_cap": 9065674752,
       "currency": "USD",
       "surprise_pct": 6.55,
-      "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "SCCO",
-      "company": "SCCO",
-      "earnings_date": "2026-10-26",
-      "runup": 0.54,
-      "ret1": 4.53,
-      "ret3": 3.09,
-      "market_cap": 149896265728,
-      "currency": "USD",
-      "surprise_pct": 7.73,
       "beat": true
     },
     {
@@ -13407,23 +13771,10 @@
       "runup": -0.33,
       "ret1": -4.06,
       "ret3": -6.34,
-      "market_cap": 14310706176,
+      "market_cap": 14481515520,
       "currency": "USD",
       "surprise_pct": 19.67,
       "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "SWVL",
-      "company": "SWVL",
-      "earnings_date": "2026-10-26",
-      "runup": -1.6,
-      "ret1": 5.96,
-      "ret3": 11.38,
-      "market_cap": 67612648,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
     },
     {
       "market": "US",
@@ -13492,19 +13843,6 @@
     },
     {
       "market": "US",
-      "ticker": "WGS",
-      "company": "WGS",
-      "earnings_date": "2026-10-26",
-      "runup": 9.1,
-      "ret1": 2.42,
-      "ret3": 15.93,
-      "market_cap": 2059544576,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "WHR",
       "company": "WHR",
       "earnings_date": "2026-10-26",
@@ -13518,16 +13856,16 @@
     },
     {
       "market": "US",
-      "ticker": "WNEB",
-      "company": "WNEB",
+      "ticker": "XTND",
+      "company": "XTND",
       "earnings_date": "2026-10-26",
-      "runup": -0.5,
-      "ret1": 0.22,
-      "ret3": 1.96,
-      "market_cap": 277037280,
+      "runup": 23.16,
+      "ret1": -16.97,
+      "ret3": -23.39,
+      "market_cap": 383663200,
       "currency": "USD",
-      "surprise_pct": 24.67,
-      "beat": true
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "US",
@@ -13554,6 +13892,19 @@
       "currency": "USD",
       "surprise_pct": -1.97,
       "beat": false
+    },
+    {
+      "market": "US",
+      "ticker": "AMST",
+      "company": "AMST",
+      "earnings_date": "2026-10-23",
+      "runup": -1.9,
+      "ret1": -2.91,
+      "ret3": -9.39,
+      "market_cap": 3671191,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "US",
@@ -13615,10 +13966,23 @@
       "runup": 0.9,
       "ret1": -1.3,
       "ret3": -3.05,
-      "market_cap": 246823760,
+      "market_cap": 246858480,
       "currency": "USD",
       "surprise_pct": 0.57,
       "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "FCAP",
+      "company": "FCAP",
+      "earnings_date": "2026-10-23",
+      "runup": -0.92,
+      "ret1": 1.7,
+      "ret3": 2.13,
+      "market_cap": 209356800,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "US",
@@ -13693,7 +14057,7 @@
       "runup": -4.97,
       "ret1": -0.1,
       "ret3": -2.86,
-      "market_cap": 4186277888,
+      "market_cap": 4231353344,
       "currency": "USD",
       "surprise_pct": -7.33,
       "beat": false
@@ -13713,13 +14077,26 @@
     },
     {
       "market": "US",
+      "ticker": "HKD",
+      "company": "HKD",
+      "earnings_date": "2026-10-23",
+      "runup": 0,
+      "ret1": -1.74,
+      "ret3": 0.58,
+      "market_cap": 521703712,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
       "ticker": "MCBS",
       "company": "MCBS",
       "earnings_date": "2026-10-23",
       "runup": 0.87,
       "ret1": 1.79,
       "ret3": 0.22,
-      "market_cap": 1032094848,
+      "market_cap": 1027749120,
       "currency": "USD",
       "surprise_pct": -0.04,
       "beat": false
@@ -13765,19 +14142,6 @@
     },
     {
       "market": "US",
-      "ticker": "PDLB",
-      "company": "PDLB",
-      "earnings_date": "2026-10-23",
-      "runup": 0.73,
-      "ret1": 3.1,
-      "ret3": 8.68,
-      "market_cap": 543985856,
-      "currency": "USD",
-      "surprise_pct": -91.91,
-      "beat": false
-    },
-    {
-      "market": "US",
       "ticker": "PFBC",
       "company": "PFBC",
       "earnings_date": "2026-10-23",
@@ -13788,6 +14152,19 @@
       "currency": "USD",
       "surprise_pct": 1.61,
       "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "QH",
+      "company": "QH",
+      "earnings_date": "2026-10-23",
+      "runup": -4.3,
+      "ret1": 6.57,
+      "ret3": 4.84,
+      "market_cap": 261444829184,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "US",
@@ -13986,19 +14363,6 @@
     },
     {
       "market": "US",
-      "ticker": "AMST",
-      "company": "AMST",
-      "earnings_date": "2026-10-22",
-      "runup": 0,
-      "ret1": -1.9,
-      "ret3": -10.63,
-      "market_cap": 3671191,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "AMTB",
       "company": "AMTB",
       "earnings_date": "2026-10-22",
@@ -14148,7 +14512,7 @@
       "runup": 0.57,
       "ret1": -2.44,
       "ret3": 6.07,
-      "market_cap": 664138560,
+      "market_cap": 626442752,
       "currency": "USD",
       "surprise_pct": -15.38,
       "beat": false
@@ -14194,26 +14558,13 @@
     },
     {
       "market": "US",
-      "ticker": "CARE",
-      "company": "CARE",
-      "earnings_date": "2026-10-22",
-      "runup": 1.09,
-      "ret1": -0.42,
-      "ret3": -1.24,
-      "market_cap": 640650880,
-      "currency": "USD",
-      "surprise_pct": -33.96,
-      "beat": false
-    },
-    {
-      "market": "US",
       "ticker": "CASS",
       "company": "CASS",
       "earnings_date": "2026-10-22",
       "runup": 5.05,
       "ret1": -4.92,
       "ret3": -5.58,
-      "market_cap": 673806272,
+      "market_cap": 675396288,
       "currency": "USD",
       "surprise_pct": 1.25,
       "beat": true
@@ -14230,19 +14581,6 @@
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
-    },
-    {
-      "market": "US",
-      "ticker": "CBFV",
-      "company": "CBFV",
-      "earnings_date": "2026-10-22",
-      "runup": 1.89,
-      "ret1": 0.89,
-      "ret3": 5.43,
-      "market_cap": 201710832,
-      "currency": "USD",
-      "surprise_pct": 11.89,
-      "beat": true
     },
     {
       "market": "US",
@@ -14269,19 +14607,6 @@
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
-    },
-    {
-      "market": "US",
-      "ticker": "CFFI",
-      "company": "CFFI",
-      "earnings_date": "2026-10-22",
-      "runup": 2.39,
-      "ret1": -0.83,
-      "ret3": 0.31,
-      "market_cap": 356648192,
-      "currency": "USD",
-      "surprise_pct": 3.66,
-      "beat": true
     },
     {
       "market": "US",
@@ -14356,7 +14681,7 @@
       "runup": 2.36,
       "ret1": 3.25,
       "ret3": 3.85,
-      "market_cap": 8685100032,
+      "market_cap": 8682481664,
       "currency": "USD",
       "surprise_pct": 6.78,
       "beat": true
@@ -14408,23 +14733,10 @@
       "runup": 2.78,
       "ret1": -1.26,
       "ret3": -1.33,
-      "market_cap": 699710528,
+      "market_cap": 699791168,
       "currency": "USD",
       "surprise_pct": 1.54,
       "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "DAIO",
-      "company": "DAIO",
-      "earnings_date": "2026-10-22",
-      "runup": -3.86,
-      "ret1": -1.2,
-      "ret3": -2.01,
-      "market_cap": 24533678,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
     },
     {
       "market": "US",
@@ -14493,19 +14805,6 @@
     },
     {
       "market": "US",
-      "ticker": "DXCM",
-      "company": "DXCM",
-      "earnings_date": "2026-10-22",
-      "runup": -2.42,
-      "ret1": -0.49,
-      "ret3": 0.31,
-      "market_cap": 30690129920,
-      "currency": "USD",
-      "surprise_pct": 8.31,
-      "beat": true
-    },
-    {
-      "market": "US",
       "ticker": "EBC",
       "company": "EBC",
       "earnings_date": "2026-10-22",
@@ -14516,6 +14815,19 @@
       "currency": "USD",
       "surprise_pct": 3.76,
       "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "ECBK",
+      "company": "ECBK",
+      "earnings_date": "2026-10-22",
+      "runup": 5.07,
+      "ret1": 1.55,
+      "ret3": 0.05,
+      "market_cap": 186637328,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "US",
@@ -14532,19 +14844,6 @@
     },
     {
       "market": "US",
-      "ticker": "ESYN",
-      "company": "ESYN",
-      "earnings_date": "2026-10-22",
-      "runup": -6.63,
-      "ret1": -3.41,
-      "ret3": -6.25,
-      "market_cap": 52021200,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "FBP",
       "company": "FBP",
       "earnings_date": "2026-10-22",
@@ -14555,19 +14854,6 @@
       "currency": "USD",
       "surprise_pct": 7.08,
       "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "FCAP",
-      "company": "FCAP",
-      "earnings_date": "2026-10-22",
-      "runup": 3.25,
-      "ret1": -0.92,
-      "ret3": 1.7,
-      "market_cap": 209356800,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
     },
     {
       "market": "US",
@@ -14694,23 +14980,23 @@
       "runup": 2.91,
       "ret1": 3.96,
       "ret3": 6.68,
-      "market_cap": 6323092480,
+      "market_cap": 6322612224,
       "currency": "USD",
       "surprise_pct": 2.32,
       "beat": true
     },
     {
       "market": "US",
-      "ticker": "GD",
-      "company": "GD",
+      "ticker": "GCBC",
+      "company": "GCBC",
       "earnings_date": "2026-10-22",
-      "runup": 1.76,
-      "ret1": -0.41,
-      "ret3": 1.17,
-      "market_cap": 100682653696,
+      "runup": 4.17,
+      "ret1": -1.11,
+      "ret3": -0.53,
+      "market_cap": 608831296,
       "currency": "USD",
-      "surprise_pct": 8.63,
-      "beat": true
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "US",
@@ -14802,19 +15088,6 @@
       "currency": "USD",
       "surprise_pct": 1.32,
       "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "ITGR",
-      "company": "ITGR",
-      "earnings_date": "2026-10-22",
-      "runup": -0.11,
-      "ret1": -0.02,
-      "ret3": 0.14,
-      "market_cap": 4303722496,
-      "currency": "USD",
-      "surprise_pct": -20.4,
-      "beat": false
     },
     {
       "market": "US",
@@ -14948,29 +15221,16 @@
     },
     {
       "market": "US",
-      "ticker": "LVWR",
-      "company": "LVWR",
+      "ticker": "MAYS",
+      "company": "MAYS",
       "earnings_date": "2026-10-22",
-      "runup": 1.22,
-      "ret1": -0.6,
-      "ret3": 12.05,
-      "market_cap": 135572224,
+      "runup": 0,
+      "ret1": 3.8,
+      "ret3": 18.1,
+      "market_cap": 94741664,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
-    },
-    {
-      "market": "US",
-      "ticker": "MBIN",
-      "company": "MBIN",
-      "earnings_date": "2026-10-22",
-      "runup": 2.71,
-      "ret1": -0.17,
-      "ret3": 1.36,
-      "market_cap": 2393033984,
-      "currency": "USD",
-      "surprise_pct": 47.85,
-      "beat": true
     },
     {
       "market": "US",
@@ -14980,7 +15240,7 @@
       "runup": -2.84,
       "ret1": -4.23,
       "ret3": -2.28,
-      "market_cap": 957074816,
+      "market_cap": 956224704,
       "currency": "USD",
       "surprise_pct": -33.33,
       "beat": false
@@ -15006,7 +15266,7 @@
       "runup": -15.35,
       "ret1": 1.27,
       "ret3": 5.29,
-      "market_cap": null,
+      "market_cap": 6758518784,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -15045,7 +15305,7 @@
       "runup": 2.03,
       "ret1": -0.53,
       "ret3": 2.95,
-      "market_cap": 302719008,
+      "market_cap": 302935680,
       "currency": "USD",
       "surprise_pct": 0,
       "beat": false
@@ -15097,7 +15357,7 @@
       "runup": 3.32,
       "ret1": -11.03,
       "ret3": -10.4,
-      "market_cap": 255971520,
+      "market_cap": 255882720,
       "currency": "USD",
       "surprise_pct": -12.24,
       "beat": false
@@ -15136,7 +15396,7 @@
       "runup": 3.57,
       "ret1": -2.08,
       "ret3": -4.98,
-      "market_cap": 15957935104,
+      "market_cap": 15878728704,
       "currency": "USD",
       "surprise_pct": -12.96,
       "beat": false
@@ -15149,7 +15409,7 @@
       "runup": 2.56,
       "ret1": 0.15,
       "ret3": -4.64,
-      "market_cap": 22293352448,
+      "market_cap": 23159605248,
       "currency": "USD",
       "surprise_pct": 2.17,
       "beat": true
@@ -15192,19 +15452,6 @@
       "currency": "USD",
       "surprise_pct": -7.2,
       "beat": false
-    },
-    {
-      "market": "US",
-      "ticker": "PCB",
-      "company": "PCB",
-      "earnings_date": "2026-10-22",
-      "runup": 2.68,
-      "ret1": -0.49,
-      "ret3": 0.69,
-      "market_cap": 411166688,
-      "currency": "USD",
-      "surprise_pct": 15.91,
-      "beat": true
     },
     {
       "market": "US",
@@ -15318,7 +15565,7 @@
       "runup": -1.41,
       "ret1": 6.7,
       "ret3": 5.51,
-      "market_cap": 8738409472,
+      "market_cap": 8738445312,
       "currency": "USD",
       "surprise_pct": -74.73,
       "beat": false
@@ -15360,19 +15607,6 @@
       "market_cap": 46147145728,
       "currency": "USD",
       "surprise_pct": 1.74,
-      "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "RVSB",
-      "company": "RVSB",
-      "earnings_date": "2026-10-22",
-      "runup": 0.33,
-      "ret1": 0.5,
-      "ret3": 0.33,
-      "market_cap": 118626984,
-      "currency": "USD",
-      "surprise_pct": 42.86,
       "beat": true
     },
     {
@@ -15435,7 +15669,7 @@
       "runup": 0.72,
       "ret1": 5.31,
       "ret3": 7.4,
-      "market_cap": 5887216128,
+      "market_cap": 5890268160,
       "currency": "USD",
       "surprise_pct": 22.88,
       "beat": true
@@ -15487,7 +15721,7 @@
       "runup": 11.1,
       "ret1": 0.1,
       "ret3": -4.83,
-      "market_cap": 122001891328,
+      "market_cap": 122023174144,
       "currency": "USD",
       "surprise_pct": -12.7,
       "beat": false
@@ -15572,19 +15806,6 @@
     },
     {
       "market": "US",
-      "ticker": "TOWN",
-      "company": "TOWN",
-      "earnings_date": "2026-10-22",
-      "runup": 2.57,
-      "ret1": -0.35,
-      "ret3": -0.63,
-      "market_cap": 3425710080,
-      "currency": "USD",
-      "surprise_pct": 9.64,
-      "beat": true
-    },
-    {
-      "market": "US",
       "ticker": "TSCO",
       "company": "TSCO",
       "earnings_date": "2026-10-22",
@@ -15617,7 +15838,7 @@
       "runup": 2.71,
       "ret1": 0.43,
       "ret3": 0.12,
-      "market_cap": 6566278656,
+      "market_cap": 6568170496,
       "currency": "USD",
       "surprise_pct": 0.89,
       "beat": true
@@ -15656,7 +15877,20 @@
       "runup": 0,
       "ret1": 0,
       "ret3": 0,
-      "market_cap": 103267728,
+      "market_cap": 102941776,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "UTMD",
+      "company": "UTMD",
+      "earnings_date": "2026-10-22",
+      "runup": 0.46,
+      "ret1": -1.11,
+      "ret3": -2.66,
+      "market_cap": 193827632,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -15673,19 +15907,6 @@
       "currency": "USD",
       "surprise_pct": 43.89,
       "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "VABK",
-      "company": "VABK",
-      "earnings_date": "2026-10-22",
-      "runup": 2.37,
-      "ret1": -0.78,
-      "ret3": -0.8,
-      "market_cap": 279580352,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
     },
     {
       "market": "US",
@@ -15786,10 +16007,23 @@
       "runup": 0.91,
       "ret1": 1.95,
       "ret3": 1.73,
-      "market_cap": 4032416512,
+      "market_cap": 4009079808,
       "currency": "USD",
       "surprise_pct": 8.02,
       "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "XXII",
+      "company": "XXII",
+      "earnings_date": "2026-10-22",
+      "runup": -20.88,
+      "ret1": -8.33,
+      "ret3": -51.39,
+      "market_cap": 1336473,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
     },
     {
       "market": "US",
@@ -15812,7 +16046,7 @@
       "runup": -1.89,
       "ret1": 1.99,
       "ret3": 4.35,
-      "market_cap": 183766712320,
+      "market_cap": 184980553728,
       "currency": "USD",
       "surprise_pct": 0.03,
       "beat": true
@@ -15877,7 +16111,7 @@
       "runup": -0.18,
       "ret1": 3.01,
       "ret3": 3.57,
-      "market_cap": 2535817728,
+      "market_cap": 2352095488,
       "currency": "USD",
       "surprise_pct": -3.62,
       "beat": false
@@ -15903,7 +16137,7 @@
       "runup": 0.75,
       "ret1": 9.26,
       "ret3": 7.78,
-      "market_cap": 514693344,
+      "market_cap": 514797536,
       "currency": "USD",
       "surprise_pct": -21.62,
       "beat": false
@@ -15936,19 +16170,6 @@
     },
     {
       "market": "US",
-      "ticker": "BKR",
-      "company": "BKR",
-      "earnings_date": "2026-10-21",
-      "runup": 0.63,
-      "ret1": -4.25,
-      "ret3": 0.02,
-      "market_cap": 54847721472,
-      "currency": "USD",
-      "surprise_pct": 14,
-      "beat": true
-    },
-    {
-      "market": "US",
       "ticker": "BKU",
       "company": "BKU",
       "earnings_date": "2026-10-21",
@@ -15968,7 +16189,7 @@
       "runup": 0,
       "ret1": 8.18,
       "ret3": 13.64,
-      "market_cap": 111200240,
+      "market_cap": 110380464,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -16020,7 +16241,7 @@
       "runup": -3.07,
       "ret1": 0.23,
       "ret3": 11.21,
-      "market_cap": 38757531648,
+      "market_cap": 37733642240,
       "currency": "USD",
       "surprise_pct": -2.3,
       "beat": false
@@ -16073,19 +16294,6 @@
       "ret1": -3.63,
       "ret3": -5.7,
       "market_cap": 155378656,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
-      "ticker": "COOT",
-      "company": "COOT",
-      "earnings_date": "2026-10-21",
-      "runup": -2.27,
-      "ret1": -2.79,
-      "ret3": -9.77,
-      "market_cap": 16126640,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -16176,7 +16384,7 @@
       "runup": -0.5,
       "ret1": 1.26,
       "ret3": 3.37,
-      "market_cap": 2211252736,
+      "market_cap": 2205580800,
       "currency": "USD",
       "surprise_pct": -15.48,
       "beat": false
@@ -16241,7 +16449,7 @@
       "runup": -3.38,
       "ret1": 5.5,
       "ret3": 9.16,
-      "market_cap": 5800625152,
+      "market_cap": 5799901184,
       "currency": "USD",
       "surprise_pct": -1.73,
       "beat": false
@@ -16254,7 +16462,7 @@
       "runup": 1.88,
       "ret1": -8.89,
       "ret3": -7.71,
-      "market_cap": 8351287808,
+      "market_cap": 8351121408,
       "currency": "USD",
       "surprise_pct": 4.86,
       "beat": true
@@ -16300,6 +16508,19 @@
     },
     {
       "market": "US",
+      "ticker": "FDBC",
+      "company": "FDBC",
+      "earnings_date": "2026-10-21",
+      "runup": 0.26,
+      "ret1": 6.78,
+      "ret3": 10.38,
+      "market_cap": 382316000,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
       "ticker": "FNLC",
       "company": "FNLC",
       "earnings_date": "2026-10-21",
@@ -16319,7 +16540,7 @@
       "runup": 0.35,
       "ret1": -6.92,
       "ret3": -7.09,
-      "market_cap": 7455202304,
+      "market_cap": 7455065088,
       "currency": "USD",
       "surprise_pct": 1.81,
       "beat": true
@@ -16332,7 +16553,7 @@
       "runup": -0.37,
       "ret1": 2.18,
       "ret3": 2.83,
-      "market_cap": 2549109760,
+      "market_cap": 2544058880,
       "currency": "USD",
       "surprise_pct": 5.43,
       "beat": true
@@ -16555,7 +16776,7 @@
       "ret3": -0.09,
       "market_cap": 75452719104,
       "currency": "USD",
-      "surprise_pct": 6.25,
+      "surprise_pct": 6.95,
       "beat": true
     },
     {
@@ -16664,26 +16885,13 @@
     },
     {
       "market": "US",
-      "ticker": "MAYS",
-      "company": "MAYS",
-      "earnings_date": "2026-10-21",
-      "runup": 0,
-      "ret1": 0,
-      "ret3": 8.68,
-      "market_cap": 94741664,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "MCBK",
       "company": "MCBK",
       "earnings_date": "2026-10-21",
       "runup": 0,
       "ret1": 0.27,
       "ret3": 0.27,
-      "market_cap": 89183416,
+      "market_cap": 89167584,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -16724,7 +16932,7 @@
       "ret3": -9.6,
       "market_cap": 1572426743808,
       "currency": "USD",
-      "surprise_pct": -30.15,
+      "surprise_pct": -29.33,
       "beat": false
     },
     {
@@ -16813,7 +17021,7 @@
       "runup": -3.4,
       "ret1": 3.34,
       "ret3": 6.19,
-      "market_cap": 1785816704,
+      "market_cap": 1711226624,
       "currency": "USD",
       "surprise_pct": -13.85,
       "beat": false
@@ -17028,19 +17236,6 @@
     },
     {
       "market": "US",
-      "ticker": "RMBI",
-      "company": "RMBI",
-      "earnings_date": "2026-10-21",
-      "runup": -0.26,
-      "ret1": 2.96,
-      "ret3": 2.06,
-      "market_cap": 254357008,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "RMCF",
       "company": "RMCF",
       "earnings_date": "2026-10-21",
@@ -17099,7 +17294,7 @@
       "runup": -0.08,
       "ret1": 0,
       "ret3": 0.12,
-      "market_cap": 185621536,
+      "market_cap": 185184144,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -17229,7 +17424,7 @@
       "runup": -1.43,
       "ret1": -1.86,
       "ret3": -1.57,
-      "market_cap": 664366720,
+      "market_cap": 663734784,
       "currency": "USD",
       "surprise_pct": 5.78,
       "beat": true
@@ -17242,7 +17437,7 @@
       "runup": -0.33,
       "ret1": -1.53,
       "ret3": 2.44,
-      "market_cap": 30512693248,
+      "market_cap": 30495225856,
       "currency": "USD",
       "surprise_pct": 8.99,
       "beat": true
@@ -17463,7 +17658,7 @@
       "runup": 2.51,
       "ret1": -6.62,
       "ret3": 1.31,
-      "market_cap": 1939146368,
+      "market_cap": 1957216256,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -17476,7 +17671,7 @@
       "runup": 1.91,
       "ret1": -3.86,
       "ret3": -0.57,
-      "market_cap": 8365434880,
+      "market_cap": 8365562880,
       "currency": "USD",
       "surprise_pct": 2.66,
       "beat": true
@@ -17502,7 +17697,7 @@
       "runup": 1.12,
       "ret1": -2.39,
       "ret3": 0.12,
-      "market_cap": 3985347328,
+      "market_cap": 3984056320,
       "currency": "USD",
       "surprise_pct": -211,
       "beat": false
@@ -17645,7 +17840,7 @@
       "runup": 0.87,
       "ret1": 2.53,
       "ret3": -0.11,
-      "market_cap": 125672374272,
+      "market_cap": 125675487232,
       "currency": "USD",
       "surprise_pct": 21.58,
       "beat": true
@@ -17671,7 +17866,7 @@
       "runup": 5.97,
       "ret1": -0.71,
       "ret3": 4.19,
-      "market_cap": 1843979392,
+      "market_cap": 1826145792,
       "currency": "USD",
       "surprise_pct": 5.32,
       "beat": true
@@ -17697,7 +17892,7 @@
       "runup": 1.56,
       "ret1": -4.53,
       "ret3": -1.82,
-      "market_cap": 11836158976,
+      "market_cap": 11828659200,
       "currency": "USD",
       "surprise_pct": -14.72,
       "beat": false
@@ -17710,7 +17905,7 @@
       "runup": 0.87,
       "ret1": 0.77,
       "ret3": 1.53,
-      "market_cap": null,
+      "market_cap": 95828952,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -18009,7 +18204,7 @@
       "runup": 1.25,
       "ret1": 0.68,
       "ret3": 4.13,
-      "market_cap": 3595470592,
+      "market_cap": 3566570496,
       "currency": "USD",
       "surprise_pct": 3.35,
       "beat": true
@@ -18230,7 +18425,7 @@
       "runup": 5,
       "ret1": 1.07,
       "ret3": 4.29,
-      "market_cap": 4398925312,
+      "market_cap": 4428738048,
       "currency": "USD",
       "surprise_pct": -0.37,
       "beat": false
@@ -18341,32 +18536,6 @@
     },
     {
       "market": "US",
-      "ticker": "ALOY",
-      "company": "ALOY",
-      "earnings_date": "2026-10-19",
-      "runup": -3.04,
-      "ret1": 1.71,
-      "ret3": -0.43,
-      "market_cap": 465373344,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
-      "ticker": "ALP",
-      "company": "ALP",
-      "earnings_date": "2026-10-19",
-      "runup": -0.59,
-      "ret1": 0,
-      "ret3": -12.13,
-      "market_cap": 5083501,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "AUSI",
       "company": "AUSI",
       "earnings_date": "2026-10-19",
@@ -18386,7 +18555,7 @@
       "runup": 0,
       "ret1": -9.09,
       "ret3": -18.18,
-      "market_cap": 3690503,
+      "market_cap": 3537852,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -18425,7 +18594,7 @@
       "runup": 0,
       "ret1": 0.2,
       "ret3": 0.2,
-      "market_cap": 3020627456,
+      "market_cap": 3029990400,
       "currency": "USD",
       "surprise_pct": -3.97,
       "beat": false
@@ -18510,19 +18679,6 @@
     },
     {
       "market": "US",
-      "ticker": "ECBK",
-      "company": "ECBK",
-      "earnings_date": "2026-10-19",
-      "runup": -0.33,
-      "ret1": 0.74,
-      "ret3": 8.91,
-      "market_cap": 186637328,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "ENBP",
       "company": "ENBP",
       "earnings_date": "2026-10-19",
@@ -18555,7 +18711,7 @@
       "runup": 0.28,
       "ret1": 3.76,
       "ret3": 5.39,
-      "market_cap": 48854298624,
+      "market_cap": 48837087232,
       "currency": "USD",
       "surprise_pct": 9.7,
       "beat": true
@@ -18711,33 +18867,7 @@
       "runup": 2.3,
       "ret1": 0,
       "ret3": 0,
-      "market_cap": 22874510,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
-      "ticker": "MSS",
-      "company": "MSS",
-      "earnings_date": "2026-10-19",
-      "runup": -1.55,
-      "ret1": -8.66,
-      "ret3": 0,
-      "market_cap": 883161,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
-      "ticker": "NCPL",
-      "company": "NCPL",
-      "earnings_date": "2026-10-19",
-      "runup": -24.88,
-      "ret1": 23.93,
-      "ret3": 36.81,
-      "market_cap": 12749301,
+      "market_cap": 22756110,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -18770,19 +18900,6 @@
     },
     {
       "market": "US",
-      "ticker": "QH",
-      "company": "QH",
-      "earnings_date": "2026-10-19",
-      "runup": 6.27,
-      "ret1": 0.28,
-      "ret3": -15.17,
-      "market_cap": 8170152,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "RBB",
       "company": "RBB",
       "earnings_date": "2026-10-19",
@@ -18802,7 +18919,7 @@
       "runup": 0.21,
       "ret1": 2.47,
       "ret3": 9.49,
-      "market_cap": 5986351104,
+      "market_cap": 5986353152,
       "currency": "USD",
       "surprise_pct": 61.12,
       "beat": true
@@ -18906,7 +19023,7 @@
       "runup": -1.18,
       "ret1": 2.27,
       "ret3": 4.13,
-      "market_cap": 8323304960,
+      "market_cap": 8204995584,
       "currency": "USD",
       "surprise_pct": -3.45,
       "beat": false
@@ -18945,23 +19062,10 @@
       "runup": -1.14,
       "ret1": 2.7,
       "ret3": 5.13,
-      "market_cap": 10278856704,
+      "market_cap": 10280464384,
       "currency": "USD",
       "surprise_pct": 1.94,
       "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "ZCMD",
-      "company": "ZCMD",
-      "earnings_date": "2026-10-19",
-      "runup": 5.34,
-      "ret1": 2.17,
-      "ret3": -6.52,
-      "market_cap": 4525472,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
     },
     {
       "market": "US",
@@ -19478,7 +19582,7 @@
       "runup": 1.65,
       "ret1": -8.65,
       "ret3": -17.84,
-      "market_cap": 8583535,
+      "market_cap": 7355750,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -19602,42 +19706,16 @@
     },
     {
       "market": "US",
-      "ticker": "INTE",
-      "company": "INTE",
-      "earnings_date": "2026-10-15",
-      "runup": 0,
-      "ret1": 0,
-      "ret3": 0,
-      "market_cap": 33671768,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
       "ticker": "JBHT",
       "company": "JBHT",
       "earnings_date": "2026-10-15",
       "runup": 1.36,
       "ret1": -2.78,
       "ret3": -3.79,
-      "market_cap": 20762714112,
+      "market_cap": 20759412736,
       "currency": "USD",
       "surprise_pct": 0.56,
       "beat": true
-    },
-    {
-      "market": "US",
-      "ticker": "JF",
-      "company": "JF",
-      "earnings_date": "2026-10-15",
-      "runup": 1.08,
-      "ret1": -1.06,
-      "ret3": -1.06,
-      "market_cap": 16689541,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
     },
     {
       "market": "US",
@@ -19739,19 +19817,6 @@
       "ret1": 0,
       "ret3": -5,
       "market_cap": 516615808,
-      "currency": "USD",
-      "surprise_pct": null,
-      "beat": null
-    },
-    {
-      "market": "US",
-      "ticker": "MDXH",
-      "company": "MDXH",
-      "earnings_date": "2026-10-15",
-      "runup": -4.43,
-      "ret1": -65.73,
-      "ret3": -67.88,
-      "market_cap": 15581658,
       "currency": "USD",
       "surprise_pct": null,
       "beat": null
@@ -20336,7 +20401,7 @@
       "runup": 1.44,
       "ret1": 2.83,
       "ret3": 2.91,
-      "market_cap": 6348060160,
+      "market_cap": 6406301696,
       "currency": "USD",
       "surprise_pct": 9.64,
       "beat": true
@@ -20483,6 +20548,266 @@
       "currency": "USD",
       "surprise_pct": -3.24,
       "beat": false
+    },
+    {
+      "market": "US",
+      "ticker": "LNAI",
+      "company": "LNAI",
+      "earnings_date": "2026-10-13",
+      "runup": -7.21,
+      "ret1": -13.4,
+      "ret3": -33.98,
+      "market_cap": 829677,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "NGTF",
+      "company": "NGTF",
+      "earnings_date": "2026-10-13",
+      "runup": -11.78,
+      "ret1": -8.26,
+      "ret3": -8.7,
+      "market_cap": 11406902,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "NRIS",
+      "company": "NRIS",
+      "earnings_date": "2026-10-13",
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
+      "market_cap": 14191010,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "NUCL",
+      "company": "NUCL",
+      "earnings_date": "2026-10-13",
+      "runup": -3.19,
+      "ret1": -3.66,
+      "ret3": -7.13,
+      "market_cap": 134468368,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "OZVN",
+      "company": "OZVN",
+      "earnings_date": "2026-10-13",
+      "runup": 0,
+      "ret1": 0,
+      "ret3": 0,
+      "market_cap": 73432384,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "SCNX",
+      "company": "SCNX",
+      "earnings_date": "2026-10-13",
+      "runup": -17.14,
+      "ret1": 3.4,
+      "ret3": 3.7,
+      "market_cap": 5289062,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "SODI",
+      "company": "SODI",
+      "earnings_date": "2026-10-13",
+      "runup": -0.03,
+      "ret1": 10.45,
+      "ret3": 3.03,
+      "market_cap": 80838864,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "UNH",
+      "company": "UNH",
+      "earnings_date": "2026-10-13",
+      "runup": -0.2,
+      "ret1": 4.73,
+      "ret3": 6.27,
+      "market_cap": 365294157824,
+      "currency": "USD",
+      "surprise_pct": 13.26,
+      "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "WFC",
+      "company": "WFC",
+      "earnings_date": "2026-10-13",
+      "runup": -3.1,
+      "ret1": 0.2,
+      "ret3": 3.88,
+      "market_cap": 250354319360,
+      "currency": "USD",
+      "surprise_pct": 0.8,
+      "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "BMRA",
+      "company": "BMRA",
+      "earnings_date": "2026-10-12",
+      "runup": 0,
+      "ret1": 0.54,
+      "ret3": 2.17,
+      "market_cap": 7910225,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "NAAS",
+      "company": "NAAS",
+      "earnings_date": "2026-10-12",
+      "runup": 0.49,
+      "ret1": 0.98,
+      "ret3": 0.65,
+      "market_cap": 57722736,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "NRIX",
+      "company": "NRIX",
+      "earnings_date": "2026-10-12",
+      "runup": -0.85,
+      "ret1": -0.14,
+      "ret3": 12.59,
+      "market_cap": 2927895040,
+      "currency": "USD",
+      "surprise_pct": -5.69,
+      "beat": false
+    },
+    {
+      "market": "US",
+      "ticker": "NTCL",
+      "company": "NTCL",
+      "earnings_date": "2026-10-12",
+      "runup": -27.33,
+      "ret1": -5.96,
+      "ret3": -20.18,
+      "market_cap": 869622,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "QNME",
+      "company": "QNME",
+      "earnings_date": "2026-10-12",
+      "runup": -24.53,
+      "ret1": 15.18,
+      "ret3": 1.61,
+      "market_cap": 14414820,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "SIGL",
+      "company": "SIGL",
+      "earnings_date": "2026-10-12",
+      "runup": 0,
+      "ret1": -22.45,
+      "ret3": 6.12,
+      "market_cap": 5889992,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "THVB",
+      "company": "THVB",
+      "earnings_date": "2026-10-12",
+      "runup": 0,
+      "ret1": 2.18,
+      "ret3": 2.18,
+      "market_cap": 652219904,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "VJET",
+      "company": "VJET",
+      "earnings_date": "2026-10-12",
+      "runup": -12.28,
+      "ret1": 6,
+      "ret3": -2,
+      "market_cap": 1233656,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "BABB",
+      "company": "BABB",
+      "earnings_date": "2026-10-09",
+      "runup": 2.5,
+      "ret1": 0,
+      "ret3": 1.22,
+      "market_cap": 5883441,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
+    },
+    {
+      "market": "US",
+      "ticker": "CCEL",
+      "company": "CCEL",
+      "earnings_date": "2026-10-09",
+      "runup": 4.56,
+      "ret1": 3.21,
+      "ret3": -4.82,
+      "market_cap": 42006408,
+      "currency": "USD",
+      "surprise_pct": 451.7,
+      "beat": true
+    },
+    {
+      "market": "US",
+      "ticker": "CIBH",
+      "company": "CIBH",
+      "earnings_date": "2026-10-09",
+      "runup": -2.17,
+      "ret1": 0,
+      "ret3": -2.71,
+      "market_cap": 51412516,
+      "currency": "USD",
+      "surprise_pct": null,
+      "beat": null
     }
   ]
 }
