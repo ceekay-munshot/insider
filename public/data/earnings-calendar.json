@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T11:03:24.403Z",
-  "count": 330,
+  "generated_at": "2026-11-18T19:29:01.370Z",
+  "count": 327,
   "events": [
     {
       "ticker": "AGTX",
@@ -57,8 +57,8 @@
       "market": "US",
       "company": "BEEM",
       "earnings_date": "2026-11-18",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-11-18T21:15:00.000Z",
+      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -733,117 +733,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "ANSALAPI",
-      "market": "IN",
-      "company": "Ansal Properties & Infrastructure Ltd",
-      "bse_code": "500013",
-      "earnings_date": "2026-11-18",
-      "earnings_datetime_utc": "2026-11-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "BLSPOLY",
-      "market": "IN",
-      "company": "BLS Polymers Ltd",
-      "bse_code": "545011",
-      "earnings_date": "2026-11-18",
-      "earnings_datetime_utc": "2026-11-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default",
-      "concall_datetime_utc": "2026-11-19T06:30:00.000Z",
-      "concall_title": "Q2 FY27 Earnings",
-      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2489154-ac50-4426-8be2-7f51c8b10195.pdf"
-    },
-    {
-      "ticker": "KACL",
-      "market": "IN",
-      "company": "Kaiser Corporation Ltd",
-      "bse_code": "531780",
-      "earnings_date": "2026-11-18",
-      "earnings_datetime_utc": "2026-11-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "MALPANI",
-      "market": "IN",
-      "company": "Malpani Pipes And Fittings Ltd",
-      "bse_code": "544351",
-      "earnings_date": "2026-11-18",
-      "earnings_datetime_utc": "2026-11-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "ORIENTTR",
-      "market": "IN",
-      "company": "Orient Tradelink Ltd",
-      "bse_code": "531512",
-      "earnings_date": "2026-11-18",
-      "earnings_datetime_utc": "2026-11-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "SAMYAKINT",
-      "market": "IN",
-      "company": "Samyak International Ltd",
-      "bse_code": "530025",
-      "earnings_date": "2026-11-18",
-      "earnings_datetime_utc": "2026-11-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "SBLI",
-      "market": "IN",
-      "company": "SBL Infratech Ltd",
-      "bse_code": "543366",
-      "earnings_date": "2026-11-18",
-      "earnings_datetime_utc": "2026-11-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "STARBEAM",
-      "market": "IN",
-      "company": "Starbeam Ventures Ltd",
-      "bse_code": "539175",
-      "earnings_date": "2026-11-18",
-      "earnings_datetime_utc": "2026-11-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "TIHIL",
-      "market": "IN",
-      "company": "Trans India House Impex Ltd",
-      "bse_code": "523752",
-      "earnings_date": "2026-11-18",
-      "earnings_datetime_utc": "2026-11-18T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
       "ticker": "ARBE",
       "market": "US",
       "company": "ARBE",
@@ -1222,18 +1111,8 @@
       "earnings_datetime_utc": "2026-11-19T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
-    },
-    {
-      "ticker": "GBLOGISTIC",
-      "market": "IN",
-      "company": "GB Logistics Commerce Ltd",
-      "bse_code": "544348",
-      "earnings_date": "2026-11-19",
-      "earnings_datetime_utc": "2026-11-19T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "KRRAIL",
@@ -1244,7 +1123,8 @@
       "earnings_datetime_utc": "2026-11-19T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "MUTHOOTMF",
@@ -1255,18 +1135,21 @@
       "earnings_datetime_utc": "2026-11-19T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default",
+      "eps_yoy_pct": 262.64
     },
     {
       "ticker": "SPICEISLIN",
       "market": "IN",
-      "company": "Spice Islands Industries Ltd",
+      "company": "Spice Islands Industries Ltd-$",
       "bse_code": "526827",
       "earnings_date": "2026-11-19",
       "earnings_datetime_utc": "2026-11-19T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SVAINDIA",
@@ -1277,7 +1160,8 @@
       "earnings_datetime_utc": "2026-11-19T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ASII",
@@ -1412,9 +1296,31 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "STARBEAM",
+      "market": "IN",
+      "company": "Starbeam Ventures Ltd",
+      "bse_code": "539175",
+      "earnings_date": "2026-11-20",
+      "earnings_datetime_utc": "2026-11-20T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "TIHIL",
+      "market": "IN",
+      "company": "Trans India House Impex Ltd",
+      "bse_code": "523752",
+      "earnings_date": "2026-11-20",
+      "earnings_datetime_utc": "2026-11-20T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "VALECHAENG",
       "market": "IN",
-      "company": "Valecha Engineering Ltd",
+      "company": "Valecha Engineering Ltd-$",
       "bse_code": "532389",
       "earnings_date": "2026-11-20",
       "earnings_datetime_utc": "2026-11-20T10:30:00.000Z",
@@ -2025,6 +1931,17 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "SFCTECH",
+      "market": "IN",
+      "company": "SFC Environmental Technologies Ltd",
+      "bse_code": "545009",
+      "earnings_date": "2026-11-23",
+      "earnings_datetime_utc": "2026-11-23T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "ADI",
       "market": "US",
       "company": "ADI",
@@ -2607,6 +2524,17 @@
       "source": "finnhub"
     },
     {
+      "ticker": "GBLOGISTIC",
+      "market": "IN",
+      "company": "GB Logistics Commerce Ltd",
+      "bse_code": "544348",
+      "earnings_date": "2026-11-26",
+      "earnings_datetime_utc": "2026-11-26T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "CNXX",
       "market": "US",
       "company": "CNXX",
@@ -2887,6 +2815,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "CPRT",
+      "market": "US",
+      "company": "CPRT",
+      "earnings_date": "2026-12-01",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "CRDO",
       "market": "US",
       "company": "CRDO",
@@ -2987,6 +2925,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "GTLB",
+      "market": "US",
+      "company": "GTLB",
+      "earnings_date": "2026-12-01",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "HQY",
       "market": "US",
       "company": "HQY",
@@ -3040,6 +2988,16 @@
       "ticker": "NCNO",
       "market": "US",
       "company": "NCNO",
+      "earnings_date": "2026-12-01",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "NIO",
+      "market": "US",
+      "company": "NIO",
       "earnings_date": "2026-12-01",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -3103,6 +3061,16 @@
       "earnings_date": "2026-12-01",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "VSTS",
+      "market": "US",
+      "company": "VSTS",
+      "earnings_date": "2026-12-01",
+      "earnings_datetime_utc": "2026-12-01T13:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -3303,16 +3271,6 @@
       "earnings_date": "2026-12-02",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "VSTS",
-      "market": "US",
-      "company": "VSTS",
-      "earnings_date": "2026-12-02",
-      "earnings_datetime_utc": "2026-12-02T13:00:00.000Z",
-      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
