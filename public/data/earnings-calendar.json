@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T11:04:15.665Z",
-  "count": 286,
+  "generated_at": "2026-11-19T19:33:49.296Z",
+  "count": 292,
   "events": [
     {
       "ticker": "ARBE",
@@ -247,8 +247,8 @@
       "market": "US",
       "company": "NTIC",
       "earnings_date": "2026-11-19",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-11-19T13:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -373,54 +373,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "BOSTON",
-      "market": "IN",
-      "company": "Boston Commerce Ltd",
-      "bse_code": "531458",
-      "earnings_date": "2026-11-19",
-      "earnings_datetime_utc": "2026-11-19T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "KRRAIL",
-      "market": "IN",
-      "company": "K&R Rail Engineering Ltd",
-      "bse_code": "514360",
-      "earnings_date": "2026-11-19",
-      "earnings_datetime_utc": "2026-11-19T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "SPICEISLIN",
-      "market": "IN",
-      "company": "Spice Islands Industries Ltd",
-      "bse_code": "526827",
-      "earnings_date": "2026-11-19",
-      "earnings_datetime_utc": "2026-11-19T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "SVAINDIA",
-      "market": "IN",
-      "company": "SVA India Ltd",
-      "bse_code": "531885",
-      "earnings_date": "2026-11-19",
-      "earnings_datetime_utc": "2026-11-19T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
       "ticker": "ASII",
       "market": "US",
       "company": "ASII",
@@ -521,6 +473,18 @@
       "source": "finnhub"
     },
     {
+      "ticker": "BOSTON",
+      "market": "IN",
+      "company": "Boston Commerce Ltd",
+      "bse_code": "531458",
+      "earnings_date": "2026-11-20",
+      "earnings_datetime_utc": "2026-11-20T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "timing_source": "default"
+    },
+    {
       "ticker": "ELITECON",
       "market": "IN",
       "company": "Elitecon International Ltd",
@@ -529,7 +493,8 @@
       "earnings_datetime_utc": "2026-11-20T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "PULSRIN",
@@ -540,7 +505,8 @@
       "earnings_datetime_utc": "2026-11-20T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "STARBEAM",
@@ -551,7 +517,8 @@
       "earnings_datetime_utc": "2026-11-20T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "TIHIL",
@@ -562,18 +529,20 @@
       "earnings_datetime_utc": "2026-11-20T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "VALECHAENG",
       "market": "IN",
-      "company": "Valecha Engineering Ltd",
+      "company": "Valecha Engineering Ltd-$",
       "bse_code": "532389",
       "earnings_date": "2026-11-20",
       "earnings_datetime_utc": "2026-11-20T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "AFEL",
@@ -635,6 +604,17 @@
       "market": "IN",
       "company": "Shri Venkatesh Refineries Ltd",
       "bse_code": "543373",
+      "earnings_date": "2026-11-21",
+      "earnings_datetime_utc": "2026-11-21T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "ZINEMA",
+      "market": "IN",
+      "company": "Zinema Media And Entertainment Ltd",
+      "bse_code": "538579",
       "earnings_date": "2026-11-21",
       "earnings_datetime_utc": "2026-11-21T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -1176,7 +1156,10 @@
       "earnings_datetime_utc": "2026-11-23T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "concall_datetime_utc": "2026-11-25T10:30:00.000Z",
+      "concall_title": "Q2 FY27 Earnings",
+      "concall_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60485a5a-f62d-407e-9d60-c6370eadb898.pdf"
     },
     {
       "ticker": "ADI",
@@ -1509,10 +1492,54 @@
       "source": "finnhub"
     },
     {
+      "ticker": "HEADSUP",
+      "market": "IN",
+      "company": "Heads UP Ventures Ltd",
+      "bse_code": "540210",
+      "earnings_date": "2026-11-24",
+      "earnings_datetime_utc": "2026-11-24T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "MITSHI",
+      "market": "IN",
+      "company": "Mitshi India Ltd",
+      "bse_code": "523782",
+      "earnings_date": "2026-11-24",
+      "earnings_datetime_utc": "2026-11-24T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "NATURAL",
+      "market": "IN",
+      "company": "Natural Biocon (India) Ltd",
+      "bse_code": "543207",
+      "earnings_date": "2026-11-24",
+      "earnings_datetime_utc": "2026-11-24T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "SETCO",
       "market": "IN",
       "company": "Setco Automotive Ltd",
       "bse_code": "505075",
+      "earnings_date": "2026-11-24",
+      "earnings_datetime_utc": "2026-11-24T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SVAINDIA",
+      "market": "IN",
+      "company": "SVA India Ltd",
+      "bse_code": "531885",
       "earnings_date": "2026-11-24",
       "earnings_datetime_utc": "2026-11-24T10:30:00.000Z",
       "timing": "UNKNOWN",
@@ -1649,6 +1676,28 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "ENRIN",
+      "market": "IN",
+      "company": "Siemens Energy India Ltd",
+      "bse_code": "544390",
+      "earnings_date": "2026-11-25",
+      "earnings_datetime_utc": "2026-11-25T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SIMBHALS",
+      "market": "IN",
+      "company": "Simbhaoli Sugars Ltd",
+      "bse_code": "539742",
+      "earnings_date": "2026-11-25",
+      "earnings_datetime_utc": "2026-11-25T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "AWF",
@@ -2082,6 +2131,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "CRNC",
+      "market": "US",
+      "company": "CRNC",
+      "earnings_date": "2026-12-01",
+      "earnings_datetime_utc": "2026-12-01T21:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "CRWD",
       "market": "US",
       "company": "CRWD",
@@ -2332,6 +2391,26 @@
       "source": "finnhub"
     },
     {
+      "ticker": "AOUT",
+      "market": "US",
+      "company": "AOUT",
+      "earnings_date": "2026-12-02",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "BLBD",
+      "market": "US",
+      "company": "BLBD",
+      "earnings_date": "2026-12-02",
+      "earnings_datetime_utc": "2026-12-02T21:15:00.000Z",
+      "timing": "AMC",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "COO",
       "market": "US",
       "company": "COO",
@@ -2552,16 +2631,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "AOUT",
-      "market": "US",
-      "company": "AOUT",
-      "earnings_date": "2026-12-03",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "BF.B",
       "market": "US",
       "company": "BF.B",
@@ -2762,16 +2831,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "MTN",
-      "market": "US",
-      "company": "MTN",
-      "earnings_date": "2026-12-03",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "PAVS",
       "market": "US",
       "company": "PAVS",
@@ -2805,6 +2864,16 @@
       "ticker": "S",
       "market": "US",
       "company": "S",
+      "earnings_date": "2026-12-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "SAIC",
+      "market": "US",
+      "company": "SAIC",
       "earnings_date": "2026-12-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
