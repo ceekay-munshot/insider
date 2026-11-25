@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T12:03:40.169Z",
-  "count": 254,
+  "generated_at": "2026-11-25T21:53:23.844Z",
+  "count": 255,
   "events": [
     {
       "ticker": "BZ",
@@ -87,8 +87,8 @@
       "market": "US",
       "company": "IMKTA",
       "earnings_date": "2026-11-25",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
+      "earnings_datetime_utc": "2026-11-25T13:00:00.000Z",
+      "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -171,66 +171,6 @@
       "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "AJWA",
-      "market": "IN",
-      "company": "Ajwa Projects Ltd",
-      "bse_code": "545016",
-      "earnings_date": "2026-11-25",
-      "earnings_datetime_utc": "2026-11-25T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "ENRIN",
-      "market": "IN",
-      "company": "Siemens Energy India Ltd",
-      "bse_code": "544390",
-      "earnings_date": "2026-11-25",
-      "earnings_datetime_utc": "2026-11-25T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "PULSRIN",
-      "market": "IN",
-      "company": "Pulsar International Ltd",
-      "bse_code": "512591",
-      "earnings_date": "2026-11-25",
-      "earnings_datetime_utc": "2026-11-25T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "SBLI",
-      "market": "IN",
-      "company": "SBL Infratech Ltd",
-      "bse_code": "543366",
-      "earnings_date": "2026-11-25",
-      "earnings_datetime_utc": "2026-11-25T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "SIMBHALS",
-      "market": "IN",
-      "company": "Simbhaoli Sugars Ltd",
-      "bse_code": "539742",
-      "earnings_date": "2026-11-25",
-      "earnings_datetime_utc": "2026-11-25T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
     },
     {
       "ticker": "AWF",
@@ -321,7 +261,8 @@
       "earnings_datetime_utc": "2026-11-26T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "GBLOGISTIC",
@@ -332,7 +273,8 @@
       "earnings_datetime_utc": "2026-11-26T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "JOHNSONCAB",
@@ -343,7 +285,8 @@
       "earnings_datetime_utc": "2026-11-26T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "TIRUFIN",
@@ -354,7 +297,8 @@
       "earnings_datetime_utc": "2026-11-26T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "ATXG",
@@ -448,12 +392,56 @@
       "source": "bse:forth_results"
     },
     {
+      "ticker": "MITSHI",
+      "market": "IN",
+      "company": "Mitshi India Ltd",
+      "bse_code": "523782",
+      "earnings_date": "2026-11-27",
+      "earnings_datetime_utc": "2026-11-27T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "SETCO",
       "market": "IN",
       "company": "Setco Automotive Ltd",
       "bse_code": "505075",
       "earnings_date": "2026-11-27",
       "earnings_datetime_utc": "2026-11-27T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "SVAINDIA",
+      "market": "IN",
+      "company": "SVA India Ltd",
+      "bse_code": "531885",
+      "earnings_date": "2026-11-27",
+      "earnings_datetime_utc": "2026-11-27T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "AFEL",
+      "market": "IN",
+      "company": "A.F. Enterprises Ltd",
+      "bse_code": "538351",
+      "earnings_date": "2026-11-28",
+      "earnings_datetime_utc": "2026-11-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "EBIX",
+      "market": "IN",
+      "company": "EBIX Ltd",
+      "bse_code": "531035",
+      "earnings_date": "2026-11-28",
+      "earnings_datetime_utc": "2026-11-28T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "bse:forth_results"
@@ -920,9 +908,30 @@
       "source": "finnhub"
     },
     {
+      "ticker": "FUTURAPOLY",
+      "market": "IN",
+      "company": "Futura Polyesters Ltd",
+      "bse_code": "500720",
+      "earnings_date": "2026-12-01",
+      "earnings_datetime_utc": "2026-12-01T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "AEO",
       "market": "US",
       "company": "AEO",
+      "earnings_date": "2026-12-02",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "AI",
+      "market": "US",
+      "company": "AI",
       "earnings_date": "2026-12-02",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -1013,16 +1022,6 @@
       "ticker": "FIVE",
       "market": "US",
       "company": "FIVE",
-      "earnings_date": "2026-12-02",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "GIII",
-      "market": "US",
-      "company": "GIII",
       "earnings_date": "2026-12-02",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -1380,6 +1379,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "IDT",
+      "market": "US",
+      "company": "IDT",
+      "earnings_date": "2026-12-03",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "IOT",
       "market": "US",
       "company": "IOT",
@@ -1403,16 +1412,6 @@
       "ticker": "KR",
       "market": "US",
       "company": "KR",
-      "earnings_date": "2026-12-03",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "LAKE",
-      "market": "US",
-      "company": "LAKE",
       "earnings_date": "2026-12-03",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -1970,16 +1969,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "IDT",
-      "market": "US",
-      "company": "IDT",
-      "earnings_date": "2026-12-07",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "LICT",
       "market": "US",
       "company": "LICT",
@@ -2190,6 +2179,26 @@
       "source": "finnhub"
     },
     {
+      "ticker": "GIII",
+      "market": "US",
+      "company": "GIII",
+      "earnings_date": "2026-12-08",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "GLOO",
+      "market": "US",
+      "company": "GLOO",
+      "earnings_date": "2026-12-08",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "JILL",
       "market": "US",
       "company": "JILL",
@@ -2203,6 +2212,26 @@
       "ticker": "KITL",
       "market": "US",
       "company": "KITL",
+      "earnings_date": "2026-12-08",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "MAMA",
+      "market": "US",
+      "company": "MAMA",
+      "earnings_date": "2026-12-08",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "NAVN",
+      "market": "US",
+      "company": "NAVN",
       "earnings_date": "2026-12-08",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -2316,16 +2345,6 @@
       "earnings_date": "2026-12-09",
       "earnings_datetime_utc": "2026-12-09T21:15:00.000Z",
       "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "AI",
-      "market": "US",
-      "company": "AI",
-      "earnings_date": "2026-12-09",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2456,16 +2475,6 @@
       "earnings_date": "2026-12-09",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "MITK",
-      "market": "US",
-      "company": "MITK",
-      "earnings_date": "2026-12-09",
-      "earnings_datetime_utc": "2026-12-09T21:15:00.000Z",
-      "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
     },
