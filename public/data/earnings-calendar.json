@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T11:50:55.180Z",
-  "count": 266,
+  "generated_at": "2026-11-26T20:53:03.314Z",
+  "count": 265,
   "events": [
     {
       "ticker": "AWF",
@@ -81,54 +81,6 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
-    },
-    {
-      "ticker": "ANVRDHI",
-      "market": "IN",
-      "company": "Annvrridhhi  Ventures Ltd",
-      "bse_code": "538539",
-      "earnings_date": "2026-11-26",
-      "earnings_datetime_utc": "2026-11-26T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "GBLOGISTIC",
-      "market": "IN",
-      "company": "GB Logistics Commerce Ltd",
-      "bse_code": "544348",
-      "earnings_date": "2026-11-26",
-      "earnings_datetime_utc": "2026-11-26T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "JOHNSONCAB",
-      "market": "IN",
-      "company": "Johnsoncab Electricals Ltd",
-      "bse_code": "545021",
-      "earnings_date": "2026-11-26",
-      "earnings_datetime_utc": "2026-11-26T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
-    },
-    {
-      "ticker": "TIRUFIN",
-      "market": "IN",
-      "company": "Tirupati Fincorp Ltd",
-      "bse_code": "539008",
-      "earnings_date": "2026-11-26",
-      "earnings_datetime_utc": "2026-11-26T10:30:00.000Z",
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "bse:forth_results",
-      "timing_source": "default"
     },
     {
       "ticker": "ATXG",
@@ -219,7 +171,8 @@
       "earnings_datetime_utc": "2026-11-27T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "MITSHI",
@@ -230,7 +183,8 @@
       "earnings_datetime_utc": "2026-11-27T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SETCO",
@@ -241,7 +195,8 @@
       "earnings_datetime_utc": "2026-11-27T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "SVAINDIA",
@@ -252,7 +207,8 @@
       "earnings_datetime_utc": "2026-11-27T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "bse:forth_results"
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "AFEL",
@@ -457,6 +413,17 @@
       "source": "finnhub"
     },
     {
+      "ticker": "AFEL",
+      "market": "IN",
+      "company": "A.F. Enterprises Ltd",
+      "bse_code": "538351",
+      "earnings_date": "2026-11-30",
+      "earnings_datetime_utc": "2026-11-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
       "ticker": "NOVIS",
       "market": "IN",
       "company": "Nova Iron & Steel Ltd",
@@ -504,16 +471,6 @@
       "earnings_date": "2026-12-01",
       "earnings_datetime_utc": "2026-12-01T21:15:00.000Z",
       "timing": "AMC",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "CANG",
-      "market": "US",
-      "company": "CANG",
-      "earnings_date": "2026-12-01",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -1169,16 +1126,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "HOFT",
-      "market": "US",
-      "company": "HOFT",
-      "earnings_date": "2026-12-03",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "HOV",
       "market": "US",
       "company": "HOV",
@@ -1349,16 +1296,6 @@
       "source": "finnhub"
     },
     {
-      "ticker": "PPIH",
-      "market": "US",
-      "company": "PPIH",
-      "earnings_date": "2026-12-03",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
       "ticker": "REX",
       "market": "US",
       "company": "REX",
@@ -1469,14 +1406,15 @@
       "source": "finnhub"
     },
     {
-      "ticker": "YEXT",
-      "market": "US",
-      "company": "YEXT",
+      "ticker": "JKSHAH",
+      "market": "IN",
+      "company": "J.K. Shah Commerce Education Ltd",
+      "bse_code": "544956",
       "earnings_date": "2026-12-03",
-      "earnings_datetime_utc": null,
+      "earnings_datetime_utc": "2026-12-03T10:30:00.000Z",
       "timing": "UNKNOWN",
       "confirmed": true,
-      "source": "finnhub"
+      "source": "bse:forth_results"
     },
     {
       "ticker": "BBW",
@@ -1949,6 +1887,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "ANTA",
+      "market": "US",
+      "company": "ANTA",
+      "earnings_date": "2026-12-08",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "AVAV",
       "market": "US",
       "company": "AVAV",
@@ -2179,6 +2127,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "YEXT",
+      "market": "US",
+      "company": "YEXT",
+      "earnings_date": "2026-12-08",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "ADBE",
       "market": "US",
       "company": "ADBE",
@@ -2279,9 +2237,9 @@
       "source": "finnhub"
     },
     {
-      "ticker": "KFY",
+      "ticker": "KEQU",
       "market": "US",
-      "company": "KFY",
+      "company": "KEQU",
       "earnings_date": "2026-12-09",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -2289,9 +2247,9 @@
       "source": "finnhub"
     },
     {
-      "ticker": "LOVE",
+      "ticker": "KFY",
       "market": "US",
-      "company": "LOVE",
+      "company": "KFY",
       "earnings_date": "2026-12-09",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -2349,6 +2307,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "PPIH",
+      "market": "US",
+      "company": "PPIH",
+      "earnings_date": "2026-12-09",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "RH",
       "market": "US",
       "company": "RH",
@@ -2382,16 +2350,6 @@
       "ticker": "VGES",
       "market": "US",
       "company": "VGES",
-      "earnings_date": "2026-12-09",
-      "earnings_datetime_utc": null,
-      "timing": "UNKNOWN",
-      "confirmed": true,
-      "source": "finnhub"
-    },
-    {
-      "ticker": "VRA",
-      "market": "US",
-      "company": "VRA",
       "earnings_date": "2026-12-09",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
@@ -2519,6 +2477,16 @@
       "source": "finnhub"
     },
     {
+      "ticker": "HOFT",
+      "market": "US",
+      "company": "HOFT",
+      "earnings_date": "2026-12-10",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
       "ticker": "HYFT",
       "market": "US",
       "company": "HYFT",
@@ -2585,6 +2553,16 @@
       "earnings_date": "2026-12-10",
       "earnings_datetime_utc": "2026-12-10T13:00:00.000Z",
       "timing": "BMO",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "LOVE",
+      "market": "US",
+      "company": "LOVE",
+      "earnings_date": "2026-12-10",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
     },
@@ -2672,6 +2650,16 @@
       "ticker": "SFIX",
       "market": "US",
       "company": "SFIX",
+      "earnings_date": "2026-12-10",
+      "earnings_datetime_utc": null,
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "finnhub"
+    },
+    {
+      "ticker": "VRA",
+      "market": "US",
+      "company": "VRA",
       "earnings_date": "2026-12-10",
       "earnings_datetime_utc": null,
       "timing": "UNKNOWN",
