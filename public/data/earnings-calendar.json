@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T11:43:27.711Z",
-  "count": 251,
+  "generated_at": "2026-11-27T20:38:06.234Z",
+  "count": 257,
   "events": [
     {
       "ticker": "ATXG",
@@ -81,6 +81,30 @@
       "timing": "BMO",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "AFEL",
+      "market": "IN",
+      "company": "A.F. Enterprises Ltd",
+      "bse_code": "538351",
+      "earnings_date": "2026-11-28",
+      "earnings_datetime_utc": "2026-11-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "timing_source": "default"
+    },
+    {
+      "ticker": "EBIX",
+      "market": "IN",
+      "company": "EBIX Ltd",
+      "bse_code": "531035",
+      "earnings_date": "2026-11-28",
+      "earnings_datetime_utc": "2026-11-28T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results",
+      "timing_source": "default"
     },
     {
       "ticker": "BOSC",
@@ -261,6 +285,28 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "AFEL",
+      "market": "IN",
+      "company": "A.F. Enterprises Ltd",
+      "bse_code": "538351",
+      "earnings_date": "2026-11-30",
+      "earnings_datetime_utc": "2026-11-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
+    },
+    {
+      "ticker": "NOVIS",
+      "market": "IN",
+      "company": "Nova Iron & Steel Ltd",
+      "bse_code": "513566",
+      "earnings_date": "2026-11-30",
+      "earnings_datetime_utc": "2026-11-30T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "ABLT",
@@ -531,6 +577,17 @@
       "timing": "UNKNOWN",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "FUTURAPOLY",
+      "market": "IN",
+      "company": "Futura Polyesters Ltd",
+      "bse_code": "500720",
+      "earnings_date": "2026-12-01",
+      "earnings_datetime_utc": "2026-12-01T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "AEO",
@@ -1221,6 +1278,17 @@
       "timing": "AMC",
       "confirmed": true,
       "source": "finnhub"
+    },
+    {
+      "ticker": "JKSHAH",
+      "market": "IN",
+      "company": "J.K. Shah Commerce Education Ltd",
+      "bse_code": "544956",
+      "earnings_date": "2026-12-03",
+      "earnings_datetime_utc": "2026-12-03T10:30:00.000Z",
+      "timing": "UNKNOWN",
+      "confirmed": true,
+      "source": "bse:forth_results"
     },
     {
       "ticker": "BBW",
